@@ -12,11 +12,11 @@ use App\Http\Controllers\UserSkillController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
-// Route::view('/login', 'login');
-// Route::view('/register', 'register');
+Route::view('/login', 'login');
+Route::view('/register', 'register');
 
-// Route::post('/register', [RegisterUserController::class,'register'])->name('register');
-// Route::post('/login', [LoginUserController::class,'login'])->name('login');
+Route::post('/register', [RegisterUserController::class,'register'])->name('register');
+Route::post('/login', [LoginUserController::class,'login'])->name('login');
 
 // Route::view('/search/{query}', 'search');
 // Route::view('/home', 'home');
