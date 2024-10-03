@@ -19,5 +19,7 @@ class LoginUserController extends Controller
                 ->withInput();
         }
 
+        return redirect('/');
+
     }
 }

@@ -11,7 +11,7 @@ use App\Http\Controllers\UserProjectController;
 use App\Http\Controllers\UserSkillController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'welcome');
+Route::view('/', 'home');
 Route::view('/login', 'login');
 Route::view('/register', 'register');
 
@@ -19,7 +19,6 @@ Route::post('/register', [RegisterUserController::class,'register'])->name('regi
 Route::post('/login', [LoginUserController::class,'login'])->name('login');
 
 // Route::view('/search/{query}', 'search');
-// Route::view('/home', 'home');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
 

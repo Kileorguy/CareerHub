@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Register</title>
     @vite('resources/css/app.css')
+    <script src="{{ asset('js/registerFormRender.js') }}"></script>
 </head>
 
-<body class="w-screen h-screen flex justify-center items-center bg-gradient-to-br from-background to-primary">
+<body class="w-screen min-h-screen flex justify-center py-12 bg-gradient-to-br from-background to-primary">
     <form action="{{ route('register') }}" method="POST"
         class="w-96 min-h-96 bg-white flex flex-col items-center justify-center rounded-lg p-10 gap-4">
         @csrf
@@ -24,20 +25,38 @@
             class="w-full h-fit p-2 input input-bordered" />
         <input name="password" type="password" placeholder="Pasword" value="{{ old('password') }}"
             class="w-full h-fit p-2 input input-bordered" />
-        <input name="password_confirmation" type="password" placeholder="Confirm Pasword" value="{{ old('password_confirmation') }}"
-            class="w-full h-fit p-2 input input-bordered" />
-        <select name="role" class="select select-bordered w-full">
-            <option value="Employee">Employee</option>
-            <option value="Company">Company</option>
+        <input name="password_confirmation" type="password" placeholder="Confirm Pasword"
+            value="{{ old('password_confirmation') }}" class="w-full h-fit p-2 input input-bordered" />
+        <select name="role" class="select select-bordered w-full text-md px-2" id="role">
+            <option value="Employee" {{ old('role') == 'Employee' ? 'selected' : '' }}>Employee</option>
+            <option value="Company" {{ old('role') == 'Company' ? 'selected' : '' }}>Company</option>
         </select>
+        <div id="company-detail-form" class="w-full hidden flex-col items-center gap-4">
+            <input name="company_name" type="text" placeholder="Company Name" value="{{ old('company_name') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <input name="country" type="text" placeholder="Country" value="{{ old('country') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <input name="location" type="text" placeholder="Location" value="{{ old('location') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <input name="city" type="text" placeholder="City" value="{{ old('city') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <input name="position_name" type="text" placeholder="Position Name" value="{{ old('position_name') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <input name="job_level" type="text" placeholder="Job Level" value="{{ old('job_level') }}"
+                class="w-full h-fit p-2 input input-bordered">
+            <textarea name="job_summary" placeholder="Job Summary" value="{{ old('job_summary') }}"
+                class="textarea textarea-bordered textarea-md w-full p-2 text-base"></textarea>
+        </div>
         <button type="submit" class="w-full btn btn-primary text-white">Register </button>
         <div class="min-h-4">
             @if ($errors->any())
                 <p class="text-red-600 text-xs">{{ $errors->first() }}</p>
             @endif
         </div>
-        <a href="{{ url('/login') }}" class="text-xs cursor-pointer">Already have an account? <span
-                class="text-primary font-bold">Sign in</span></a>
+        <a href="{{ url('/login') }}" class="text-xs cursor-pointer">
+            Already have an account?
+            <span class="text-primary font-bold">Sign in</span>
+        </a>
     </form>
 </body>
 

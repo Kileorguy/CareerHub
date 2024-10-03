@@ -24,8 +24,10 @@
                 <p class="text-red-600 text-xs">{{ $errors->first() }}</p>
             @endif
         </div>
-        <a href="{{ url('/register') }}" class="text-xs cursor-pointer">Don't have an account? <span
-                class="text-primary font-bold">Sign up</span></a>
+        <a href="{{ url('/register') }}" class="text-xs cursor-pointer">
+            Don't have an account?
+            <span class="text-primary font-bold">Sign up</span>
+        </a>
     </form>
 </body>
 

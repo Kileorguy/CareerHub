@@ -11,7 +11,7 @@ class RegisterUserController extends Controller
 {
     public function register(Request $request)
     {
-        $validator = Validator::make($request->all(), [
+        $user_validator = Validator::make($request->all(), [
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
             'email' => 'required|email|unique:users,email',
@@ -19,27 +19,35 @@ class RegisterUserController extends Controller
             'role' => 'required|string',
         ]);
 
-        if ($validator->fails()) {
+        if ($user_validator->fails()) {
             return redirect()->back()
-                ->withErrors($validator)
+                ->withErrors($user_validator)
                 ->withInput();
         }
 
-        // $first_name = $request->first_name;
-        // $last_name = $request->last_name;
-        // $email = $request->email;
-        // $password = $request->password;
-        // $role = $request->role;
+        if($request->input('role') == "Employee") {
 
-        // User::create([
-        //     'first_name' => $first_name,
-        //     'last_name' => $last_name,
-        //     'email' => $email,
-        //     'password' => bcrypt($password),
-        //     'role' => $role,
-        // ]);
+            return;
+        }
 
-        // return redirect()->route('login')->with('success', 'Registration successful!');
+        $company_validator = Validator::make($request->all(), [
+            'company_name' => 'required',
+            'country' => 'required',
+            'location' => 'required',
+            'city' => 'required',
+            'position_name' => 'required',
+            'job_level' => 'required',
+            'job_summary' => 'required',
+        ]);
+
+        if ($company_validator->fails()) {
+            return redirect()->back()
+                ->withErrors($company_validator)
+                ->withInput();
+        }
+
+        return redirect('/login');
+
     }
 }
 
