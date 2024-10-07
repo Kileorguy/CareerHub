@@ -12,14 +12,14 @@
 
 <body class="w-screen min-h-screen flex justify-center py-12 bg-gradient-to-br from-background to-primary">
     <form action="{{ route('register') }}" method="POST"
-        class="w-96 min-h-96 bg-white flex flex-col items-center justify-center rounded-lg p-10 gap-4">
+        class="w-96 h-fit bg-white flex flex-col items-center justify-center rounded-lg p-10 gap-4">
         @csrf
         <p class="font-bold text-2xl text-black mb-4">CareerHub</p>
         <span class="flex gap-4">
             <input name="first_name" type="text" placeholder="First Name" value="{{ old('first_name') }}"
-                class="w-1/2 h-fit p-2 input input-bordered" />
+            class="w-1/2 h-fit p-2 input input-bordered" />
             <input name="last_name" type="text" placeholder="Last Name" value="{{ old('last_name') }}"
-                class="w-1/2 h-fit p-2 input input-bordered" />
+            class="w-1/2 h-fit p-2 input input-bordered" />
         </span>
         <input name="email" type="email" placeholder="E-mail" value="{{ old('email') }}"
             class="w-full h-fit p-2 input input-bordered" />
@@ -44,8 +44,10 @@
                 class="w-full h-fit p-2 input input-bordered">
             <input name="job_level" type="text" placeholder="Job Level" value="{{ old('job_level') }}"
                 class="w-full h-fit p-2 input input-bordered">
-            <textarea name="job_summary" placeholder="Job Summary" value="{{ old('job_summary') }}"
-                class="textarea textarea-bordered textarea-md w-full p-2 text-base"></textarea>
+            <textarea name="job_summary" placeholder="Job Summary"
+                class="textarea textarea-bordered textarea-md w-full p-2 text-base">
+                {{ old('job_summary') }}
+            </textarea>
         </div>
         <button type="submit" class="w-full btn btn-primary text-white">Register </button>
         <div class="min-h-4">
