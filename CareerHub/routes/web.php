@@ -9,9 +9,10 @@ use App\Http\Controllers\LoginUserController;
 use App\Http\Controllers\RegisterUserController;
 use App\Http\Controllers\UserProjectController;
 use App\Http\Controllers\UserSkillController;
+use App\Http\Controllers\CompanyController;
 use Illuminate\Support\Facades\Route;
 
-Route::view('/', 'home');
+Route::get('/', [CompanyController::class, 'getAllCompanies']);
 Route::view('/login', 'login');
 Route::view('/register', 'register');
 
