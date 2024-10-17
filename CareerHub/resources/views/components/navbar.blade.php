@@ -38,7 +38,7 @@
                     </svg>
                     <p>Profile</p>
                 </a>
-                <a href="{{ url('/login') }}" class="flex justify-between items-center px-2 hover:bg-gray-300">
+                <a href="{{ url('/logout') }}" class="flex justify-between items-center px-2 hover:bg-gray-300">
                     <svg width="1em" height="1em" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg">
                         <path d="M21 12L13 12" stroke="#323232" stroke-width="2" stroke-linecap="round"

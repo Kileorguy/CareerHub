@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('users', function (Blueprint $table) {
-            $table->uuid('user_id')->primary();
+            $table->uuid('id')->primary();
             $table->string('email')->unique();
             $table->string('password');
             $table->string('first_name');
@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string('portfolio_link')->nullable();
             $table->string('role')->nullable();
             $table->string('profile_link')->nullable();
-            $table->timestamps();
         });
 
         // Schema::create('password_reset_tokens', function (Blueprint $table) {
@@ -32,9 +31,9 @@ return new class extends Migration
         // });
 
         Schema::create('sessions', function (Blueprint $table) {
-            $table->string('id')->primary();
-            $table->uuid('user_id');
-            $table->foreign('user_id')->references('user_id')->on('users')->onDelete('cascade'); 
+            $table->uuid('id')->primary();
+//            $table->uuid('id');
+            $table->foreign('id')->references('id')->on('users')->onDelete('cascade');
             $table->string('ip_address', 45)->nullable();
             $table->text('user_agent')->nullable();
             $table->longText('payload');

@@ -11,7 +11,7 @@
 </head>
 
 <body class="w-screen min-h-screen flex justify-center py-12 bg-gradient-to-br from-background to-primary">
-    <form action="{{ route('register') }}" method="POST"
+    <form action="/register" method="POST"
         class="w-96 h-fit bg-white flex flex-col items-center justify-center rounded-lg p-10 gap-4">
         @csrf
         <p class="font-bold text-2xl text-black mb-4">CareerHub</p>

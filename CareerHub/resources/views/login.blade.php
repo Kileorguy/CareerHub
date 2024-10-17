@@ -10,7 +10,8 @@
 </head>
 
 <body class="w-screen h-screen flex justify-center items-center bg-gradient-to-br from-background to-primary">
-    <form action="{{ route('login') }}" method="POST"
+
+    <form action="/login" method="POST"
         class="size-96 bg-white flex flex-col items-center justify-center rounded-lg p-10 gap-4">
         @csrf
         <p class="font-bold text-2xl text-black mb-4">CareerHub</p>

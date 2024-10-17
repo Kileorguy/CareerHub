@@ -4,6 +4,7 @@ namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -16,11 +17,22 @@ class User extends Authenticatable
      *
      * @var array<int, string>
      */
+    protected $primaryKey = 'id';
+    public $incrementing = false;
+    protected $keyType = 'string';
     protected $fillable = [
-        'name',
+        'id',
+        'first_name',
+        'last_name',
         'email',
         'password',
+        'short_description',
+        'github_link',
+        'portofolio_link',
+        'role',
+        'profile_link'
     ];
+    public $timestamps = false;
 
     /**
      * The attributes that should be hidden for serialization.
@@ -44,4 +56,37 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function Certificates(): HasMany
+    {
+        return $this->hasMany(UserCertificate::class);
+    }
+
+    public function Awards(): HasMany
+    {
+        return $this->hasMany(UserAwards::class);
+    }
+
+    public function Experience(): HasMany
+    {
+        return $this->hasMany(UserExperience::class);
+    }
+
+    public function Skills(): HasMany
+    {
+        return $this->hasMany(UserSkills::class);
+    }
+
+    public function Projects(): HasMany
+    {
+        return $this->hasMany(UserProjects::class);
+    }
+
+    public function Educations(): HasMany
+    {
+        return $this->hasMany(UserEducation::class);
+    }
+
+
+
 }

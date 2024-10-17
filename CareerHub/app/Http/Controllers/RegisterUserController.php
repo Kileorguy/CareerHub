@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Company;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
@@ -12,6 +14,7 @@ class RegisterUserController extends Controller
 {
     public function register(Request $request)
     {
+//        dd($request);
         $user_validator = Validator::make($request->all(), [
             'first_name' => 'required|string|max:255',
             'last_name' => 'required|string|max:255',
@@ -28,14 +31,14 @@ class RegisterUserController extends Controller
 
         if($request->input('role') == "Employee") {
             $user = User::create([
-                'user_id' => Str::uuid(),
+                'id' => Str::uuid(),
                 'first_name' => $request->input('first_name'),
                 'last_name' => $request->input('last_name'),
                 'email' => $request->input('email'),
                 'password' => bcrypt($request->input('password')),
                 'role' => $request->input('role'),
             ]);
-            $user->save();
+            Auth::login($user);
         }
         else {
             $company_validator = Validator::make($request->all(), [

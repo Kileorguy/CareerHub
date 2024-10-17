@@ -19,6 +19,8 @@ Route::view('/register', 'register');
 Route::post('/register', [RegisterUserController::class,'register'])->name('register');
 Route::post('/login', [LoginUserController::class,'login'])->name('login');
 
+Route::get('/logout', [LoginUserController::class,'logout'])->name('logout');
+
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
