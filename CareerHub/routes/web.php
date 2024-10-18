@@ -1,31 +1,36 @@
 <?php
 
-use App\Http\Controllers\AwardController;
 use App\Http\Controllers\CertificateController;
 use App\Http\Controllers\CompanySkillController;
-use App\Http\Controllers\EducationController;
-use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\LoginUserController;
 use App\Http\Controllers\RegisterUserController;
-use App\Http\Controllers\UserProjectController;
-use App\Http\Controllers\UserSkillController;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\UserExperienceController;
+use App\Http\Middleware\isLoggedIn;
+use App\Http\Middleware\isLoggedOut;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [CompanyController::class, 'getAllCompanies']);
-Route::view('/login', 'login');
-Route::view('/register', 'register');
+Route::middleware(isLoggedIn::class)->group(function () {
+    Route::get('/', [CompanyController::class, 'getAllCompanies']);
+    Route::view('profile', 'profile');
+});
+
+Route::middleware(isLoggedOut::class)->group(function () {
+    Route::view('/login', 'login');
+    Route::view('/register', 'register');
+});
+
+
 
 Route::post('/register', [RegisterUserController::class,'register'])->name('register');
 Route::post('/login', [LoginUserController::class,'login'])->name('login');
-
 Route::get('/logout', [LoginUserController::class,'logout'])->name('logout');
 
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
 
-// Route::resource('/experience', ExperienceController::class);
+ Route::resource('/experience', UserExperienceController::class);
 // Route::resource('/education', EducationController::class);
 // Route::resource('/certificate', CertificateController::class);
 // Route::resource('/award', AwardController::class);
