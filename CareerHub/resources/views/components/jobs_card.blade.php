@@ -10,16 +10,15 @@
     <div class="border-l border-gray-300 mx-4"></div>
     <div class="flex flex-col items-start w-96">
         <p class="text-main-text font-bold">Job Description:</p>
+{{--        <p>{{$summary}}</p>--}}
         <ul class="list-disc pl-5">
-            <li class="text-sub-text text-left">
-                asldnkasndkasnkdnasklndklasndknasslkdnklands sakdjlkasndnaslkdnanskdnasklndl
-            </li>
-            <li class="text-sub-text text-left">
-                asldnkasndkasnkdnasklndklasndknasslkdnklands sakdjlkasndnaslkdnanskdnasklndl
-            </li>
-            <li class="text-sub-text text-left">
-                asldnkasndkasnkdnasklndklasndknasslkdnklands
-            </li>
+            @foreach($jobs as $job)
+                <li class="text-sub-text text-left">
+                    {{$job->job_description}}
+                </li>
+
+            @endforeach
+
         </ul>
         <p class="text-primary">View more</p>
     </div>

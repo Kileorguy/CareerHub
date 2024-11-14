@@ -26,6 +26,7 @@
                 <div class="flex flex-col gap-[0px]">
                     <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">
                         Experience
+                    @isset($experiences)
                     @foreach($experiences as $e)
                         <div class="flex flex-col min-w-[1200px]">
                             <p class="text-[18px] text-left text-main-text">
@@ -43,6 +44,7 @@
                             <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
                         </div>
                     @endforeach
+                    @endisset
                 </div>
             </div>
         </div>
