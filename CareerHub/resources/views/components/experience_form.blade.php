@@ -1,18 +1,26 @@
-@props(['type', 'e'])
+<!-- resources/views/components/experience-modal-form.blade.php -->
+@props(['type', 'e' => null])
 
-@if ($type=='insert')
-    <button class="w-5" onclick="my_modal_3.showModal()"><img src="assets/plus.png" alt=""></button>
+<!-- Button to open the modal -->
+@if ($type === 'insert')
+    <button class="w-5" onclick="document.getElementById('experience_modal_insert').showModal()">
+        <img src="assets/plus.png" alt="Add Experience">
+    </button>
 @else
-    <button class="w-5" onclick="my_modal_3.showModal()"><img src="assets/pencil.png" alt=""></button>
+    <button class="w-5" onclick="document.getElementById('experience_modal_{{ $e->id }}').showModal()">
+        <img src="assets/pencil.png" alt="Edit Experience">
+    </button>
 @endif
 
-<dialog id="my_modal_3" class="modal">
+<!-- Modal for the form -->
+<dialog id="{{ $type === 'update' ? 'experience_modal_' . $e->id : 'experience_modal_insert' }}" class="modal">
     <div class="modal-box">
         <form method="dialog">
-            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onclick="document.getElementById('{{ $type === 'update' ? 'experience_modal_' . $e->id : 'experience_modal_insert' }}').close()">✕</button>
         </form>
-        <h3 class="text-xl font-bold pb-4">Experience</h3>
-        
+        <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Experience' : 'Add Experience' }}</h3>
+
+        <!-- Form for insert/update experience -->
         <form action="{{ $type === 'update' ? '/updateExperience/' . $e->id : '/insertExperience' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Job</p>
