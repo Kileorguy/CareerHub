@@ -11,5 +11,6 @@ class UserSkills extends Model
 
     protected $table = 'user_skills';
     protected $fillable = [];
+    public $timestamps = false;
 
 }

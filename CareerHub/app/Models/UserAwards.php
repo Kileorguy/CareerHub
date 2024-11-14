@@ -13,4 +13,5 @@ class UserAwards extends Model
     protected $fillable = [
 
     ];
+    public $timestamps = false;
 }

@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use App\Models\UserExperience;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class UserExperienceController extends Controller
 {
@@ -13,6 +16,10 @@ class UserExperienceController extends Controller
     public function index()
     {
         //
+        $user = Auth::user();
+        $data = $user->experience;
+        return view('profile', ['experience' => $data]);
+
     }
 
     /**
@@ -21,6 +28,13 @@ class UserExperienceController extends Controller
     public function create()
     {
         //
+        $user = Auth::User();
+        $experience = $user->Experience()->create([
+            'id' => Str::uuid()->toString(),
+            'company' => 'hehe',
+            'position' => 'mak lo',
+
+        ]);
     }
 
     /**

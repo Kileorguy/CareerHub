@@ -57,32 +57,32 @@ class User extends Authenticatable
         ];
     }
 
-    public function Certificates(): HasMany
+    public function certificates(): HasMany
     {
         return $this->hasMany(UserCertificate::class);
     }
 
-    public function Awards(): HasMany
+    public function awards(): HasMany
     {
         return $this->hasMany(UserAwards::class);
     }
 
-    public function Experience(): HasMany
+    public function experiences(): HasMany
     {
         return $this->hasMany(UserExperience::class);
     }
 
-    public function Skills(): HasMany
+    public function skills(): HasMany
     {
         return $this->hasMany(UserSkills::class);
     }
 
-    public function Projects(): HasMany
+    public function projects(): HasMany
     {
         return $this->hasMany(UserProjects::class);
     }
 
-    public function Educations(): HasMany
+    public function educations(): HasMany
     {
         return $this->hasMany(UserEducation::class);
     }

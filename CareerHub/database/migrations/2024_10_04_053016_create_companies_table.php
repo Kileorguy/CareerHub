@@ -12,16 +12,16 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('companies', function (Blueprint $table) {
-            $table->uuid()->primary();
+            $table->uuid('id')->primary();
             $table->string('company_name');
             $table->string('country');
             $table->string('location');
             $table->string('city');
-            $table->string('position_name');
-            $table->string('job_level');
-            $table->string('job_type');
-            $table->text('job_summary');
             $table->string('profile_picture')->nullable();
+//            $table->string('position_name');
+//            $table->string('job_level');
+//            $table->string('job_type');
+//            $table->text('job_summary');
         });
     }
 

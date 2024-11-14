@@ -28,6 +28,8 @@ class LoginUserController extends Controller
             $request->session()->regenerate();
 
             return redirect('/');
+        }else{
+            return redirect('/login');
         }
 
 //        return redirect('/');
@@ -37,5 +39,11 @@ class LoginUserController extends Controller
     public function logout(Request $request) {
         Auth::logout();
         return redirect('/login');
+    }
+
+    public function profile(){
+        $user = Auth::user();
+        $data = $user->experience;
+        return view('profile', ['experiences' => $data]);
     }
 }

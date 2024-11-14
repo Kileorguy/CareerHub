@@ -12,7 +12,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware(isLoggedIn::class)->group(function () {
     Route::get('/', [CompanyController::class, 'getAllCompanies']);
-    Route::view('profile', 'profile');
+    Route::get('/profile', [LoginUserController::class, 'profile']);
+//    Route::view('profile', 'profile');
 });
 
 Route::middleware(isLoggedOut::class)->group(function () {
