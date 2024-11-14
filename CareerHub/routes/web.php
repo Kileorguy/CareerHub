@@ -6,6 +6,7 @@ use App\Http\Controllers\LoginUserController;
 use App\Http\Controllers\RegisterUserController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\UserExperienceController;
+use App\Http\Controllers\ExperienceController;
 use App\Http\Middleware\isLoggedIn;
 use App\Http\Middleware\isLoggedOut;
 use Illuminate\Support\Facades\Route;
@@ -24,6 +25,8 @@ Route::middleware(isLoggedOut::class)->group(function () {
 
 
 Route::post('/register', [RegisterUserController::class,'register'])->name('register');
+Route::post('/insertExperience', [ExperienceController::class,'InsertExperience'])->name('insertExperience');
+Route::post('/updateExperience/{id}', [ExperienceController::class, 'updateExperience'])->name('updateExperience');
 Route::post('/login', [LoginUserController::class,'login'])->name('login');
 Route::get('/logout', [LoginUserController::class,'logout'])->name('logout');
 

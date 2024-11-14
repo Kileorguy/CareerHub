@@ -43,7 +43,7 @@ class LoginUserController extends Controller
 
     public function profile(){
         $user = Auth::user();
-        $data = $user->experience;
+        $data = $user->experiences;
         return view('profile', ['experiences' => $data]);
     }
 }

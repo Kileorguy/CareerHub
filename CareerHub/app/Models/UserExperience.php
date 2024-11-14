@@ -13,8 +13,10 @@ class UserExperience extends Model
     protected $keyType = 'string';
     protected $fillable = [
         'id',
+        'user_id',
         'company',
         'position',
+        'description',
         'start_date',
         'end_date'
     ];
