@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
+use App\Models\user;
+use Illuminate\Support\Facades\Hash;
+
 
 class LoginUserController extends Controller
 {
@@ -43,7 +46,49 @@ class LoginUserController extends Controller
 
     public function profile(){
         $user = Auth::user();
-        $data = $user->experience;
-        return view('profile', ['experiences' => $data]);
+        $data = $user->experiences;
+        $educations = $user->educations;
+        $certificates = $user->certificates;
+        return view('profile', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates]);
     }
+
+    public function updateProfile(Request $req)
+    {
+        $user = Auth::user();
+
+        $updatedUser = User::where('id', $user->id)->first();
+
+        $updatedUser->first_name = $req->first;
+        $updatedUser->last_name = $req->lastName;
+        $updatedUser->short_description = $req->desc;
+        $updatedUser->portfolio_link = $req->porto;
+        $updatedUser->github_link = $req->github;
+        $updatedUser->profile_link = $req->profile_image;
+
+        $updatedUser->save();
+
+        return redirect('/profile');
+    }
+
+
+    public function changePassword(Request $req)
+    {
+        $user = Auth::user();
+
+        $req->validate([
+            'old' => 'required',
+            'new' => 'required|min:8',
+            'confirm' => 'required|same:new',
+        ]);
+
+        if (Hash::check($req->old, $user->password)) {
+            $user->password = bcrypt($req->new);
+            $user->save();
+
+            return redirect('/profile')->with('message', 'Password changed successfully!');
+        } else {
+            return redirect('/profile')->with('message', 'The old password is incorrect.');
+        }
+    }
+
 }
