@@ -42,6 +42,8 @@ Route::get('/logout', [LoginUserController::class,'logout'])->name('logout');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
 
+Route::get('/test', [RegisterUserController::class,'test']);
+
  Route::resource('/experience', UserExperienceController::class);
 // Route::resource('/education', EducationController::class);
 // Route::resource('/certificate', CertificateController::class);
