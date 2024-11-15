@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
+use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
@@ -75,28 +76,27 @@ class RegisterUserController extends Controller
 
     }
 
+    /**
+     * @throws ConnectionException
+     */
     public function test(){
         $response = Http::accept('application/json')->get('http://127.0.0.1:5000/csv_data');
-//        dd($response->body());
         $data = json_decode($response->body(), true);
-        // Now you can use $data as an array
-        dd($data);
-//        dd($response->json());
-        // Check if the request was successful
-        if ($response->successful()) {
-            // Get the raw body of the response and decode it manually
-            $data = json_decode($response->body(), true);
-
-            // Check if the data was decoded successfully
-            if ($data !== null) {
-                dd($data); // Display the data
-            } else {
-                dd("ARGHH", $response->body());
-            }
-        } else {
-            // Handle the error
-            dd("Error fetching data from Flask API", $response->status(), $response->body());
-        }
+        dd($response->json());
+//        if ($response->successful()) {
+//            // Get the raw body of the response and decode it manually
+//            $data = json_decode($response->body(), true);
+//
+//            // Check if the data was decoded successfully
+//            if ($data !== null) {
+//                dd($data); // Display the data
+//            } else {
+//                dd("ARGHH", $response->body());
+//            }
+//        } else {
+//            // Handle the error
+//            dd("Error fetching data from Flask API", $response->status(), $response->body());
+//        }
     }
 }
 
