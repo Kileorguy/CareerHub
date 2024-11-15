@@ -15,7 +15,7 @@ return new class extends Migration
             $table->uuid('id')->primary();
             $table->uuid('job_id');
             $table->foreign('job_id')->references('id')->on('company_jobs');
-            $table->string('skill_name');
+            $table->text('skill_name');
 
 //            $table->timestamps();
         });
