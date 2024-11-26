@@ -3,7 +3,7 @@ import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
     preview: {
-        port: 3000,
+        port: 4173,
     },
     build: {
         outDir: 'public/build'

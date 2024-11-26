@@ -22,16 +22,16 @@ services:
     container_name: mysql
     restart: unless-stopped
     environment:
-      MYSQL_DATABASE: laravelgeming
-      MYSQL_ROOT_PASSWORD:
-      MYSQL_USER:
-      MYSQL_PASSWORD:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_USER_PASSWORD}
     volumes:
       - ./mysql:/var/lib/mysql
     networks:
       - app-network
     ports:
-      - "PORT:3306"
+      - ${DB_HOST}:${DB_PORT}
 
 networks:
   app-network:
