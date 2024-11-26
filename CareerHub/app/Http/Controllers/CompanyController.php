@@ -6,9 +6,10 @@ use App\Models\Company;
 
 class CompanyController extends Controller
 {
-    public function getAllCompanies() {
-        $companies = Company::all();
+  public function getAllCompanies()
+  {
+    $companies = Company::all();
 
-        return view('home', ['companies' => $companies]);
-    }
+    return view('home.index', ['companies' => $companies]);
+  }
 }

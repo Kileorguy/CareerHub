@@ -14,37 +14,37 @@ use App\Http\Middleware\isLoggedOut;
 use Illuminate\Support\Facades\Route;
 
 Route::middleware(isLoggedIn::class)->group(function () {
-    Route::get('/', [CompanyController::class, 'getAllCompanies']);
-    Route::get('/profile', [LoginUserController::class, 'profile']);
-//    Route::view('profile', 'profile');
+  Route::get('/', [CompanyController::class, 'getAllCompanies']);
+  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
+  //    Route::view('profile', 'profile');
 });
 
 Route::middleware(isLoggedOut::class)->group(function () {
-    Route::view('/login', 'login');
-    Route::view('/register', 'register');
+  Route::view('/login', 'auth.login');
+  Route::view('/register', 'auth.register');
 });
 
 
 
-Route::post('/register', [RegisterUserController::class,'register'])->name('register');
-Route::post('/insertExperience', [ExperienceController::class,'InsertExperience'])->name('insertExperience');
+Route::post('/register', [RegisterUserController::class, 'register'])->name('register');
+Route::post('/insertExperience', [ExperienceController::class, 'InsertExperience'])->name('insertExperience');
 Route::post('/updateExperience/{id}', [ExperienceController::class, 'updateExperience'])->name('updateExperience');
-Route::post('/insertEducation', [UserEducationController::class,'InsertEducation'])->name('insertEducation');
+Route::post('/insertEducation', [UserEducationController::class, 'InsertEducation'])->name('insertEducation');
 Route::post('/updateEducation/{id}', [UserEducationController::class, 'updateEducation'])->name('updateEducation');
-Route::post('/insertCertificate', [UserCertificateController::class,'InsertCertificate'])->name('insertCertificate');
+Route::post('/insertCertificate', [UserCertificateController::class, 'InsertCertificate'])->name('insertCertificate');
 Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'updateCertificate'])->name('updateCertificate');
-Route::post('/updateProfile', [LoginUserController::class,'updateProfile'])->name('updateProfile');
-Route::post('/changePassword', [LoginUserController::class,'changePassword'])->name('changePassword');
-Route::post('/login', [LoginUserController::class,'login'])->name('login');
-Route::get('/logout', [LoginUserController::class,'logout'])->name('logout');
+Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
+Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
+Route::post('/login', [LoginUserController::class, 'login'])->name('login');
+Route::get('/logout', [LoginUserController::class, 'logout'])->name('logout');
 
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
 
-Route::get('/test', [RegisterUserController::class,'test']);
+Route::get('/test', [RegisterUserController::class, 'test']);
 
- Route::resource('/experience', UserExperienceController::class);
+Route::resource('/experience', UserExperienceController::class);
 // Route::resource('/education', EducationController::class);
 // Route::resource('/certificate', CertificateController::class);
 // Route::resource('/award', AwardController::class);
