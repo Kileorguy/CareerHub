@@ -13,8 +13,6 @@ class LoginUserController extends Controller
 {
   public function login(Request $request)
   {
-
-    //        dd(Auth::user());
     $validator = Validator::make($request->all(), [
       'email' => 'required|email',
       'password' => 'required',
@@ -30,14 +28,15 @@ class LoginUserController extends Controller
 
     if (Auth::attempt($credentials)) {
       $request->session()->regenerate();
+      $user = Auth::user();
 
-      return redirect('/');
+      if ($user->role == 'Employee')
+        return redirect('/');
+      else if ($user->role == 'Company')
+        return redirect('/');
     } else {
       return redirect('/login');
     }
-
-    //        return redirect('/');
-
   }
 
   public function logout(Request $request)

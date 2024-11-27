@@ -31,7 +31,7 @@ Route::middleware('auth')->group(function () {
 });
 
 //Authenticated user with employee role routes
-Route::middleware(['auth', 'role:employee'])->group(function () {
+Route::middleware(['auth', 'role:Employee'])->group(function () {
   Route::post('/insertExperience', [ExperienceController::class, 'InsertExperience'])->name('insertExperience');
   Route::post('/updateExperience/{id}', [ExperienceController::class, 'updateExperience'])->name('updateExperience');
   Route::post('/insertEducation', [UserEducationController::class, 'InsertEducation'])->name('insertEducation');

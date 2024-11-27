@@ -57,8 +57,9 @@ class RegisterUserController extends Controller
           ->withInput();
       }
 
+      $company_id = Str::uuid();
       $company = Company::create([
-        'id' => Str::uuid(),
+        'id' => $company_id,
         'company_name' => $request->input('company_name'),
         'country' => $request->input('country'),
         'location' => $request->input('location'),
@@ -67,7 +68,7 @@ class RegisterUserController extends Controller
 
       $user = User::create([
         'id' => Str::uuid(),
-        'company_id' => $company->id,
+        'company_id' => $company_id,
         'email' => $request->input('email'),
         'password' => bcrypt($request->input('password')),
         'role' => $request->input('role'),
