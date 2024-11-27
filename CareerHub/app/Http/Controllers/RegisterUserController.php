@@ -59,15 +59,21 @@ class RegisterUserController extends Controller
 
       $company = Company::create([
         'id' => Str::uuid(),
-        'email' => $request->input('email'),
-        'password' => bcrypt($request->input('password')),
         'company_name' => $request->input('company_name'),
         'country' => $request->input('country'),
         'location' => $request->input('location'),
         'city' => $request->input('city'),
       ]);
 
-      Auth::login($company);
+      $user = User::create([
+        'id' => Str::uuid(),
+        'company_id' => $company->id,
+        'email' => $request->input('email'),
+        'password' => bcrypt($request->input('password')),
+        'role' => $request->input('role'),
+      ]);
+
+      Auth::login($user);
     }
 
     echo "User registered successfully!";
