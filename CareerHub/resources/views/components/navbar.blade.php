@@ -1,7 +1,7 @@
 <nav class="navbar sticky top-0 shadow-md bg-white z-10 ">
   <div class="container mx-auto flex justify-between items-center">
     <div class="flex gap-8 items-center">
-      <a href="{{ url('/') }}" class="font-bold text-2xl h-fit text-black cursor-pointer">CareerHub</a>
+      <a href="{{ route('dashboard') }}" class="font-bold text-2xl h-fit text-black cursor-pointer">CareerHub</a>
       <label class="input input-bordered w-[35vw] h-fit py-2 max-w-96 flex items-center gap-2">
         <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="opacity-70">
           <path fill-rule="evenodd"

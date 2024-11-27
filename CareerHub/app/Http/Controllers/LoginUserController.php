@@ -30,10 +30,7 @@ class LoginUserController extends Controller
       $request->session()->regenerate();
       $user = Auth::user();
 
-      if ($user->role == 'Employee')
-        return redirect('/');
-      else if ($user->role == 'Company')
-        return redirect('/dashboard');
+      return redirect('/');
     } else {
       return redirect('/login');
     }
@@ -48,10 +45,16 @@ class LoginUserController extends Controller
   public function profile()
   {
     $user = Auth::user();
-    $data = $user->experiences;
-    $educations = $user->educations;
-    $certificates = $user->certificates;
-    return view('profile.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates]);
+
+    if ($user->role == 'Employee') {
+      $data = $user->experiences;
+      $educations = $user->educations;
+      $certificates = $user->certificates;
+      return view('profile.employee.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates]);
+    } else if ($user->role == 'Company') {
+      $company = $user->company;
+      return view('profile.company.index', compact('company'));
+    }
   }
 
   public function updateProfile(Request $req)

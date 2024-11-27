@@ -24,9 +24,12 @@ Route::middleware('guest')->group(function () {
 
 //Authenticated user routes (looged in ignoring roles)
 Route::middleware('auth')->group(function () {
-  Route::get('/', [CompanyController::class, 'getAllCompanies']);
+  Route::get('/', ShowDashboard::class)->name('dashboard');
   Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
   Route::get('/logout', [LoginUserController::class, 'logout'])->name('logout');
+
+  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
+  Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
 });
 
 //Authenticated user with employee role routes
@@ -37,16 +40,10 @@ Route::middleware(['auth', 'role:Employee'])->group(function () {
   Route::post('/updateEducation/{id}', [UserEducationController::class, 'updateEducation'])->name('updateEducation');
   Route::post('/insertCertificate', [UserCertificateController::class, 'InsertCertificate'])->name('insertCertificate');
   Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'updateCertificate'])->name('updateCertificate');
-
-  //profile khusus employee
-  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
-  Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
 });
 
 //Authenticated user with company role routes
-Route::middleware(['auth', 'role:Company'])->group(function () {
-  Route::get('/dashboard', ShowDashboard::class)->name('dashboard');
-});
+Route::middleware(['auth', 'role:Company'])->group(function () {});
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
