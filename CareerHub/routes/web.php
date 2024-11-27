@@ -9,11 +9,12 @@ use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
 use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\ShowDashboard;
 use App\Http\Middleware\isLoggedIn;
 use App\Http\Middleware\isLoggedOut;
 use Illuminate\Support\Facades\Route;
 
-//Guest routes (not authenticated or signed in)
+//Guest routes (not authenticated or not signed in)
 Route::middleware('guest')->group(function () {
   Route::view('/login', 'auth.login');
   Route::view('/register', 'auth.register');
@@ -24,8 +25,6 @@ Route::middleware('guest')->group(function () {
 //Authenticated user routes (looged in ignoring roles)
 Route::middleware('auth')->group(function () {
   Route::get('/', [CompanyController::class, 'getAllCompanies']);
-  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
-  Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
   Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
   Route::get('/logout', [LoginUserController::class, 'logout'])->name('logout');
 });
@@ -38,9 +37,16 @@ Route::middleware(['auth', 'role:Employee'])->group(function () {
   Route::post('/updateEducation/{id}', [UserEducationController::class, 'updateEducation'])->name('updateEducation');
   Route::post('/insertCertificate', [UserCertificateController::class, 'InsertCertificate'])->name('insertCertificate');
   Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'updateCertificate'])->name('updateCertificate');
+
+  //profile khusus employee
+  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
+  Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
 });
 
-
+//Authenticated user with company role routes
+Route::middleware(['auth', 'role:Company'])->group(function () {
+  Route::get('/dashboard', ShowDashboard::class)->name('dashboard');
+});
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');

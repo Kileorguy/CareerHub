@@ -33,7 +33,7 @@ class LoginUserController extends Controller
       if ($user->role == 'Employee')
         return redirect('/');
       else if ($user->role == 'Company')
-        return redirect('/');
+        return redirect('/dashboard');
     } else {
       return redirect('/login');
     }
