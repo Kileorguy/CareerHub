@@ -19,7 +19,8 @@ class CompanySeeder extends Seeder
      */
     public function run(): void
     {
-        $response = Http::accept('application/json')->get('http://127.0.0.1:5000/csv_data');
+        $main_url = 'http://127.0.0.1:5000';
+        $response = Http::accept('application/json')->get($main_url.'/csv_data');
 
         if ($response->successful()) {
             $data = $response->json();
@@ -40,18 +41,23 @@ class CompanySeeder extends Seeder
                    'job_description' => $row['job_summary'],
                    'job_level' => $row['job_level'],
                 ]);
-                $job_skills = '';
-                if($row['job_skills'] != null) {
-                    $job_skills = $row['job_skills'];
-                }
+
+                $response = Http::accept('application/json')->get($main_url.'/job_skills',['id'=>$row['id']]);
+                $skills = $response->json();
+
+
+
 //                dd($row['job_skills'] == null);
+                if ($skills != ''){
+                    foreach ($skills as $skill) {
+                        JobSkill::create([
+                            'id' => fake()->uuid(),
+                            'job_id' => $job_id,
+                            'skill_name' => $skill,
 
-                $skill = JobSkill::create([
-                    'id' => fake()->uuid(),
-                    'job_id' => $job_id,
-                    'skill_name' => $job_skills,
-
-                ]);
+                        ]);
+                    }
+                }
             }
         } else {
             dd("Error fetching data from Flask API", $response->status(), $response->body());
