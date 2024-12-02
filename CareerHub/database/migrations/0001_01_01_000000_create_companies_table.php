@@ -13,16 +13,11 @@ return new class extends Migration
   {
     Schema::create('companies', function (Blueprint $table) {
       $table->uuid('id')->primary();
-      $table->string('company_name');
-      $table->string('description')->nullable();
-      $table->string('country');
-      $table->string('location');
+      $table->string('name');
       $table->string('city');
+      $table->string('country');
+      $table->string('description')->nullable();
       $table->string('profile_picture')->nullable();
-      //            $table->string('position_name');
-      //            $table->string('job_level');
-      //            $table->string('job_type');
-      //            $table->text('job_summary');
     });
   }
 

@@ -20,7 +20,7 @@
       <div class="flex">
         <div class="avatar">
           <div class="w-[200px] h-[200px] rounded-full">
-            <img src="{{Auth::user()->profile_link}}" />
+            <img src="{{Auth::user()->profile_link ?? 'assets/profile-empty.png'}}" />
           </div>
         </div>
 

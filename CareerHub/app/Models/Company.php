@@ -13,11 +13,11 @@ class Company extends Model
 
   protected $fillable = [
     'id',
-    'company_name',
-    'country',
-    'location',
+    'name',
     'city',
-    'profile_picture'
+    'country',
+    'description',
+    'profile_picture',
   ];
 
   public $timestamps = false;

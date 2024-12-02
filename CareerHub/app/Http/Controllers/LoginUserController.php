@@ -32,7 +32,9 @@ class LoginUserController extends Controller
 
       return redirect('/');
     } else {
-      return redirect('/login');
+      return redirect('/login')
+      ->withErrors(['login' => 'Invalid credentials'])
+      ->withInput();
     }
   }
 
