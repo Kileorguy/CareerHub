@@ -87,7 +87,7 @@ class RegisterUserController extends Controller
    */
   public function test()
   {
-    $response = Http::accept('application/json')->get('http://127.0.0.1:5000/csv_data');
+    $response = Http::accept('application/json')->get('http://127.0.0.1:5000/get_user_recommendation', ['user_id'=>Auth::user()->id]);
     $data = json_decode($response->body(), true);
     dd($response->json());
     //        if ($response->successful()) {
