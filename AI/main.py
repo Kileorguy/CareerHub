@@ -25,7 +25,8 @@ def get_job_skills():
     data = json.loads(res.to_json())
     if not data:
         return ''
-    splitted = data['0'].split(',')
+    to_string_data = ''.join(data.values())
+    splitted = to_string_data.split(',')
     for idx,i in enumerate(splitted):
         string_data = i
         if string_data[0] ==' ':
