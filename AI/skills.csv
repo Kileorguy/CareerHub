@@ -1,0 +1,3075 @@
+skill_id,skill_name
+31a4aa96-cd37-423a-a1b1-cba21db1dd7d,medical equipment sales
+8bac9b17-572a-4b4a-82d7-0437faeed8bd,key competitors
+5d6b3f8f-39af-4c7f-b987-b786a41b5429,terminology
+f423b1e5-dc3b-432d-a52c-3120ac82d2bc,technology
+33353bde-27b0-4f88-afd0-fb80d80b7456,trends
+eda3e1c8-9b0d-47f7-9598-768e9d58d887,challenges
+8789ed6e-d959-492a-84f7-1d454bfc8e89,reimbursement
+dd40d75b-742c-4d43-8b00-8b80307eb920,government regulation
+63bee78a-a38b-4d6b-bb70-dd1113596007,bd offerings
+863d97a4-ae9a-4d97-8cff-34a2dd836521,pipeline management
+eedf74c6-1c49-4c88-a668-61b1909b72c2,opportunity planning
+99c06040-012a-42f0-9c7e-bba3e6d4bb78,solution sales process
+390e077a-00b5-4e0f-bcbf-8b242cf2eb2e,customer relationships
+b2ca78c4-a722-4356-a509-b7c92ba7426d,collaboration
+66c97d5b-0372-42f0-8fd3-f821f595635a,negotiation
+8be19f7c-e346-4ec5-90fb-44a0d3064a39,internal and external customer satisfaction
+88b2f4b9-9fc2-4847-8bdd-e2a04a382a1f,trust building
+21fe6cab-0d39-4e79-9f12-10d9b065aab4,sales opportunities
+fdb54101-3246-4081-9872-881c156fbd83,new solution introduction
+6ff5e55a-83e0-4232-bcf5-7f1e6f4b9f74,pharmacy
+6504cfab-66f5-44bd-bef6-e888d65433eb,it
+dde60d77-e2bc-4ea7-a4bf-0d6ded72069f,nursing
+9f811092-502a-44be-97ea-ee5d770f8759,csuite
+7dd32a3b-34ac-49ae-b521-6009eeab316b,bachelor's degree
+8cc6a7fb-ba9d-4606-8d55-1f6bb2062d97,travel
+3452c492-0dc1-445f-a1df-d808e967ba8b,driver's license
+b24d7e5e-3410-4c2a-99b0-6a8328400a63,bachelor of science in nursing
+49a980da-b19e-442f-92df-6ff36e22ce40,masters degree in nursing
+4282dce4-73e9-4315-b63d-efe026ba0009,care management experience
+aefb64ad-3c0c-40f4-a46c-429d8afd92da,clinical experience in nursing
+3fe8acee-96d5-4fe3-9cd9-5c542a658bba,licensure to practice nursing in michigan
+b0cf239b-017d-43eb-9b34-086d44050e20,population management
+ba02a709-c666-4666-8397-2f8e89b6b5ca,selfmanagement
+7793f816-079e-4e5a-a16f-551f778a48b4,education
+9e78a435-3f65-4d7e-a74d-dcd7a9f41548,oversight of registries
+7a638420-47e5-4215-a2eb-f91cabdcffd2,patient education
+81794d60-9702-45e1-8bfc-d00c120b9898,patient selfmanagement
+4f9e2858-1d56-4c77-a543-c483881b0794,patient care coordination
+704c58fd-e7a3-45fa-8177-cf888ffa5218,chronic condition management
+59aae8f4-d6f2-4d98-8520-adb9301c340e,complex illness management
+6ed8d505-b6d1-45d5-b3a9-705abfc23906,hospitalization avoidance
+376f62dd-c46d-4224-a758-1557d405b56d,emergency room visit avoidance
+81251abf-5481-493b-a24e-4dce57c8fe56,restaurant operations management
+d116342e-ccd3-4b34-ad7d-8a27db33bbab,inventory management
+88a4073a-7bc0-4846-adb0-3a77806695fd,food and beverage ordering
+6dd78969-e61a-4258-8879-86ed06a0af73,profit optimization
+387a44a1-743b-47ee-b8b6-7349c8aa0386,guest service
+b8592e6a-f43c-418b-8fde-c4edfc886dbc,front and back of house coordination
+efe835c7-501f-40b0-af9a-819171384353,employee performance management
+00e36eb7-fe11-401d-8f6d-88c530ff3296,discipline and rewards management
+841a8f3c-4559-4c41-8b8f-ee698d126599,safety and sanitation maintenance
+c9ee6d59-b05b-4252-ae91-00db1a680f0f,directional flow management
+7de201d7-0e02-4311-ab50-ff42f893e160,daily records maintenance
+f5d4ccf3-5792-45c3-93e1-c1ffd5bb1fec,profit and loss statement preparation
+fd9cef2d-63cc-4124-8137-dbffa13c4828,guest complaint handling
+517bc455-f7a9-4988-8ddd-e73c56e5699c,interpersonal skills
+7e87dca8-acc0-43b6-aaa2-8122ab976f52,guest service skills
+d87bf39a-8776-4548-b5ff-c3542a0e7544,listening skills
+3c75610a-d750-4773-8450-ffbdb54ba943,oral communication skills
+e47695f6-1880-49ea-aad3-cd58be9aceb1,conflict management skills
+a6bc1327-1f08-4f50-944c-b50af73f1390,dispute resolution skills
+b78cb58a-637b-400b-ab13-3d10fd383219,reading and writing proficiency
+9a5f82a2-df2d-41cf-891b-1ea29d4bd47d,arithmetic skills
+515cb2e3-cfb9-4c7b-acfc-d7983f7ecf90,menu and wine list knowledge
+b39e5500-05ca-4f64-8502-8b7da6ce33a3,wine knowledge
+e59f821d-bfec-4215-aa1e-4a76f1b3541d,money handling proficiency
+bbe606c3-a7b0-40b0-94ba-7f9e82b0a5f4,staff direction
+984c8758-5b15-4d0c-9ed7-2b7fec069fc2,guest issue resolution
+400d80ea-c02a-4b3a-8a2c-746d92075841,microsoft office applications
+4c6c4200-8a39-4cd4-8022-94a601bb58c3,data protection and security
+c9aecd40-9f1b-4079-96a9-0181319f932f,pci dss compliance
+12455c04-6025-4212-8554-8f2a439a9a25,privacy and confidentiality
+297d9190-9d8f-47cb-a5fb-b5b7cea6cd67,reporting and storage of sensitive information
+d297353b-731b-4aea-ab2e-114eda88e913,snowbird operations knowledge
+05569f46-ddfc-4780-a735-5d387eda8d8a,variable work schedule
+e2dbbe4c-0867-4c00-92c1-fea1dc7bf23f,overnight stays
+3a551b5a-c6bf-486f-a474-cfbec5bedb1f,stress management
+d3c2aac3-f84e-466f-811e-0167c6b67ec6,physical strength
+2ad064d4-16c9-44c5-8e79-9b94760ba225,tray carrying ability
+c7247d93-7b35-4b70-8a2c-1fa5d1eb2f0c,standing ability
+3a0cc2c6-7226-4187-b066-36ac318ca473,bending and kneeling ability
+6c160a5f-a2a5-46b7-bbbb-f61c484aa685,repetitive motions ability
+f703977f-5b8b-4e6f-b898-861c41d04fa4,professional appearance
+2569caaf-8a4f-4ce7-b23e-02dd013f431d,drug and alcohol policy compliance
+cd060e55-30d4-4125-ae60-e64581e2de48,employee conduct policy compliance
+eab8b912-5672-4907-9c76-a9f803a4e176,real estate
+ac1f48b2-b82c-4385-bcd7-dc0a7f503944,customer service
+30768a3a-169f-4e2e-a6c1-6e3873c99650,sales
+e7affc71-ff3f-443a-a0c9-9f891c9eab92,communication
+21debcd5-da15-4382-934b-42b767a2ebe5,home listings
+80613e34-638d-45c0-90d1-bb0fe879d05c,local real estate market
+c65c43d6-3c2a-4714-b999-f5bda819b72b,representation contracts
+5cefa5b9-cb00-49ce-8651-5170d503b1bb,purchase agreements
+acf7a503-9306-48a3-8c1e-a2ef0a4c38b0,closing statements
+3d73ae28-9953-46dd-9079-182b46d39980,deeds
+c14eae1a-06b5-4905-af0a-820f93ed0593,leases
+dc590ddd-3658-4b5a-a032-028b980a5ee1,networking
+9d0cac50-5c8f-4c77-aaa9-d17aa2008679,relationship building
+da074d60-d918-4aa7-8ecb-5f41164051b6,flexibility
+b8ca973e-0e1c-4924-aa8d-dc441c95e800,work/life balance
+234902d2-10e6-4bd4-b483-90cc516046c7,high income potential
+4e5748c0-004f-4256-88f8-82b07b028a96,equal opportunity employer
+87c89ca1-bf1c-42ef-a0da-9e82219d5e76,bsn
+7eddb971-1b92-46f2-ae01-08014f9f9db9,medical license
+df6e11ec-3528-40bf-b596-3f541e270230,virtual rn
+17129cb2-381e-40ac-8fe4-a81fd4cecd1d,nursing support
+cee6c9ca-6077-4983-af5c-9bf0e58bdce4,diversity
+2fb5db57-00ea-4b8e-92d4-f836e16cdb17,equity
+7c40e07f-27a7-48f3-83a5-e5d1012ef39c,inclusion
+1b1b8244-b060-4871-9397-59bcf2ce8ae1,hr
+8d12872a-2ccc-4f38-be35-2016ef7956bd,performance assessments
+284286b2-dbaa-4db8-80af-71c9893886af,interviews
+244f6a82-7d59-47ad-9475-c01875353a26,recruitment
+5cf27283-99c2-4b7e-af04-dc67dc2e97fe,employee onboarding
+75cf44f6-20d5-40f6-b1a7-ed23b8316464,employee relations
+0cb7c880-2063-4390-98c9-fcd125c4b472,employee complaints
+5c511988-ce20-485c-ac83-cffbc9c6abec,store management
+ba62c825-f1b0-43dd-b671-755a020cc4fe,kpi management
+4f983008-f8bb-4be6-92aa-c1b50c53a249,team leadership
+8605d034-c9be-4c19-8d95-0ccbdd25cd12,retail experience
+d8d07c75-56a0-4227-b718-f51bb72a9cfd,sales growth
+06391b2b-4c48-499c-a2f4-4021981eea6b,retail standards
+12ef6ff9-bc3d-4b2d-a78b-fa8c91fb82d9,fmcg/big box experience
+cc99b76a-51ea-48e4-a63b-e473124d2c5f,onthejob training
+c755f985-d5ac-42e9-97d4-ca5c15a7761a,career progression
+a835162a-09e0-4429-9d38-45b26098bf2c,discount in stores
+3ddbb3cc-2417-4960-ba80-c66831b13e9f,regular double discount events
+a18be9f7-01f1-4938-97f7-a2422ca96785,paid time off
+33e21594-e3cd-4cd6-9fc7-d4d76e993bf2,pension scheme
+81cd9e29-3208-4587-809c-5a4d975965d0,diverse and inclusive environment
+fbf13305-44ad-415f-a402-f293648dbdb7,autocad
+5af2b962-e310-469c-9a9c-cb1002c7fea6,ms project
+2139a623-da9a-4676-aeff-16de66dd2f14,building code compliance
+7c215fdd-197d-497c-b02a-71f4b82ea93a,construction methods
+00ed10fb-e679-47c0-bcd6-a925b5ba6f78,sustainability design concepts
+5c6dbe1f-af38-482e-bd1b-3e58da473649,barrierfree access
+2938b2c1-8297-45b0-9102-9f591848727e,environmental risks
+d339beba-cd1d-4d8c-b7a8-69d36e4010e0,engineering
+93331035-a762-4fcd-afab-5e164b4d4d35,project management
+d9311f28-b732-4b95-adb5-a9bec44c922f,construction management
+707f1e0d-02cc-481e-b318-64054b95088c,medical gases
+ee4d8098-192f-4a22-a9ed-9161bf8abf76,plumbing
+f07a0408-b7fd-4ffa-bc0b-cb9c802c7a00,steam
+e569510e-6314-4abc-b34c-b24b3784c4c1,hvac
+7e5a95f7-3d24-49d2-846b-dc360b3a19c7,building controls
+fe5f5169-d0dc-46b0-ac40-afabb5ce3752,fire suppression
+6dfbea9f-0116-49e8-bb6c-7c63e08bfb15,power distribution
+695b523b-7d3f-4aba-b493-7ca939fa0e1f,nurse call
+88561191-1c31-4b8f-9fcf-31968615cfcc,access controls
+0de9a51e-47d5-4eaf-92a6-06975b15729b,building envelope systems
+cc952b35-c386-4252-bcc6-09886b443a36,roofing
+b92ed17d-1ea8-42d7-81b5-698ad20faaa0,glazing
+4045413c-2831-4862-98f4-43657fb02248,door systems
+e433b508-2148-415c-8a78-5e9afdd43133,business management
+ee195efc-991e-4eee-ae5a-d78f9e1fa29d,business ethics
+71194149-90e9-44c0-8891-2c3a9327cd06,planning
+1934401a-f65f-48cb-8d78-63af0e6cbe48,organizing
+3d68cc75-5b30-4b8d-8799-1865fb330532,forecasting
+d53de723-f3b6-45c5-b977-465f0d643374,fbi special agent
+f3954999-b11b-49e7-9140-0d1477ddf0d9,law
+26bf9394-d945-46ab-8645-9c8797c41c4d,legal
+c5187252-d9b6-4720-85ab-25ddb28b60de,criminal investigation
+b567649d-44c2-474e-855d-024e269b04ab,law enforcement
+34ca056b-cfdd-4a2d-8fc4-109626a2df56,intelligence
+c3e42cd9-c403-4dfb-a1a6-9deb854207cb,investigations
+1ccd837c-c95e-43a7-88d4-f8267a258e2d,policies
+f54ace02-7a06-48da-8f41-97e9b107731d,national security
+66954488-444c-4ae6-9b10-e0293b59d23d,personnel
+d96edafe-1314-4efd-8d7d-dd55fca2cdd9,litigation
+a2c47e60-1693-4dc1-bacf-23626f9d2da5,support
+ec817ada-a00e-4cf1-8f39-a7c7e55705dc,administrative
+8187f90e-687c-4aaa-a4a2-b5447c779629,contract law
+f6d3e574-6d88-41a4-9545-8ded0e54a5f8,information law
+9ebf0b75-732d-4ad4-b120-f015f3349851,legal instruction
+5dd11ff6-f38d-43f0-96c5-e8dca0dacf03,counterterrorism
+f9a1b535-658f-447b-971f-bb9f51bacc7a,counterintelligence
+be3470cb-6c53-4449-9524-4a6f97e65e38,cyber matters
+0166e814-fc51-4cc0-b6f0-55397daa5f2b,foreign intelligence
+7f8c6cea-3f58-4281-a5d7-9ee71aa05fa6,top secret sensitive compartmented information (sci) clearance
+6b80a8ef-c987-4978-b285-bf78dedbadbe,physical fitness
+1812a065-5078-475f-9e7f-c499f0231e9d,medical exam
+4db1d270-ddff-41cc-9609-3870670c23cf,fbi academy training
+d765cf73-383f-40ee-9323-80dce4b21eb1,field office assignment
+cdb418b8-bab9-4fb5-b424-d5bb9b5e1368,temporary duty assignments
+997ec25d-bea7-4931-b8c5-28fbbe0b6e57,u.s. citizenship
+bf166924-0c5d-43f2-986a-d52d22ada637,2337 years old
+0cbd97a3-c5a8-45d5-a34e-1d4c0b2df72c,two years professional work experience
+2650a689-3986-4d54-b807-2401763850fd,bachelor's degree or jd degree
+25945e8d-cdb5-4560-890c-1a4b9978a71d,college transcripts
+25f49a40-7dd9-4ba5-945b-3ff4f626e686,management skills
+b86e4766-9226-47a6-95c5-1783158c7ead,clinical research
+03a2050f-1421-44b7-81da-fe735facf8d2,clinical research staff
+04e983a7-6425-4f54-895b-1423ebeef474,collaborative approach
+8ae78b21-1092-4799-8e1a-fb1a6c2de830,performance goals
+2a7565ce-fa7e-469f-b5df-cc7458abfd4a,competitive salary
+d26a08f2-8d52-4b4b-bd86-7df2897a9951,annual bonuses
+165184c1-3a75-4ff3-90f0-74718195a6ed,healthrelated benefits
+1eab06ae-c161-4e5c-9c72-4c1daf444f5f,retirement plans
+59313271-c312-41a1-935e-e2c30745657b,life assurance
+00bf5706-0ae7-4bc4-aa4d-8cfd4df8ec4f,leadership
+cddf4e85-398b-40fb-ba7e-8d77fac903c9,behavioral health
+bddfca41-1fee-4a8d-b880-b6b256ebf868,inpatient
+cc76fc4e-8da7-49c4-ae25-27c67a670e09,eating disorders
+3f460e7d-60ca-4ea2-9374-44ec6e31db52,licensure
+8ef00c2d-9c46-487d-82c7-cb40e762d0f9,master's of science in nursing
+8f8573b0-03e8-4b1e-a6e7-ddc537239f30,control systems integration
+82589c9e-a5a6-4ce4-a852-7df2486cc56e,plc programming
+6decab83-1c0a-45de-8a72-ecad0e5e82ef,hmi programming
+3f1f9608-211b-4882-8ff0-ba4a07edf04b,operator interface terminal programming
+518c9ebf-bfd1-44e3-a4bf-31378134beec,control system software installation
+afac2a6c-605c-452b-92fa-19fbe5bd225d,lead programming
+b1634499-fa74-44f7-8457-05cc21503dd8,automation staff supervision
+95adc6d5-6bc0-4a9b-9b4b-3775e2a1a060,mentorship
+28cd244c-af18-4e03-a9c0-eccb1884ac64,system startup
+84e9f2ad-5242-42f8-b3ec-5af682cb5b66,client relationship development
+45421e6f-c82a-4b39-9be1-34e2073c9901,selection and specification of plcs and hmis
+a7cd35dd-44c2-4cf9-9e95-e20ec6eeb35c,instrumentation
+a5855723-4112-4671-a7ab-f045e0456b27,schematic development
+5c106bc9-277e-4a7a-99b8-07f3ea43d7bf,wiring diagrams
+8cb55a46-0d02-4ee0-b1a2-0519aa437761,windows operating systems
+3ca58683-4fc5-4053-8e21-86f002b7dc7c,ethernet networking
+c8adc399-6185-4cda-90c1-a11b57b816b9,scada systems
+0ee17519-3276-4c91-b44c-bda4acb6ef05,strong communication skills
+ea340d7a-9d7f-48d1-968f-31121364b9ff,teamwork
+a9578003-6849-4cbc-9b58-e5b29adcfd90,attention to detail
+812a061a-b8cc-4dcc-a3b9-71f7ff47e1ff,engineering degree
+7c159a50-d0bf-4b58-bceb-624082d10a13,vocational degree
+cd2dcbc7-5514-44bc-871c-6702d65e8bbe,technical or trade school certification
+9819b6f3-2753-48b7-a045-29b2dbba51b9,3+ years of control system integration experience
+b3ea8b3e-0506-44d4-9d7c-f5edd5eb950b,passion for mentoring
+bf5bef62-d05d-4e9d-a60b-d9a7922dea21,handson technical and troubleshooting skills
+42c54e7d-2efd-4cf8-98cc-ffcf2c8de88c,familiarity with windows operating systems
+ebeec6d1-15ba-4c20-a670-8c886e14cd0e,ability to lead others
+37a8cf8d-6b43-4f95-a0a3-19073362b27a,cashier
+e524fff6-6bac-41de-9de0-2f4f1516a90a,stocker
+94599e2a-5599-4599-b292-456fa652a60c,lead capacity
+ccb7c48e-5975-44f6-9c9b-9bc39154af92,planograms
+f8553ab2-b687-4b0e-953b-952748c98010,unloading trucks
+38aaf6a1-afc6-4a99-998a-979fb4a83554,receiving
+c6cce9c9-e59c-4a2e-a1b5-0b013302ebbb,opening cartons
+aa1a5e44-a535-41a8-9f95-f168c2dfda85,unpacking cartons and totes
+43b01d61-cade-438c-9186-d14635f90804,stocking merchandise
+a1cb037c-ad96-487e-bbd8-db3ca84e3e9a,rotating merchandise
+a1a27dec-e163-42f8-8195-8bd0733e7f9f,facing merchandise
+41e7b166-4638-4a42-bdee-dd163d226f55,building merchandise displays
+be7c73bd-8b9b-4714-a40a-7c6b48f4bd86,restock merchandise
+cc07460c-5be7-4260-bc72-9fee453b21a0,order zones
+b044a4ee-32e4-4ee6-b35d-546ebb60bb86,drop shipment categories
+eaefbff9-fc3c-4021-bd28-95130f4acd33,planogram implementation
+c52c4692-96cd-4b62-acfc-193ed64a94fe,planogram maintenance
+92e47a7f-a9fa-4405-9f8a-75ffe179f28d,customer assistance
+bd5a59c4-ade7-40ad-b7ed-2e3b34174515,bailing cardboard
+5dbdcde1-a603-4f8a-91ca-b3e03b42d629,taking out trash
+c9bbf5a6-5697-49bb-9d29-9fb1dd26e621,dusting and mopping store floors
+d74f6468-7424-45d9-963d-b47cd5387f61,cleaning restroom
+3043eb8e-4738-40b1-b212-87c41c50c09b,cleaning stockroom
+bd9fc882-529b-4ddd-ab42-168318a26cd1,greeting customers
+dd860cb6-ade2-4a4d-b182-7a2258061380,register countertop maintenance
+ece90107-14b2-4f99-b1ee-3e9ea6b70baa,register countertop planograms
+0edc83b8-db50-4c6f-be3a-a517c5312254,cash register operation
+18f4cfa7-4641-4a4e-862a-2b635a280137,flatbed scanner operation
+4d3d64ee-96b3-494b-b5b6-d08629d9a768,itemizing purchases
+7de89573-4d92-48ad-bb0f-80f54c604a85,totaling purchases
+bc6f5f66-237d-4bda-9384-34681581b48e,bagging merchandise
+b418e649-a372-48af-a842-b64f82e12a1a,collecting payment
+f6f0f122-e18e-4c86-a5a8-550507d8eacd,making change
+9b133c2b-5e34-4d37-867c-5bcaa9b48345,cleaning front end of store
+4c0305fa-a790-481c-ba8b-0f6b590f0e15,setting up sidewalk displays
+22a58ee5-0d11-4900-ad0e-b00a5ed8a6c5,maintaining a clean and organized store
+a034135e-27e6-4bf0-b771-9719288b0a26,facilitating a safe and secure working environment
+18b77c81-96f6-4075-95f4-384f433b6af9,facilitating a safe and secure shopping environment
+0c4ce268-28c8-4d45-a2ef-7987746e27c6,providing superior customer service leadership
+311d6a96-3773-4bea-aa18-581a679f8e98,following company policies
+238de040-8796-4df1-a922-069bdbec4861,following company procedures
+c824a5ba-4ea6-466c-81b4-d0a3d6b63d05,standard operating procedures manual
+e78ccae9-a455-4a8b-be18-b32242c35682,employee handbook
+dac3e09a-7589-4a65-8e63-bab278488eea,company communications
+a1d61471-8cd9-47ab-9c96-b32995f6eb6a,opening and closing the store
+f1f91831-e9a4-4ded-8fe8-60bfa5861195,authorizing refunds
+91e24928-cfa0-4f58-9cc8-72c568ef51ce,signing for refunds
+8ae61f2b-7eb7-4e6d-af08-5acac4e39eb9,authorizing overrides
+4c0706f0-4e2c-4466-8b09-79c3212070dd,signing for overrides
+42ba4ebf-606b-46cc-beae-5fb733bd3223,counting register
+32da78fb-07ec-4073-80c5-174051de3a52,making bank deposits
+1bdf4743-0ec4-4187-96d2-129e5348611b,maintaining strict cashier accountability
+8d24ef5b-98d7-4a16-bb07-0bff611b520e,maintaining key control
+53b8f327-d2fb-4482-a5d2-1c6524724ce9,adhering to company security practices
+b779b5e7-ebc3-4a38-8501-b00843d0b555,adhering to cash control procedures
+315ad95e-3c23-46dc-abc8-460a970e6beb,monitoring cash levels
+313cf2ba-b45e-4d75-bac4-6a532fd48337,making appropriate drawer pulls
+dd262e2a-26ff-49e5-b013-6d8b816cf633,monitoring cameras
+9a044e77-f5e8-4fc6-9808-a350c1a1f18f,completing paperwork
+0e6a6519-9e57-4970-a85d-645ff8a17eba,completing documentation
+b600a181-8a68-4ec6-9ebb-1d1d7ccdefeb,following guidelines
+d212f404-5ca9-4e1d-aaa0-7b1160fd0f70,meeting deadlines
+48e958f5-daa9-4c36-be51-e4cb45d3477f,mathematical calculations
+58beb7fd-37a7-420d-b087-c5330d8918f6,addition
+1085ad26-72f5-4c74-b15c-8a852547c23f,subtraction
+b224b4cd-324d-45bd-8df5-cd4af6597a6a,multiplication
+f3bbd796-0941-4f11-8345-4163001c36a9,division
+56ddf94f-0227-4d62-9231-5f0c3ac0ed42,percentages
+3d859155-7518-417b-8fea-3873de96f945,cash handling procedures
+cf0be8fa-50f8-41c3-ae92-ee9d5914c011,cashier accountability
+ed96a866-1a8e-4cce-8db9-30498d31d1ec,deposit control
+66e589ea-4033-461a-901a-e0a0f05f1586,ibm cash register functions
+5850f32e-fc1c-4259-9295-04a395a5eb86,cash control policies
+47cf54b6-70fa-46f1-8268-6174f01c486b,facility control policies
+02f9638c-d515-4473-904d-4936ce34de92,safety control policies
+07b2cf1b-3178-4dcc-b043-9875057e00c8,safety practices
+db722ac7-d764-49fe-8ac1-a03fe74adfc4,planogram guidance
+71a9632e-ea5f-40f6-98d4-22ee1dd48d37,merchandise presentation guidance
+c68b52ca-2828-444e-82e2-52852c2ab4c1,high school diploma
+c02b1591-8ccd-49cf-91f9-061284b0b438,supervisory experience
+8091034e-dde9-496f-b09b-27dff24135df,related experience
+3aafb569-2a8e-45f6-a5fd-e06064745df8,related training
+ad1912e8-01c1-41a1-ad40-525555fad318,financial planning
+cc2f6001-33a5-4c17-a49d-8c586f88fb04,financial services
+3dc7ca72-c2d2-494a-bbac-d8076060e839,wealth management
+929756e1-72d7-4d82-9726-bf2f99c38f4b,business development
+ee0480df-02a0-4704-8d7d-9650b319e871,banking
+c279a2d5-ed0d-4886-b2b7-9a1e642797b3,marketing
+bee390d7-ccdc-4854-adef-7514cf8ef6d4,management
+571b6777-805c-45dc-bbe2-cf144d085c65,athletics
+d6fe682e-cdd4-4370-871b-583d06c790e8,military
+101fb84d-dbbf-4148-8f85-65df492396f0,entrepreneurship
+538111dd-3c13-43b0-a45a-1aae6073efc4,selfstarter
+f06690da-01bb-4101-8512-3a0fae96d883,microsoft office suite
+f3b8c867-1aa7-488f-901e-446b4d3c8134,uml
+7c1874d7-1d9d-482c-8066-01a82b8b9cb9,flow charting software
+17888aac-fd6e-4b86-995d-264a43ab318f,change control/defect tracking software
+9c30718c-0e59-4d26-96bd-7354a6ecb5ef,project management methodologies
+013bf0a6-6022-4dae-b009-cca051569ee2,design tools
+7afbb9b9-d354-4539-9224-a63fb771fc69,bachelor's degree in computer science
+088852ef-2c4d-4293-85c5-de80352d134b,understanding of soa (service oriented architecture)
+f88a9f12-0a50-4308-acb2-66b700263aa9,asp.net
+6fb4a108-d82c-417d-96b8-fb4aca232fa1,sql
+89f24de4-1d90-4dee-b7a2-863348066192,xml
+e66eb312-a65f-4519-aa28-a8115eee8f24,design patterns
+d950c66e-2545-48c9-88bd-a0ee0eab6136,researching
+03f73a17-bd62-40d1-8c3a-91bcf9cfdaff,recommending software and systems solutions
+d406ce00-4926-42ca-b14c-e454ff246f22,skilled in organizing information
+1b698e2a-1235-4ffa-8572-6ae32ace6486,partnership/corporate tax experience
+a53d52ca-8c5b-437d-8d53-333a21fecdfa,reviewing meeting notes
+1decbcca-e64c-47c2-934b-cbb6350c82a5,specifications
+e44b3f1e-6551-44ee-936d-dcbbded2d32d,interviewing clients architects and developers
+84818359-abc0-41fc-aca1-605141d00e40,employee selection
+f3ce8478-df2c-4dcc-8548-c9966499c1c8,policies and procedures
+3e297a22-6639-4e39-b996-fecaf347c707,training
+47124631-44c3-4b6b-a302-8e1092d6128f,performance management
+e0ee1c9e-0246-46f8-ba76-f6a5c29216fa,microsoft office
+d22a24e0-3ca9-4ad6-b36a-1c13abf2ab42,sap
+20eac264-e8af-4656-b0db-f2530e8a1f88,adp
+c9d801cf-2752-4452-bd55-e2925ca99e46,time and attendance systems
+787c9d79-cca6-46f9-a8a2-fcd9470a2eb5,phr/sphr
+a00e42af-4620-4f1d-856e-278bea661a14,labor laws
+e999e176-dde9-40cb-ae09-534211b02558,regulations
+9a8a9399-fe26-4519-bfe1-abe33c53cf6e,conflict resolution
+50123741-5dab-4c37-8722-9f91954369a2,communication skills
+374a4908-7877-40aa-a084-5b3ea0e604e0,problemsolving skills
+a46c04f9-a677-42a2-98e2-d52f6281fe6a,teamwork skills
+9ed0cedc-f53d-4d6c-bfa9-03af185c423f,leadership skills
+67098f81-be65-4c24-b41e-6931fd72c361,adaptability
+2c11f973-1353-4f62-80b6-09dd719e2d76,initiative
+5feec65b-1b4e-4ef7-8d66-f26b3db2718c,motivation
+a6f81b75-15f3-4bcc-be5c-086d81c2c386,commitment
+6689d81c-905c-4e5c-b478-2af1745a0fc5,integrity
+24899272-7e07-47dd-9b69-fea4b72a9b59,confidentiality
+119e0844-d997-49f0-a018-c18a83d87d02,horticulture
+d33b1a59-cfd9-41d3-bd00-eca731809960,manual driver's license
+eb514b13-c94c-40e0-84e4-e5d3472e1b7f,safe work practices
+9fd7b13a-da1d-4ecb-aa31-450b1e84b84a,performance reviews
+5c687dac-9a48-44fe-8307-f5153f187370,staff training
+d6f66ef3-67b3-4a84-9220-081ff9d358d6,toolbox meetings
+a5154906-8686-4ac6-8033-1441249d48be,certificate iii in horticulture
+03a08ad0-f083-4c90-8659-98ab43ca0b2a,pharmscreens
+65ba1230-313f-4d49-9732-b1417b19ed4b,pbm express
+e9dca0a9-fd77-42f1-9095-b9d1da24679f,benefit compare tool
+beca2f19-5b06-430a-8cd3-be01100ce078,user acceptance testing
+dc7510c1-7971-4742-b128-40cb5ae69cae,benefit configuration
+97706bf4-1fe9-49d1-8a8e-320ce9658332,adjudication
+a20b999f-444d-4cfc-aab4-3e0b85385016,process improvement
+341b2ef4-ae57-469f-abc0-6fce25fbc901,health administration
+c88abf8c-ffac-4243-8e58-2de77e644b90,medicare part d
+e2ae0bb8-9014-424b-9392-3ae553bad567,custodial maintenance
+baa323e1-d095-4467-9ea1-bbcf669c6a6c,general cleaning
+84d92aaf-8925-4135-adee-d43587653ad0,deep cleaning
+e6a57e8c-b980-4b57-9272-dcf5df327227,glass and mirror cleaning
+c67b9d81-2320-4b14-88de-cc973c9b87f7,floor work (carpet tile vct)
+62d7587b-4ac6-4573-9651-6a6dbc825c4e,third party supplier management
+4b72a3f9-baea-470b-abfb-9993995c8af6,service provider management
+5e67c340-7c52-4de7-8aaa-d99686d37b83,problem isolation
+f259a371-6e65-47e9-9f7c-b51250da1575,contractor meetings
+bb22487e-8151-4551-b08d-3355ba626796,bid collection
+a68c8c38-b0f1-46e7-a3c8-b729edeb7611,custodial team supervision
+6f72e86d-750b-446d-b3d7-e95440465f4f,project status tracking
+5dc44594-ca7e-4c39-a2a7-9a5cd2c90663,trend analysis data provision
+d89ce663-a8e8-470d-b114-f070568114dc,time tracking
+e6c6f1f1-3435-49e1-a5fb-acf4e997cfdd,mileage tracking
+567198f3-94a8-4845-9b68-aff5dd01f95a,material tracking
+129c9587-c164-4870-8a21-afc52a400d2e,tool tracking
+24fca7ac-00a6-493f-9fd6-6b803a932f16,special project oversight
+3f1f6712-3dcd-4597-a3f4-a3daef19b7cc,custodial issue troubleshooting
+37a96080-72a8-47b3-9fc1-3e6b7bfc2bf1,estimate creation
+22df74de-6f89-4037-9eac-63431643c3be,schedule creation
+66c881e9-a5ff-4425-b7f1-161d007de7fc,timeline creation
+a0c358ac-17a7-431a-831d-92800bcc9071,project deliverables
+c8e6a7ef-b6e7-4e04-a099-d98e8a5d21a5,travel within and outside of state
+e958ebc0-c215-41b7-98ba-d3fd0954f6f8,training participation
+1ea0a9c3-ffdb-44ae-9484-d1d72c6da57f,current development review
+73601988-bfec-4ad7-b504-00ae07fb8936,literature review
+a607a308-41f9-4eb5-abad-26764d33817a,technical source review
+4a0a19ef-69c6-4be8-8116-eeb82b672893,osha compliance
+31ee720d-a1bd-407e-b16e-8d57e07eac70,msds compliance
+b29cb65f-0ea8-403f-ae43-b18c1f91ce69,safety procedures
+0bf7d717-c14e-4d86-bac2-ce0318d30adb,handheld radio usage
+17d9173d-8a2d-4e5f-a97a-409330fa20cb,microsoft office software
+2cffd048-d3e8-4f5f-913f-83aed674d98f,administrative skills
+754fbc3e-f9a8-4978-9e68-8e3005828d80,organizational skills
+db9a62ed-6e39-40fd-9cb7-c6bf761a3183,writing skills
+763af325-ba31-4b16-944f-5420e90f6bb7,documentation skills
+37346fff-6e12-4c7f-afd3-da8b1593dd96,osha familiarity
+bcf41c9f-78b0-4d04-b685-1a7e12111155,msds familiarity
+0873a913-883b-44e7-a328-d35b0100c2aa,building and fire code familiarity
+70bd8053-ee00-4719-9d50-c855957b01c3,inspection processes
+7366396e-1e14-45c8-b8c3-3f86e7ad07dd,time management skills
+f771025c-8de3-4936-8f4a-398167dc6af1,prioritization skills
+5e363a86-d5c5-4591-808c-c12a90f4ca88,continuing education (custodian janitorial or facilities related)
+b7d9e116-b191-4f36-9540-9a72dabad4b1,7 years of custodian or facilities maintenance experience
+ee92e0ae-fd3f-4537-aaf7-beec42fd7ed8,english language proficiency (written and spoken)
+fcf3f60c-8149-4e57-8f12-458047e30afb,usual office working conditions
+a8c89960-3feb-4d36-9e80-dd947f2aa726,physical exertion (up to 50 pounds occasionally and up to 75 pounds frequently)
+c84fa183-f451-4716-bbe9-f49739d1b995,healthcare operations
+96c72e88-0ed6-4a66-978f-887537a6066d,hospice care
+131ca82c-db75-4d6b-82af-df0f6b82e9b4,patient care management
+48fe4810-4a14-4664-aabf-803ddc28d4eb,medicare / medicaid compliance
+ffe89c49-48bb-41a5-9279-a93e539741e7,qapi planning and processes
+ff6cac66-6ac2-48e7-b3e9-0c760d829a4d,cpr certification
+871453bf-7fc3-4f6f-82f3-7c9ec6812a27,driver's license and vehicle insurance
+7d0f9c27-5adf-48b3-b047-51023d1c1abb,supervisory or administration management experience
+268bc304-5343-41d6-a6a6-3d4a78eddf8b,terminally ill care experience
+e6b55cbc-ff6d-4b4c-bb99-5c8baa13dddf,chef de cuisine
+9283cb74-d13d-4a9f-8aab-3be1365930b4,executive sous chef
+e8c1e88a-6e4f-481d-95f6-bd3e5a1c9a56,hospitality
+18539497-5623-487a-bbb4-0005ba8f47fa,culinary
+b7845b37-59ca-418d-91b1-c1b865bebd55,food and beverage
+97473152-bbca-4839-b6e6-a1d5782f8977,menu development
+19df46de-da05-485b-8627-11309c8695d3,menu engineering
+94dcd94d-e94b-48c8-ab21-8b60d8f6b02a,food preparation
+6d8d395c-1816-4d83-b7b8-49dfc6724e08,sanitation
+cc336509-ff34-4019-83e9-7b9d9849c91f,food and labor cost control
+8ae89036-9d25-456e-9191-b5fd10553c02,multitasking
+2ae3e1b6-a7ea-4b30-b309-9858c1d9a4c8,time management
+a839ab68-22f9-4441-9af8-f7e49324a8c6,servsafe certification
+f8f8ce00-f459-4abb-92c4-1dfbbd8f5813,culinary schooling
+8e66c255-e23b-4b66-aac5-0ec07e2e291c,apprenticeship
+e7a8b226-2f97-4e35-8d0e-54069782cc3f,work experience
+93a21baa-b727-4412-b3c0-f9d5aad42b3d,diversity and inclusion
+0fb74cbc-4c01-4662-800c-cd5096fbac23,electrical engineering
+7ec8ca57-c6e8-4d5a-901a-542bd4689d16,requirements derivation
+07a8eafc-548b-4ae0-be9e-edda87d52068,test development
+f2e5b686-35a6-45d6-8245-f1dfbf78f141,test procedure
+74ca2448-ad06-41b6-9187-160fb248d927,script development
+902fa0f0-bcdf-48e9-93a5-12f98c60384d,satellite systems
+26d0eb46-099f-447e-b684-1826a0f8c25e,python
+63a83910-723d-4e1e-b6cd-2a6682867c99,perl
+800ac1fa-f7aa-4e87-a9dc-cc0636423b40,bash
+73c31503-314d-46f7-b55a-88e08618dfb3,labview
+4169e9b3-c621-48bf-ab44-add262103fec,linux
+a2ef7bc2-8c38-42c9-b116-1c3491f5aa34,windows
+de78d544-dcd5-4141-a847-5f81d291bdbe,aerospace industry
+c12089cc-766f-4dd7-9c05-8a1ab843c6a6,sewing machine operation
+d052927d-85e1-4080-a0bc-7b82667cf51e,quality standards
+e829133b-760e-4f03-9e62-b03f6f1528eb,productivity standards
+7ff1e770-c970-4aaa-baa6-a3db2fa46bea,sewing safety
+33c9f263-eacd-47b0-95b7-90f8d86f2026,sewing efficiency
+b7adebd3-38f9-4c72-9d4e-f633407cd26d,sewing quality
+0b136051-3d67-4ba0-83a6-c789dee58c3c,sewing machine maintenance
+e958e6cb-dcf4-44fd-9a8e-ae9cdde9b2fd,sewing machine cleaning
+03ac6409-d32b-4abd-8611-825832b301e7,machine malfunction reporting
+85aad391-059d-4f39-abe7-8bd88dfb4242,safety reporting
+7eb75bf2-a47b-4d26-90d2-916444b348fa,production standards
+713c52d3-8553-4056-99b1-a22f48b78d70,production reporting
+ae0d9598-30fb-4864-bd76-245640b3f94e,scrap reporting
+e0ec5e16-a2b3-4f07-ad08-a3a93cdc3183,quality reporting
+5478b21c-9b78-4282-b812-2a91d4fddc41,primary education (desirable)
+ae65d620-c5f8-4031-981b-7a6fd1a045ab,spanish (100%)
+e8968b76-a41f-40e4-8422-4fe2febe2b27,flooring sales
+c5aa486d-eaf8-47ef-bb76-fdc807046a5b,interior design
+b496ed16-f767-499d-bfc6-d16dd6daf086,problem solving
+78358477-c1f3-41bb-b221-6a9f9c75422f,teamplayer
+92c9464d-fbc1-4e53-a481-7cd4048f6367,lifting
+853d280f-a6e2-49d5-84aa-1b2af36ba1b6,building displays
+d46f6d95-c149-4edb-bfbd-0a3d3deddc40,reports
+041839c9-475b-4f47-87c8-8252ab05b2fc,data analysis
+3d80e3e5-d1b0-41f5-a5ff-6ce473f7b691,account management
+528231ec-640c-437a-aab8-799929f9ea79,customer satisfaction
+89da6a42-b414-4abc-bc65-3894558e9213,product knowledge
+a4a5b8bd-8b2f-4f64-9094-2acadd2fdaa3,sales training
+d7ad24fd-3eb5-41cf-b9ff-e6a3c58ef236,ct technologist
+f3f18417-29b7-432d-8570-40787b15a014,computed tomography
+53a29c0c-56b1-4d26-9c65-c98c2acb2f2c,allied health professional
+453215dc-0aac-4f33-9367-82721f294001,radiology
+ff9b233a-bc92-4984-ab46-cb726d8e642b,medical imaging
+efbe56ef-3a96-4b4a-9549-d0a4c7ab8382,healthcare
+0ca369e2-bd6d-4a6a-8e55-ca809e887df1,hospital
+09446163-f644-4cd0-94a7-c2f64138ff03,patient care
+f71634f6-9247-4afb-9ab8-c9f20947e21b,problemsolving
+e739582e-cf93-4e17-b36c-e208c6942e62,xray
+7a2afa1c-7a44-40df-882d-10fa26e0c9f9,radiation safety
+ff4c7f0a-fc60-4a22-ad30-9859e3ced3fa,medical terminology
+b99448fd-09ad-436a-9db1-047170d811c0,anatomy and physiology
+1b619377-39b8-434b-9ef4-375bb818ac09,equipment maintenance
+64d99550-6086-4d43-96b7-bef616c71f70,english (language)
+bcb110de-1fac-4578-98c7-12e7361cd041,cv (document)
+9914fdfa-b722-4eab-8bf2-10cd27c8cc5c,europe (location)
+a86ebce0-5f37-4d75-8d57-1a7767e68c02,river thames (location)
+68a9a264-ba7c-4223-96a1-0801319c7739,greenwich peninsula (location)
+308665ce-2033-471d-8682-19b6c424c7b1,chartered physiotherapist
+41e8a60a-ea16-4bf9-8dea-a40b6deb854d,state registered occupational therapist
+f568fd8c-4014-4137-b359-1abc4f912d25,hand therapy
+732373c9-8a89-4790-8ab3-d23667746fcb,orthopaedics
+31eeed0b-4661-4522-b2ed-c8d02c1e9504,plastic
+2c4f8df2-4f0f-44eb-ad87-24c89d92ab6d,rheumatology
+ee279580-9d48-452b-9233-fe0c394003ee,trauma
+4bdaa2a2-5ae5-483a-b185-be3c462cc5ef,manual therapies
+e595456c-6259-4984-8961-78632ba1ddaa,splinting
+d204ab03-92f6-4942-ba02-ebeda61f5a6c,hand and wrist assessment
+dd7e1c77-d674-445e-8924-f34141b08dd2,evidencebased treatment techniques
+be8dbfa7-3634-4aac-8b53-fabd658a8ad4,master's degree
+992144cb-8339-41e9-9047-ac50ab0a201b,master's level modules
+9d6abf29-cc30-47d4-bce2-c13af8495624,british association of hand therapists (baht) level ii courses
+ed382420-3343-413a-ace0-112d203a858d,it gcse
+76cad2df-adbc-4fd1-87a7-13b76d2379c0,functional skills level 2
+8d8b8738-0ba4-4b29-8e5c-1ea39f1ef505,clinical expertise
+235e93a6-57bf-4a6c-bf67-726c3f90cdbf,postgraduate hand therapy experience
+6dab3aa3-cb0e-4b0f-9efc-c6ba4658690f,flexible shift pattern
+911737f0-1fd6-4ceb-9ccc-b9d01787a4b3,training and development opportunities
+ef8be45c-fa5e-4fec-89d0-c2caeccb6830,employee recognition programmes
+63f0e63c-449d-4e55-bc05-6ac672ff58d8,employee referral scheme
+1e4b1bf8-d53f-4444-9a9d-c63ae55d1045,security guard
+b0c98d70-b637-4239-959a-b8dced684880,aviation security
+e59acc09-93bc-4d87-beea-84e333571d5d,access control
+900a9b45-5777-4f92-8277-5259d00e2aae,surveillance
+6df0875a-7935-42f9-b75b-d22b7bc5e099,incident reporting
+febda439-9c01-4f91-bb54-1990894fbba6,bilingualism (french and english)
+4a351d61-1dfc-4c4f-933c-2a30f1f18658,valid security guard license (bsp)
+c08b48bd-ea85-4da3-ba6c-9d75180344e6,valid first aid certificate (cpr)
+912c1103-0a1e-4fae-994e-b19e43f8d6cb,high school diploma (des)
+d8830d07-24d5-453c-974a-28bae0700883,team work
+2466eb11-7eb5-4f8b-90ed-09bdaee29d55,proactive
+911b3bb7-b16d-4dbe-b72a-59ee0630eca1,professional
+0b35b91b-e75b-41f5-b018-b337553d5dc8,computer skills
+266c7b09-275f-4f39-9104-b6c5b59b4834,security clearance (czir and da/r)
+7891e30d-843b-45b7-8e6d-4dcb05500cd6,safe and emergency procedures
+a438c02e-4380-4ca1-b02a-68d56e1d1db7,food handling
+8eedf712-e9ce-4df1-a764-4cddbea91cb8,kitchen safety
+841f6fa6-1114-4889-9d54-365b0a5de960,plating
+f47ff558-7465-4c82-b836-fbf5370fb9ea,menu knowledge
+f26d8bc1-9e73-4488-901f-99ff66603c4f,ticketing
+08be05bd-34de-4384-bfe0-8c0bd269a30b,physical stamina
+159100f7-6a69-4a35-b20d-633ac150b8c9,food tasting
+3c13ce78-ec1a-47b3-8973-2eae6b0c6e2d,food smelling
+c0e795e6-9073-40ca-adac-8f850afc1861,fine motor skills
+6af30a13-6e4d-46e1-8a5f-a9e153460260,assessment
+83e2cf0c-8750-426e-9b85-0c57a771dd57,implementation
+acea4171-2bc8-4c4b-a48d-125a3b7ca57d,evaluation
+e8285e7a-a7d4-4a2d-a753-7073faac37f9,clinical excellence
+8e4e8951-6bdf-4540-91e7-238849f3a361,critical thinking
+717c5022-54f0-400f-a72b-95364a52a79a,decisionmaking
+4655f6a4-eed8-4154-802c-b9bbb4d7ae7c,cultural sensitivity
+c0d89f78-d3f4-4604-9583-c7526540553d,cpr
+4dd47770-a859-4e1f-8a28-1d44e5c272b1,acls
+b10c9e1a-6e88-4ec1-b616-ab4b94dabf01,pals
+14d2eacf-db0d-419d-a79f-d63e7a1bc312,hipaa
+bca6bfd4-2a59-444c-a93d-8181102f71a9,osha
+a68824e1-57c7-4624-9fac-1daaa0348d26,documentation
+7162c875-cc60-4569-9628-b51e0ed62d64,emr/ehr
+55227a73-2ab4-468c-b2ee-7f4f7871d192,vital signs
+341c2947-e2a0-4001-b6ff-ed958585f146,iv therapy
+1e770f12-eca4-463a-a341-cceb5b79835f,blood transfusions
+86c94ede-a571-450d-8a6e-9feaa59a7bd0,oxygen therapy
+262fc01d-a3c8-4918-95b3-8229e4cfaa8e,wound care
+54076dd8-5ead-49e1-9407-95c349fe2362,pain management
+24ce734c-b244-475f-84b8-47a5bffb4152,medication administration
+dd2fac74-8d7a-4fd4-be88-24ad7f1e46f2,nutrition
+0e01647f-b201-4ac5-bda4-2e751e151c7e,hygiene
+5bfd2275-0dcd-4af7-b675-74dd644a78da,safety
+8181e35f-6788-4e90-99cd-7824cb82bbb1,infection control
+613d2724-a546-425f-806c-f528b9800b67,retail
+90eb419a-b881-4b37-90ca-a62b5ef01e8f,grocery
+5ff5593e-4c9c-4c77-a03c-c809438d56f3,merchandising
+46864bd8-b468-4808-9975-aa04157a34cc,food
+b21c7307-00a1-448b-bc81-d9568ca24fd8,public interaction
+2eb0a248-2e90-44c3-a21f-6404649f608e,learning
+a53f5f77-c5cf-4b27-82c0-477e2e1fe4e4,ownership
+d23c86e4-c04e-44bd-b71f-11843d15b0cb,competition
+f6bc7cd6-3d81-40f4-a225-060aee0a808f,inclusivity
+4dcb6e6b-6c68-4c00-abe7-ec3d31616a1e,compassion
+6db01dc2-c16f-4942-9057-06e50da859c4,care planning
+c572c72e-67eb-4cbd-8d68-679c947b7963,patient teaching
+17435228-6967-40d6-9b61-312680f95383,coordination of care
+5d4c967c-1eff-4902-b4c9-988441ad428e,patient advocacy
+4b31b332-a4ea-4e6d-a974-20c2dc723a48,interdisciplinary collaboration
+af7f9108-a039-4b77-a388-b9716d8c8f1f,office and clinical technologies
+3835f1f1-6526-40f3-acaa-e7bbda1fdd8c,quality improvement
+d7b2a943-756b-4645-99cb-5e93724e86fb,evidencebased practices
+6bb50d35-6614-4977-96a4-0fbf338bfc71,research
+a99f4e7e-6a96-4b02-bcd2-414b3426e542,accountability
+6eb1e98c-b2ad-4a8c-ad99-6bbe91090b0d,resource management
+f7e604c6-183f-4583-bad4-1897f0af13e8,conflict management
+3d3184e1-993a-4e5b-8680-3de43c0442e4,resilience
+2a2122e0-aad8-4d41-ae17-c48f333e80be,delegation
+eab27528-02ba-4097-8514-850541e7faa7,bls basic life support
+daf16cee-3c09-48c5-9e18-b88be16f2f91,valid nursing license
+8d40b384-b6aa-4f2d-828d-0c26050f0f2e,associate of nursing
+7bd04ace-bd2e-4e53-9d56-75c3588cfcea,diploma in nursing
+b7b18f66-68ef-4a28-b731-07d240c251ad,bachelors of science in nursing
+0fbc3ea9-e738-4d73-989a-a716a5edcdd8,elementary guidance counselor
+95483488-9448-4fb0-8ea7-2ceb47c4958d,counseling
+f2188fe0-bfc2-4304-befd-d768b4e44fdc,asca model
+363bce44-8af0-4ed2-8121-cdb288c54933,educational testing
+6a7bb5cc-c807-4842-a295-a575e566a950,measurement
+db9464db-32a7-4850-881f-53020dd577be,psychology of learning
+a7fa6736-5fb3-4804-9ee0-5f63b8b5ce05,data driven instructional practices
+c9e69e64-04fc-43f1-9f83-46c883910eaf,professional learning communities
+f9743822-5e45-48c9-875c-6292435b042a,language skills
+1680274e-480d-4428-bb4e-43cd6565a49c,computers
+7b22ae68-ae63-48fc-8220-e8bf369a5476,personal feelings
+94ad7f70-c5bb-42c5-a066-548703647656,analytical skills
+4fc86484-f8d3-4d2d-90ab-71e14dd4df74,reasoning ability
+20346a94-e261-4e3c-b130-4d3143a58084,decision making
+8b43756e-d102-4548-b9cf-ad82725a296d,physical attributes
+14b0cdb2-1129-42ca-bbf8-ab18cbfe3761,strength
+ebaa892a-bf1f-4041-a3fd-0831720cc47d,dexterity
+67566e17-f90e-4609-95e2-f3cf725457fe,vision
+9840844a-1324-4e12-8514-6f62fee45439,noise tolerance
+6bfb7ba9-b09a-4d38-a9ac-b678b2ec3748,counseling license
+02d0ab48-7af4-4084-b0ef-007c804a0d72,physical capacity
+08fd7a53-339c-40a8-8750-2dc1a52ac4b5,sales leadership
+20a57b82-11ad-449d-86c1-6b7860a57804,visual merchandising
+a9ce167b-d7e8-4706-9d3a-37efdfc184ad,technology proficiency
+86d23a1b-0a17-4010-8d76-74742988df02,strong business acumen
+5f13b6d7-e956-46e6-bc68-5ba9d0320f03,prior management experience
+14d3c26b-0f7e-4777-8b5e-fda737d2670c,ability to read write and communicate in english
+0317dfca-9048-4c21-9c9a-47adc05c5d5f,ability to work a flexible schedule
+468b958c-5ecc-4441-ba25-bda12ec3469a,ability to operate computerized register system
+3d12b471-0f55-47cc-8bd4-11f0b93cc291,ability to move objects weighing up to 25 pounds
+0ecc7859-c355-4466-8ab1-c3bb5d36f258,ability to retrieve merchandise displayed above shoulder level
+7b876e6e-bdef-4738-b555-2e48f4a50d43,ability to interact with coworkers clients and members of the public
+23b16825-557e-4d40-8766-083ee9bd19a5,retail management
+cc24275e-611a-40df-a992-e2676fd71df4,profit and loss management
+cdda4ffc-60f3-4ee6-bd38-098dee8336d8,financial analysis
+12d05539-562a-4fad-bcf9-9bccbf1a2eb5,budgeting
+54c4969d-5d00-4673-9357-1a410a8f3cb8,recruitment and selection
+07947e75-c953-40f1-a5a2-0c6544a50c09,loss prevention
+99623fc9-eada-4fda-a407-2c048f81c681,expense control
+b3a182f4-7a78-42cf-9117-f1b875508d67,drive for results
+0a5a856d-8400-47f3-804b-63248babbc10,efficiency
+748fea66-96eb-44a9-b347-3c86f32fdaca,organization
+07d2ce60-9af5-4f50-a838-1307f7ecbb28,customer focus
+9b4ef081-084e-42db-83a3-7472043e1c16,tax
+c037b1ba-d66c-4b21-89b1-3fd2e5d9e3c6,cpa
+7d5173ec-f507-4021-b204-1a54f592e8f6,form 1120ric
+359d0da2-d3b0-419f-a3c2-35eaf1415555,rics
+d5f1e70c-5322-44ae-9efe-fd659b7c131e,shareholder reporting
+ff891efa-0edd-45ad-bc11-e3ce97912185,subchapter m
+8f602db9-1e1e-40ad-9acc-317e63e77f02,irc
+ab484aad-c42b-4538-badf-92c588c58897,client discussions
+6194a1cc-a5b5-4504-af60-9e794107fae9,finance
+45b4ba9a-120a-42b0-99da-8a59705d945c,accounting
+b16c99da-65ff-42a7-85e0-b2c707355217,feedback
+adb8b93f-480a-4e83-b221-239fa620872e,automation
+32559d41-98f9-4c2e-b373-5e0a2368cda0,tax structuring
+b12cbc4b-bc70-49b2-acd4-addbc4269e16,industry insights
+d3d70747-0dab-4319-9fe1-2b8b642d3ec3,digitization
+22e4b809-d795-421c-a20a-8b4a8fbed5f8,ethics
+83b7a24f-b1a4-4b9e-a3af-7631154fe21b,pwc professional
+c8400469-7533-422e-8366-1c180c0c71bb,business consulting
+b837a36d-4d65-4ff1-947c-db50c61f3a2d,medicalsurgical nursing
+4f37a1f0-5ed0-48aa-9f1c-014720eeebf9,rn
+b0616065-15b8-45e0-9398-107c187d2bc3,travel nursing
+c0dc7d01-b230-4ef3-a355-09236921817e,chg job id #1065760
+0f2a9daa-6584-411a-b323-1ec802d4a853,weekly pay
+606dbd1d-fb1b-41e6-8ff3-5deea03632ec,holiday pay
+c2025c05-8be0-4f93-9d30-9f879f151aaf,guaranteed hours
+60dc48f3-305b-447f-b4b0-5e920df46b30,401k retirement plan
+0b8e1db2-bbd1-4f32-9a8a-b3dd68c34fef,pet insurance
+3e35041e-7057-4423-8b1c-d5c4babd1645,company provided housing options
+50baad9a-6b7d-414a-a5c9-3fb2b6b10e4e,sick pay
+2f83e853-6247-4bd5-8c63-37c926c3cd1d,referral bonus
+1fbf2bac-7413-4ad2-a2d7-e7e6e37da52e,employee assistance programs
+7b20330f-7554-4914-a873-7705c347e707,medical benefits
+bae0c826-46ec-4195-b2c2-12dd82f8856e,dental benefits
+4c325953-3be5-4608-bc1b-e04b089854d3,vision benefits
+a0bc268e-ac63-4fae-8a0b-b422ddda4d4a,12hour shifts
+ebf45c6f-8e73-47db-a3c5-0e0b9f90715b,36 hours per week
+a0f9380b-de99-46cd-b310-1212bfe5a6fa,night shifts
+dcb75bd7-61e4-4431-94ad-93b09711fe6c,adobe experience cloud
+c4d8ae92-6e87-4ad7-887b-ef1a41bc0c3c,adobe creative cloud
+8a3276f8-8788-41a1-9bf5-7ec1789a70b0,ui frameworks
+050c766e-0de1-4de4-aa67-c37bfc5e3d64,visual design languages
+8ba0d755-6738-4ea1-a90d-0d4d60538615,product management
+dfe54053-19ea-4c52-a6c7-29612053d461,design execution
+f24e5c60-fbd2-4da9-bace-cd7f60dc5522,ux research
+220bbb40-8c12-4dba-84e9-4ecdea56efa8,communication design
+313a1672-1640-4f7e-8f1d-9aae402f5826,systems design
+e04c8334-4e8c-4d0b-8e83-0789f53c8a4b,web design
+1c1191ed-9cde-40ce-8dd1-c91d69998595,agile development
+923988fe-e09f-46eb-a1be-b8ccd23a75c4,quality assurance
+2250c07e-e46f-42da-81a7-68100c2333d0,product scalability
+9028a3b7-547a-4efc-a7b8-face6fc48289,experience strategy
+035c160e-7b87-4c59-aa1c-5182015fe1eb,team culture
+406614c2-b7aa-4e95-8b39-8f7464d844bd,prototyping
+5c31ac60-0920-482d-a9b9-fb76f1fa9aa1,content strategy
+b9edde77-65eb-493d-96aa-cc3c53fa36e7,data analytics
+871e4453-caef-421f-9c66-3028a24058c2,design sprints
+b79117ce-b2a2-4cb5-a2e2-dcf61a632e16,product innovation
+a89e649e-f586-407a-806e-c5f36bc82e27,crossfunctional collaboration
+2bfb172c-ca86-4a47-83ed-e2e8700e1146,coordination
+00f16d5e-f6c4-47b3-b3be-a78cbb98294d,event planning
+713e1b11-c84a-4788-a8c7-7bededb6e411,public speaking
+dbb41342-bdb8-42c4-aa98-b3a6e55ab42f,excel
+d0c127d9-f635-4391-99dd-f7b3a4b074c5,powerpoint
+13309f73-27ca-4b3d-9bfc-8c2bff81c05f,training & development
+8c53d145-d69a-49f2-9f39-ce5bf9b8c437,change management
+0649b575-a50b-446e-90ad-4aff6f53021d,diversity & inclusion
+8c03d05b-b5a0-41ea-890a-66d8cfbef503,human resources
+c951d7db-01f7-438a-9379-c8fe504fa59d,identity & intersectionality
+2e9189fc-eaf8-458c-ae98-38e483c81983,racial equity
+3bc439e9-ec44-4be2-acb3-968d20bb326c,sensitive information management
+c3fdba4a-9202-4846-9029-b98ebfc1659a,bilingualism: english & french
+755859ba-42da-447c-9d3a-0eb1e911a2a2,diversity & inclusion strategy
+7dc8148b-abfc-44ee-8ac0-1b2793d1dd19,inclusive content creation
+058fd9e7-7273-4356-90a4-c0bea86bc823,emotional intelligence
+3847d54d-402b-410e-a159-56eeb8fe1b6f,technical skills
+dfb8f4b0-8282-4bb6-b978-36684198af8b,goalorientation
+a782ac0e-9dab-454f-bd0c-299d17437723,cosmetology license
+6ba12227-ccb1-482f-8db1-e4a396923f1f,barber license
+459bf89b-3bff-41ce-8228-99ff3fd59dce,team management
+e056b07f-7086-4534-97c0-fb57fdc01493,career growth
+3ca330a1-2fee-4cc9-a75b-71ec61196031,long term care
+5b29f694-111b-4047-a2f7-26349080c979,rn (registered nurse)
+d1d20ba6-4dc2-4d09-9720-8799a0b62482,13 weeks contract
+97fb70cd-edad-499b-af9d-9cb4ff8b9e18,40 hours per week
+f28fe6d8-0244-42d1-9f52-4e72a13c1e13,8hour shifts
+5fe5b1f4-3f6f-4e73-8d12-c736a52bd7da,massachusetts licensure
+9bfd35cb-9f51-4d94-9c63-aa859cfb6448,housing allowance
+4c562c1b-8638-4b16-9b41-4c477271100d,health insurance
+b052baf4-f77a-4b98-8530-bc14694ff7b2,dental insurance
+e19cf97d-a8b0-4368-a4e4-0a3420feb3ba,vision insurance
+c7306232-4193-4519-95e9-eebd550a46b8,licensure assistance and reimbursement
+ad6aac2e-5e3b-4bb9-8280-a6a4237890b0,401k with matching
+3b7f93ad-1001-477b-a18a-fe2a66095dfe,referral bonus program
+8c8b2f54-8787-4e21-a662-d719cb31840e,club coremed trip points
+dd8d1c88-3665-4c38-81b5-467d7b6ab51c,continuing education
+b399c7f0-d938-4ef3-ba76-171e775e37ed,companyprovided housing options
+4e467aa8-d998-4208-933f-8bd29dfa8cd2,wellness and fitness programs
+a9ea1436-4969-466d-9211-e918f3001d17,mileage reimbursement
+77e138e0-994f-472c-9eba-070a616b8435,life insurance
+63a7f3ba-dccc-4945-a96f-aa1206b62016,discount program
+48957e59-9ed4-4a9a-95ed-81446006dd30,mechanical engineering
+2f35d29b-3620-4a49-b892-1a91ef45f976,manufacturing engineering
+ad0df179-47aa-4ef6-acf6-fddb42afe7c2,industrial engineering
+454786de-03aa-485f-a124-a8ea9c417626,aerospace engineering
+b84530f9-3eb3-415a-8d9e-a32673769ffd,cad (creo pro/e catia)
+f605b2e2-d0a6-49b0-beb7-3b87be3f2b6b,gd&t
+0eb24a3b-5945-4e26-995b-27b6183533f2,as9100
+a0e7cbe7-6ef6-439a-bd12-d9b8c444820c,cnc programming
+a752a4ca-eaa0-4c6f-982f-8d983d52c2d2,solidworks
+12d21d14-0d51-4576-9589-a78a6e886a57,creo
+95413e7d-7bd5-4470-8cc5-cb2e520de065,catia
+396cc5a4-0c8a-4376-bc05-1299a17eb1a2,fabrication
+b34ff600-06b5-4b30-95d4-d3e7eb31d1b9,assembly
+57ea5969-76cb-4a06-89fd-4ecd82de5eee,integration
+eeba4dbd-0d95-4332-9e84-531a73925173,testing
+f388c99b-0069-45f5-a872-015445b1cf14,refurbishment
+c000b14e-3c89-440b-be9b-19b9a51c6f17,quality control
+06321bbf-974a-48c1-8992-c5c362ff0fd3,build sequence
+2902092a-e968-476e-af35-a64783ab39ce,schedule management
+7296d5cb-19dc-47fb-98ef-cbf661b6d92d,nonconformance processing
+53b9cd45-b4e8-421f-bee4-9bbba3aac5a2,process specifications
+6c7a5670-72f8-47b2-8485-eb6e8788fe4e,work instructions
+7fdc422d-f28a-4d5a-8c08-936d32fcebd0,routings
+9edb645a-4963-4f42-94f8-08a82dfaea35,material planning
+b84957d9-fc20-4a37-aa0d-9024061020f4,cost reduction
+3b6ea513-2fd6-4e69-91d0-f4d328d06357,optimization
+98082f09-8c46-4005-97c0-feae33973c25,root cause analysis
+1f49c711-f3f1-4f3d-a3a7-d5fbe6e021a5,corrective actions
+0c190087-bdc9-4fc8-8991-163609360fbf,material handling
+4a2e27a3-f90b-4f85-aae1-c740984e9f45,packaging
+d6d14971-a469-4b4b-aff3-5ef27172e5bb,hardware configuration
+c6d2db36-f1aa-47f7-9b86-a56d50f852e4,pedigree management
+e704c6b0-9753-4a37-a940-a7fa3a10cb4e,engineering drawing review
+1697d15c-1dbb-4488-8d68-88590336b441,repair
+08a36ed0-b16b-4b94-b0f1-14fcd1f01a15,rework
+9c40709e-e063-4772-8981-0a5a81d492ed,quality
+2dd4e99d-2e8d-44b7-858c-974e23e84b55,reliability
+f811495b-6228-4124-9b2e-a6dc4ee20e83,innovation
+3c5ec475-f694-4f7e-884d-d5fd619f43a4,professionalism
+5a60a495-49e8-437c-ae38-9d501393c72f,u.s. citizenship or national
+fffbbcc5-0e9a-4f62-8649-be47b23b88ef,u.s. permanent resident
+7e3d2595-b06c-4ff0-bcaf-522a65e7af95,lawfully admitted into the u.s. as a refugee or granted asylum
+8419e0b3-30c1-4daa-8c21-c60287c8a640,ability to lift and carry 40 lbs
+2bd7f37d-9e7c-4a02-a03b-3b3fa505c85e,ability to climb stairs and work in small areas
+ff924700-56b7-42a5-a821-dbe1960298fe,ability to support production floor activities
+a0743b25-669c-45e9-a978-61283a7e3c64,intuit turbotax
+a29d87d7-6207-4c53-88a8-b1aea53d7575,1040 tax returns
+780a8b66-cabb-48c4-9d87-b92f2324fc17,video communication
+3efc0b1e-830e-42ed-8b70-d8ceedc8e8ec,tax preparation
+14ea37d8-92ab-42c0-b88d-1b65d7484e13,tax laws
+772d270f-54ab-4ef7-93d5-cceb87086de3,tax assistance
+aeee6fec-29e4-4ce9-a8ca-8ddf7404292a,cardiac nursing
+5122dd47-5833-4563-9e56-17b3de555913,liaison
+90c5b116-83c1-4e3e-b26e-3dd7633f30dd,medical information documentation
+d18d1674-fe65-4785-9bab-30e46f2254ea,lab and test results review
+2bb678f8-208f-4fed-99d3-c8ac97e5dafa,cardiac rhythm recognition
+807eaa9a-81de-4e04-b5fd-b0db6005b684,vital signs and symptoms recognition
+7455efcb-aa8d-4691-baa6-5326e4f98c25,intervention
+10fac80a-39cc-4bb3-825c-f6fe1ded51a2,office visit assessment
+9402b36b-bca8-4826-979a-9b3df85892c7,work schedule flexibility
+edeaf8c6-7b69-4150-b7ad-2812bb3da51c,ecg
+b7efe527-18a6-447d-821b-5c2af3019568,nurse visits
+c9ed5998-e090-4896-86ec-9046646ecc50,medication authorization
+8b5eae57-ce95-4298-bc74-2578f8de732d,medication refills
+33f28d64-aac2-425a-9b31-809cbdc503c4,problem identification and solution
+8dd1b28b-eb85-44af-912d-7484b5b21074,patient safety
+a9ec87a1-9528-41a4-8839-331ad97e8114,code of conduct
+2e29b8a4-f7c0-4c1d-875b-d763be0697ac,service excellence
+65bb139a-3944-493f-b355-b135986330d3,equal opportunity
+0b14bab0-2b7a-4f41-a433-8bb9da8e19aa,trinity health
+48392981-fe3b-4f49-9ae0-3dd4a34e6ab5,saint joseph mercy health system
+f6f2ac49-d15d-4e17-bdef-d825025a9f25,sjmh
+43f6db8f-a068-461c-9f9f-aa630c410b6c,budgeting analytics
+957d3028-ef11-46d6-837e-7216a86851f6,cognos
+f9910fcd-525e-4a35-aa7f-619140900870,financial forecasting
+1f05f218-2744-4cbe-8418-183ebb778ddb,financial management
+c29f7a4b-bd33-4334-acca-1b8cf145a1eb,hyperion
+6ad0147e-7756-4321-b15d-2162874e3639,microsoft excel
+048ccd64-5568-42d8-9320-de10bf63c5d5,microsoft powerpoint
+0e468e1a-fd84-44f1-8aac-8400a7d44a1b,oracle
+9099d2e1-b76a-435b-8a03-5e47ef271c89,presentation skills
+cae375a8-b6fd-4d29-a34a-a8eb647f9e62,procurement
+4ed28e9c-93b2-4795-80a6-7665568ed518,statistical analysis
+43d8d858-81f5-4c45-90ef-f73f9faa72c6,tm1
+a9ed26ae-479d-44f7-90fa-e669d480e97c,variance analysis
+60e25b54-d118-4f9c-8e8e-ae8e32e6046c,written communication
+938211e2-7fcc-4c86-b2bc-037666376cff,registered vascular technologist
+83a6d605-c95b-4dae-bf72-121b57bd8926,registered ultrasonographer
+2058ca4a-befa-4471-b79e-0d9c11fc3581,lsue student supervision
+4076b713-36aa-4a03-8194-770fb24107ed,ultrasound technology
+47bb9475-73fc-4dc6-bf03-1be29bf100ac,xray technology
+92b2672e-e527-4750-857a-2d97bb74a958,mammography
+ad8db56f-ef79-4aae-b1c8-8893449bde3f,ultrasound equipment maintenance
+4017f1b1-1f6a-4204-aa68-b2aab8417faf,policy and procedure manual
+b6946a5d-2563-4666-b98c-828f7737728a,safety protocols
+60382462-3fc2-4048-a2a7-f8dd8190104c,jcaho planning
+ed8252c0-0b34-4eb9-abb8-026bcdd86956,patient modesty
+d3dce680-2c48-4b24-b093-23afbc1cd809,patient privacy
+49c76690-4a07-403a-85ba-be5958f46943,hippa compliance
+c3c0e090-0844-4d77-96a0-5e9273f7c5a4,universal precautions
+86236a50-1691-4f8b-b7ad-831ee18a7cb7,clinical psychology
+704571ff-3ce4-4208-8d66-cdd6a73e6ca0,hybrid model
+55aa4f08-3f0a-4c56-a315-a71608b9d710,telemedicine
+69854787-ab85-4670-8e29-c21fb080ad25,digital technology
+8e79e439-c36e-41ff-82fa-57237512d76d,mental healthcare
+4bdbbfa6-54ed-4f47-ace7-2458e55ca535,assessment planning
+12dade38-67cf-4667-b847-458071164b2b,report writing
+fcc9ace0-81d3-4092-91bb-b01c5044664c,therapy
+7285e775-0e05-4b90-be57-59c58139732e,treatment planning
+9e9e77f5-5492-4bc5-9d64-2f91fad5ab73,psychological testing
+02d9e2f5-4f1c-4a33-ace0-a884a7c8853b,licensed psychology practices
+70dabad8-49bf-4dd5-82c9-bcbf0c76766a,credentialed in oregon
+fbc54c78-94dd-4ddd-9d32-5f93aef94b79,commutable distance
+e6ff1426-3302-4357-8e92-4cc7d160ba7d,outpatient care setting
+2d77fad0-c502-40c7-a6e1-12992d481a57,behavioral health practice group
+a92eba2e-82cf-43d4-8706-d439c98bc063,food safety
+f4651cbc-4a67-4206-a5cb-c9fc3ccd341e,reporting
+367e3a04-1f8c-41ef-aafe-8dd0bcea5b1d,sales promotions
+af601731-ad5f-49af-b18a-bbfb1b83037b,service procedures
+768f8844-a3c6-4181-986c-f8c758d9f7ca,kitchen management
+2e7ba07c-675a-4a9e-95ea-395e82e6775b,food quality
+baed77ad-7c2e-4deb-bb40-5038efaec828,food cost control
+aff8a95f-708d-45c5-a6a3-d807b197560d,production procedures
+99b72b39-d3f9-4474-a356-7384d06a75ac,crew hiring
+2d0c5a2c-c4be-41d5-b3a3-13937e071c73,crew training
+ecc6c65f-f548-4e3c-9ebe-adaa7d55602d,crew scheduling
+5bb9795e-1ed9-45e8-a055-8d4a5de5829d,performance recognition
+234089f1-2dff-49b6-8cfe-e1d381ae40ed,restaurant management
+dd775ac0-e4cb-458f-a4d8-306b682c49bc,hospitality management
+88c18006-16f5-488f-a1e6-7eb99fe79546,fun
+ed3f2e68-605a-43da-b7fd-1ee56e934e2b,fastpaced environment
+cd1d17ec-beeb-425a-b6e1-fca257b0cb61,high school degree
+844ebfb0-939c-4552-8cee-93f3e67d02e2,college tuition assistance
+b4d451f9-0204-4dcd-a777-2c7a21530077,english as a second language
+64f68b82-38c9-446a-8912-450c6bfa4afd,medical coverage
+d287cfdd-4800-462e-84f2-bee1e13bb665,dental coverage
+90b5de85-ea4f-4c30-b03d-7fa4fe3cd7c1,vision coverage
+5a8bff57-7dbc-446e-ada0-e9cad9d96e36,service awards
+67de7592-9f38-4fb6-8f55-8448d983dafc,matching gifts program
+84fa36a5-2f80-409f-839d-11515f148b54,bonus potential
+6eb325e5-d63d-4c69-8e2a-2b9d1fc9e36b,public relations
+576409df-9d1a-480f-9bfc-307d37810adf,planning and zoning
+5595e823-5274-423b-9a01-3b3cc2279a92,building codes
+fee4305e-7186-4757-b244-12d4e390b398,land use regulations
+0b154bc2-9d73-4ee7-b95d-fca9d0af402d,surveying
+a1510837-9720-428a-8ae0-eca0f130cdff,geometry
+f97c877c-09a6-4a1f-a2a8-ed6edc8b9229,mathematics
+76b0e77f-53c5-4167-b307-b7a62d338db4,employment law
+ee61db68-a7aa-4a73-8a97-e124de128a12,general law
+c690f0c9-bf70-4533-8aeb-92e10bdf3a64,attorney
+fbc33c9e-dc3b-48c0-9786-b9c645d86460,client service
+d21c808f-d16c-4e0e-a4f7-3ec9f2f6d684,civil litigation
+081667a9-96a9-4100-b317-91df3fe72792,employment management
+5c66e04d-f048-4ccd-9e97-3e62447aa856,asset protection
+1d5f1f4b-9c9f-4a7c-b1cf-9edf8844bc36,intellectual property
+68370b20-a314-4fb5-b9f4-2a003aa6fdc8,trademarks
+0d5f451e-d7d1-4d77-b053-daa54f421cff,patents
+ecc04800-69ef-4b19-814a-6cfad312d766,employment visas
+632ea64b-f241-4b6d-8910-f9297e614111,corporate bankruptcy
+bd8d14f4-7300-4a60-9ead-2cd25d856e1e,estate planning
+e053d67e-d4bc-41d7-932c-745d2b83dac2,criminal defense
+44082998-ddc2-41e4-9e5e-218f720f42cc,appeals
+6014fc42-6ac9-4ce7-b054-c8fbf487937d,family law
+4df3cb01-7f01-4992-8248-9210a74acb54,bankruptcy
+5e81d07d-f66f-4828-9f32-95037209a79d,immigration
+c4748752-8c60-4f41-9929-f32406c28d04,personal injury
+58c76921-a0cb-4a99-8190-3e87fa816088,medical malpractice
+187be08d-81f7-452c-ac0c-e9c7e12f11f7,photoshop
+0a1d098c-7a38-44d1-a16c-4f6a0ab35642,illustrator
+b33de695-fdfa-48ed-8d60-e03ffb08423a,indesign
+c6491501-eb37-477f-90b2-4f3bbc939f85,typography
+d46e8845-5a69-4a6a-b542-5d2461377603,color theory
+2689a4fe-0e5a-4f79-80fc-3fa4bae4be71,layout
+a2681dcd-d88b-4373-b499-ceb2a2870c3c,graphic design
+f4c03418-ed99-45a8-aa07-4c920926c022,advertising
+ced01096-96a4-4a8c-834a-83330a1a0f74,printing
+eb86b18e-e2bd-4aa7-8041-4b0edd3b76a7,visual communication
+ffbd01c6-d5c3-458c-9953-b4a7ac4235a3,bachelor's degree in industrial/graphic/interactive design or fine arts
+2f27623a-faad-4620-8bc0-d2b65af38217,production
+0e844032-19f9-4d91-b07e-2cfb23c2d0e8,chemical engineering
+43fa2c03-55e1-4b84-bb8d-acfc8cb90237,process engineering
+b2ca49fe-77a4-46fe-af37-8b71d7fa748c,incident investigations
+2f37def1-b49e-4416-96ab-87d16c4f1e73,process safety management
+1a6e652d-5383-4201-b6bb-b34d065fe231,data historian
+dd5b7217-0287-4834-b8df-892614db4fdf,lab analysis
+bd5ace81-a3d6-4722-86c3-27e4b03e077e,root cause failure analysis
+2e077e4a-d016-41e0-b4ab-6912a0bf5dcf,design input
+9c1a32cf-0030-4fb6-a827-59b9b5a14ef9,design review
+c561ddac-e04e-465b-a71c-a51f63a0ab71,process flow diagrams
+53c80853-b2fb-4cda-b9d5-268e8dec5c61,piping and instrumentation diagrams
+cfdaf124-9926-4a8c-a890-5153753ff46c,standard operating procedures
+cfb72367-612a-4c5d-a511-e03048cde4fc,production improvement
+c7fc8b8d-6051-4963-a208-ffc30daf0c5a,reliability improvement
+5576f0e2-4865-428b-bc3e-15b061023dc3,efficiency improvement
+42102801-6c21-4be3-a0b4-27e124a30b70,cost improvement
+81d6296f-1dc0-4d2e-8820-412d38000f7e,catalyst changes
+3c320d70-dd2f-4151-b3d9-7923f795f97d,ammonia
+fb96b4d5-02c7-4790-83d1-fff6878b8f04,fertilizer
+181d94fa-3656-4bbc-bb86-b41970c5410f,mentoring
+30860ba7-0849-48ad-b6ef-2e1266bb52d3,coaching
+2ae7e31e-39dc-42b0-83ce-8ecc46beb349,strategic planning
+eba317bf-aaa3-46de-9e47-0a029b192783,execution
+2bdba854-25c7-46be-9aef-15f294e670f8,customer relationship management
+978bae00-43ae-4912-a50a-ce068e315209,compliance
+23cc9cb2-5cd5-4d0a-961b-ecf5206c78b1,regulatory
+2f8fc60d-7df7-4878-9d00-84ede547f42f,pharmaceutical sales
+50d1a652-3cca-4ce8-b3cd-0a285687411e,strategic thinking
+0715910d-5b63-493a-82a1-d1a18a272405,talent management
+80b90b5a-80a5-44b2-9e3d-1ef6e96666cc,word
+a9e8a3fe-164b-4dec-a1ab-70341ff01dc8,outlook
+05aa4093-4b54-4a3f-8109-67d6f8f8e192,database applications
+ecd6c4f8-fc8d-4a69-a00c-effc416bde18,business
+4a4007d7-f2a5-487f-90f5-4d1ce8ebe1ec,life sciences
+e97a39bd-1b74-4e0e-8d53-d3a733feecff,crm
+b75a85b6-b15d-4bf4-be4f-c6fb0545e63a,salesforce
+0a77366e-ada1-44b8-b386-6d1ca1325e99,sales associate
+80147f07-2617-4cd9-acae-c786db7a2353,beauty advisor
+8f3d0691-9ca4-4013-87b2-d5a34d9c4f87,product recommendations
+184a3cb0-27eb-4053-a0a7-03d844e835ce,lifting heavy objects
+def98369-6cfd-45bd-97c5-bcf3dce0bec3,ability to work in fastpaced environment
+4f6ea005-7229-4d59-a774-8f5cfb2f3f42,patience
+194ed62e-52d9-49ca-bbfc-78af45dbac3e,ability to work in a team
+09620580-1e4d-412b-9d29-122f3eadf37f,ability to work with customers
+cebdd96a-3ae1-40cc-92ff-ef0bd3a7f3a2,ability to multitask
+2496ede8-15ed-4512-a2f2-a0964dbc713f,ability to meet deadlines
+8543510b-63d5-4952-b911-56bb5e8575fa,ability to follow instructions
+50b540bb-e666-4115-83d0-e226c23e2013,ability to work independently
+966071cc-a0ad-4ed3-af3f-cdc5bb9dd8be,ability to operate a cash register
+b5fd9dfb-e241-4fbc-8237-028f25a20817,ability to use a computer
+d15db38f-ded0-4a49-9785-55681bba15c4,service à la clientèle
+6c561c06-4ff4-406e-968c-ef38816c0b64,communication interpersonnelle
+2947e22d-d207-4e02-b097-d3f028c5d37b,écoute thérapeutique
+021ee3f7-18e9-4ef3-b2ad-2d6cddf2a48e,expérience client (cx)
+7796f841-7915-4274-96f6-7ece739c325e,gestion de la relation clientèle
+37bf540a-c87b-4cbc-a0d2-ea1f7f689794,operational efficiency
+d8c45d94-dcf3-4158-82f1-002282c7ab43,contrôles internes
+b77b1252-3aad-47c0-96aa-e8a03435d949,gestion de trésorerie
+6291e487-c533-4f3d-a444-8eb43e9a5b23,gestion de projet
+2cf029d7-ca1f-406d-978b-c294ab8bf038,gestion du temps
+59694b65-a154-44bc-84d5-1516d5bda8d5,gestion des priorités
+81cfd48c-92e4-473e-96fa-a113392f75f4,résolution de problèmes
+2492d6ae-0bdb-438f-971b-d98cac9902ed,prise de décision
+8aa1d49f-f49e-4026-8d4d-777e49985520,adaptation
+0f6d4148-d2b6-4e43-ba05-6b81d4c81400,créativité
+42ca5fee-d794-4337-8c44-47c9f14eac02,travail d'équipe
+8cba51cf-5fa6-4550-8dcd-c4419cce12ff,communication écrite
+22d0106e-6252-4c81-823e-124867442dee,communication verbale
+0ca9397e-5151-4f28-b591-f8f66ea289cb,compétences informatiques
+b40cea17-a2d9-4919-83d9-3a904e7de1bf,connaissance des produits et services bancaires
+c765a2d0-80f0-45cb-8115-bb0f3727030b,connaissance des processus et procédures bancaires
+12bf2f2e-924f-4d74-ba18-834c20baa515,connaissance des réglementations bancaires
+31dc061f-3956-45f8-bee5-076535820494,gestion de risque
+dcbe3890-caca-4fe3-a52f-fa228696b615,gestion des budgets
+d80f1f1d-081d-4496-98ec-868a7a593d37,analyse financière
+349119b5-0153-42b4-b67d-7a7736b2c4bf,managerial skills
+89d03489-c806-42c1-a5b4-92ddf61df12f,clinical background
+646e5f6c-54ed-4d62-8507-cbe527140a95,medical office experience
+e60e060e-6af9-4923-8244-4c79ac63b419,handson management
+6346630a-f2cc-4925-95e0-e00756feb292,people skills
+d6052401-eb71-4fd0-972c-78be9c72f5f3,medical assistant
+4c3523a3-b443-4b5e-8805-9708cb4600a0,lpn
+883ccd82-f231-41ae-9e98-09d1decfa470,emr
+a93b4c77-f0d9-4f4d-961d-577d61c9b8e2,epic
+c423d477-5e40-4132-a73a-3d820a791d3c,billing
+b3cb3a4d-4ee8-4e6e-81c9-3528e7ea3836,coding
+6336c24c-1e33-4461-8791-83e271af6ff8,pediatrics
+e072391a-c6eb-4548-85d8-f71212c27ce6,scheduling
+98c28306-86ca-44a2-8b06-780be3a919bc,supervision
+6ef912ba-473d-40af-8f66-e510b952be3a,urgent care
+30d4253d-0dcd-4d90-8c6d-6498ca48eaa7,detailorientation
+9898c70d-4c32-42bb-9cb4-1bcf95dccf74,cleaning
+1f93c01c-1e90-44d1-b1ea-bfb478ad4393,stamina
+6181ce8c-b307-4296-b2ad-bc718282dcc9,availability
+48a075b2-16c8-47df-9f86-bf67c230a1d6,cleanliness
+7dd95431-728d-4454-b87e-939c4c97fcc7,law compliance
+6b67418a-f2fd-4d2e-8c40-f04316ac19dc,ophthalmic industry knowledge
+1aef7c23-e9ab-4451-b261-c042990b50ee,contract negotiation
+f6c8cbe2-835d-4e84-87eb-ae7ca562826a,salesforce proficiency
+3953ab6a-6ff4-41a1-858c-6de65ce720dd,safe driving practices
+75a59d28-e448-4bbf-b27c-7e9701f813b9,diversity awareness
+9bf56122-02b0-476d-b61b-9d053001d27d,planning and organizing
+a89a58bd-cd1d-425a-8597-893916e65443,cataract equipment
+f03490dc-d828-453b-aa36-42feddf03ced,travel healthcare
+72007206-f9e8-4065-8d59-d9e556baddfe,medical
+cd4ae79a-b1ef-4b31-951c-6ddfc26e42b6,dental
+610c63d7-6ad6-4c86-9f1c-04ecfb330649,401(k)
+af28985b-30f0-448d-9142-1701c6d880c5,compensation
+e0c3a471-96b5-40bf-a0a8-ab348f695831,per diem
+c699eec7-63c7-4042-84fa-5ae987d3546e,certification
+90765c1d-a4e2-4668-bfa2-6c40b53833b1,liability
+7d27108f-1a4e-43be-94a8-996e5b4d5d60,equal employment opportunity
+6954731d-3310-425e-aa78-55f0f0ea035a,motors
+8f36488b-7a84-4904-9882-d188e1f8ba91,sensors
+4184184b-ca73-4788-be43-f53c82fc6c29,connectors
+fa31f2ed-9baa-43e4-bbbb-cac620508c7a,cabling
+aa10ae01-08c0-4502-9ae3-6d0c640128e3,control methods
+e21ac1d5-a539-4c8a-b5cd-d09d6d5bf750,product design
+9099eec9-844f-4ffc-bc1e-4b4c1559a505,proposal
+2f1b0095-5976-4abd-abfa-76f15fad4c30,development
+df767cea-0ae4-460a-b594-50446b7db077,verification
+433beec4-a486-4712-8905-3b18ea016280,product support
+ce033ae6-31c6-44e8-996f-238a032674c0,program cost
+aad30ceb-e401-4d99-b8dd-69363c86a84b,schedule
+74b0fe39-a16e-4f02-bf81-a4ad9c3a9387,performance requirements
+7f0457ee-80fb-44ad-882d-79b7b3a3727b,test equipment
+053a6978-2feb-4377-9a2a-2524613ec24f,control system design
+906b3cb1-8208-431d-bf3f-51ca86c22176,circuit design
+6258ef5c-727f-4a05-a525-e07dad5c1b7e,pwb layout
+a12135ae-9b9f-4518-823a-d1cc58655143,software
+90af1ef5-5b65-41ea-bf88-a244f232663c,emi design
+baee4280-f17f-44ee-8501-a7b7bde2f5fe,throughput
+95cd0bcd-0af4-4db3-b09a-69bb9dbbfc85,special assignments
+3ff6863a-b7f6-402d-92b1-a538f227cb32,aerospace design requirements
+ef4d5f0c-e983-4641-8cdd-d83769a4dabd,control systems
+c0e053bc-304e-4376-99ff-19b9ce83bb60,aerospace software development
+77cdae73-bd33-466e-b616-ab9d542506b5,electronic circuit design
+7636f067-7238-48de-9ff8-5f1679e4d232,certification testing
+9c5430e5-4f9f-4956-b021-1aad2ae8208d,labview software
+20a688ff-6117-43ff-9fb9-91ed88b53feb,matlab/simulink software
+f0323ffe-b000-41c0-9499-210dc3134cdb,aerospace configuration management
+cfd4a0d7-e415-45c0-95c6-cdded1bfc1a5,quality engineering
+aee76fa7-36e4-40a2-aafb-5c5fb1159931,quality analysis
+b02d43d2-0cdb-4f41-b491-151f08df33ef,corrective action
+297bd119-6712-4a24-9a39-e687a79dbbfe,quality plans
+28eb5f42-799f-46e9-b437-a936e66957df,failure analysis
+d4d6336a-aaa8-4d70-b7b4-0f35788791e4,material review board
+4b755c0f-cf30-4a01-95fe-2676e381220c,program quality engineering
+7d2aa540-e9ad-4db4-aa60-43f29093221f,supplier quality assurance
+bedda24d-55c1-4758-b039-9b211f1fb654,first article inspection
+175be050-42fc-433d-86fa-cd61d132b2b9,configuration management
+5cbd3a09-8f9e-416b-a6ae-560a301e2b9d,program management
+5d0fffee-2780-4998-9f71-f6ce2508d217,production planning
+1757c8e7-5f13-4413-8042-5a407f71bf9c,purchasing
+083580c2-ef63-4fe0-885d-3973272e030b,trend analysis
+9d56af80-82c4-4fff-b475-97ac80ebc064,customer quality assurance
+0e1240c5-24b9-4d02-a8c3-8d5c280e4c41,corrective action databases
+35f116f6-660d-43c5-b44c-aa38b89e8815,mes
+85f5872f-bf93-4350-a92f-10edf239b3dd,meds
+e306dbb6-d418-4a05-afd2-0fa748842baa,qsm
+e3f28bec-9cf8-421c-8d7b-356c08b1bc92,vwis
+0ce22c47-4510-4a8b-8735-d01fd08c87ca,physical demands
+83c4e96c-d8e7-4120-a52a-fe19a9727fae,handeye coordination
+fd6f2ed8-b29a-47fb-a0fe-7551fdfff5b4,lifting and moving
+601cc7d3-32e9-4113-92cf-4516e66f7389,full range of motion
+0753f0c2-2bd8-4bd6-8429-1fcfa7241680,equal access to programs
+e06806cc-fbf3-4785-ad74-a1a469354b62,services and employment
+4fee57cd-945a-448c-b5bc-cfaea680cc66,americans with disabilities act
+f8b5c256-4389-49eb-bd60-4bcadbf6b5da,juicing machine operation
+4c4f4fdd-d726-42dd-94c2-11b5e8aa1463,food processing
+79dbb788-8f16-47ed-9df0-82456382ee96,customer interaction
+aa932bd6-487d-4361-ad77-14a25902953b,lifting and pushing heavy objects
+fc122a59-8cd3-4665-91f1-38ff31dc9b8f,standing bending kneeling and walking
+2d72fcbd-0265-4f96-b986-b6e90a1aaf54,online and/or onthejob training
+056ec212-8e78-4f2c-bb25-65dd26cba607,ability to regularly lift 50+ pounds
+924fe0cb-3d3f-45d4-8323-71bf91d2ea66,ability to stand bend kneel walk and move
+cde280c3-b69d-4692-99c4-005c60ab64a6,retail grocery warehouse environment
+cbf82bb0-596c-4bc4-b276-5b34bf356709,exposure to cold refrigerated conditions food products and cleaning chemicals
+5fcd4839-ff8a-4d5e-9d4d-53db2a3c9c77,cpr/bls
+b2417234-3ccb-4d6b-a444-1f5e5a1057be,basic life support
+73200cdd-34bb-4dfc-a02a-790cd7dfa1bc,elderly care
+671f0d59-a519-4132-868f-5f8988c0ca8d,nmc pin
+c9e6d122-4ad3-4441-a2b7-c6dbf72107a4,pediatric critical care
+3075cdf1-65fc-49a3-b6f5-51a86203e34d,nurse practitioner
+94d6ca91-c956-4885-b553-33ca8852b242,locum tenens
+b04425da-7c23-4410-8546-fa4c4d53977f,combined unit
+eef67268-5a54-4cd9-b8d6-602c4fed3225,pcicu
+90b03ee4-4d1c-4b99-afb9-4e6feba55eba,arterial puncture
+fb1b2207-e57b-453a-bf4e-aa2cf312694c,line insertion
+dc1c48a2-ca21-414f-8bd5-252c065ed4a2,central venous line insertion
+3302b4a8-67bb-4461-b1e1-8b81e91c1163,endotracheal intubation
+8ce9550f-16fe-438a-ba9f-a6a97b0c8971,cpnpac
+af937fa4-2c80-4ed7-bd51-95960a8400b7,bls
+8c0d6313-fb5b-4aca-a7ac-734704f88291,prescriptive authority
+c1c35456-3690-4bb1-82b0-ebfd505f5a00,app
+b3eff2b4-4bd0-4aea-9016-4b0292b8e193,fellow physician
+2c7c2199-82d6-49ee-9ece-93130490219f,intensivist
+e804c4a0-5c6b-41f4-a2f8-bd1d0f0bd35f,government
+fd8a4c9c-b484-4fa5-8090-3f340dd571e1,malpractice insurance
+c98f20ba-1f52-4ef3-9337-8179a0b7596c,paid housing
+a3a6b9db-1175-45eb-bb65-b3fced0316e2,onboarding
+aab6a4b4-923e-4ff0-af58-feb4852ee8cc,1099 financial consulting
+1bb0bc2f-1f2d-4d2e-8f83-81c7dbacbdcd,credentialing
+dac37f99-c760-4704-9e01-58571b16f460,privileging
+03409fc2-cc68-409b-a706-f53d3be33308,licensing assistance
+6dbecdff-96e0-43cf-9002-d5e3685ad85d,installation
+76a5edcf-c5d5-4a24-9a8a-e4ffe373a437,troubleshooting
+254c58f7-3a30-4e5c-9a63-a211bbcc2523,ability to work at heights
+b660da40-661d-470d-89ce-c8435b2536c2,ability to lift heavy objects
+622616ac-5724-4a79-b571-bf94da7ffb84,valid driver's license
+c3afb1b2-58d8-48a3-9183-536969bdeec1,clean driving record
+b027b4d8-692e-46a3-b9e6-4e2943a0f865,ability to travel
+95764d50-c906-4fbd-932c-476bec989e05,aptitude to build rapport
+39ef75a6-5ef8-4d63-965b-e7a770e7d32a,ability to work in all weather conditions
+65eb2546-a49a-43aa-b4e9-3246a97db2cc,urgent care experience
+29d55542-47e4-4638-9f81-6fbd933777f2,board certified
+caf0b6f5-4255-41f0-bc3f-4180f4bf8867,$285000  $332000 salary
+d41cd826-0dfa-4645-b251-73bd503914fc,relocation assistance
+0cfcad56-89a7-45f1-a8e7-21a04ef2623b,3  4 shifts per week
+fd9f65f5-e10d-4b75-bf4c-713b32ec5ffa,send cv to abby.porzio@comphealth.com
+b887bf47-9270-4dfe-a2bf-618a61509ac3,san francisco
+02ffdb7b-b39d-490d-9a1b-0de0b7eae352,comphealth
+72ce5b69-875a-4e27-b6d1-baae1551a08f,less than 2 hours from san francisco
+134693aa-bd7b-4459-8e83-baf3568f3146,nmls license
+a3b841f6-80a0-4961-bedf-bff5e9ee9365,encompass
+a01b4ae7-ce22-462e-ae5e-7aa514423461,mortgage industry experience
+ee736524-5db6-4df1-9d1b-86e76b103d79,computer and internet
+8f5e9a26-9e74-4a0a-8ced-f657da7e2fda,general office environment
+8f50cec2-a893-45f9-abb2-b54b81ffcbe1,lifting and bending
+6a90d633-998f-4bec-9af9-4c4e4482de89,aus
+8fadcbb6-1929-4c04-9526-d1975fed16f3,credit
+fc28e7b6-8e41-4f1c-b07c-7c1db1c6ba11,title
+939a5354-34cc-4939-abb2-279638e58e2f,appraisal
+dd5039b4-29e7-416d-b321-93399aeed91e,flood
+a55951e3-78ad-42bc-9c32-fee35345408a,voe
+b5ca5a79-d96a-49e4-b8e5-7493155609d4,fee worksheet
+88b2e427-aeb3-4f40-a32c-6badf6de3478,total cost analysis presentation
+3a291651-6fab-4fee-878c-390f2256cde0,prequalification letter
+3fe1bf53-6f1c-429c-a6ef-3ab16c65ffb8,supporting docs
+836cc67d-6cf0-4fdb-8798-20713b2fca22,efolder
+6dc596fb-81ce-4370-8bc4-999daaaf16e2,disclosures
+cf957f58-14eb-4f3f-8ab0-39b12ba5a3b2,loan structure
+2941a41c-202d-428a-84c2-495f36aa5a04,income calculation worksheet
+f5b2689c-2aaf-436b-823d-f2ed639d7ec4,processor
+29ae2493-4dfa-45eb-8da3-cc0c3b0bb714,closing coordinator
+53d7e7b7-62c9-41f6-8500-549dda8d212f,phone skills
+569720c1-d385-48fa-aac3-7d0c7afb040c,systems usage
+388979fb-3e19-4c5a-8fc2-8dbcc98e2dfd,visual updates
+203ded31-fbe0-4f46-a263-d11be52d4448,cash wrap
+37c5a700-a578-44d7-8dc5-5cb59c931e5f,alterations
+306c530d-2837-4cdf-89ec-7195a8fc119a,clinical problem solving
+8f7232a7-86b2-4736-a52c-ad9afdc252b5,data collection
+40ca2648-d761-4d4e-bf25-b344e36f043d,advocacy
+d41a9590-db4a-45d4-8735-9cb5c35e06cd,bls certification
+56d395a7-6e19-40bc-b3de-cb91d3306e89,acls certification
+289b8760-368d-4f79-b7b6-d9fc46093eb0,pals certification
+fd1b9aa8-29eb-4fed-ba05-a61db8486a2f,rn license
+2c2c0294-84a0-4f57-9de0-dc62915a1ba5,associate degree in nursing
+253ac840-50d0-41a6-a957-4580995ec4b6,vocational/technical diploma in nursing
+68054c08-7b2b-45ec-8f8f-4169ff454610,bachelor's degree in nursing
+067b667e-93f5-49ac-a513-050815a01fd0,experience as an rn
+3cab440b-59df-4f9c-aca8-c807bd6b18c1,endodontist
+5fee97da-2040-4486-9a80-bac677cdae21,dental care
+f6155011-6a87-49b1-9e82-257722eab4a1,dental specialist
+75db39de-01a4-48b0-8a38-9c3be9c51f47,dental license
+c77b431a-03da-4d17-80d5-da6e626c762a,endodontic certificate
+1f510cbb-b45d-438d-bba6-351cfeef7d8f,professional liability insurance
+4f9da6b6-557b-4d24-99f9-ec1012f2bb69,healthcare benefits
+dc6f814b-729d-4da3-8116-2331f657af07,national provider identifier (npi)
+a4ceb8f3-af69-4406-a05b-4f8b29abdc2c,drug enforcement administration (dea) certificate
+24fc37af-7f54-452a-a110-6577c4170f74,teller operations
+56f0a520-9d47-4715-a40c-b534253e9ab1,consumer loan origination
+67103825-a1d2-4f51-b53f-941baff6de7d,sales and service
+389116e8-47a9-49c4-bc42-a35b237b4df4,needsbased selling
+4d814f2a-c83e-4c35-9f24-4a919aeda221,consumer loans
+c9c3079e-723e-4240-b65e-e4b468fb5142,home equity loans
+7c20b8a8-0a00-481b-923f-4051b57e3d61,credit cards
+ecd50ad0-4eb0-41d0-ab55-e94a951168ec,certificates of deposit
+5a5003ba-769f-4085-acd0-d1b9b5928ab1,individual retirement accounts (iras)
+81fb5500-bdc1-4645-a08f-9107dae70643,health savings accounts
+d3d7c572-4bfb-4602-a251-5dd80677c8a9,business relationship customers
+dbd39042-deab-4b47-9f97-b552396d6d27,ten key calculator
+3864f683-8297-4013-892c-308920b6afbd,federal deposit insurance act sec. 19
+cc68d174-277c-430b-9e21-ff7c8ed46690,national mortgage licensing system license
+4346bdc6-9a3d-4f92-966e-0ecf64145dc9,high school diploma or ged
+07190bb1-ef11-41e9-a380-c3bd1f70a566,sales and customer service experience
+13520047-404b-4a87-92c3-aea64c7999a4,teller or cash handling experience
+a57f9800-d385-4ef4-aa40-ac06c8cfdaf8,consumer loan experience
+6cff742f-84bd-494b-9381-e50af505a6e6,high attention to detail
+2a523880-4098-4c04-8369-d45a40c49d43,team environment experience
+913625ed-9806-4e8f-b017-cdbe40af23fc,ability to count and balance cash
+c238b11e-8268-4b5f-b001-bd24281bc2d0,ability to read and interpret documents
+34c0b415-0860-4fe9-b7f2-22786f7660d4,ability to multitask and manage time
+e7ea0aa4-5195-4467-9a26-960faee2a112,experience providing high quality customer service
+35a79c6a-d83b-4c88-a28b-e37fbb68bca5,beauty
+947fedc0-3a57-477d-acef-96d84c07de7a,hair care
+63fdf04b-fa3d-4558-acef-b5cf7a7bbc3d,cosmetics
+3956a317-bd91-4ef1-905a-8b94455d2d9f,skin care
+cdf34728-279f-4705-8f07-f6439361d737,nails
+1c6de365-af67-469e-af92-86c54f5e5c14,promotional events
+e0333a53-da3d-4802-84ae-f5ad29baf8e0,loyalty program
+be57270e-3593-4478-aea2-b98dbfe1852c,physical exertion
+6d420463-7e60-4c77-a794-3775e76e00d0,standing
+265cbae2-a5b3-4811-8520-b1701c44fd96,walking
+c7fdf97e-2a71-4cfe-8b92-feff7bc60783,bending
+8144bd21-9d60-4edc-8942-2d0e5a996e47,crouching
+5a2258b0-4509-4271-85ae-1d3bad23de1a,stooping
+456b82e6-c3db-40f7-8b1e-013060b0b841,stretching
+7b91cfb9-93a8-43ec-b36c-14850f05e15f,reaching
+a75d5adb-0f9b-4587-884a-4774fc302386,exposure to chemicals
+00590e4b-2f73-43d0-8333-5413ec972371,mental health services
+ec19b60c-fe0f-43e1-9607-a7434f4a4d15,crisis intervention
+75a24a13-b040-42b3-9e1e-b523849e4d54,psychoeducational groups
+bad631d8-aa51-405a-bc83-8e82edb515c3,case management
+2f8b14fc-e08d-46ac-8604-945bee0c4005,social work
+88875d4b-2ed3-40bc-b833-948d835c5c39,client assessments
+55583539-6614-4020-8eaf-8ff397784e8d,individual and family therapy
+dde992c0-32a5-421b-9bd4-ab5e2c94b0f1,team meetings
+c6334277-161f-4016-9a6d-714404b48965,trainings
+8b2ee2e2-a894-4307-93ff-10d94da7e87a,driving
+61423336-5e56-4cac-ad2d-6a16b1ea9575,cleanliness and maintenance
+7dc2048b-b365-4677-84f0-d560ea50bb22,time sheets and absence reports
+5192d1e3-dfba-459d-aee3-e73391f79702,cpr and first aid certification
+c7103aba-0ffb-4414-8058-e573cb4dd469,medical dental and vision coverage
+69b3f3cd-0420-4241-8faa-008576a2db92,flexible spending account
+ce4dae22-c2f8-40bb-b920-a1480a883171,employee wellness program
+12853ed2-43b4-4f94-a833-5ead2f5be344,life longterm disability and ad&d insurance
+47bdf735-a080-4169-8050-6e0648b289e0,401(k) retirement savings plan
+6e58f091-3598-4edc-8b58-73117aa1ad8e,commuter benefits
+6bed30e1-8fa4-4eeb-9b82-d9649a23d4f5,employee assistance program
+8ade07bf-c5b7-4677-a6ba-0db62765f5ad,california board of behavioral sciences registration
+f7a62d01-7763-429e-935e-8e1c11928363,ma/ms in mental health/social work
+d2519710-1384-4866-9e69-df1e0b97df32,valid california driver license
+661cf06a-ceb4-4b60-bb98-2790ee3469e9,reliable personal vehicle
+2d3d9eb9-4610-41a8-bc8a-1b2558d5920f,current personal auto insurance
+f858993e-7c45-49ee-bb05-5568efd73eb6,post offer preemployment medical and drug tests
+3eddeb89-993a-4a42-ae83-9200bcf1f7cd,personal cell phone with reliable service and data plan
+58a3fd2d-9307-4c3a-abfb-96e3a5d8954c,covid 19 vaccination
+f66d9655-124c-4c77-8f24-41a905e91d0a,receiving and unpacking merchandise
+562f3155-3ffb-47df-8f78-09045b59ca0f,ordering
+3b60591b-b9fb-4d88-bfd2-33ffdf1c311e,assist in planogram implementation
+8c6ee786-1622-4daf-8611-75065c7542c0,assist customers
+c76b25c1-f410-4687-86c3-09c3b042a208,greet customers
+ba188b98-9e38-4a3d-a2db-8a8730dfd99f,cash register
+a485d7a6-b85f-4389-960f-1654b7f6031a,flatbed scanner
+c65bf929-cd03-4b42-bb24-c896d1bab3e9,collect payment from customer
+87db4e7a-c7b3-429a-b1f5-5691ecd49478,clean front end of store
+008f1ce1-8c68-48e0-b3b8-344b44b4944a,set up sidewalk displays
+10be66a9-dad0-4947-b5cc-fd6247663dfa,maintain a clean and organized store
+bd64e136-9425-4e98-9f02-42882bf01ca6,provide superior customer service leadership
+c9f7fdc7-1aaf-4846-af8c-6fc7ee3fdfee,follow company policies and procedures
+5237500a-054c-4f60-b95b-db9aedace4a4,open or close the store
+f35d9f2c-a1f8-473e-9b82-23cc30a317f0,authorize and sign refunds and overrides
+2ae83813-9114-4f15-bc58-d35fd442227e,count register
+222eadcc-d7f0-471e-8a43-9ef53dae34a0,make bank deposits
+3efdfcab-d5cd-41ce-aa40-414d64c49eee,maintain strict cashier accountability
+01f45dec-b81a-4d4b-9961-0994e91fcdcb,monitor cash levels
+f6bf8886-f890-44bd-831f-098fdb065d7c,monitor cameras
+9ddc8533-f611-4a4f-9012-c842b0fb1cd6,complete paperwork and documentation
+9e7aab8e-3f85-40fd-a65f-e3e59a33d346,cash control policies and practices
+c3e4d9e8-1d5d-48eb-9abf-9e2a6e2d5d27,interpersonal and oral & written communication skills
+8fe7377f-ff91-444e-ad90-74b474c162ea,safety policies and practices
+ee5805e1-a5e3-47f2-92d9-950a4e1c7385,read and follow planograms
+95a3f78b-dfaa-451a-b6e4-4323715fcc43,survey equipment
+7e9c97e3-5c78-4922-b280-7060bb1dcda9,survey software
+ad134a58-21f4-4252-977b-456d2b57ed45,surveying standards
+3b2b7600-3b6a-4cba-89af-b4cd96032397,data reporting
+48bec738-3007-43fd-a298-dd6ff62412ef,project planning
+e28a6da2-ac17-4ae4-bdcc-ac509e541ffc,project objectives
+e67d1cfc-e6da-4d02-a443-344ded698c6c,timeframes
+6a21113c-afb8-4b5a-b730-58135f196acd,budgets
+62d25590-91bf-489d-a5f1-debfd3444bcd,staffing
+3a2847b0-d08c-416f-96da-106fe956a2f5,project schedule
+6783ca53-0f08-4d66-8949-6790ebfce383,survey crew management
+79c1f4e9-c20a-403d-a1df-fa7f2bc70cf7,assigning responsibilities
+aa041849-4e93-4038-a3de-3436aa5f5a8a,overseeing work
+3b23b640-a27d-479a-bde7-f93868f3c375,checking calculations
+4b0a2d05-2226-4bb9-a339-2e7fcb6fdba2,notes
+2bc03858-a3a3-4c87-aa64-699ee5dae6c3,project scope
+55cc9506-7544-4407-ad29-e1a9c5ce349e,requirements communication
+82d6b0ad-a715-4ae3-9792-d547361e4fba,safe work environments
+8d98bf5e-2f2b-454a-bd31-57e216010bef,health and safety plans
+a1a4b6c9-591c-461e-ac36-a0047f95824a,personal protection equipment
+f57ccf78-a5cd-41ff-a302-70f694e9ba84,first aid and cpr certification
+50481604-a8d4-42cd-92ad-881c64957fa3,topographic surveying
+84e9bb0a-9e38-4a4a-bd02-a4b682762041,construction surveying
+90f76dc0-50bc-497e-bef8-e8ff1ea67029,boundary surveying
+b343803c-b599-4f81-855b-200d1acdef44,surveying and construction issues
+5ef1bd03-0670-4e9f-828f-8a3bf2e4b74e,procedures
+556d0182-ee93-41b4-9192-3d6fcec470a5,practices
+60e5b989-286d-4eeb-aa07-b5428c00a36c,protocols
+90fc89fa-e91f-434b-9e92-835b64d3c554,methods
+ba23e88e-dcb6-4be6-a813-b8ade00163a9,survey crew performance
+93dd38a2-81da-4bff-bb75-d92c9c88574c,timelines
+c8d344ee-5687-4a7c-97b5-0c3293955b14,schedules
+fee244b2-c4f0-4f72-ba35-c16edbfb0f31,profit objectives
+41ac0044-3e17-4def-a466-bb7987850780,leveling
+36659a9f-446a-4d15-977c-5c73cea4e119,traversing
+8379703f-6220-4c9e-877c-f8839e08f9b6,topographic mapping
+72c6d706-3cc3-4a8a-a0d5-e4d5647f0f22,construction layout
+57cbeee3-9993-49e6-9487-fa6d71a78a79,asbuilt surveys
+59aa8d9f-2ffe-47a0-89c0-a5a01c50a738,boundary surveys
+8a27a296-da08-4b51-a93c-3157ec403316,profile surveys
+57d8fefd-2768-4f36-aa79-2640631cda47,crosssection surveys
+e208b7f7-11eb-4ca0-a316-137c6bb3ad50,parcel and lot lines calculations
+2b40bd7c-b48b-4167-85ed-0d5cd0d69748,easement lines calculations
+8638339b-18f0-4052-8caf-8ac6ca79efb8,taxation information
+f84e8374-d8b7-41c2-93e0-bccf503ff8f5,title information
+296eea93-9227-4518-9662-ee02899dfef8,easement and rightofway descriptions
+b18b8b37-4f4f-438f-a01f-e01fc05beffa,field data processing
+db3c2f55-c076-4dd1-b63a-c1d8612b75cc,field data review
+ac7ef5e7-21e8-4dd5-b302-1de7522a4174,physical tasks
+31db2047-2b42-4775-b221-3aee46c92ee6,carrying
+fb777033-7365-43c1-8b56-41b386e59199,maneuvering
+0a626a6f-3e28-488f-9c59-1b6c2c09c318,line clearing
+4f898dad-f5fc-411b-b6d7-6deb7e2f4d47,pounding stakes
+be8dd08b-fa14-44e0-aaee-b9ed27ad4232,setting monuments
+63ca6a52-f1ea-40c2-b233-e0060a316dab,locating underground objects
+44b9eae9-d087-4ca4-bd44-4f1321652638,field notes recording
+83535395-2a84-4e60-b831-0dea01fdcd59,company standards
+8f476d0d-4d08-47d0-b930-a8e1bf5929ef,operating guidelines
+02a9f12a-cc3f-451b-8ef4-920d56bb5d30,project information sharing
+72bebcf8-ad55-4943-a355-356a8795387c,field observations
+38f7c99c-1931-4efd-98a4-2993fb52b437,state and local regulations
+3c204cf5-94e6-4851-a22a-134b7171e57d,staff
+aabbabce-0437-4f0a-92ba-038afb1b4198,leadership team
+3ed856f0-dbae-40ea-ad7f-652d9123d7d5,accuracy checking
+6c53d540-5783-456c-b7c5-d05651391f96,qa/qc program compliance
+ad03e92a-0147-4465-982e-b9296c0653f9,trigonometry
+c06fb05a-340c-4fe0-8e81-b07e77aaaf90,dot survey standards
+3d512aa6-3994-496f-beb8-ef23dc2cabdf,people management
+ab46b460-f667-402e-91f1-b43e766c5d29,physical requirements
+0818a0aa-70b6-4799-9273-5b67a033278c,indoor work
+ddd005d0-ac53-4516-b346-7f944d8cc218,outdoor work
+d846a121-3fbd-480b-b73f-346a447731e3,various temperatures
+13eb576e-12b2-4c5a-9f1c-f3130f5e7f2b,weather conditions
+7507e97f-f3f3-47e3-88ee-92164bc8f23a,kneeling
+d6328a6f-ea8b-44ab-9d27-46886a1e7956,crawling
+eb769048-34d0-4d6f-a267-0f9bf76f98d7,sitting
+c57dced7-4667-487c-ad03-b52f2ae9e886,operating room tech
+b83b8c10-448f-4ace-b703-48ed6c570b56,sterile supplies preparation
+0b4c42f8-1d1c-4635-858c-9241e9575f2f,sterile field maintenance
+49a2b66b-7d97-4117-9250-f1a0a17c9ffd,surgical instrument handling
+c7b8c2b0-2ab0-42a0-9985-e771121d0b26,surgical supplies provision
+caebf558-4628-4af4-a2f6-74238db85d90,ort training
+8f073063-f523-4a46-bfc3-409d093d8c7d,scrubbing minor and major procedures
+942d9cb7-2f23-4547-9a33-7d91e54d56f7,generalized surgical specialties
+9afbde82-1303-416f-b55f-ee42a69d26ac,specialty surgical areas
+4eaf6b62-79a2-4c36-a7e2-31ec41db1ea4,bls (aha) certification
+f24f52e9-de17-4e51-a380-32d169e7336f,series 7 & 66 licenses
+a9e4e93f-b5af-4d0b-9eb8-9bd0507146df,series 63 & 65 licenses
+7abd2d13-1cc4-4f8b-89ef-7cd2c902bab5,financial service industry experience
+f7039c1a-850b-4fbb-83ca-f9802892daf0,sales experience
+7060b54a-fba6-45da-942f-4c00d264a2cf,investment training
+64d7fd3e-7133-43b6-ab45-d2b00a01dbdf,investment knowledge
+f28518d8-b18d-43c5-963c-5eab7ec6b5d7,goal setting
+ab3b223d-d087-4f6c-aa2b-8b1282c7ffc3,goal achieving
+447bab5e-f22f-4e59-9266-2fed0dfde573,prioritization
+3ef97cca-d325-43d1-8d8a-d6464e4575cc,solution seeking
+5874d6a8-619d-4737-8dea-793087427a28,regulatory due diligence
+ccc48e1c-a53f-481a-bb34-cb8ffb703041,lead generation
+7c62816e-1559-4837-b5df-50c595649c93,investment management
+579cb69c-ab64-4d4b-930e-0080e17b6644,sales activities
+7531f009-cf38-4587-baad-de946121cca2,new client development
+092ef502-0ec8-4ad4-82c5-1cdbed4ff17b,business degree
+29fc7cc9-1133-43e8-9284-7be93732f729,certified financial planner (cfp) designation
+19caac10-8b00-4807-a37d-916ae1aa4806,chartered retirement planning counselor (crpc) designation
+94c35f58-0d78-44ad-bf9f-9b682876593e,insurance licenses
+c8ae3f5c-7d30-4a72-961d-855dcc7cc7fa,diagnostic imaging
+3f7fa1dc-7af8-44c4-836c-1441a5c2b4f5,fluoroscopy
+d619fc64-6ea1-4eb5-b091-8ed217f26d8f,patient positioning
+b4687ebe-ba69-47f0-bc6d-8ef22d66dc2b,anatomy
+12b877fb-ef83-4936-99f2-1dab7f351e4c,physiology
+ed2f134f-e045-4317-b252-7f8543dd38f2,washington state certification
+127a8eaf-5398-459d-a104-ce32be8a6c92,american registry of radiological technology (arrt) certification
+23ea9554-336c-458b-9832-2f4be00dc727,accredited diagnostic radiologic program
+4c4bac98-ea3e-4684-b3e6-4a09159639b4,continuing medical education
+001df6df-2cba-4881-ac8c-6b44dbde23ec,culinary execution
+9810113b-0e8a-48de-b590-7e8a233ad865,shift supervision
+0110c95d-c014-427e-8aef-8a0564335ded,process development
+c9a39488-5531-4499-8138-ad31a4595889,administration
+20da6d06-a971-4db0-8afd-437ac09205b6,kitchen operations
+b10bfc8e-bae2-42ed-ae88-a244e7d8b0da,food safety and sanitation
+74bc2f96-aaee-4397-a126-bdd2b04fa4cd,safety standards
+b27496c9-17f4-4520-b3bd-6e28d145d36b,recipe development
+0a3cf53a-6679-42ab-8d9c-b7dc0db5200f,communication and coordination
+f4924794-8edb-4518-8dff-ee2a37143457,servsafe manager's license
+c2aaa37c-80ad-4c93-b05a-5e6834e79e46,servesafe certification
+c2e236a8-0ace-4de0-a6c3-1d243c656d92,microsoft word
+2dbbe6ca-dc5a-4269-9e92-c9a15ec2cb2c,byram erp
+8cd9fdb9-b23b-483f-9e8f-847104060c17,phone etiquette
+2c0fa484-545a-43af-8782-f3d9aedad40e,verbal communication
+7e14de88-67c5-4cd7-b6ef-4f3ece4adc41,registered nurse license
+bbebae16-6790-4eb5-a95f-0ccb3b9c70c8,clinical care
+9bf893e0-b596-449f-96f0-d5c59f5d0dfd,safety management
+2f418fae-4523-4ca0-a4fd-c432796e7876,proactive services
+8f5fffe2-2404-494c-991f-b901fb81d3b6,fmcg experience
+6196a78c-c3c6-4d0d-b213-a1fd4213230b,stakeholder management
+eacb938b-8210-462d-9860-aa7d9d188631,essential services
+e2aa577b-ddff-4f54-985c-79fa4d0cf650,refrigeration
+a8ed15e5-5996-465f-9617-a3e2eb5bc825,air conditioning
+3ed15979-4e8a-4655-a142-c01d3257de49,electrical systems
+ff348e07-2486-4662-9133-a31d8d2adbdf,retail stocking
+7e4f89f5-41dd-44ce-9272-9980e0b7f102,team building
+d5a28360-11a9-46bb-8dce-cc0a6fc3111b,complying with policies
+b38e808a-8cc0-42f8-b1bc-9b1fd28394ce,coordinating schedules
+c8ce698d-f0a3-41ea-b0af-cc21ef30f8fa,providing recognition
+0b665126-78a4-414d-9ea5-4a7efa2d0eb3,optical design
+dc565120-35d0-4836-84f0-31559e8b8301,zemax
+da6197dd-44fc-45bd-94ef-07f8f352c46d,fred
+91230f62-50b2-456a-812d-d4165cd07d37,optical subassemblies
+c88c763c-96fa-46a5-aaca-92d53fe0f380,yield analysis
+b1b6d576-5036-4989-9d21-35b4969831c6,tolerancing
+2124cb25-5855-452d-9e7f-b5e7a4884d36,illumination control
+d90eaba9-4eed-481b-b21a-cd90d716df84,thermal optimization
+0829044d-b63a-4227-83b8-66dc40d9c05b,imaging optics
+a3941710-784a-46b4-a346-696feec18daa,nonimaging optics
+0894c3a3-271a-4232-9a89-bcc5b1670bfc,test methods
+c6046127-fcc7-419f-b96d-d8b1531a1c10,test procedures
+75883b6d-7752-497f-9882-68f8b6d9951a,timeofflight
+52eb4074-8404-4039-b6dd-0e3f790deff2,flash lidar
+815895ce-c07a-4e6a-99d5-60f033d6da35,automotive
+eaa88373-98fe-47ef-b1e7-37f00f2903d4,harsh environments
+7ad5394f-ef1c-4123-a9cf-8d1146a8d75f,lens design
+29b105e8-fedb-4af8-bdd3-5bdcfa4278b8,diffuser design
+4e9c04a9-8c28-4a56-be1b-64269052fc15,production management
+54252356-e021-40d2-a2ff-c34a328cbddf,vendor management
+a3cb7fe7-84d4-44fd-8ad2-fa4717919da8,optical supplier network
+cb7a5fee-b6a5-461f-b5f2-6870da92906d,matlab
+668ca33e-21ca-459b-b659-ed0d3376c74d,codev
+2d6529c6-5d7a-40e2-bcea-353455110609,asap
+dbce6f8f-3f3d-4ebf-a65f-f42594e32448,power point
+6cf03436-a35a-48ab-bf47-74da7196d872,it skills
+cbb098ae-c037-44f2-a623-6c1735423488,work ethic
+769a7a3d-8d13-46a2-8151-8601e121ed9a,client relations
+90a8cc15-492d-4dfa-b42d-4654054d4a3d,telephone etiquette
+41d10c0f-57ae-4acd-b001-9bb0ec6739df,block management
+e79e5c28-4ede-45a6-9a0d-6f6891426848,asset management
+8dbb6761-b8e1-4421-a112-7877dd305d75,lra
+d8c33e6a-cde9-405e-9591-ae793a31f0ec,prs
+1ec1ea90-56c3-472e-b74f-0bf89faa093f,sales management
+4cc11b59-32aa-420a-b22d-283bc142c896,business expansion
+88d9cf33-341e-419a-afec-d5a90e474b56,technical specification review
+f4694ed4-6414-4217-a8c4-5807d9b99c30,customer followup
+d8d8567e-da37-479d-b88d-ba0979cb3828,outside sales experience
+70e481a6-26ec-4dac-9f2a-8c30a57641e7,staff management
+517db4c7-8d36-4c2e-a7d0-34a49d2d22dc,sales goal achievement
+b8e7f16b-91f4-46e2-b861-16f0142f9599,blueprint reading
+3f943bba-5592-4a20-b24b-890d54130446,crm experience
+f495291f-f7c4-41dd-a03d-e427366dcdfa,automated gates
+fab04b79-9583-48c1-a122-cb36e6d7c345,close vision
+6bc30a86-8062-4094-9dc4-a70ee490be08,distance vision
+3d3c4666-20a2-4663-ae6d-bd0534d44367,moderate noise level
+1c7eb198-06a3-4dbf-98b8-90a412143d22,network engineering
+49aab459-796c-4332-85a0-e1c0dfc1b6ba,cloud computing
+6b54bb76-a688-4996-b69f-e8fa852a8c11,azure
+b48e38c2-9471-4434-9ae5-a8b92de86809,amazon web services (aws)
+8ff55877-207f-49e4-8a1c-d1c5aa3172e1,network infrastructure
+e2aa4aa7-527c-4a30-b8ab-cb2a3d332114,network analysis
+ea174c67-2ebd-45ed-b3dd-c42273b8b605,network design
+7782b335-1367-4503-9feb-1d3a297dac88,network planning
+b80a417d-6a12-41e5-8e75-edd84e627944,network assessment
+81ec76a2-ee97-4c40-bd4f-61b5596857ef,network development
+80cf5843-25ea-47d2-89a7-9fcc83bdf20b,network implementation
+6ec73ede-9bbb-4895-a2cf-a03b3404235e,network operations
+5b5b303a-1373-4f5c-842e-e46e3f635215,network architecture
+ba90d625-8157-4106-bb80-cb2654f70ef6,network routing
+5876fdfd-955e-46ff-a0d2-89ac83853e39,network switching
+e879c41f-7cb4-4afa-91f8-c47b6b09f7ba,network security
+39229780-831f-4bfa-bee9-16644919a717,network performance
+2aae34fe-bfc1-409a-a5ed-4d4a53e86c7d,network protocols
+06c8c188-8f5a-4c42-b194-6a83ba3a5c3f,network management
+1fde2bc8-ac4d-48dc-90e3-d94d6208604c,network monitoring
+22ba30d3-c38e-4aac-8020-19660c2f1f40,network troubleshooting
+863de055-6a0e-4847-9349-7a91168ebc0f,data management
+3edb1079-07a5-48d4-a5de-7a205ab6ba3f,information management
+f935f929-72c8-45dc-81e2-925e90983bcf,systems integration
+5de613c6-8ec2-4c12-bdd7-e344759b4a88,systems lifecycle management
+4ad3c698-3ccd-46e7-a944-fb9c09bdb60c,technical consulting
+3b88737d-ac06-4b66-8494-fb6ab7a8f7b3,technical architecture
+e13a8b7d-ceb9-443f-b057-ecae42be5171,business requirements
+948d660b-4f94-47a7-b75e-a2454ef12c36,feasibility studies
+53192854-80db-4dcf-a7c2-fc7560320fac,application integration
+a6b4230c-5151-4a01-8eae-3ef30744c297,deadline management
+73ade2c7-5e62-4d64-905c-b2135f5bb9f8,computer science
+4a3477e9-372e-4942-9b2d-5ba78e435d3b,logistics
+8e98ff3f-cc2e-4886-9f6c-4c8b36c07b58,transportation
+b1d7d258-9303-4e4f-b8a6-23ddcb5a1a09,sdwan
+67e1f296-b4b5-4993-ac47-bd85f9ad4a76,wan technologies
+a68e9138-f694-44f9-83cc-197d02b0addb,cloud network infrastructures
+33dbb6d7-36b9-4cac-8ade-479394e75886,managed services
+1ef72cdb-b2fa-4634-903d-5b7b20161427,deepinspection firewalls
+6a62e3d8-4fd8-4414-875f-abb5e7e14411,intrusion and threat protection platforms
+6952cd41-3bd6-441a-8dae-469a7c58e3fc,radius
+914fc013-fdc5-4694-aa5c-08462b6079b1,dns
+6a178cf6-e797-4d08-a4af-c146fa6588a1,ntp
+f403d3db-a851-47cb-b4bf-f3d009032e67,monitoring
+1c1e7028-11c8-41b3-a3e9-d7fcd8b0aa2b,logging
+6e084647-7ed5-461c-9faa-34e0e197013f,ccnp
+9de40014-cc33-4e43-bbb4-1cb3eb4e1700,ccna
+670f953f-0d35-4251-927e-9435b6a96fab,aws certification
+d6bee2b5-d938-4c24-aba9-5be2bba84f16,azure certification
+fa458dd6-227c-41bf-9343-baa7a58ce59b,agronomy sales
+1575d591-9e64-443d-94d7-d9c40a01e8ae,chemical
+7fcb557e-0deb-4353-a0c2-3a21ebf514a6,seed
+b730b94d-ddd2-476a-a6fb-1cd6f6b6581b,scouting
+627d1f6d-3476-4988-9ada-7a1fb360cce1,ag chemical
+91d64c59-7c73-498e-8363-556a1dc06a50,extension agents
+885e4ea1-7cb3-4e0f-94c2-48c511576671,agriculture
+4412110a-2cd6-4411-b7ec-fc76277f2068,team member
+cd31ddb6-b1a8-4b86-9423-f8a4106e0bdb,agricultural trends
+a7861751-f953-4725-b3c5-aa1c53382329,agricultural bachelor's degree
+84944e0c-6423-4b66-b5a6-3a6f223b1abf,seed/agronomy sales
+4939c934-1de6-43d2-850d-029628e9c945,selfmotivated
+c392ac65-88d8-4fd9-8ad4-ec32bae66729,accuracy
+3dd4f583-1644-4889-a096-f1a3bb1e11b1,timely delivery
+db45127f-c498-4661-b883-f122ccc617bf,agronomy
+adfb63d1-9156-477a-b3ee-1592336baa9a,pallet jack operation
+c01a46f5-f2a5-4e05-ace1-7ced7e3f5de7,civil engineering
+f3e3fdfe-3dbd-40de-a3d6-5265a298130e,structural engineering
+30c78394-c53e-4255-a4ec-1281f5734435,nesc
+a7db9c37-fea1-42cd-91cb-cb20083a428a,ieee
+374149c5-35e9-465d-a318-e42576c9c6bf,asce
+6f295b8b-e154-4a6b-ba76-1ce0d7fce358,aci
+f21a111c-a1fe-4039-aa31-0eed45c19c9f,plscadd
+27a91727-b053-459e-aa79-42e109f6486c,microstation
+9ee0da4a-b646-4c02-ba29-1d23493f4a50,caisson
+0ed6d23a-86ba-4aca-b663-690b47f533fe,mfad
+6ff766b0-819a-4096-8d48-a4fb0e921ea1,lpile
+db495760-f70f-40dc-a792-e71a718ff01a,transmission line design
+c0a8c744-3e76-487e-b32e-2933a46f6722,structural analysis
+ff436037-b348-47d6-b7bf-e3ee9b7cff0c,clearance calculations
+e23701de-3930-4066-b593-0fe02d81ec44,foundation design
+56ca02ac-16e5-4673-a53a-6751c6cdbe16,construction release packages
+4412f5af-ac78-46c0-a053-dc1043470b89,geotechnical reports
+8f692e34-9da8-4304-95c8-ca91b701ae20,eit certification
+7cd77869-0aea-4b2f-94fc-569e36b28cab,fe exam
+dedcd3b2-142d-4d4b-9a1b-62ee5e432126,team environment
+c84fabda-a0f1-4ad8-8f8b-a38c33637fe0,selfmotivation
+fca0316c-a63a-41d3-9572-c79c3f7bbc01,employeeowned culture
+7270763b-7bdb-4ee9-b722-166b67e949ea,consulting experience
+c64e55b9-8d30-48d6-b708-8a308cb7e693,electric utility experience
+20af4dec-606e-4528-bbe5-567e9ad173ae,pet grooming
+b08f2ff2-a18f-4e13-95d4-8ec8e9bb9d6e,salon management
+57bc93b9-57c5-49a5-bdc8-bdbd15e98ebc,grooming techniques
+55d47ab8-9245-48a1-8c90-580da2a7a98e,breed standards
+75130166-3a8c-4bba-8680-fac0b6bd5586,pet care products
+9f06da99-4cfa-4308-9317-bbde889a447b,computer systems
+be5552d8-46d5-4bee-b489-854500781d2a,salon management software
+cefd9abe-a0e2-4c7d-af15-2e9b553aa0bc,staff development
+dc2e2dad-7c10-41a5-9bb3-9872e1df36f0,clinical practice
+af0ea639-695e-49bc-bdb8-0d312d677b19,nursing education
+e976ed46-dbd9-4f85-a4ea-d0aee1cacdc3,evidencebased practice
+d9217586-0c2f-4929-a2bb-8029f378a02e,clinical pathways
+de03ddcf-9df5-425a-b2a6-95261cf64163,patient family education
+a7689f15-418d-4bc1-afa3-d84a3421f786,clinical supervision
+d9e9ab4d-aad7-490b-ab4d-c717673bc06c,proficiency in ms office
+10777743-57b5-44a0-a3a2-c1ed64d01b61,registered nurse (rn) license
+1fcf939b-dab3-46c3-8b84-a5a8e7779b80,cardiopulmonary resuscitation (cpr) certification
+adc6a826-16e5-42ed-8813-13d744b4c028,tertiary care experience
+d6b424b5-e679-4f72-b69e-81fd20500f1b,clinical experience
+48252a8e-bc51-4bef-9162-18334c7d1396,critical pathways
+66d1aa41-4451-4a19-9fed-fbfcc29cf2c8,agespecific needs
+dbf82b8b-e0ce-4e2d-8051-aaca2f397f5e,developmental perspective
+d540322b-5264-433a-a193-2f49b50eb7b5,basic cardiac life support
+9397415c-b92e-467f-ae57-e4fd1abc023d,cnor
+7a19aa8b-ebf1-4277-8f11-5d716c31812b,accredited school of nursing
+a160a518-ebe7-45a3-ba0a-a1aa3d657c0a,master's in nursing/management
+f324971b-1f62-4425-a988-9ed93518f575,retail sales
+defae9c6-54aa-49e3-8c86-fa336e82137c,operational management
+42436575-c933-4de9-92b7-aa6198817ccf,cosmetology (optional)
+5bc061f7-3cf0-4217-913d-50416d01b55d,heavy lifting (up to 25 lbs)
+beb1cb2a-0acc-412b-894d-49d5e3a5df57,working around moving parts
+a0f22ab1-0b69-4bd1-9956-3e54933148d0,exposure to irritant chemicals
+efa3dd41-7f4c-49d0-9405-bccc8080679b,power plant operation
+d0997b80-9f89-479a-a590-4bd968aa8cb9,maintenance
+00214654-bb4e-43ed-a5fb-47dc11e8ac47,gas turbine generators
+176e440e-88e7-4985-b6ee-dec720e7a7ad,heat recovery steam generators
+ad530164-0925-4a9f-a725-f0cba95f2874,steam boilers
+2a1e6bc1-41bb-4448-8dee-5e9588582e95,hot water boilers
+48385a9c-f244-40a4-8edb-5a0fffc31c69,steam and electric chillers
+bc5debf8-d2e1-460a-ba67-c05ea2508820,compressors
+9b23ac4b-00bc-428d-a8aa-edab972bb3f7,water and wastewater plants
+32eb4ea0-a051-4b8f-a9c4-79e65b57c892,tssa oe / b&pv regulations 21901 220/01
+5c4d8bb5-92b9-447b-be93-79a4ab587026,preventative maintenance
+3236f2c5-4f56-48f0-b9bc-0f692b546c0b,problem analysis
+00365de2-fd81-4e5b-b70d-d89335c131e9,maintenance procedures
+4c1676b4-66e1-4c32-9b51-98ee23f52575,operation procedures
+8052f7df-f739-470f-b88e-be00748d90cc,data logging
+4cbc55b7-5efa-44ee-a5e7-f4992448031a,performance monitoring
+4131f0a0-e761-4f2d-82bf-35d6d9d6226b,continuous improvement
+846e6c8c-676b-486f-b59c-0a8068ba9832,shift work
+58f3d85a-9dca-466b-b459-5f542c3c9f7f,overtime
+3a0f69cc-be66-4d32-8137-e4431bed5616,combined heat & power systems
+8d2c81da-dc3b-4f7c-8886-4751d6051ed4,millwright certification
+1ec6fe3e-e5aa-450c-8ba3-44bc0e568b7c,imt certification
+c26f02e6-cd4f-47e8-9674-fb2a2cf1a16c,p&l management
+f7f09467-31b8-4a4b-b586-78c878882a13,sales acumen
+dfad5426-7d9f-4c16-8df4-05058a1ab722,market research
+e9481205-6bd3-48e4-aa7d-b0068b85591d,product development
+76169d2c-db52-4175-925d-7fc7851b65e1,gotomarket strategy
+643237f5-7e41-4471-94f2-f21bb96f9904,marketing collateral
+e3126b0b-fa2f-4eaf-a725-81c98e239d50,product lifecycle management
+e8096ad3-c067-4e48-9536-ffbe9be03c49,user conferences
+910e7654-0561-4afe-8166-bd3dfe4f3cc8,industry conferences
+fafc98c4-bbff-403a-9103-c27800caf602,upstream oil and gas technologies
+241e04c0-76aa-4e1c-bda4-278d9fcfb231,english communication
+2fed4bfe-a529-416b-b07b-be6d0c564402,b2b product management
+c330b276-652d-4fa0-9a5b-70c43599ed10,software product launch
+12dd2c33-9082-4ebd-bd8c-5dd908cd713f,commodity management
+e9faa9b2-5882-47ec-b68e-4c4f1f57671e,cost modeling
+cdb77632-e149-4205-a950-0620052755f2,contract development
+00c0f23a-c05b-48ef-9b02-c71199556eef,strategic sourcing
+12b71a66-da18-4ccd-8086-da09783d3d9a,microsoft office (word excel powerpoint)
+ee98189f-bf51-4eca-90ee-a5ec8b119b4a,analytical abilities
+8807aed7-0625-4e6b-b314-b6b546f80bf9,ability to apply concepts
+e1c7a851-71e8-4ab7-9e5a-52d578307498,global sourcing
+aafa27cf-ca84-446a-b333-54d1bd511570,jde/sap/qlikview portal insight ibee and team center
+62120f25-c211-4800-a764-876f2c2e7f31,reverse auctions
+4b390e72-0c13-467c-8676-9ba64b16279d,supplier development
+eda4c207-d793-4f01-a072-8a9a1fee2a9a,risk management
+e16313ab-ebb5-4fae-842a-36e28d2ff0de,supply chain management
+5d83e497-ee9c-4973-8615-de0ceeea3eaa,lean supply chain
+2ca0330c-44e5-4c33-a0cf-dbc2abe4bce1,teller
+5e65c8ac-6bb9-456d-a624-7de43dba9187,transaction processing
+d197f4da-2351-43bc-b033-ddf37e986d24,banking products and services
+72614713-bcd9-4f66-bd04-68f887497380,cash handling
+9f870068-20f7-47f6-ab0d-01227598eb99,fraud detection
+20fefecb-1c57-456a-91e6-0afea3d8c6bd,problem escalation
+29ce41bc-8782-4eac-95a8-1f010f761a87,judgment
+754b5eae-e555-4305-9c37-2807209155a4,adherence to policies and procedures
+a8f0532c-70d0-4739-aee2-a3d17470b5f2,ability to work weekends and holidays
+38e3fb0c-9c3a-4e05-977f-49d4e4ecca8d,401(k) plan
+5e1ec9c3-9e4e-41ac-b3e3-2888f830329d,parental leave
+163cf552-ee20-4301-904a-4e9b9c8526ec,critical caregiving leave
+ac88d348-7e4b-4d21-bb5f-eac92f143bcd,discounts and savings
+3b0dbf9f-8bcb-4799-a8ad-750959bd8ffd,health benefits
+0c3687c0-2f24-4989-a72e-b917a266523c,tuition reimbursement
+1a39e699-a4cd-4ac5-9410-cb1c1b916fa9,scholarships for dependent children
+b652eae2-61e7-4257-8011-4376bbfc31d6,adoption reimbursement
+c9022a40-163f-42df-b245-b64d9ff46c52,basic math skills
+34df3f91-0a3d-43e0-aa68-9e475537f682,english
+44d7ef09-04cd-4d33-b24c-3b0e32156fee,capture management
+2026a82d-9a89-414b-bc7b-e283829fb58c,proposal writing
+2348ef7c-6177-4e5f-ad99-2945a46cf572,dod market expertise
+c1bb9cfb-0a8e-4683-a00c-0293bb0f300e,advanced analytics
+147278e1-3a3d-441a-b8ca-0c14351f9b7e,data and software engineering/devops
+254d10ba-5ae3-4d11-a8da-c7e3e32e6121,cybersecurity
+68e78a7e-06f8-4b20-a6a0-3c8d1e0ec8e9,top secret security clearance with sci eligibility
+7a221196-0a5f-417e-800b-def1ed3ad6af,traumainformed care
+b378e558-fa04-4b8b-b390-cd4bed419196,motivational interviewing
+db68415f-e336-45ba-b981-5969ff575908,database management
+e0d5f8c2-35ae-4798-bfa2-56a2c09595d1,educational advocacy
+f7f1ee17-fa21-465d-ac42-df1f9ce8f6f0,youth & family development
+371699ae-3a51-4c83-aa86-1a397dacc89a,housing navigation
+79e2245b-549e-4848-ba9a-a152c4ce8eca,sensitivity to ethnic and cultural differences
+a9d28b0b-4a24-4bc7-9fe4-e21cf00f791e,understanding of lgbtq community
+865430a9-cbd3-450f-9ff6-f174c1404f7a,knowledge of nyc dept. of education
+a7d9c701-633f-4fa8-af5c-aa5d539030e3,college and financial aid application processes
+ed9b1165-ee1f-412d-ba27-3d947678527b,ability to work from a strength based trauma informed and youth & family development perspective
+a3b14706-273b-43db-a4db-20c91b09df58,commitment to justice and equity
+f0b176e1-b896-4645-8ab6-e9eeb95e9576,distributed microservices
+fba63fa2-6203-438b-a1d3-208ca67ca661,machine learning operations (mlops)
+5b4664ba-efac-48bf-8b41-f5cfd9b7a977,kubernetes
+cd565b84-f1ca-45d7-8632-c9f1b5567842,golang
+fc04b82a-2ab3-42b1-8969-fa373b8df01a,aws
+c1f8b529-c19d-4331-8a44-1f3a111a35b8,microsoft azure
+10bab566-187c-402b-900a-d6aa867c39ac,google cloud
+41d8c1bd-bc2c-4f5c-9851-ef116c12c535,kubernetes operator development
+16781afe-cdbd-48e6-b4da-a33e6a398769,devops
+eea15f25-0a70-4358-a4ce-f4c635ef8a6e,machine learning
+012a8b29-362d-4a1b-8631-97deabe8cd57,software engineering
+a648df59-3bec-4c93-9819-dedde3e5fad4,ai
+9c6771be-10b6-4d23-a48e-2f0308d1a06b,javascript
+2e9c18d2-3b5a-4981-afba-f4ed0312a602,nosql
+9b1ca8c3-1445-4e5b-ac7f-95e71e1ac0e7,software design
+e8945c71-3a1a-4002-b2d2-a31196657e3e,web development
+e957c64d-d686-49e0-8179-0bdf44c3b3e6,data science
+564f1a00-66c5-4644-a562-1b97ff08d9e1,fintech
+8f401a4b-fdb3-43da-a333-53e563d286ac,apis
+c5baeb2d-9864-4acb-89ef-5aa885714dfd,product ownership
+09a3c9b3-280e-4a8b-a6e7-06d06cb639e2,autonomy
+451d588d-44c9-468d-9ff6-49e9af58d734,strong work ethic
+805ce197-a598-4e73-a559-5b12a8b6883c,ability to work in a fastpaced environment
+e0b5fe06-64d8-4fa5-9fa4-1efc18cf67af,ability to work independently and as part of a team
+c3feb9e6-6abe-481a-9233-4234586ab04a,ability to learn and adapt quickly
+dbffe301-7a02-4ac4-8c98-1cef35d2cb12,ability to handle multiple projects simultaneously
+aa4d41df-3b4d-4d6a-a2e3-32ce93ae240c,ability to prioritize and manage time effectively
+d42a968a-90ee-4c22-a493-b50a4438cd07,ability to communicate effectively with both technical and nontechnical audiences
+6f79fcf3-fe06-4b36-8f9a-8b5c225ea5af,renewable energy
+c3520dc9-ca23-433a-b371-70e16b9e4b69,real estate management
+803dfaa8-8ed5-401e-962d-8215a0acc6c1,corporate real estate
+aab6731a-1e13-4548-95fc-b6c2b5f3f7d5,facilities management
+1ce28088-3e8b-4c19-8b9d-803b9b8a1cbd,business case elaboration
+a0af6590-b5ee-4031-89e0-327f6849a43e,lease contracts management
+bf6397f7-458d-4036-8893-cb9e22eada94,management of technical and infrastructural building requirements
+ba207dad-1cde-4ea1-993c-8c16fee92c3a,cost and efficiency benefits
+63313977-a85b-4a9d-8aae-c7e25dc4d774,negotiation skills
+8ee91513-e2f5-40a0-914e-7dc0a7a994d0,ms office applications
+22a112a8-a18c-405f-a84e-de6ee7bb57fa,homeoffice possibility
+fb88abca-8ef4-4a34-b3d4-14b77ae61bdf,flexible working hours
+4c552c7e-4322-4891-85e8-e148c321e107,employerfunded pension
+90f146af-2d2e-451d-b157-09f9d5681aa7,attractive remuneration package
+9bd3ee2e-d59d-4446-aced-afea5216d99a,subsidized lunch
+24e21687-121d-4b5b-b7bd-5668f716e462,employee discounts
+9e57a305-80b4-4604-b441-59c7af58ccf6,medicaid waivers
+c51b56d2-930f-4e4c-81fd-80b076f8de12,private pay
+cbc2cf10-dcd3-452a-b861-46344251e114,care plans
+bd8917c6-8ecf-495e-bfa4-ae88aa9342a5,direct support workers (dsws)
+c35097a3-a4b6-4416-9828-302ba9bea273,alora health system
+bbb85fa3-d928-4dbf-87b6-22c9ca5dc122,ldh medicaid
+6012573f-b31f-4048-b6d1-a3711cd46f37,basic computer skills
+34e793ee-3cbb-4bea-95d5-c2e47c7490fd,auto insurance
+2e5c700b-081b-4cdd-a529-d9a8d3f23eb0,reliable transportation
+26ae783a-f330-4206-8928-b36ed31f5ece,background and driving checks
+65eb8717-f4fe-44d0-b60b-338fe9682929,addition and subtraction
+f7e7de04-b887-4951-aefa-ffa93842e3fe,ux design
+06a5774b-b97c-45e3-b6c3-84c2547a44cc,usercentred design
+efa219ff-b1bb-492c-bc0f-c2c5ac8d8374,business strategy
+d1083805-c44b-4a7f-97da-470fcb51e888,double diamond
+cd206791-65f6-41ea-a3f7-37f743d6998e,lean ux
+52858517-3d9f-492e-93c7-dadae16e3fbb,agile ux
+99938e79-e0ee-4339-aeb3-04db74c3b4f9,workshops
+8e8b9a9e-d749-41ce-88da-8abcdbf909ae,ideation
+c769b8b7-c3e0-4eec-a698-2ed9f9cb0bb2,brainstorming
+b1622832-e034-4608-8f0e-11d0985c86b1,crossfunctional teams
+9174e77e-b61c-4456-a905-bcf3655d2d01,csuite level
+a6b32197-2dc0-43fd-a0c8-340bacfa7833,infographics
+e550175d-1812-4941-893e-35780a73bae2,diagrams
+6e39a357-b16f-4379-9727-af9ea565dde0,graphs
+796117fd-4f7b-49c7-af68-1f0a15982e79,charts
+1d7cd003-9036-4e3d-b403-df91db3356cc,operations
+c2f31b23-4761-44f5-be0a-92e0c2ff072c,point of sale
+f9d315e7-55bd-4570-bd7f-81eced1d807a,physical ability to lift and maneuver 30lbs
+10fc2c52-5854-4654-865b-6eb35c3d3d97,work in a retail store setting
+b119fae0-d74c-4b9c-8d05-5a63f37c6839,cpc
+4020b3d3-1431-425a-9e75-d8353ebb93dc,ccs
+c7f9d262-1a74-4d74-a0c1-953b384df32c,rhit
+d63e2023-9b66-4a94-b5eb-a0757cc5a0d1,rhia
+ab2283f7-f1f0-472e-8241-8e7028e1bb11,coding compliance
+454ba31d-1c1b-4cec-b709-1e65e14d8fc1,risk adjustment
+9d0a3e49-5e24-4f5e-b596-4459574be1cc,medical record information
+a597d973-5a39-426e-b0cb-d471e9956cfd,coding policies and practices
+735a005a-9cbd-488c-9830-d72ae9478c24,coding capacity
+61020783-6334-4472-ac67-fb894ce47fd6,retrospective reviews
+f0a7e494-78be-4395-a650-1c31a7b49ee3,radv audits
+1464adc6-e94d-4206-9668-a6a4dfeee76c,professional development
+22b53e80-5a08-4ea5-b4fb-03f7723854e1,4+ years of related work experience
+3434821a-280f-4768-a520-d4470e490dd8,leadership support role
+5a1d1480-6f13-4a8a-bf8c-4ce7b707ddf2,health care provider
+5654a2b9-4eb9-4fc4-884a-a1ff713d6c7b,health insurance company
+0ca57d37-3a8d-445c-ab62-c01e0e35d7b4,construction
+e4e38145-065d-45a2-bc46-89fbb29d599f,change order management
+0c8315cd-9ac7-4a48-babb-102c8eb5834c,procure to pay process management
+cbc2cdbc-deda-4ed5-ae9b-cbb9643d0401,payment procedures administration
+b9e733bc-c078-46cb-b68c-767cd7d0d614,backcharge administration
+cbaa502c-6734-4c94-a54c-8283157bcdcd,claims resolution
+f0deceb9-9c40-47aa-afd6-2e9a0ec2e953,project controls interface
+9838bef4-a9a1-4767-864f-3bc1ea7c64d9,project leadership interface
+b16480d9-8c8e-4191-b1a9-b23ec4dee5a2,seller and subcontractor management
+7bf7eac3-6167-4a86-b9a2-78020136b13a,multidepartment interface
+6ec790f5-a480-412d-b7f3-97e0b2898cce,performance evaluation
+d47381b9-c103-47ce-9c4d-c2aa742396e6,contractual compliance
+691e9b45-4927-444e-82d3-03e56bb0d6f3,invoice and document management
+222a5827-a49a-488e-a238-dca217b33c13,seller and subcontractor interface
+fd6ee485-da7b-4eb3-a778-2e6b7eefb2b4,documentation backup
+679d8e86-6355-410d-af7c-71e272e35454,contract procedures
+82c530bf-7410-418c-b3b8-fb5090e3c012,material cost tracking
+a1728573-1f40-4338-98dc-e0c715f8ff4b,operations management
+8c0d28ab-fcc8-44ad-a188-be0f568d1a7b,finance management
+914f82b6-7cd6-43f8-82d8-4cd3fad6d693,school data management
+82149220-4112-4a10-921c-9944c3d4b689,job application
+26b09009-94c5-46ff-8a18-7eddeba2674b,candidate search
+96eda103-5b44-4cf2-9430-8098074ee383,interview prep
+65388e28-8453-46c0-9c14-8ccbde43da2b,educator resources
+c7a40513-fc8b-4531-8b80-6168b3e28b3a,screening
+ee8066aa-a164-4e1b-b559-8f36919c2c18,hiring
+69daf5d8-392e-4168-a409-79776da3f68b,team review
+1c602591-342f-4fd7-a0bc-92246a5e71ac,profile approval
+5e21bb19-2df8-46b0-a713-4d397579e79d,prescreening
+a913df06-a7a2-45f0-99ce-ac9eed1a3efd,recommendation
+726891c7-84c5-44d6-8870-c50fa099e91a,library access
+b163ed1a-3772-4c56-aa54-f0da69bcfdb1,eligibility
+58031620-56f8-490e-a73b-e4f289523c4a,us work authorization
+ecd61779-b395-4795-827d-8038591ce506,relocation
+65c1720b-1d7c-4125-9fa4-79dff64918cf,fulltime
+845ce470-e17f-4f52-9ee7-e46cda1d1db1,parttime
+7c5c04dc-ae4f-442f-81e2-e41a6bf7ca97,contract
+40138df3-35ae-400b-b374-b5fd6b9d347f,stakeholder partnerships
+52d7e21c-aac3-4abb-89f3-6de98f32de3d,education and communications
+603eb43a-633b-4d4c-ba39-cbc5981671b6,tax law and regulations
+e89796a5-ac56-4f7e-9af8-3e89cc4fe45f,program development and implementation
+13fc5af2-2683-43a8-851c-6fbe5649a520,marketing and communications
+6ab1b1e1-d5b8-4760-94b8-6a44f8ec4e5f,writing
+57832013-aec1-4273-a058-322f56dbbf82,telework
+41b833f4-1b2f-4f1f-87ed-3b377139aee1,governmentissued charge card
+f5130db6-a708-4496-9d1a-0783a62214a7,federal experience
+c810a875-1516-46d4-8f41-f8bdf3f637eb,specialized experience
+f0dd44b5-07d6-41d1-82ef-2c449a3014f6,time in grade requirement
+926ec604-7d37-4fd7-b305-1cca2001d654,time after competitive appointment
+31e4342b-afa7-4004-abb6-b79fc50a4734,education requirements
+827c89f4-75cf-4820-bf10-1f3236bf9380,foreign education credentials
+3edaecbb-854c-4aad-a069-595b3128d8a1,critical job elements
+353100a1-f4c5-4cdb-b59b-f6047ba859d3,online application
+189962e9-ba59-499a-bf8d-e9a5e0c8209e,performance appraisal
+019d6fd9-7630-47c2-a718-72dcc5cbe19f,registration/license
+64e66432-672d-4c2d-9556-12180a219492,irs reassignment preference program
+60bc67a3-c90f-4eae-a5ed-5e30cdf5767c,career transition assistance plan
+39e280b5-c417-4de2-a055-0ab3ff79438c,usajobs application process
+9673daef-a004-4db2-bcc9-6d8f666bbbd7,reasonable accommodation
+518e2e1f-fa1f-49b8-a7ff-d722bb2300cb,equal employment opportunity policy
+b8026a49-bf41-4310-9e3e-edd9eccd26e2,math skills
+42840451-1a6d-409a-ac8f-ea9af99082a1,ability to work with a team
+a69a2c33-db1e-4a80-af0c-93f22c4fdf34,ability to take direction
+a11d8333-fec4-4402-b34e-684e47fc1da2,ability to work on multiple projects simultaneously
+73b7e5bd-de60-4a1e-a94c-7d799f50b466,ability to work in a retail environment
+ccca6fa4-5568-43ec-91c4-ca0da8865257,ability to work in a warehouse environment
+03d730aa-c60d-4010-a2c9-f932b655a38d,ability to work in a cold environment
+5fa5f4f6-01bd-4220-8c07-7ca488e23610,ability to work in a hot environment
+0e9d7241-9efb-4180-bdbb-dbbeb50b55bd,ability to work in a noisy environment
+d3c2050b-63ff-4642-85c2-6248dcb0b795,ability to work in a dusty environment
+bd7e291e-bf18-4360-ae66-0441567bec9a,ability to work in a wet environment
+166ab99f-3f60-4d9e-b9d5-467eb91664c9,ability to work in a hazardous environment
+dfe2bcd6-c560-4319-bed4-c17f782f3991,ability to work with chemicals
+fd819f9f-3cb3-40cc-8672-d2887bc1895e,ability to work with machinery
+df418173-d5e8-4a11-a38c-a32ac021ac68,ability to work with tools
+dd9e5f1f-68b5-4623-8dac-8881a60ef22d,ability to work with computers
+47c8c3c5-aa9c-4326-9e74-5e7536449753,care management assessment
+f3512c51-34ce-4599-a93e-afbd210e6f02,care management treatment plan
+17501309-3f0b-481b-9b35-21616d399830,educational assistance reimbursement
+80c60a13-00cd-4c11-af42-15a053ce7d05,family advocacy
+5508c6b0-6c9b-4f01-842b-ffadb5c7405b,handson training
+3ede35aa-37e6-4c2c-8607-c116d36930bb,healthcare coordination
+9a678ec3-956a-44e0-ba4c-7b0dcdc8d04d,medical and mental health support
+a3fff72c-adf8-4578-ac68-a912f0e32f60,monthly staff meetings
+ceeb5cc4-27d8-467d-ae00-7a9bfb787bdd,ongoing supervision
+4c3bfbd2-6044-4f3d-a2af-7fb8d86187ca,resource provision
+5a8e0de8-8172-4823-874a-35b6e322a9bc,language: bilingual (english and spanish)
+a49a4d98-5a7d-4a0e-b817-5ffe5e4947ad,experience: 2 years minimum with children and youth
+c8edd01b-8ac2-47f3-b7d8-03aa4527e507,independence
+42cd34d0-a76f-4b5c-9d27-109c5edd68ae,education: b.a./b.s. or a.a. with experience
+3906a3be-63c5-4e1b-b3a7-9c7f701de2a3,minimum 2year fulltime commitment preferred
+f67aa5c5-4a5b-4458-85b3-0583f96a2702,vaccination requirement (covid19)
+3e5e5c7b-3190-4b44-96c6-08af30880ab3,fleet management
+489cd227-ad81-45b3-b5d1-54746de5ef6c,fleet management software
+c8f4cc22-363a-4337-85c6-8b5cdffc60bd,fleet acquisition
+009c4270-c6d7-41bb-b255-aee7732c7c31,fleet replacement
+cb8c66a4-9469-40b8-9867-0e03245ad85e,fleet disposal
+1d11f4c7-3605-45ad-bf65-e8ed823b6a6a,fleet utilization
+ac1f5da0-8f43-423d-a999-4b01212e1a73,fleet maintenance
+fd2f5642-742a-47ee-9047-3c6cf8018ede,fleet safety
+c8286dda-10c1-4065-94fe-45d3beb1cb03,industry regulations
+d8b0eaf1-9a6d-415f-9ec7-af2dd2fb4e1c,compliance requirements
+3c304b7e-fe8e-45cf-b24a-76c180a02e2c,registered nurse
+4bf8e642-0991-47b3-8906-d6adf5cacb29,12 hours overnight shift
+636761bd-6ae3-4e31-8e59-42baa5220c5f,contract employment
+05c4c51d-fcc2-4b7c-851a-c4fbe539cbbc,credentials
+8df511c2-ff3f-4800-a090-3eeac70b02c2,pay rate
+59d97589-76ce-4c30-a937-17e7d5bfa691,work schedule
+7288dc4b-9343-4a22-b42e-ca2b48a4a3b8,student loan reimbursement
+0f02f3c4-52d0-466c-9cd4-360eda748425,televisits with psychologist
+6aca9a72-a50a-4865-b749-4d9f70041fb2,team development
+dbf8143f-772a-4133-b11e-b990199524c9,operational excellence
+8c08c6e7-8afc-447c-a548-d00daf45a808,performance coaching
+e4b5c57a-ffc3-4d3a-ab46-3ed11dc71ba1,route planning
+5aca01df-4cbd-4293-baea-cf0289471ce0,osha regulations
+d3aefe66-68d0-4cb9-a332-2b63dfd14f52,dep regulations
+9632cf8a-1121-4152-9c31-894011db0a3d,dec regulations
+192769c6-832a-44bf-a894-4cc9aabfe2ea,commitment to safety
+85b693d6-bcf0-49df-b7b7-2e4868df80b7,corporate tax
+68d0b1ce-5675-4d2b-8bc5-f83cf4c8a799,tax computations
+ffb5353b-ec06-4ebb-8540-5ca36f6a299f,corporation tax returns
+9006c1e2-ca97-47f9-a25d-cb7e7a59fe68,financial statements
+763440bb-3046-45c6-8c97-a63a87c15b72,liaison with hmrc
+40204e99-619a-45f1-9820-1a98b3e4731a,client relationships
+4ba9ca5d-504f-45a8-9586-e8606e90acc2,compliance work
+0b7f875f-55fe-4bde-9403-a7b04844c2eb,payment advice letters
+b6c78875-ca67-4d00-a7ef-645422a507f3,audit
+a9afec02-428c-4c9a-beb0-eb22217c604e,tax advisory
+a088fc85-0bfe-407c-a72e-2b77f8b52ae1,commercial acumen
+dbd8bd8e-e68c-4814-a0d2-36b71b70bc80,aca
+398cdf97-410a-4152-ab0d-23033bc0e9bf,acca
+57e79761-112a-440c-87fe-52fb9af824ac,att
+a385a8f6-51bc-4a66-8b50-d9945a499fe8,cta
+04812552-71af-4531-9b39-53ec203d9b3b,people management skills
+c272b5ef-44e5-4629-94b2-4fcbcebe3fe1,technical efficiency
+7bf944aa-f571-4c7c-a54e-d9c1a00ffd5f,strong written and verbal communication
+9d1f22f8-75d8-4963-ab08-100ae026ce66,per diem employment
+ca791223-957c-4382-b461-cbd07d2164fd,medicalsurgical nursing experience
+4a02fbdb-3277-4b17-aa31-867d9e2dd561,shift: overnight
+029c4dd7-a18a-4851-adeb-919a44a77f05,health care
+86756961-dfcc-4324-b5e9-396d2015d820,cooking
+e300f5f3-6d21-4bdd-94d4-016f5ca9eee8,kitchen equipment operation
+9df0494f-f9e5-4dfc-8be5-3964e8f2e5f3,culinary skills
+bceb3c13-7d2a-4c57-b95f-9d8f3387a364,menu planning
+2cf7e4f6-a7f8-4ec8-9931-2f1c97e30422,food storage
+9427cae7-77a0-47af-aa37-6e8938d17bcc,food safety regulations
+6ae7c56f-aeab-467c-b3ef-4366d6c17ade,food safety certification
+e1fc981a-9fd6-4e0c-8758-fdff875358ec,math and counting skills
+4751cace-b0c1-4877-a864-36fc87444f74,merchandise stocking and recovery
+cd2d07ac-0183-4d93-b4db-75b172e654c6,store cleaning
+1d272eb0-3f23-4cc7-b5fa-ce18b24be0d1,planogram implementation and maintenance
+06f859aa-3280-42c2-a578-2ed7d04b28ea,store opening and closing
+1b556b46-8c39-4025-8de4-6992bbe2403b,interpersonal and oral communication skills
+876a7ec2-dddc-4e7e-8f8a-f0497d5ec196,planogram and merchandise presentation guides reading and following
+5c27c9c1-e4e1-47c8-b476-7bc14aaa0d73,mathematical calculations (addition subtraction multiplication division percentages)
+a152d992-6ab7-4890-a0be-861d2c91653b,cash register functions
+94a5f6ee-16ba-4379-9689-306798f5a515,cash facility and safety control policies and practices knowledge
+79c68fb1-1c3c-4bc0-a5f6-d72b3d69e68b,cash handling procedures knowledge
+4db91e7c-e2bb-41d6-b406-4137c10376e0,driving to the bank to deposit money
+88ad355b-33dd-4188-933d-dbe434e75505,high school diploma or equivalent
+8963cdcc-9c55-49ba-ba98-340dc035182a,six months of supervisory experience
+70810d9b-3372-468a-9825-f96f9f631f70,frequent walking and standing
+011dcdd1-7c46-4863-a01f-97e317a2bd7a,bending stooping and kneeling
+c93a5d8f-d850-49b1-9d05-041dfe2847fa,merchandise and equipment handling
+bb73be49-645f-439f-931b-a61325c4f4ce,lifting up to 40 pounds
+5e89cc5c-fcff-4d7b-9694-ee410f0bb2f6,climbing up to six feet
+0de93b2d-8647-431b-89e8-50b646b46680,outside weather conditions exposure
+3b568011-6936-41e1-98a2-002d5c72ac58,occasional driving
+4104948e-2b29-4556-8c4a-9a1eb6fc1638,surgical technologist
+f651f3fe-5934-4c5f-bc21-4c9d05fe177c,data processing equipment
+a234ab75-1c64-4365-856b-5a82a9a8811f,o.r. experience
+c6608e14-3666-43b5-a6d1-bbd7860b5894,certified surgical technologist (cst)
+86e4d6af-8c23-44f0-8fc4-7a27bdf49446,association of operating room nurses (aorn)
+96a44b35-decb-4224-9fa2-1d1006808ea6,operating room
+a44c16cc-1a7e-4a33-8b09-1062467779d8,aseptic techniques
+796ac1d0-83c6-4254-a814-4d932a3f4068,medical equipment
+211cd23b-4db2-463d-b38b-22fc47f6104e,sterile field
+ec7f7d04-697a-4a01-bf99-8683d40fed84,surgical procedures
+742e6452-52ff-4863-9dbc-2beebca8933d,room assignment
+267efcda-d665-4a38-a0ad-7785df87eb42,operating schedule
+2399a4c5-9602-40bd-889e-dec58795adc1,surgical team
+e37a346a-45af-4dcd-b136-9d2b1d48af25,nursing staff
+c29433ce-7b90-4cab-8a3f-ae8cc7a554ac,sterile processing
+906841e7-9592-43b9-a5f5-033fe94a42df,charge nurse
+3d49d9fd-fda7-4768-8eb2-34f838e233f5,career opportunities
+8e2f72c1-de03-45a2-9342-6cb7baf6b04c,healthcare provider
+279d5a6d-2bca-4944-b285-fd9783602b42,communitybased locations
+20247da3-13f6-4b4e-8fee-5d952b2139c8,georgetown university
+70d48245-d382-4043-acd8-6a879a0e6df7,medical education
+854ee83f-085e-400a-85ff-4c7259319ea9,clinical partner
+02e835fb-8b9f-455a-9120-a928bb6eb568,personal development
+2c95d308-89d2-48d2-b64d-3312459774d4,professional fulfillment
+2fad2a4a-920f-4433-89db-0698b43fe07d,travel nursing agency
+bc04e05f-18f2-4c3a-b0f6-e7deec5a3993,pay package
+8f12d8f6-1b36-4b23-a396-9aaf00672f66,taxfree stipend
+161c17ab-33f3-4341-bfa3-b0cf87d40a75,health care fsa
+4f855338-7d3e-40dd-8726-f52aa80a850d,financial advising
+81fd0663-4917-4c40-a6d8-36ddc7ea3e46,client servicing
+1004e941-fafa-41e3-9ad6-f93ca0787edd,chartered financial adviser
+a2707e63-2c83-4fb7-9ed1-bc2fb14812a0,diploma in financial advising
+d85680d0-a18b-4e4d-be20-625ed905c216,paraplanning
+bf5f38b9-d7cb-48f0-93a6-02a4538b716e,personal and corporate sectors
+dd527ad1-fe75-4f2d-b2e8-db69a0ec9b62,professional and business networking
+917e472c-4067-4f4f-ba91-6dbfcfea6c4f,career development
+e82eb98f-0740-45ff-9fbe-52c45a84dfff,ethics and integrity
+7cdd5cd9-d070-4db4-9398-da3507ced851,client needs prioritization
+28a7db6a-836c-4709-b4a0-2e6cc8a553c7,salary and benefits package
+37e1c4cc-fa7e-48a8-89ef-0de20b49594f,existing client bank support
+9b3b4ed8-2570-4ba0-aefb-ccea52a8ce28,employee training
+b9b7bd8d-61a9-4a1d-b6ca-89f8512c140b,cold calling
+7ba501f1-cf8f-4d0c-9a86-486c132910ef,empathy
+1d32b662-e15f-40e6-b389-df6fd4dde090,fast paced environment
+70e6494c-8548-42f9-b59b-aef04f115c93,bachelors or associates degree
+98fb33b8-7565-458b-9883-c72a045c9590,volunteer days
+8223b4a4-b539-4a49-a9b6-e6fba9b31246,paid holidays
+3fc41cd7-9bd7-4d32-9f7e-493e6b9689ac,employee stock ownership program
+d4d9ea90-e03d-45dd-b2a4-6837a74bad7e,short/long term disability
+37d83428-8457-42cb-8295-50eee8b3b98b,gym benefits
+0217d786-06c2-47cc-8fbc-6dd9c9b1e845,home health
+80c63a7f-f062-444f-8f25-5d267e968db3,registered nurse (rn)
+19f7cf43-454e-48cc-aac5-3a18658dfd89,13 weeks
+48290637-d94a-439e-800a-d4b1cfefb978,8 hours per shift
+ad30d295-eeec-4cce-9163-4c46428d29be,travel nurse
+3490bcc7-f79e-46d2-88e7-eb81563f8ac0,10% margin
+ad00fd03-8013-4d5d-adf0-6b40626b8cc0,license and certification reimbursement
+86298d58-70f0-4b55-a37c-45432e5517bf,taxation
+b5a9fe5d-1cae-4c39-9e93-582cd98a419e,tax codes
+4ff75540-7cfa-4e33-bdda-c242d584d23d,tax obligations
+ace3861d-6bd8-4ed4-b2ed-1d416a91685a,corporation tax computations
+626c794b-1310-4a3f-87dd-357edb5a36fc,tax returns
+91e627ba-ac8d-4871-8f45-78bd771e17f7,financial risk management
+0d2a1f45-ba9c-45f4-aba3-02fe090e1f4d,tax disputes
+8d25f5e2-3965-45ef-946a-5c7b81b09499,crossborder tax matters
+79ccabc4-1db9-4946-a5bf-492818b2c1d8,due diligence
+2c687c49-a4eb-41fb-99f4-528bfb20b787,restructuring
+4ecdc533-846b-41d0-9b52-73af99599435,reorganisation
+33f3956d-8abb-4de4-b606-facc760e4d6d,client relationship building
+27c3ec66-d01e-442a-9ece-391aa2ec1033,commitment to selfdevelopment
+8a7463da-e292-4c63-9aee-515b94bbd8db,degree in a relevant field
+90d1c12c-7d1c-4563-acd8-8b2edc1b3aef,2.2 or above gpa
+1cb6ea2e-ff7f-4027-8283-098c1b01bf03,claims investigation
+b6b9255e-c1d6-4302-8b02-e0ab975fa912,workers compensation
+402cbe9a-8a76-4b5c-afd7-8b9fb635569c,legal statutes
+f0d0f811-69d1-4545-bb5d-483053c7ab16,policy provisions
+dd622617-9df5-4300-9928-c3db5a1efcca,litigation management
+de7164fb-9835-43e2-ade9-5a8794692661,disability management
+f141bd72-52f2-418d-9096-3c685c355adb,medicare secondary payer act
+61f28e83-12bf-48ee-9d33-3b5e53214be1,workers' compensation
+a8f14c68-7226-4516-b01f-1318ad97186e,jurisdictional requirements
+b30326fa-9490-4e96-afef-25562e1bd410,case law
+3d6dd42a-6ac3-4481-8112-dc266ba667bd,panel provider information
+b2f1c9a8-64bc-4d5a-865c-a7d4e0ff0d5b,code of business conduct
+fac9b1dc-721a-4580-acc6-844e25acee7d,ms office product suite
+06fb5ffe-e3ab-4882-9f34-1e619be0110f,active license
+489b642d-b448-4212-ac41-95f5c6f880d8,aic designation
+a4430a68-bf1f-42f0-b63b-c3578acb5896,client in wv
+ac059945-bd01-41eb-827e-526c6132cd1a,home health rn
+2c590df3-b83a-4ae7-8a95-2f47cf28baaa,private housing or housing allowance
+b22d56ca-b2e2-4782-a1ee-843585674d59,health insurance (medical/dental/vision)
+18279a6e-424b-457a-a9aa-5dff75623999,travel reimbursement
+5362ac90-0113-45a1-b62b-5edf57c6059c,licensure assistance & reimbursement
+f6024b67-6cd1-4b2f-a2bf-c4235150acfb,401k
+0b84a719-0090-402b-bf64-29fa74dbce78,benefits start day 1
+7394bc94-a18e-459b-a7c7-b3330da7c709,spanish
+7252bbb3-1a6b-4446-a932-dcc81597ad87,teaching
+2751fa17-ba23-464a-a85a-422a686141db,tutoring
+477ce301-ee66-4d3f-b9e4-c3a2dc8a360a,online education
+66b85dd1-d1cd-4b89-aede-32da152a6688,flexible schedule
+e06ed3ac-9eba-491f-899c-e86f92532631,work from anywhere
+a7ba301c-61a6-401e-9d8b-32be72afb04f,nihss certification
+b631c5f8-ae43-4d34-a0ef-b469a5eda346,discharge planning
+bfcad9ae-6e83-49af-b1ef-ede8de001f0f,patient outcomes
+a9666bf3-3167-4c59-b32b-568fa59adca9,clinical ladder program
+b5ebe6de-7bd5-4a55-9c58-87c14d1deed5,team based nursing model
+6bebf724-6ed5-4cd5-8338-53b860f4ee9d,rehabrn
+73987692-b385-477b-a3a8-286e32e4e313,sick leave
+4b30b366-4e53-4544-9b97-7583d3cf490a,lean principles
+5256f8dc-715c-4f5d-a380-f25bee7cf210,delegating
+5b8ff3c0-aea1-4434-8f60-4835c784bc1d,negotiating
+0400f638-8310-44d2-8702-e4c72f4b2dff,organizational
+f0c74c92-1f0d-4cd6-a31c-21e090215be4,safetyfirst mindset
+d2728a96-b5f6-44b3-9072-19a361a55fee,degree in construction management or engineering
+6ec9ff0e-e15a-47c3-aeb9-b92e834c5aff,6+ years commercial construction project manager experience
+31b67dd3-c4fb-4037-b4e0-475182bf8657,experience in handling multiple projects at once
+708e09ba-6215-4161-93c2-41f92543127b,proficient in scheduling delegating tasks budgeting and negotiating contracts
+7769492a-88a6-4191-8e3d-19d803a5a60e,proven track record of leading construction crews
+2de24693-120b-4a84-b4ea-ee972ad1f2c3,clinical competency
+347b93ef-541a-431f-b3e5-492c749fe212,priority setting
+e21d6ac2-aaf5-4e32-99c6-34b4341afba2,growth and development
+ed245a0f-faed-4bcb-8fff-dadb81858e87,fetal monitoring
+45e8ebd6-d07f-41ef-8625-ea1199c88fdc,nrp
+5c8a43cd-2d3d-4d05-9e5a-9982e97d45d1,electric fetal monitoring
+06ca3f4c-1bac-4e9a-a476-bd61bd7a3e7a,labor and delivery
+0c0294f5-caa9-45b7-be31-492726201bda,postpartum
+e28fe5fb-9964-4897-aea3-ad546f7a36ed,well newborn
+ba47cabf-6810-49fb-975b-2aca30006862,scrub
+7517f3de-eda5-4b6e-b337-de52f8aafbd3,circulator
+ed578876-96c7-4f3c-b759-520094292a61,level ii newborn
+29077f1b-ea30-4de8-a3ad-caa936e6e2e5,evidencebased standards
+e5f45db4-b6c3-45c0-a0b8-6e4043873ffc,dds/dmd
+f2b20222-37d6-41ca-bfcd-2bc8d91df296,california dental board license
+08df73f7-0985-44df-8a03-bf317c3cb573,dea
+8bd8ecfa-2598-44fb-84ad-4eb17e9f5bae,npi
+806475b1-6487-4858-955e-ad04b4b26bbb,ppo
+a0c0ce04-66e0-4d87-a993-ea913606cee8,hmo
+c6492db8-944f-493c-92a3-747c065a5d54,patient interaction
+e0976997-d146-49ee-9253-56f5792111bb,patient trust
+9aff2993-4116-412a-b53d-a78e6e85c58d,office team collaboration
+9fc8322c-d862-4c17-a0f8-0f36c4a96450,patient concerns
+735c548d-c160-466c-b569-62e390e4f3d2,dental treatment
+31257826-5371-4240-8b1d-3ca33da065c2,modern systems
+0325aeb8-2c08-4339-8afe-07c02481bad2,equipment
+befcf85a-950e-49a6-bd40-dabafe81319c,supplies
+8eb84012-de5d-4ddb-aeb1-9dbc7cf1c5cd,regulatory compliance
+bacf411f-a930-4517-9f82-39d0ee6eb209,patient flow
+6a152572-90af-483b-aeed-ebb7edb99147,clinical training
+426acad2-d348-4a3d-ba81-8fd3dd57dee8,chart reviews
+79fb9c82-6341-410e-8f52-52af0ad8fcf6,ce courses
+74356c90-bf01-4321-88b8-520027b8560f,medical insurance
+fe5058b2-bbea-405a-bf0e-1c27cc192b28,flexible spending accounts
+f6b2a033-068e-47dd-84a0-33359e3398b9,dental benefit
+0ab470f7-2de5-4761-98e7-48cd36c307a4,supplemental insurance
+bb99c798-fe66-43d2-9649-6f4d0de44ad2,advancement opportunities
+ba7fc1ae-1cba-4988-a057-3a1cc6b58e1c,401k participation
+d6e2965d-f084-4145-b134-66c85d9c36bd,inddr
+d014aacc-435c-4b48-b85c-dc504b5c4d83,icu/critical care nursing
+88b8cf06-d4fa-4c83-8584-a825835a91a9,medical software
+f69c6545-63b8-49a1-b9da-98c1b77af449,active listening
+ea8dfd83-4c81-4fdb-ac28-0f8ed9a544b2,medical ethics
+b194234f-06e0-4b04-a936-6f87b19b09b8,nclexrn
+cbd6cee8-9c4d-49bf-9e16-dd74fd1a3600,background check
+4e9f0ab9-3b50-4d2c-8c8c-1dca5a922221,drug screen
+19dd456f-1c63-4d2f-b30e-6b73cae915f7,customized housing options
+a02972d1-afd3-4c2b-8d74-0c80e4c2371b,disability insurance
+6ddfbd89-1ceb-4255-aa64-e1a506cb3c2b,401(k) with employer match
+f1eba88e-1b65-40c9-8a10-875092b9ae13,certification & licensure reimbursement
+682813fb-e671-4530-83bb-8a07e7f5d03f,generall referrall bonus program
+cd029398-deda-4e94-9857-fe3cb9e259f7,weekly direct deposit
+712c1aba-04c9-4283-aa8d-736424ac1d5a,24/7/365 support
+6b6844f2-4496-4fb3-ab65-da327dac5771,genomics
+701ef5b0-45e9-4a05-9478-ff7ea402c2bd,epidemiology
+b59fe86e-5e48-4464-8631-5b2587b16c1c,public engagement
+af4cf262-da7c-441f-a1d8-4337c0c748fa,outreach
+0cc82c8c-9caa-4d48-904b-009623ffffd6,project coordination
+7d6f7228-fcc3-4dc3-8e08-4a16a60f4f9c,research data management
+78e2110b-845c-4af5-bd30-3727cf3a7365,educational initiatives
+65a229b7-0c26-412d-944c-588b93a33048,biospecimen repositories
+35e21619-3f35-4fd6-95f3-9e2f3c96f058,irb protocols
+2d45ba0b-3aaa-4722-88a3-05af5cc71694,dna sequencing
+91822865-ff51-4811-b643-4f1730d34d97,dna
+97f48a8f-7060-4e91-9f8d-c75dbf50bd60,human studies
+c72116f9-a239-401f-876c-4662aa1f57d0,public health
+084af347-0722-4ee1-a94c-ab92fff8668a,4 years of experience
+fe45470e-2a25-4a87-ab83-50bc72aede07,connected supply chain
+752dd262-27d1-4ab9-987f-ab4839f08fa6,operations consulting
+ac79acae-8058-4c1a-90c8-b6e6f056e48a,sourcing
+78587e5e-7540-4a41-97b2-71526241e4e9,manufacturing operations
+dee1d110-305a-4f19-b403-73f5b107cc4d,service operations
+e4afd798-204a-467c-93fb-4433f8218a3c,capital asset programmes
+5cbeddc1-ee24-4918-9435-63f3ef73e85f,supply chain strategy
+54179ddd-2f4f-44ae-a314-80e79271a8fa,supply chain footprint
+9f7a75da-40e6-45bf-9413-450fd17510c1,distribution
+b3d314a3-f368-4f1d-a3f3-c73e634b276d,integrated business planning
+f00ad4da-69a0-4726-9b1f-c4d118c447bc,o9 technology
+f8a990d6-80b4-4cda-93b6-c3b09b976025,demand planning
+64a7d439-c479-4790-8565-9da5fa11c5a8,supply optimization analytics
+34d6db2b-457e-45ad-95cf-58d75475f998,sales and operations planning (s&op)
+1bdd1190-b2fb-45a5-a7a5-254127449485,supply chain network planning
+773301d9-5472-406f-a930-34353735102a,capacity planning optimization
+76ad0ff6-006d-40fe-b93e-de7be33058fd,global inventory management
+916764ee-89d6-4b07-9c52-170d89802c0b,san francisco fair chance ordinance
+8d82654e-f21b-4c1f-9121-bf5885929934,cath lab technologist
+c74889b8-304d-4592-b468-05d1724f36ae,cardiovascular technologist program (cvt)
+9ef45842-c06b-4303-903c-d7127691125b,american registry radiologic technologists (arrt)
+588e3ec0-d002-4b2b-8447-317d5d1ace78,american heart association acls & bls for health care providers
+082fd362-d8fe-4c84-8799-21a1e382d08a,cardiac/peripheral catherization
+e01220b8-4842-4d06-9eb1-8dc6663e056f,scrub role
+89eea950-606e-432f-8e74-5ffc083bbc19,per diem allowances
+3320a89f-830f-4918-b2fe-d5e86ef54511,educational opportunities
+ac847047-eea8-4121-9015-5bbbab9bd198,stress engineering
+46ba9de9-41e9-426b-9371-13f7a0d87247,hypermesh
+022cf349-ed4e-4767-9d9f-19e1c555f394,optistruct
+2f62c8c4-0de9-4e30-9e1b-ceb6b67754d2,mass reduction
+a7e4e6f9-09e0-47ff-8f69-5c616a69243b,design optimization
+a5b04667-bcdc-4f27-b154-8a3058c205f7,design process
+e80b4203-ce2f-4657-bf1e-85ae3abd2e9b,radiology technician
+32011200-6131-4bcd-a213-f52490ec32ca,travel job
+e786cb85-20ce-4ce9-9c99-ae7fa901818b,nightshift
+a702fbef-838b-4227-a576-9545f457b19d,travel nurse staffing
+0aa4302d-4b37-4135-a0b7-ef1c9232e336,machine operation
+8a3ed3a8-92fc-4aeb-a5e9-2ecc04ada13c,reading job specifications
+a3149f0d-fac0-4509-8915-0ebb18146213,setting stops or guides
+28dc4da7-55c5-4bae-9a2d-0fb2a2d1c336,observing machine operation
+dec3c349-0417-446c-b940-b43ccd660003,measuring parts dimensions
+5581c9f6-5838-403e-b89e-a5317946fb54,removing burrs sharp edges rust or scale
+518d1ac0-445c-4277-9c5f-c95459108fb0,selecting aligning and securing holding fixtures
+e2722789-c09b-4671-860f-3cc6e146087c,verifying conformance of finished part to specifications
+ed8c929f-a668-4076-b6a0-ae858c493669,following company safety procedures
+6fc64071-9f39-4f1c-8b8f-1f7e1f376f16,service and maintenance of equipment
+2bcc0afc-4190-4dcd-b254-e245a32f43bd,teamwork orientation
+3ca1300a-3b57-4bfa-bafe-e7d944e1f851,machine shop equipment operation experience
+d52dfcd6-fd76-479b-83f6-c951ac05c582,basic math and decimal places knowledge
+9f414c90-afe0-4272-b0d9-91ee9c08e4d2,gages calipers measuring tools usage knowledge
+fec45d81-11c0-4d5e-bfeb-424e417bc451,retail operations
+a92b9503-3e48-4cf7-a461-b5a58ed20337,housekeeping
+e4a7935b-c38d-493d-8af0-364016319ecf,theft prevention
+c2f37216-ecb6-4c4a-b834-79b1af80d855,bsn or adn
+9a7085dc-0dac-49b2-a5dc-484daa35dfaf,bls provider
+56f9cd40-943e-4840-bb82-7d2f75627f14,illinois board of nursing license
+1eeac9d8-e7b6-45a5-a8ca-4c45e9e64e21,1 year of experience
+09a0b89e-d51e-44fc-bf73-aa4387f0a56b,electronic medical record (emr)
+c636d4a0-d560-4b1a-8f92-23af65a16847,medical history
+b6b2460a-d4ec-46b8-abe1-7b4281a5d021,physical examination
+d0cfc33f-3e23-454f-b5d0-9eb036e2b4f0,test analysis
+d188a51e-7fe4-4c34-9241-7d033f745031,diagnosis
+f30cc80d-d8a8-4416-aea6-abf7eb7ba86b,prognosis
+6b977eb5-5579-49bb-99c9-2ffeb7640208,doctor of osteopathy (do)
+4a234a9a-4295-40b9-8981-798c3993e1ed,medical doctor (md)
+f02e4ebf-4056-47d7-9b07-10302ba8b2d7,people department management
+e821f912-252d-4903-a426-c51b7ae87770,food production
+b0e053db-278a-4b7d-ad52-cd48a4f91406,employee recognition
+481d7d5d-aac1-4e80-998f-e6e87eff592f,java
+b27d8386-8e57-4fb0-8eb8-dcd9789030a4,kotlin
+d686f375-dc58-4ff1-87bf-d243a33ec0f6,android sdk
+fcccc754-58a4-45fa-a288-15c695e1ce66,a/b testing
+3dd73b9f-f1c5-4e47-af18-081994bb2c1f,google play store
+68380817-46b4-48b5-956a-3954aa157de9,apps distribution process
+192ad386-ed5c-4f6d-a696-6c91d63affd1,strong technical skills
+16e3faed-8031-4e56-b2e1-1d3373dfe8b1,medicaid policy
+daa04ae5-3bfb-4e01-aa3c-b07b4718c327,hipaa compliance
+6e811a60-c5e7-4fa0-8a39-8f62da7e60f0,interviewing
+fd0f7ced-f950-45d6-9104-9bbbcd50cc9e,proficient in microsoft suites
+95c1a80e-3a4f-408c-956e-361a34729fef,medicaid knowledge
+afe7b65f-cf34-4c1d-aeb9-0b010e0644c1,1 year experience in investigations
+9d6a7b24-6877-41a4-9571-ff966796f925,internal medicine
+63b0d193-929e-46ea-90d8-4e9c9d40851a,inpatient care
+d52237fc-7fd2-4069-94d4-596db7aeec25,medical student supervision
+1ab9bc9b-c253-4b13-813b-aaa6b1b466f5,medical resident teaching
+f7c53681-ddd8-4081-a9fe-368b75aa9052,advanced general internal medicine
+f2267201-bae3-4004-82ac-033b9ded99ed,chief resident
+b1f5d0e5-9666-4469-9259-9857665f5c8b,fastpaced work
+9e74d2c1-d45d-48df-a596-d31718453c0c,ability to meet standards
+8fdc58d6-cf98-49f6-bbd4-11451b7805e4,collaboration with other departments
+a14cb5cc-3eae-4472-9152-bb2b907a8ec2,personal responsibility
+0595371e-f527-408e-9ac5-7fa7dd3df097,customer satisfaction focus
+de9d3838-c76d-4cfb-9960-faff5fe1c97d,friendly and outgoing personality
+ba3f239b-98d7-45ae-b338-45b1d338f386,arrt (ct) certification
+9753d7f8-7f37-462d-b2fc-01ffe955e802,asrt certification
+039bfc7e-b572-485d-b2e2-1fb6ecb990cd,independent work and teamwork
+47a31f90-ae3d-4815-8003-38c988396199,ct equipment operation
+da695fea-c089-400e-ae2a-af2d27d17fe6,equipment control
+255acbc6-47d2-4ec6-8307-9c7e9fd6e013,radiologist assistance
+907225c9-cc0f-46d4-b038-b710c1bcb472,oral contrast dispensing
+d2f65344-d508-480a-b776-93c91441948f,interventional ct procedures
+b9056600-b71c-4ad0-8fcc-107504639af7,ct scan evaluation
+4a289365-f9a4-4755-869f-8323cc3cc3db,patient scheduling
+a72ce79c-917e-4cd6-a8ff-3ef9a7848379,clerical functions
+86be7852-fd84-445a-9aee-3b8515f1a067,procedure and supply charting
+16f34a46-ef26-4255-a46e-b9f878aa6695,power injection operation
+48861075-a458-4750-849c-163866fbcaa6,patient care delivery
+f9fb9bc9-f96a-441f-83cc-c5ebdec54d54,environmental excellence
+feb5097b-ed09-4866-99a2-f05591af43ea,patient safety initiatives
+65cd2847-c67c-4457-919c-3cc3c903e84a,nursing and allied travel
+e7395d74-e3e7-44a2-aea2-1f0ccf34c821,nationwide travel assignments
+3a47f4fb-bbf4-41a7-9f5c-af2099d56688,direct deposit
+d05fb641-0945-4051-b8f7-73795fac8d63,credentialing fee coverage
+61d2a673-79d3-435a-9658-2685c4601f9b,private housing or allowance
+15968607-5d0b-4734-a69a-da64b492c799,group health insurance
+5acaea5f-6d0e-494f-b80a-f124cda217c7,companypaid life and disability insurance
+f01201e3-091f-4e32-8938-4adae734bf5b,401(k) matching
+9d5e9b03-c4a5-4936-a6a8-22186dd89ac0,referral bonuses
+501a35b5-d6f1-4012-8c3b-593a15f0328f,fulltime position
+0daab014-6e00-4bd7-acef-0c82b1079cb8,ct tech imaging
+c9ad307e-350b-4ce0-b8d0-0ec74ac8c34e,computerized axial tomography
+d64d2171-2b6b-4736-8769-a366ebdb08f1,dentistry
+a2a57227-8745-42cc-88ce-379a8ab57c6c,oral health
+888bee4b-813c-4678-8c55-e757526f2aca,dental procedures
+3f0b9556-0cd0-41e1-90ec-eae323143f6f,fillings
+94dad382-b442-4c06-9d82-204be3cf93be,extractions
+2138a67d-e890-4540-bd09-63682cd07b5e,root canals
+37ee6d52-e54b-441f-9091-dad379f9ea1f,anesthetics
+4bbf37dc-6baf-4905-a35a-e99e8d79e683,conscious sedation
+7eb59ca6-e1ad-4d24-8307-efa51e816639,dental hygiene
+a3d26548-c451-4d52-83f1-4dbbee86c928,state and local compliance
+d8a4d3f8-f83d-4dfd-841e-ed5faf50ab76,electronic health records
+5ef56457-8e5a-4422-b484-c93afa967658,quality patient care
+3af5f596-e81e-48c6-8e50-12fbb186dccc,accessible patient care
+80031779-6798-41f9-82e1-d84f7ec71448,integrated care
+9c728bad-d226-4888-bd70-a81b1b6ba50b,dental experience
+f2c68a8a-7e5c-44a3-80f9-7be6a7327daf,dental school degree
+d3794a57-a5a5-4c2e-9dc2-6831cdf57bc2,unrestricted dental license
+aea467eb-82b3-4af4-9ad7-e1f3172a4f7f,dea certification
+838b58dd-c38b-49a9-909a-b47a62021451,cds certification
+3faf59e9-828e-4b0f-ac89-be68ff1f8eca,als certification
+3c2dac18-75af-40f3-826b-4b097584dc07,pal certification
+97213768-d141-463c-a100-709e7285aa09,patient intake and information management
+7412216a-0316-43ef-a64b-5e413ae194d3,equipment and supplies management
+8235a357-73d6-4026-a564-78d571997f86,communication (verbal and written)
+c443bc36-119d-4e67-bc09-d9d778eadc81,microsoft office suite (outlook word excel)
+3afc4e5b-bc62-46fe-91d3-b632e798021e,email and internet communication
+be9c0be1-7cb0-404e-b903-6528446a0d6d,fax machine copier printer phone
+37cd2f06-2e5f-408e-b125-be6f0860f400,billing and reimbursement
+e5b51f2b-1751-4b19-9b4e-8fb7349b9e4e,administrative record management
+dc609e83-331b-49bb-9eb7-44edbf4fe143,english language proficiency (oral and written)
+86330205-316a-4589-8c61-cd48a61cafb5,experience with medical equipment (preferred)
+db29e348-3496-49b2-a8f3-c36d851bb4d8,experience with medical billing and reimbursement (preferred)
+79bbfe70-20ea-4bd8-969b-7aa985c2625a,experience in the medical field and administrative record management (preferred)
+e8c367b3-c1c2-4708-8c4e-35bec1323d40,one year of related work experience (preferred)
+4d722b39-0143-431d-9fbe-14432384b75b,background investigation
+98b6e06c-3f89-4a6b-bfeb-4ceec9c5b23b,drug screening (when applicable)
+008582bd-5682-4075-87c9-92de42fa5bee,valid driver's license (when applicable)
+8b17c28c-d8eb-4c1d-9a8a-8725f2fd1a00,cipd
+ffe070bc-7441-406e-846d-d515448b1201,microsoft 365
+7e5beb6b-2cd8-406a-840f-ce6388b6f89d,teams
+5868d3f1-67c2-4888-b18a-d5027f6cba46,equality
+b00a942a-e899-4d66-ab7a-63b8f6b44c01,internet
+690ddb0d-b5e6-4903-8773-00a54524d84b,new media
+aac47c6f-0dbe-490b-8f1d-0c9fcb35b118,skills development
+1ab6f2f0-acd0-4d98-afc5-7593f1709ee7,conduct
+49fceb97-15f3-4b84-8114-e70aeb6a3bb8,capability
+9cb60d6f-d8c6-4cb0-ab3f-094cea47eaf0,attendance
+ac246ed2-0274-4e24-9f43-bedf39ca2f21,people policy
+5b0ecf7e-0228-4584-8b74-d84a1203d257,employee benefits administration
+d9aab398-d7f5-44ce-a672-d58717dcf1bf,longterm disability insurance
+01b55746-63d0-4a69-8d26-5df7422fc5fc,calpers
+2e681e14-ea11-44fb-8ddf-ed2660a5d1c3,deferred compensation plans
+1151056c-c45f-4cdd-acb5-3d04eab1eec8,cobra
+6da7e507-9cf3-4193-8966-d6516e171de3,wellness programs
+448659f6-aafe-4512-b0d4-0ac32786d54c,data manipulation
+1f3088e3-4e12-4db3-9f61-8f26a22c0fde,pivot tables
+e7e10e8c-d7b9-4909-a0a6-5034ea418261,oracle ebusiness suite
+108102fa-c130-4176-8d5e-4fb8a167b13f,adp payroll system
+01931bf7-7c61-4e72-8683-ee48739d3bc8,enterprise resource planning (erp) software
+21d374a3-dc44-452f-899b-df4341387ee0,compliance training
+42b8aa53-ecc7-4328-9ec2-8539477e3667,electronic storage systems
+8cdb32aa-c134-4e3d-94ca-8b56d76e5ff5,hr scorecards
+37abb16b-19e8-4521-ba68-6bab5fe4a9d5,metrics
+0a07559f-cb91-431b-89d4-06a72a1134df,analytics
+3ce5be60-cb89-45b0-b360-7386cea327e5,property operations management
+f4b64285-0958-4410-b3c2-b0181f1f9a18,onsite staff supervision
+05d00866-abf4-4023-aad8-50a798856077,resident services coordination
+a05b1397-6ef0-4e62-a2c1-8271423e0581,compliance specialization
+2876cb0f-b41f-48a2-9807-fa69e17060ab,leasing management
+ed776522-8fe6-4b62-920e-67512472fa57,leasing consultation
+f7cd0c4c-cba7-4abc-8e6c-f8f46f117b1b,maintenance supervision
+26a6aab3-b737-4c8b-bcae-ba9dd8243a3b,maintenance technician
+0061e5eb-0c9e-46d5-8a2e-b5e440ac13a1,makeready technician
+2fca9316-5998-412f-a6f7-ecb03844f4ac,rehab technician
+48b6525f-8969-4cb7-bc40-ea5be399e526,groundskeeping
+3817dfac-cb55-4153-aefe-1d72ba3cac4b,porter
+3c00d7cd-d8fa-4fbd-a107-7cab1a47938b,painting
+ec9ffca7-b714-44e8-a342-e23eabf62c9f,housekeeper
+bef044bf-c4e9-4098-b487-7dfd814a40fd,computer proficiency
+57a56070-e1cc-4066-bc1f-20a8f496a366,ability to lift
+9ecc7072-bc4a-436b-b276-09967ed5055a,passport photo taking
+838c134a-d362-440b-a565-55adcf302d67,identity verification
+585300a0-0805-4629-b7d6-825e382abacd,fingerprint imaging
+e9e85b64-d51b-44b8-8c3c-0a44f1ec4d6d,data entry
+0dfd2cf1-29a9-4539-89dc-6c0b5ee23fb6,mondayfriday schedule
+b9d6f056-5dc3-4fe5-8931-a7b6c013c225,relationship management
+b08ae90a-c19e-470c-841c-62b6b8518f90,general technology skills
+15b898f9-bd9d-439e-bf25-c6410f30cb4a,internet access
+1ef4807e-c58d-4ba5-be1f-dc7ba57e63fc,personal integrity
+efcd5a42-f407-4d0e-a4e0-51d9bc6b7da7,positive attitude
+8934c2b9-0ff5-455f-b05e-eb86427dbff0,outstanding communication skills
+03ef32e2-b4c0-46f1-b283-4e23f1e98182,treatment plans
+f1dbe71e-bcd2-456e-8267-aad3c4338d16,supportive therapy
+46bbc96d-25fb-4f93-b571-22b9dabc9cf4,psychosocial assessments
+feb75fd2-d368-4101-a81f-1b4e013785e4,brokerage
+85eb7382-87e0-4f0f-8f97-6188036fa0b5,charting
+53bf5e73-745e-4a4f-97cf-c9cbebff9961,performance evaluations
+6132ffad-6789-4023-81ef-894559c35dc3,payroll
+77fbe97b-9878-4092-8d11-5c0028b7fbbc,medical records
+950bec1e-4a41-45ea-85ad-93eeb46c5ee5,utilization management
+c3a837bb-590c-41b9-bb5a-2b8bd54412f3,hipaa standards
+d042c696-9197-4558-8d6e-2897fcbac9da,behavioral science
+fdeb1397-109d-41e1-9710-258733b6c6ec,clinical services
+82d3380b-87b7-4624-a042-d37afc58d3bf,ehr software
+2c260a12-e30a-48b8-9dbf-5d4173d83fe0,crisis response
+b8e7a46d-da3f-4f97-bae3-2104636d92c3,mt
+c9e5c2ff-4f32-4a93-9a96-898ccbb845ec,medical technology
+172ee1fc-22a5-42cc-8eba-a726ac5c5ecb,ascp/nca
+fabdb948-1a61-4526-b96c-f70576b945de,laboratory testing
+d865fdb8-08b4-4076-acde-c53e2b642761,specimen processing
+f09c18be-2d36-44bc-9728-98ed0a97d2ef,analytical thinking
+c973fca0-4409-4f0d-9697-74c94d7abdc6,punctuality
+5589027c-97ed-439d-a21d-82b9c072b9d8,ability to follow policies and procedures
+df053d47-ff17-43ed-80ca-bed409f5a3d3,ability to attend and participate in staff meetings
+5e79d74d-c6c7-47b4-a61c-8d9befddbeb9,decision making skills
+580bd6a2-36e0-4638-a7ce-922ed234dbf0,problem solving skills
+870fafd8-c60c-40af-90f7-c3f771744a09,ability to work with minimal supervision
+6f269157-40b2-4365-872b-8d013aeeba3f,ability to provide direction and support to others
+b2e718b3-d8d3-4127-a948-c660230184bd,ability to handle interruptions
+4f2f48fe-f0ff-4da4-8d59-258ea022f8c6,ability to strive for quality
+7dab2e51-58a5-461c-8c3d-508e77beb858,internal auditor
+ce370f43-ea82-437b-b6e3-c2ca1499debd,financial auditing
+a1bca718-92a2-4d2b-84ab-07a2f29245f0,operational auditing
+2b86992b-5c61-4e2b-a1b4-253591456d31,compliance auditing
+7ae4379c-b559-4e17-b8d9-8e690836a939,information security auditing
+0c428cd3-cdc2-49ea-92eb-87fd498926e5,risk assessment
+397a606e-93f0-4595-82fa-9b9bb73647cf,auditing standards
+566a729a-e5e9-42f2-a642-a7ba1d308714,problem identification
+b700713f-9c2a-4615-8a53-c4393096bb92,interpersonal communication
+ebf26ca3-cc1e-4bdf-8d46-e8c5cb5acf49,international standards for the professional practices of internal auditing
+45764aea-00b3-4770-b2c4-5f849457f6fe,professional certification
+039583af-a770-44a3-88d2-5ef1e016cd5f,businessrelated degree
+25e8b85d-d410-4969-9a5f-4e36b4a99f4d,three years of auditing experience
+42f3eac7-a95a-4f43-8406-e838ccef1aa8,sales skills
+4238b5d6-5632-4e25-b8d1-88b04fb1a560,inspection skills
+522d5192-3363-4509-ae54-1485c4499718,pest control knowledge
+a528e43b-9434-4a6b-a43b-d34f1dec1536,customer service skills
+d78d1240-5680-4cf0-810a-c96b55e093ba,ability to use ipad
+0c233f52-1731-4062-b7cc-b29bb7ff68e8,sales software
+303f3cd2-c3a3-44de-a4d0-31db5267e16a,company vehicle
+993208b3-162f-48ae-ba86-d3d4deef526e,iphone
+f78bbece-286d-49b4-b304-d91ac26b0747,medical dental vision maternity & life insurance
+41b15f25-d575-4da2-9366-01dbe97b0d1a,paid vacation holidays and sick leave
+a33d0e18-53ed-4590-b708-fb7a28108ff3,dependent scholarship awards
+1aafce07-7371-4d7e-90a2-aa39dd680bd1,ability to pass a drug screen and background check
+cf9662b9-a1eb-4b33-a66e-e3dfca25924e,ability to obtain the appropriate pesticide license/certification
+163ed513-10af-4672-93dc-56ec09a9cbdb,ability to use a ladder
+db042c3f-9a39-4e6e-ae7f-dc83db34911d,ability to lift and carry up to 50 lbs.
+31bbc634-4202-42a4-a9ac-e770ce3e7545,ability to access crawl spaces attics confined spaces roof tops etc.
+1e50e969-4cf3-4d31-a994-96e71c787664,ability to wear personal protective equipment (ppe)
+8c4008b2-e8cd-46d7-8a75-0d28c9300098,willingness to work in different types of weather conditions
+3333814d-6302-4483-969e-8836fc5ed0f6,vehicle operation
+d5883584-a7d2-4973-98c4-5db7b0fe5a18,loading and unloading
+ead09d79-dd75-4275-bc59-8a67daad0228,ppe/safety
+ff75efbc-6620-45ab-92ca-15446a0f9d3f,retail assistance
+bef5df34-7e72-47be-b140-2cce7ddce316,physical strength and stamina
+dc174623-633f-4afc-a580-e050aed1e3e7,flexible work schedule
+dd09185e-b850-4f67-b505-4aa0399cf117,licensed mental health counselor (lmhc)
+0d1a995c-8697-49be-987b-fe01f95805a3,mental health assessment
+5c0aace1-ce9c-42bb-83f9-af5911849516,consultation
+ca6f6ca8-f20d-4065-957f-b0be0545e3c7,behavioral guidelines
+26d02036-d000-4fbd-9e75-1a6c8f5bfe0c,positive behavior plans
+da4bc177-6f51-45c9-85da-7664af2ed3ce,medication treatment plans
+7944cf06-9661-4f0b-b0e7-16d718227e8c,evidencebased screening tools
+31e9ff13-0c81-46fb-8388-ee47a5eb1638,positive behavior support plans
+6b64b592-6c25-40a3-ae84-5369bdc1f40e,licensing and accreditation
+98b57335-fb84-4e77-a680-78a0238d4f32,liaison to service systems
+214a2ac1-41eb-45a4-9f7d-9368d9d5a598,local state and federal agencies
+1049577a-5558-4939-b422-e1d452412291,professional growth
+808777bf-7e97-42e1-a2c3-b57de87fd9a5,agency mission and values
+801bd3a9-9e69-44a9-8423-d0de01f7c80c,pto/sick time
+1f49b182-075c-4191-857f-6399064ae97c,403b
+1ad50eb4-a59d-4c26-bdc4-22b9f5d4d004,health/dental/vision
+272c0d52-42ef-407f-8eab-b00939947d04,dependent care accounts
+fe8bdcd7-1d70-4d47-91af-9d78a490063c,master's degree in mental health
+64eaa9be-6a81-4da9-b00b-673a941debb1,lmhc
+efa004ce-ccc0-41c9-80bb-6507a74aa304,eeo compliance
+dc3daa2a-ecab-4703-beea-2673a6c78966,radiologic technology
+e1d2cdf1-3079-40ce-80b2-c060e16dc26f,xray equipment
+9c755735-40ed-48ff-b28f-b40b4813fe2f,patient history
+da5cd875-333a-4ce6-99bc-280681de3b7d,radiation exposure
+a448417a-5fd9-4746-aed1-e9d9d76b9287,patient communication
+6fd9cd1a-d611-4b1a-a1db-31f30a66ed7a,sterile technique
+67cb8eef-7fd6-4645-b974-1476514fcada,pacs system
+667e084c-b87c-4bd9-a225-89eae1452e4c,radiology information system
+b471c72b-6de1-4134-89ba-d40e8b9a24f5,independent action
+54f6a15d-37d1-4ba5-a6f0-bc953f98c35c,creativity
+e600e175-f361-4052-862b-86abd7e64aa7,deadlines
+04fd6034-4c5e-4bb1-a5fb-792739d592b5,special requests
+b1c55397-c71d-4ffe-9fb3-088d4c11d3ec,stressful situations
+001d893b-e5fd-47f8-b148-6abe83ac39b2,detail orientation
+82dc7ff3-ff14-4226-9270-4c657beec9db,associates degree in radiology
+b1b3a82e-b62f-4957-8d5f-3b705eb5478f,imaging experience
+15508ecb-0efc-4387-b97f-6c799b392b45,radiologic technologist license
+0520f0b6-aea8-4a9e-975b-9eac7d4eb71e,arrt (r) radiography registration
+c4c1ba24-e11b-4e47-89fa-0eaa6de06832,basic life support certification
+3dd994ed-5563-4788-833f-51d2f0667145,corporate compliance
+a1d2c8d8-5a0c-4b0c-b6e3-1819d56d8d1b,sewing
+1070202d-bb89-45b9-9cab-dd48ae4ac5d3,knitting
+1906bb51-c380-4848-a7c8-e37226963437,crocheting
+5e7e7ba5-dd2e-4e96-bb27-9072f5d61815,quilting
+5feea36f-025c-444c-a046-64cabfe9d1c6,fundraising
+872a1d84-ebc5-43c7-8187-3a1f5dbe55ce,publicity
+8217636f-a42d-4d0f-a179-cd997272cbe3,publishing
+3bfe07a7-f19a-444d-ac31-c8f8a924b6f6,diploma in early childhood
+33a0917e-e8d6-4149-a2eb-797faf42197c,strong knowledge of early years learning framework
+c07378d6-0d2b-4905-97fe-370e662cfe52,strong knowledge of national quality standards
+9a76d8f0-06b1-4427-b834-495c5e824df6,queensland working with children check
+3409e1bf-06de-4e91-b389-5a20d2ed6208,operational risk frameworks
+6e682d36-a70e-45cb-a650-2a4ecea71b11,operational loss data collection
+c2e74761-4f6c-4d22-9284-24c0fbca9a1b,scenario analysis
+53435d80-286d-48f9-b6bb-7970522c180f,stress testing
+5b44e1e2-1370-4915-a7c6-e1fc65d85132,adverse events
+99970f3e-eaf3-4957-8927-f2fa92a1cc9e,risk identification
+a3e971d2-7729-43ff-a508-c3687773be5c,risk management & compliance
+d4072310-f705-401f-a9da-8ad2db8676aa,risk appetite
+a7b565ed-3317-49b2-8bcf-a88a3888db3e,risk limits
+912eac40-f23e-41a9-b649-f0ff09baa436,risk policies
+09f83211-b427-4ab3-8f42-6a9eca4866c8,risk reporting
+8e0ebd14-f440-4d38-85e9-8b23be5137eb,risk escalation
+9795e1ac-d30b-4543-a985-3efcb214d2c3,risk management audit activities
+89fa4a74-77fc-4028-b6c1-6567ed77b761,internal audit policies and procedures
+40239778-ae38-4126-b091-e2f20f10f320,audit plan
+40f44913-753b-46db-9702-338ad9983c90,audit strategy
+28095e19-4a91-4f69-b53d-50f68baad6b6,audit resources
+78b2fd58-2490-456e-850a-cb6b04a73b69,audit expenses
+7c5ae5b6-9f8b-4622-b7c5-98e5e07cf56a,continuous monitoring
+67f17391-dad3-43d6-be39-a7a6dccaabd8,audit engagements
+f6a41325-aa21-4b88-97d2-4bd1dd01830c,audit scope
+c2f21fbb-b121-4881-9b29-946cc4149f0d,audit opinions
+fc1d189b-fa89-4474-a45b-0ad99d50f753,audit reports
+890b5116-b0f0-46ae-ad99-1033aac0cd24,board reporting
+939cf8c4-ea28-4a72-bd7d-cc3a8c181cff,stakeholder reporting
+3fa22f9d-2581-4bb4-9ccb-6b6fc47c05a4,business processes
+f503af58-2ab1-4a1f-998e-d8e888d37bfd,risk management leaders
+01098c20-ed6e-44cc-9eb3-f6c17bd3921f,regulators
+b9262bfa-11bc-483d-b1bf-99dd326ced5f,external subject matter experts
+b8535ad8-bcb6-42dd-9c19-66892c9130e1,three lines of defense
+f42e4365-b567-4ff6-9555-936fe9b00ced,risk coverage
+79b74ec4-b89a-483f-a040-129abbd6d1fa,workload management
+7d48b6c9-e911-43b9-85d1-0e035ac16244,performance feedback
+b00b70b1-6714-4df9-9fbe-49a60642a542,performance problems
+35c99a5f-27d1-4805-a68a-90ba466a5e2b,hybrid role
+5dd7677d-a081-443e-bc6d-445d8e877425,applicable laws
+147164b3-dc2c-43bc-9a5e-ce1e20c3f756,applicable regulations
+216a6b34-22f9-4f95-a474-d0c597c82f43,regulatory trends
+d513c7f2-3552-4150-a4c6-835aefca5b8a,business line operations
+980ce2b1-c8d1-4d25-a2be-c17eabb949e1,business line products
+93ccc091-5576-4dde-a660-a30c437e4941,business line services
+444f9e30-5233-49ff-a634-d9c421e0a3d6,business line systems
+f3c42b34-0bef-412f-9f05-cff0b12bddbf,audit competencies
+2093146e-dd1b-4f02-829a-f0dda01913e4,process skills
+c886e368-1801-4e9f-99e5-4a62156c13f9,project skills
+5f05627f-0023-40c4-9c3e-6e65403929f9,written communication skills
+e37bf076-a63b-44e9-9967-9b3ef3e08f58,verbal communication skills
+b4726821-8121-467d-b469-021d1ad20d5c,applicable professional certifications
+438a1868-e96c-436c-8a9e-c4642b7692a8,intrathecal drug delivery devices
+999e22ec-0554-4a2c-a74a-a4856bc699db,patient assessment
+d732abbe-a6c4-4485-8048-1a68876bcf9a,nursing interventions
+617a368a-d04f-4c93-a094-a58a09e17dd8,pump refills
+bd201e1f-d39c-4893-87f0-28837518a398,dose adjustments
+7a4f692f-8275-4ebe-9b0a-ad1b5882e449,traveling
+28a4b21c-6a82-427b-bc66-8a4cd673d37d,pool position
+a126ba0c-4228-4e70-8d60-bc37db94d6d3,nursing care
+56769210-6662-453d-8711-d27336be359b,standards of care
+e77d18b7-23c4-4e59-b8ab-baef6a93d691,nursing process
+cb147094-9fc7-4ea2-82fe-df60657c685b,nurse practice standards
+f7dc685a-c3f3-445c-b4fe-ffc99ed28218,shared governance model
+4fabaf0c-abdd-45ad-979d-3c021533fa20,3 years of rn experience
+e4668463-66f6-4743-aadb-a2f957573f67,24/7 accountability
+f984d572-1cfa-48ef-a1cc-55f13aa85af9,ancc accredited nurse fellowship program
+f89c1097-5828-4488-a456-8c25d4b447a1,current nursing practice
+2a5ccc8f-e2d8-4c21-ac3e-a57cf09199cd,pentec competencies
+43908959-f17d-416a-95fb-1473984c5d85,nursing diagnosis
+f92cf411-caa2-4862-a12f-cf5730124003,outcomes
+53ccb10a-0095-4693-aed2-a0218cb8a3fa,healthy lifestyle
+e9040f9b-bceb-401f-81cd-ba20f5315a87,informed decisions
+b3df5d49-a7bb-4bca-bdd5-f2a568e5725b,integrative care techniques
+5a19ee7c-6e4c-45da-bc48-2875c7e03d52,symptom management
+2e3391d8-96b0-445c-9bc1-f57209216d35,quality of life
+511af60b-cf05-4f13-8cf4-3c75ddf9ec86,multidisciplinary team
+16c72692-4a84-489f-8c20-bbcd06339cc0,patient records
+7f5a5393-89a1-45cb-84a4-cd91837319bb,tjc requirements
+d100d654-747e-448c-9128-5fe27bc2491e,ethical practices
+4b6f95a5-3d48-4690-8fd0-0aca9ad5b3ea,professional leadership
+07d280ea-02fe-4449-b04a-73000f3edc4f,shared governance
+f01c93ae-f1d6-4e11-a671-d12c8795fd4e,evidencebased research
+efc9644f-dcf1-47bc-a46c-e14fdad57409,referral sources
+8cab0335-1611-4922-ba62-178d1d3ec489,pentec policies
+9d3e460a-14aa-4d84-b9bc-d5cf8c4c214c,clinical nursing experience
+80babf68-626b-4102-9875-32510a374c03,intrathecal nurse fellowship orientation program
+148e1fc6-4243-474f-b037-ca01e478d4ea,written and verbal communication skills
+9035a5a3-bf1b-4e67-bdaf-ff2b40f73cda,independent work
+0086eb1a-eb89-444a-98f2-7d71a68ecf2f,response to changes
+3a462091-5350-4b30-9b87-0a21f42eebbb,remote work
+32fc84c7-6637-4c83-9856-c433c9aeb77c,icu/er/or experience
+ec1df5c7-a8ed-462a-adf8-b99192ad3464,home care experience
+eef048ea-98d7-4f51-bfd6-ae22fcf16a6a,chronic pain/rehab principles
+25c550d7-8d66-4610-be65-cb76c5b7e21e,current rn licensure
+21d9337a-6100-47af-94fa-3f8b0208ae08,adobe pdf
+01c90b9c-f4bb-4ba9-bfbb-c9007ce9eec5,smartphones
+df6270ec-8ac3-4476-9d81-2783447d496f,stand
+357e4f79-2bf8-46e5-bb57-87686092d037,sit
+8bc16324-9db7-4c61-a285-96e5b168d532,walk
+9fbc0d6e-908c-4c18-bccb-cef37fcb41b8,see
+53efbf27-d85a-41fb-86d7-6b373e640258,hear
+a4734e26-9577-44a8-8089-7792a029ded4,use hands
+152a431f-d596-4afe-9065-9b58d59cfad6,handle objects
+5176966d-133a-40c0-b39e-ccfa682a54ab,lift up to 5 pounds
+f93a2bd4-94e9-4b36-ba27-43451573aa82,lift up to 40 pounds
+fa913ddb-ec4e-46f1-a638-b9d5d7a07981,concrete construction
+e3763e75-1b0d-4f53-a6f1-2a8e9c2069d3,concrete placement
+4c4611c8-9584-4821-a014-19ba2c4f02c1,concrete finishing
+1d32f090-1846-43d7-b1da-dda709ff9fdd,concrete curing
+61313a05-d8d1-4b46-ba99-579e992a2b91,concrete cutting
+c3bf4a9d-84db-4d65-8f59-0b69336c2082,field process management system (fpms)
+5be09f55-ab92-4020-8fdc-7ab9403e6990,material control
+45bbc818-069e-4c38-ac6c-e09438c16783,estimating fundamentals
+a38b3ba8-b166-4254-9921-80f1c5484fac,job cost management
+53582275-467f-4120-ace1-59da4ce65114,incident investigation
+a47925ec-4a12-4a65-b627-668b05402990,prejob safety planning
+e1486f95-6684-45c2-8a37-89816ff6761e,blueprints
+fe958719-1b96-4e78-8a95-567a340e59a5,construction terminology
+7fa2f4db-51bc-4de8-93ce-0a635462d9f2,tools and equipment maintenance
+cc3f1965-36fc-473c-bdf5-67d07830fb02,outdoor work environment
+a4f8857e-a230-4e87-b4d6-03864e5a13b3,heavy physical effort
+15a7c9ab-b648-4106-95ff-78985ea2325f,general accounting
+01d2a91c-3fc3-4265-ab2a-39342e56e18f,erp
+fb8ffae2-99e2-41e2-8c28-bd0e39fbd42b,microsoft dynamics 365
+9e00127c-e76d-4230-aed0-6fa65022d090,business central
+96fd58f3-8577-4049-93fa-1704bc88bb72,bookkeeping
+6222c186-e477-457a-911e-2788b7ecbdb2,general ledger
+8630a4b0-8d7f-4009-973d-818cb5b6870f,journal entry
+b82e58ce-eebc-4554-9ffc-c521b2236c99,bank reconciliations
+d3b0d231-c287-4c73-972a-a610998a6694,knowledge of balance sheets and income statements
+65a0cd66-8f11-442f-ab89-d2715d0a3741,certified surgical technologist
+7f1112bf-7800-4666-9ebd-25b9d0c80bd5,ent
+8d1a9e07-ab95-4a35-823c-3e4afee0a74f,orthopedics
+1c5d5a55-4907-44b3-8465-95ded647690c,gynecology
+552d9fe6-167e-4599-8ba7-5376b6b54422,podiatry
+177ad486-a92d-4136-b8a1-48b802c99697,hand surgery
+0911ce53-4c46-476b-a4f6-33b82ddf8f6f,urology
+02585a83-c2a3-4a85-97d1-78c47a9e73bb,general surgery
+61d64d91-4261-4775-9edc-dccf6a219552,surgical instrumentation
+9fd8938e-06a0-436d-ab4d-5cd1db4f7a0c,surgical safety protocols
+678d245f-b86c-41dc-96b4-4969b381b483,forklift operation
+8825ad44-c04f-4245-8037-965434012ef8,manual dexterity
+f4b00b32-37dc-4d2e-b70b-634b92f2f9a0,hand tools usage
+1aa493be-e333-4d76-9234-a37de916ab75,safety procedures knowledge
+a1b214ae-7d2d-49bb-9836-f7b2539295c5,load building
+111ce0be-a4e7-40dc-a2ad-a39cf0f0e84a,load composition
+5948f407-0227-4697-bbce-97c5679f7f11,load placement
+39b71d69-b4b7-42f7-8eab-6f0efe811521,weight calculation
+4611be93-516f-47b4-90ef-517435a3ec5f,materials handling
+66f5be52-93bd-4722-a3cd-b8db0303a59c,written and oral instructions
+cf4655d8-ce81-43a6-918b-a0bb57c4afb5,nhs jobs
+688cb94d-a1a8-49c5-9ba3-1e99ef4015e3,registration
+999787b7-b212-4800-88d9-57e193b5dcf0,location
+4b4ea3a8-b35e-4c13-a82c-104fa27a3b45,notifications
+1df92c15-209d-4cde-8918-c024438d0cc4,patient support
+b6df3f4f-3db6-41a7-84f8-0ca4374055a8,nonmedical support
+4d79f7e9-a36f-45a6-b6b1-676f02293fb8,oncology
+63c52e0f-5ea9-48ae-9eee-c6fa8464940e,medicine
+60fd3717-926f-44b1-b8ee-de66a0981c8f,tb testing
+940c5f6c-5aaa-4594-b29d-5e9dd50ee56d,measles
+6d9f36ab-9a3d-466f-a202-6e26d736e7e7,mumps
+9f28d7b3-cb4a-4c7f-8f25-712604d951c9,rubella
+7826008f-2af2-412a-afc9-c7355c1ab99f,hepatitis b
+062d1cca-324f-42fe-a187-87fedd7e9cac,varicella
+2b07b677-006a-4dfe-91b4-9bfdceb33f98,influenza vaccine
+c97ab335-641d-4d63-979a-d1ad43ee8117,criminal history check
+297323f9-8888-4771-bafa-c13af6dc3fa9,drug screening
+ec16ce96-1097-483c-9e7b-93553902ca66,nicotine screening
+0c5fa463-d975-404e-ac98-7a8ccb3a15d7,health screening
+659a0d83-4908-4849-b703-2b5d6bc09297,tuberculosis screening
+05e50d9e-0756-44f8-8f18-4b7078ead8b9,volunteermatch
+dbf664d3-b4d4-4782-926c-76cbc51e81d8,linkedin for good
+2a028460-44c8-41f1-bf11-10bf47140a18,computed tomography (ct)
+735ef315-6205-4116-a245-fc287d5db316,radiology (rad)
+586c73ee-8e76-4daa-b95d-3fd6a2e1cbc9,magnetic resonance imaging (mri)
+3a00e6b4-ccfd-46f4-be84-b0711874ef29,ultrasound
+08bb8cdc-cda6-4f6e-9984-0d21e42c91c8,radiation therapy
+df1ea72f-1742-4087-9945-9c2ea003338f,nuclear medicine
+acd3041b-16be-4065-a3a9-3489b9dc3ccc,medical facilities
+a7b80a8c-8f99-42bb-87bc-2b56c8d296d8,building types
+083bcf50-72e4-4cad-a5b8-c0ea635576e5,bs in electrical engineering
+168a9963-c8ae-4182-83cb-3268de9e7236,pe license in electrical engineering
+3b87fe3c-39ac-42ac-951e-d070476756b3,power
+5f928b2d-9073-4590-a31c-400f140d8bb8,lighting
+82071717-13f8-42e8-a3f3-d403cc3fe793,local architecture/engineering community experience
+d01ae69a-d8f8-470b-9ddf-a23862d5cc45,supervisory
+1cc87b1a-5474-47af-a692-178e41fa63e6,cad
+484dc5bd-0736-463f-8fa3-c98fc7837b17,etabs
+33a6e531-9b04-4eed-b30d-4aee408044a1,revit
+328a44b0-979c-49d3-897e-e0284e913eba,primavera
+ce1a8ce7-df0a-41c7-a03d-553167411983,bluebeam
+f66a00cc-877b-463e-8949-d3624a87cef4,ad operations
+f966de92-d576-4afa-b918-5a40972f269c,data management platform (dmp)
+696b20b8-69fd-4c70-b321-e3a082bc02f9,campaign trafficking
+6948960b-39d6-4686-a1d8-8506f40c99d0,google tech stack
+a85f61a2-0faf-421e-9b2c-a6cfd47ff896,audience targeting
+d7dada17-ff78-43f2-912c-d27141e42ac9,reporting and analytics
+5bfa64f3-4116-4342-ac9a-3c90bc9bc22e,tag management
+97320087-16c6-4de0-a47e-1f62aa498f0b,google analytics
+eae8b502-32f8-46e8-8397-214d1a054a8c,javascript (js)
+6c89ab22-7f2b-49e5-9cc5-5c05ddd224c9,html
+2543e393-79b5-46de-9544-9ec467c24327,datorama
+2a2b849b-4fb3-4130-8161-04f407a10e7f,sprinklr
+4c350661-2301-47b8-8407-7b75c7fadbfd,salesforce dmp (krux)
+0399ab5a-66c1-4d6d-bb14-a5cde74be836,appsflyer
+db06c2f7-a577-499d-9c80-b8cb12f9097c,tealium
+2fb662ee-78f2-42ab-8f79-d5a6e7812d8d,liveramp cdp
+128344ca-f5d8-46fa-9e93-1e8f31d61d68,doubleverify
+9e69ec9c-495b-4f8c-b253-acaf6f86f561,facebook
+06b0f45e-f763-4724-ae7c-bebb45d9d045,snap
+ab9aa6d0-ab00-412b-955d-64023f3836d4,twitter
+9868bbeb-9454-4491-b377-18064ef2e4f0,pinterest
+b73f6501-49a9-434b-ab3f-8ce41a07f172,adelphic
+1d151154-aa8e-4d01-a494-c8e233fbd573,the trade desk
+8fd690b0-f316-46cb-aea0-9125de5e64df,youtube
+2975f4de-d859-4689-88ce-6d8cf7f07566,general data protection regulation (gdpr)
+af5dd2e3-fdba-4f76-a8cd-cdbdf5b074b1,california consumer privacy act (ccpa)
+bda41fb4-d2f3-48fa-a3ad-9d761745381f,cloud native technologies
+dfafc5fa-5fb3-4fcf-8fa7-3344f3380f8c,amazon web services
+ce5032a9-6109-441a-b5fc-70bbc789d945,google cloud platform
+33d98d83-dff2-418f-9cc5-a337b8b0f14c,unix
+ea3d5d2f-cb17-4ed4-8cba-eca273246df9,linux system administration
+7f98b374-9f43-4118-bef8-db6ba3d8815e,microsoft endpoint configuration manager (mecm)
+6447a660-8dee-40b9-adba-578b1635df4a,powershell
+aa6f330c-8c41-4d6a-a5a2-145dbd590160,ruby
+55c9ff51-45ca-45ee-a7aa-b736cae3a054,microsoft powerbi
+8978b679-3c39-49a9-92b4-cbf83c40735c,terraform
+c658e2cb-cb61-42b7-a359-c6c172856385,ansible
+cf1d2dd4-3fb0-4b61-acb6-62c23bdf9d28,agile development practices
+81d6b8dd-d89d-4f2c-9326-e25d33ee08a9,bachelor's in chemistry
+84ffe51c-a941-4a16-9169-38cf7d432d33,associate's degree
+0ceab8b0-fc6b-449c-8fa2-a3d4e6cf2609,rubber manufacturing experience
+ef7b2c18-24cf-4712-a9d3-31e1764f0f3a,working knowledge of atsm rubber standards
+586cfb27-870e-415a-98c0-6e5d5eac7064,team lead or supervisor experience
+a9a33e31-100d-4803-aea4-192654e15afc,data analysis and interpretation
+02beb90e-9d8f-4d40-9314-11ea18a9af4d,fastpaced environment adaptability
+5e6a7b28-a97c-4d4c-972f-b10d64a8b152,multitasking abilities
+0b145f4f-af79-4e3d-9b4d-9c3ea2dca875,physical demands: lifting standing walking sitting reaching
+135c51f0-4f6f-4b52-b390-c450e2cfcdc8,vision requirements: near and far vision color identification spatial awareness
+1ae8f1c7-00de-42e7-a5f1-1d6c3e86beab,office and manufacturing work environment
+8e0b35ae-ba05-484b-9901-81779786c062,standard office equipment usage
+1c363888-0cd1-4a92-828d-181214694d02,personal protective equipment usage
+ed6f79a4-2675-4abb-8d5f-e22287d63428,programming
+46d4514c-6024-4bcf-828c-c20d31c4764a,scala
+fe02f12f-7abc-4741-9d81-4def37345735,data engineering
+df29a213-f73f-4cf0-800e-9a03ebefd6fe,distributed computing
+35692905-3fcb-4efb-b1b4-a7215c7ff905,statistical modeling
+5cd637d6-5001-4067-8974-6dea989df86a,data pipelines
+95471e55-a2de-4b55-bfc3-10864b992c0d,software development
+2ca4ccbd-8c10-45b8-8ccd-b1e7c9d44a47,data gathering
+a08ec368-1f99-440e-899e-7603ed521483,data preparation
+09d07ce9-1f70-4a2c-bcbc-649a50798ef6,data visualization
+3179efbd-ff38-409b-b739-5b7fdfdd8a08,machine learning frameworks
+10986dc8-0ec9-4ea3-8dc0-c8103660355f,scikitlearn
+f30d6d87-80a5-4cd7-b877-66b65a7fef04,pytorch
+7995a861-5354-4c66-af73-ea8a75c84132,dask
+2878fb91-5042-450e-bac8-f668ccc1c13a,spark
+f6aa8bd7-463c-4e0b-bcae-8974d2251b41,tensorflow
+87f545f9-41cc-45f8-bd12-56dd87c1709b,distributed file systems
+b5d4da08-b821-427f-adbf-3e2d2e6abef2,multi node database paradigms
+29c7942b-4495-4435-bd14-526e21081a85,open source ml software
+2b353a38-a680-4256-8878-a9fac73fdc65,responsible ai
+d3b0d181-cf6b-48d2-8e0d-51b78418ef30,explainable ai
+a4bf411b-88ac-4aeb-a591-12b70170d937,tax compliance
+1e6d9089-6e2e-40aa-8faa-83cd8f6b68c7,canadian income tax
+0a90db6c-fe91-4b40-9b5a-beca80f44a46,corporate tax returns
+866b95aa-a182-42fa-9a87-f49b40e506b6,partnership tax returns
+a36a17c3-d1fb-4c46-b601-82e8b29affca,foreign reporting
+603e979f-f589-43fb-9a25-fd50a7de720d,tax audit inquiries
+c0905f4b-1973-4336-b972-91ae245d7b09,tax provisions
+5356be34-b867-42d2-8df2-44803bcbe524,taxprep
+7c72dae1-d65f-4176-b2e7-bec732de2bcb,accounting systems
+c0150426-f503-4777-9085-cd9100ef84fa,technology solutions
+00892b92-0ab0-46db-875a-d93535cd565c,3+ years accounting experience
+d79ef196-6344-4627-9327-9397cc6a75c9,strategy
+d9e618c9-9a73-4c48-b702-bb15b7acb676,enterpriselevel sales
+ac7b7993-9b12-4a08-9f5c-7ffa822b8665,client relationship management
+0dab8494-933f-4135-bc76-32bbb6aa51b1,tncc
+4f394867-1d81-4c22-bf40-65f7ff3f627a,nih
+0eb3295c-2291-4254-9342-ec0d9435d0df,emergencyer
+a4bf0c94-73ef-402f-9fbe-1dee1762a6b7,travelcontract nursing
+2d8de3ec-992d-4683-ad34-c9b648a8108e,housing & travel stipends
+2a18ebf1-2ecd-4e02-8ab6-79c80435ee68,active state license
+e9ec00bb-7984-4942-a3ac-72aa178d2462,nlc
+8c013c13-65fb-45aa-b79e-70c5bf5e65a5,kitchen supervision
+75fa413b-0028-4958-8a54-6fd45501cbd1,food ordering
+41320907-6dd3-4c1f-a798-595501b9117c,storing
+d7750a8b-8631-46b6-8dc5-033ceb72b752,labeling
+31cd0ed0-b098-4683-825f-bdd560ef03b5,food temperatures
+75938d98-48c9-4432-b780-2f9d4afa7284,organizing coolers
+d29b7b81-0d53-40ea-a3b7-27195c9d80af,placing/receiving orders
+8fec492a-5a26-4973-8860-1630b325b7b5,prep lists
+ad22a745-984e-4fb3-aeb9-2ccc545d89ae,recipes
+4ac2a876-b540-4033-bb46-7593ad14293d,specs
+d41922c5-c731-4151-84e6-7f52caf00aca,food sanitation
+40eee48a-0ef3-48f0-b3e6-037888a345e0,environment
+0dceeacf-d0b1-4656-884f-d0f905479ac4,health & safety (ehs)
+cf6a8a57-f19a-4eb8-a5b8-47a8ba082c9c,haccp
+cb26d4a4-dfb7-403c-9ad8-fc37764f75ed,consistency
+05ee2ae4-cb13-443c-b897-2ad709382bae,presentation
+d0546f12-ec77-4043-ae91-81eebe0cd6f1,menu production
+78a48995-4124-48a8-a9c9-4639252d1ff9,spec consistency
+f0cf8881-c963-45c6-befc-cf3d56cf0edd,buffet/plate presentation
+f857523c-7316-4670-9eac-15106235cc04,lead cook experience
+1dd816ba-9fee-470d-93cb-d39b578d5d79,high volume ala carte dining
+6149fd1e-4e9b-441a-be7c-93d7b3228cef,institutional establishment
+59969ad3-b832-42a3-921e-d128b33f4e98,progressive cooking
+8a49c922-2878-454f-9277-e71aa42ec9de,training employees
+75a872c7-469e-45c4-8c72-9a797de46dd1,food production records
+85ee94fe-c7dd-457f-afc9-f1c0dea9a540,scheduling employees
+64413513-1d72-4c37-bfc6-bda10d5b41fe,inventory/cost controls
+b86875a2-3c5d-4c6f-986c-5475906dc780,practical knowledge of service industry
+7cf25091-f8da-4f1b-869f-8217ceadbb3e,business process analysis skills
+f8c93489-5700-4f54-a77b-f4fc4e1c304c,computer skills with microsoft office applications
+9e3da192-bdc0-4656-8821-e575abf06256,ability to lift up to 50 lbs
+5c5bbabf-9dd2-4d66-8608-7d3d121710e3,cpr/aed certification
+40a3b9dd-4db8-4b2a-8768-47889cdf8b0b,valid state driver’s license
+1c41e5b9-2e2a-4905-9979-db3fab93ae33,microsoft outlook
+97ba97ad-5cc3-4484-a2f8-6a683c3cdfac,ability to speak read and write fluently in english
+2e4ad986-f2e5-46c7-b4d0-8a9a25e18056,kpi reporting
+04926079-abe1-4716-9bde-b4ded10dbeba,business strategy development
+2d42244d-6f9c-46c5-b662-52caaf919431,risk mitigation
+b352c228-8429-4d0a-8ef3-3af310f1ce97,metrics analysis
+7e162109-6ec5-4a14-801d-e768f9c9fd4c,program requirements definition
+d8ad062d-8584-49c4-a83b-4c8c7d7cf9ee,resource allocation
+81fe29f2-7cd2-44d9-b476-2607f4543d56,persuasion
+2368de92-461d-4a45-a11c-dfe4122c37e9,marketing software
+82faae32-3bf9-4080-b367-2ac87f8a7c4d,crm software
+8a183f27-4597-4d33-a869-89bc5a982702,lead management software
+5aa0d648-f19e-4686-bcbd-e2b0e11b456c,senior living
+c9670016-f3a9-4a21-875c-8c3ee314ff61,assisted living
+0450293b-353c-4f3b-8aa1-8f64dd4e7967,memory care
+b4526994-a91c-47e1-be37-6e25d049467e,longterm care
+3c8b7785-becf-43d6-8758-1e8ccb86494b,skilled nursing
+7cac602f-0b96-460b-99b9-f39c8429f43c,dementia care
+1cb03444-517c-4a17-91c4-aacc230d99f5,alzheimer's care
+49d8725b-1d07-4b93-8148-50806046039b,parkinson's care
+97758d13-e989-4c70-ace3-9d1ac6d8394c,multiple sclerosis care
+c83ad13e-bb33-4c5a-852a-c4ccbd4b2124,cancer care
+de286e9e-5061-4fab-903d-aa5202802f8c,palliative care
+f47eecd3-289d-4622-9d90-d24974f1ab4a,bereavement care
+b418f8dd-9b5b-415d-af3a-9fef04ee3f8c,physical therapy
+bf0262cf-88d9-4d52-8554-3c5937e62f14,rehabilitation
+d1453541-53cd-4376-91e9-6d70cdf894b3,reflexology
+9bba9c1e-df0b-4f87-81f5-eecef8e63a3e,massage
+60498e64-de2f-42e0-8e5a-a3464f8d4bf7,muscular manipulation
+fefbd095-1a6a-4a6f-9902-b3513eee29a1,skeletal manipulation
+d2d1ca32-ab6e-4576-a4a2-21e166010e75,apta standards
+d4365372-7c19-4ce2-9152-8635b312edef,patient evaluation
+00b25504-6142-4201-9bb6-c64b5f067813,treatment implementation
+003ad4fc-d729-409c-889a-262b1576362f,progress documentation
+338516e7-b6f7-4951-94a0-ec2be3530246,patient progress reporting
+c2ae7b9a-0403-4b42-ad38-1b68f9a81fa3,inhome care planning
+576614e3-9f64-4f93-8a57-18b3751a6992,medication monitoring
+2b1e5ccd-c7fd-4978-a0d9-8556c3852da4,equipment use
+ff58f902-5afb-4e19-a215-c31847dedd8d,patient motivation
+8ea1b857-56d9-4730-913c-68b319cb2ff0,experience with diverse patient groups
+10b6abe4-0fee-4d84-a4e0-f4004c200c46,computer literacy
+f792fce9-8fd5-46d7-bf3a-54e375c7cf68,typing
+f265fff7-0c2e-4ba8-b7f1-6cf3d6d6cccc,patient focus
+b4d38059-dcc4-412e-85e1-caeaf7f710ba,bachelor's degree in physical therapy
+faa7254b-d946-4d81-90ae-a0cfafab7a0e,master's degree in physical therapy
+1af96e4a-7413-408d-aff6-aeb7ed53e51e,doctoral degree in physical therapy
+afd08769-09a2-4731-8679-9b3126a73a60,physical therapy license (arkansas)
+b6e2c937-9656-40ae-b029-27bfcf1df2df,fluctuating days and hours
+f341de88-7a19-4fec-b958-819734d7f047,office environment
+8471c3ac-703a-4b95-a5da-d4cd7753d5ae,speaking
+cc8f8d51-ac51-4951-bb96-25891bd8908b,listening
+fe05578c-15b6-4c6f-9500-4e96d99347e1,seeing
+ad86a139-2499-42c5-8ba0-621346a945d7,pushing
+ea228aa7-4cc4-49ec-b0c1-0102a935cee2,pulling
+36d51d5a-cc12-491d-a924-471307548f78,running
+b2bbb2f9-4c39-4d90-bb88-99eeeaa8f7e5,grasping
+ed07b66b-1b76-4311-9ef4-8f4fb6302efd,handling
+176dbe97-d266-4cc5-82a7-2faf4494d374,feeling
+d0e7a15c-96e0-470b-ab5d-84f6aec1e722,operating radiologic equipment
+38f283b4-7dbd-4dbd-9c60-984a6b875436,standard office equipment
+6f39c570-2adc-4d7d-9851-f9c2e55d89f5,motor vehicles
+c31de011-1755-4fa6-9580-3a72f2fbee2c,mobile phones
+4b9deb6a-7bd1-4177-aab3-364d0f5ec8bd,dialysis experience
+1e715d2a-fa67-4991-8f6f-2b901c510fb7,dialysis
+7b3365ef-c714-4ca2-8b5b-de3272c9bd1d,televisits
+69a78812-1d9f-4484-96c1-ca81ecb5b620,early pay program
+e7b104b7-9d3f-4c29-a7d0-50cb3dbbbc44,personal training
+e3c434cb-5948-43c6-8f22-8494356ce1cb,fitness coaching
+1fe859a9-59e8-4a50-9bb4-5c322c2c30b6,member engagement
+cc35c197-771b-44ee-883a-669fdb6659ef,group exercise
+6d7f2f16-29a6-425d-872a-eb3b380c9265,facility maintenance
+a7f2674e-c9bc-4463-9cdf-53cab667843f,first aid
+91aac080-612b-43a4-8a8b-5531094659d9,management training
+cb56695c-4468-4e7a-a482-61ffd958caee,health and fitness
+bddc07f3-5a94-4e00-80f6-caa9a2981227,dental periodontics
+c3f7cc2a-18ae-48b7-9182-2c46a2ec5f38,clinical curriculum development
+5582610f-d6cb-459b-93b0-91dc2258c14c,universitylevel teaching
+19c4f506-946c-484a-8de6-13da2b857bbc,grant funding
+de922e40-4251-449c-bf95-57e90dfde0fa,service activities
+61d4906a-06b9-44fe-b989-8c58e6b221d1,continuing dental education
+47cf5341-a97f-4d00-8cd0-eb8bec2bff9c,collaborative work
+c7a0786b-2132-47fc-bc8c-c4da7ad4db19,collegial environment
+9bb5f3c9-4397-48c9-9859-b4d9b2e118f1,interdisciplinary environment
+6d4e2fb4-297d-4d07-9548-868e9e2e9413,excellent universitylevel teaching
+a81cb21e-069b-47d8-8c35-9c91eef4f5ea,significant publications
+e273a9ec-ac18-430d-be70-5d9176c5e845,dds or dmd degree
+a45c97b4-6caa-4917-8740-d731affde3db,certificate in periodontics
+f3869ef7-6b97-4781-aef4-ba2b6abd4d05,part i and part ii of the national board dental examination or in dde
+34e6ed03-7d0a-4fc8-97d9-aa54e2a5bb1a,licensed or eligible for licensure in nebraska
+5f1bb3fc-0ec7-4345-ad98-cf70d05d41ad,ability to acquire credentialing from thirdparty payer systems
+3d46555f-811d-41eb-bf98-93be597042c8,pet ct scan technologist
+e5316904-df11-4083-83cf-bcd2a07cd0b7,radiation protection
+003c26c1-0df2-4241-8bbd-34db278cb8fe,image quality
+b0cda2a4-51ce-4f1f-9e81-ce1e443f359a,procedural efficiency
+121768d6-082e-4295-bcf6-f8219cda5f17,nurse management
+710bad31-126c-4a77-86c5-81569f78538d,counselling
+0c9ae4d3-27d2-4638-9a28-2a2139b44a3d,care quality commission
+a85e33b9-99ed-4727-8904-92700baafa14,haemodialysis
+ab8d66fb-7044-4393-8c92-196bd00e1729,renal care
+112c74ed-8589-44dc-96e1-9efb30ff82c2,dialysis machines
+5cc2f698-2318-4fea-91b9-ef8543760e36,dialysers
+48892b32-9408-4192-979c-3709d69d373f,disposables
+5ff8fb39-d828-412a-8862-54e95f834557,office equipment
+d3f8873d-e688-4c56-8631-9c299dfcd202,computer
+acaa83fd-39d4-4c8b-87fe-40af8dbd96e0,printer
+b8ab34a8-4ed8-4124-83e9-824e5779665d,tenkey calculator
+af206882-db57-46d1-b5e0-d3ae1c392791,copy machine
+0064aabc-e8f6-40c5-a2b1-c5e06249e1de,fax machine
+9b4a5355-403f-4796-83f9-771e3d920167,telephone
+8d4b0162-e64c-43a6-9381-118161745c86,school district policies
+56d894eb-63fa-4bad-ae50-b6a06608d639,supervising children
+d0f37e52-1d87-4a5d-9ce2-73137eb83ec8,clerical tasks
+7fd6381e-b1da-4616-ad8c-cf8e23f2931c,phone calls
+bd045ec9-4fd2-4f7a-b195-ebba65da84cd,filing
+79a86082-cc08-4785-9a89-fa73268bb95c,student records
+7bd810b6-5769-4805-91e1-57932ee7af6e,emergency procedures
+a94b198a-cf2d-42f0-8cc5-e5200e2b1b01,health certification
+3143ad25-fbcd-4eac-9413-5281608171c1,repetitious movements
+b137b4d4-8618-444a-87bb-61b90fa09c7c,standing and walking
+e621f488-980b-49d0-8b2e-b83d78719098,drug and alcoholfree
+2aa1b226-5fa9-4c0f-957c-dc4fdd7bfe7b,vision and hearing
+7cacb8c5-a61c-4e7e-8d36-298c3f1a3935,motor vehicle operation
+ab659b2c-3dd0-47ad-a947-b7b8bed65c02,social emotional learning
+75b8c7a9-3ff9-4a64-80a0-41b92b617850,lcsw
+0a0fd15c-b015-476e-8c66-9d3d6bc4f353,cognitive
+d4b329d2-003f-4c94-a47f-225c22686f66,social development
+48fbab21-120e-459b-a354-e5b32c3dc0ac,social competence
+3a0638d5-5297-4ebd-ad94-7db6a4691a42,school readiness
+db7d9106-56f2-4b1a-b988-9ae167d8d362,art
+6093571c-63f0-4695-b5c0-ec61e96ef5cd,music
+206fe916-da97-4458-b703-9c080670c381,dfss mentoring grant
+6f8ac559-ff79-4279-8f91-4ecbdbc5ec6a,pbis
+b24443d7-9acc-4f64-8515-52e7fa1a1fc9,behavioral strategies
+7065967d-c26c-4c81-aaa1-2b36d39231a1,programwide pbis strategies
+d9c78d6e-7a30-4f1b-9c43-5c2be8f7a609,individual treatment plans
+8659c04d-9448-4563-be89-87350b83a25c,mental health
+28424920-65cd-44a7-b7cc-e6599c496979,social pragmatic instruction
+6484c7f9-54d8-41de-890b-75799d3f0356,evidencedbased methods
+068d7744-a6b7-42f9-bacd-e670e42e1ac6,behavioral crisis situations
+91a13abd-ac08-42f5-b111-c7c66c776ceb,ifsp
+4a1135a9-d40b-4ab7-ba34-7af977e679bc,iep
+55c8f5b8-0064-417a-8d4a-6d11c36d1431,relationships
+1c5e9856-1881-4794-8d41-5121ab892fa4,change capacity
+4b8eec60-4c1f-4314-8c56-ab44fbbd18dc,resultsproven track record
+e7fd3263-9e17-4516-b017-f8dabeb6b1cd,strategic vision
+d9701cdc-3cbc-4643-ba0a-a1282ca3768b,agility
+e8aa89c3-9324-441f-98c8-bd70f5aaeeaf,selfawareness
+a8d23923-311c-4e57-9c33-661487936286,covid19 vaccination status
+0b748cf6-584b-4dd6-bbcc-3c2170a1dda9,senior registered manager
+04f66734-60ce-4661-ac44-69ca1877f829,sheffield
+ffbe36e0-f41d-4cbd-86ea-adf8daf3e01f,ofsted
+c9c2dc66-3771-4e41-bc31-317e912e99d5,social care
+69ae0ff3-64a0-4182-83b5-c4f9f2d7b36c,nvq level 5
+584459d8-400a-450f-b551-a5f91984a866,diploma in leadership for health and social care
+f84c2221-fc65-4a23-b0de-b0b2d6c6f065,looked after children (lac)
+b1b7f28c-fb6b-4117-9594-da81c5d0365f,residential care
+1efc4596-c195-4838-a7a6-35632700482e,partnership working
+b7746dd5-f672-4ed8-a207-68d1f1dd7ed3,complaints handling
+9ca45aef-c3ae-48d1-82ff-bfe496c97073,safeguarding
+db65f304-c321-4046-88b7-d887241d4652,multidisciplinary teams
+01da75cd-fd49-4006-802f-47a208f303e1,professional conduct
+869660fc-2547-44cc-9825-f413f01d73cd,product testing
+4459048f-34a1-4cfb-bb07-853c0f8c58e2,process evaluation
+a048262a-ee8e-463a-b7c4-beda350abc9b,quality standards compliance
+a03e6842-0dbf-420f-929d-aeec5f816778,issue resolution
+cb783cc7-ebc9-44c7-8bfa-0f018140ef9b,quality assurance methodologies
+ac63fa65-27a0-4daa-9218-a801bee87513,quality inspection tools
+2dadd42f-258e-4709-bec1-7ade215ba013,bachelor's degree in engineering or manufacturing technology
+e7ff4249-5f1e-4e2d-a155-c396ee7e8b9f,proficiency in quality inspection tools and software
+82c4b24c-015d-4e08-aa92-2e7dd46fa981,manufacturing plant or factory setting
+f73bf71b-e8ac-4caa-bc95-dd622c4abce4,senior quality assurance roles
+6f800af6-609c-45b8-aed3-d9fd03940305,quality assurance management positions
+412a033e-c55a-4530-a603-8133121303b8,pediatrics rn
+9aa966d5-f6f4-48a9-ab5e-3abf4289b895,american heart association
+07f87481-7013-4268-b271-70ed789d94e4,professional license
+07b3e41d-dc9a-4a3d-8295-edcf4c95eb8a,specialtyrelated certifications
+83d492d9-d804-4629-bf03-99f547b4108b,pediatric telemetry
+f8789f98-3005-42db-bb38-ff9fcd81736b,hospital setting
+e8bd2d62-292c-4a79-99ef-e142886be4d3,day 1 health insurance (medical dental vision)
+9d166809-6731-42f3-9c6f-05ffb2256bc3,housing options
+2f38d5e4-ee66-4362-98b8-cb88ac0ffd4f,stipend
+0fd8f617-e44a-4fbf-982b-2beda3bffad5,jacho certified
+03f8f44d-f91e-4fdd-a99e-ad3df22e85e4,prestigious facilities
+8b6ae189-2d50-4803-846c-ec3276c76dd5,pto program
+a1bf7037-b0c1-4f21-9e47-e2d940592b5a,paid compliance cost
+ccb7ee36-0455-49be-b047-91f2914592ee,extra shift bonuses
+a8225257-4890-47e1-a096-a38e6bcb3950,medical procedures
+1217be92-949a-48ff-b19a-941716de8ecf,conditions
+87711f2d-2bfa-4f8d-bb0f-3bc0c65f6235,whole blood collection
+e7e6ae53-60d4-4b4a-8c2d-3cb1a07a6673,apheresis procedures
+dc7230e8-a35d-487b-ad5c-443c7d43ce53,hand washing
+640b1976-9dcf-498a-8ca3-d88ac8b22545,critical values
+50d4ebe9-8c18-49db-883f-d3eab7348677,dialysis treatment
+95587d39-a47d-41d6-9d36-82b11f06d2df,psychiatric care
+a5f68626-20cf-48d1-9587-3e5466b1b409,behavioral restraints
+13753a2c-5608-44a2-943b-868dd54bf43f,quality measures
+3bd88231-7ad8-4ec9-b8fa-95ebda1a8174,preceptor
+0abc0426-f73d-4390-96c7-3d1e6cd6a090,bsn degree
+7ae47151-fca6-4d15-9dbb-81090aba6a88,fire life safety training
+3f3bf296-6f3a-4615-8d2c-c0a38ea05fe2,emergency medicine
+e02b4362-0ecd-45a3-9af3-d218a7ad65b0,physician
+041bf7f8-b606-44f6-835c-eb54f2676754,abem/aobem board certified or eligible
+4f58cc01-ad90-4f01-98a6-78c5c1dfdf04,independent contractor
+174f9dc4-56eb-4f44-b7ad-d338af328d22,stocking
+79190ca7-ecbe-4cef-a40c-a463d8e5191c,licensing agreements
+e1f940c0-00ad-4421-8a50-0fff6896556d,contract management
+a7f3ab98-b250-4871-bf69-01f460e8f3a1,strategic partnerships
+e6fe1c69-b4c0-4642-b804-4e2c2f39a2d7,financial budgeting
+6b30d6bc-41af-44a1-9255-60ecd83c9fcf,data acquisition
+9ba90d09-8562-49c7-8471-e26b690fad43,analysis
+9cdd8a2c-5d8c-4f40-978a-f555cf79c251,industry experience
+29bd21e8-7636-463a-af32-c1119ef51090,legal knowledge
+c8a2b7ef-9aa7-4f61-87a3-108b2b9aeaf5,artificial intelligence
+b10df335-739e-4dda-a1a9-c6465535520d,health technology
+70a18461-eedd-49c6-ad08-f3c6822e006e,wellness
+8c815fba-0e8d-4ec6-982d-47825abc0537,portfolio management
+2dd424e7-ec7c-4294-a68a-31e4e9b4ee9d,process optimization
+7bb21c46-5e57-4510-b721-bfe3af5e7965,budget management
+555e4125-2178-4e11-a873-3132b59b4be7,project management software
+63b5756f-2e91-49f1-9c50-5f6f56583685,diagnostic radiology
+3d4a2819-462c-4c7a-b724-464230eb0c46,life
+62cb4ab8-289f-4d5a-b274-e31e0dfafa62,add
+91cd6178-84bf-4cac-974d-c8888b402515,critical illness
+693e49f9-1e09-42f3-8166-dfeb4c6fa942,hospital indemnity
+2a1d948c-5459-4711-a7dc-36c54ee0ef00,flexible spending
+f2efed08-fcaa-4127-9a52-f7fb127a83a4,legal services
+d3d72001-3a0c-439a-a891-3e4c45919575,accident insurance
+77ed8dae-1f61-4a09-96b3-929e65f607cc,sen tutor
+170dac6f-67a5-4bac-b66a-f73733335ff4,1:1 teaching
+21d35056-9634-4c3c-b996-e6adfed6ca16,autism
+f46e1be5-9ff0-4811-8a8f-06f9c915579f,adhd
+29a9affd-ed9e-476a-95fe-0d1af5131c14,dyslexia
+c5a8ea15-c62c-4054-9422-166c9e9fe8aa,qts
+568fadf0-a8b5-4c37-b155-d3c45290a537,maths
+8a61594b-7c11-4c8a-8946-833810ef5755,science
+35db38ca-6ee9-4c5e-b0e3-42f11f12c8e2,special educational needs
+96650bd4-61e2-4799-8be0-9217c803dd8c,pupil confidence
+6ac44ca6-84f9-4df0-b39e-a7911cf4ce1e,selfesteem
+418f9029-5360-4a5a-8c5d-dd06a93a5707,love of learning
+9032976f-f381-4e5e-a15e-8eda49cc46ce,differentiated techniques
+51715fb6-571c-4863-8464-9b06115be8d7,literacy
+25c3a3ab-8a27-4abd-8763-9a101cf9f6fb,numeracy
+4ef55210-cd61-4174-8b64-5a62818d1e50,learning styles
+2ac5e982-dd3f-4b5b-adce-ca635cd2c218,behavior issues
+39eb3164-f89f-4431-a1cd-75f552937983,enhanced dbs
+7582dc56-8abf-415e-b022-ff88cd59343d,public liability insurance
+5c4a381a-3cae-426b-be36-09d2351966ee,professional indemnity insurance
+6ffa47b3-41d3-4217-a679-164b74a0fdb2,selfemployed
+0a54d620-a6ce-452f-abbe-367af3de1824,licensed vocational nurse
+cce2def4-53ad-4833-9d6c-238ce92fdffa,ambulatory care unit
+8c575f23-cec6-43a0-aab4-76ee24bdef0d,reading comprehension
+f5176f91-0b51-4bf0-bc03-dfa3a5713480,following verbal instructions
+e039bfc0-e2f1-48a6-a94a-86a7c68f400b,pc skills
+ee448b36-60e6-44f6-869f-01a1f6c1408b,stationary position
+06a89392-b937-44ae-9a3b-9633c61a7c46,moving equipment
+75bfbbe1-25ab-4dea-9465-e1bc7f75fbfd,communicating
+f6d31565-f6da-4800-943a-0ec0acf2af07,collaborating
+a2d9e036-d1e7-4c14-9fef-2b1dce980081,evaluating
+32508464-7d3d-4af8-b459-4ba40a886384,administering
+7b1b0f23-b97d-46a6-9120-a7fb12a7fdd7,documenting
+724b4161-cfd3-4680-8e55-bf52cd291f21,maintaining cleanliness
+6defb5fb-1360-415c-a4f5-9eee1aaaf0bb,transporting patients
+e505691c-c232-4943-a01b-31325d3db671,sensory
+fc997cdb-fee6-4268-b502-92bbf5efbd72,visual acuity
+5c928f28-d754-4e70-bdb7-bfbb6e052dbf,system engineering
+3e51e385-d012-4921-95db-3b36db600673,system architecture
+b55e8f4c-839d-48c7-9abc-988155bbf2fa,design
+1617e565-79c1-4874-98de-192df7b7ba3a,collaborative engagement
+a1b60cf7-ecfe-4aec-b8fd-e49db2033b7e,requirements definition
+1fc43277-da0f-4c2d-b9d8-e7721521b649,verification excellence
+1a29f68b-8cfc-4666-9779-c2d7a93522fc,product design support
+c9726842-9e26-4a7b-a436-4215c7d7c0e6,manufacturing support
+9e27f5ff-5d35-4435-a26d-c602683cf5bb,bachelor's in engineering (electrical computer or mechanical)
+d5102d4a-5159-4c82-ba97-89ce2ad1c8be,7+ years of experience in microprocessorbased controls development/testing
+f37ecf41-679c-40ab-beb3-b946d42b194d,5+ years of successful embedded system engineering project management
+925eb86d-00c8-4913-b17e-b56656deb448,industry knowledge (water heating hvac)
+8cfb74d7-e3b4-418b-a146-378cebb84dc9,engineering expertise (srd ra rt test development)
+35ffd1ec-26b6-4cfb-982a-1090f58c7510,safety/certification (iec 61508 iso26262 ul 60730 ul 174)
+886da7ab-32c6-4b2a-9492-357dbab92ad4,quality assurance (fmeas electronics failure analysis)
+b0fb1be6-fb37-4158-8b1d-5a76a0affd1f,technical competence (procedures regulations schematic electrical mechanical diagrams)
+5402aa3a-e05b-455b-8e76-add2452f219f,collaborative skills (crossfunctional teams subject matter experts)
+c3c694e7-6cc0-4712-93dd-0b0bd41e0993,passion for innovation
+7ed58626-c59e-4a5c-bd41-ad66baad34d3,technical proficiency (ms office suite)
+28967c07-09a7-45ca-8bb8-8448fff67c62,master's in engineering
+eb6f7196-5210-4bed-ae91-56a19487234d,industryspecific experience (hvac water heating)
+af9e38c7-3858-44b5-86f9-8da7eb838242,test development (electronic products)
+97f7180e-57f0-4655-9c51-0146b88d1d87,six sigma certification (green belt black belt)
+6035436e-8e02-47d0-ad61-076b4e873b1e,quality and reliability

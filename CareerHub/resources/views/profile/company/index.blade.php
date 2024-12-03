@@ -11,8 +11,9 @@
                     <p>{{ $company->city }}, </p>
                     <p>{{ $company->country }}</p>
                 </span>
-                <span class="w-full flex justify-end">
-                    
+                <span class="w-full flex gap-5 justify-end">
+                    <x-edit_company_profile_form :company="$company" />
+                    <x-change-pass_form />
                 </span>
             </div>
         </div>

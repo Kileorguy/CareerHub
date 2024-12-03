@@ -30,6 +30,7 @@ Route::middleware('auth')->group(function () {
 
   Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
   Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
+  Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
 });
 
 //Authenticated user with employee role routes
