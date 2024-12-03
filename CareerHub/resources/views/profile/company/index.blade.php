@@ -12,7 +12,7 @@
                     <p>{{ $company->country }}</p>
                 </span>
                 <span class="w-full flex justify-end">
-                    
+                    <x-edit_company_profile_form :company="$company" />
                 </span>
             </div>
         </div>

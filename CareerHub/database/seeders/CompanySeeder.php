@@ -20,7 +20,7 @@ class CompanySeeder extends Seeder
     public function run(): void
     {
         $main_url = env('FLASK_HOST');
-        $response = Http::accept('application/json')->get($main_url.'/csv_data');
+        $response = Http::accept('application/json')->get($main_url . '/csv_data');
 
         if ($response->successful()) {
             $data = $response->json();
@@ -48,18 +48,20 @@ class CompanySeeder extends Seeder
                     'job_description' => $row['job_summary'],
                     'job_level' => $row['job_level'],
                 ]);
-                $response = Http::accept('application/json')->get($main_url.'/job_skills',['id'=>$row['id']]);
-                $skills = $response->json();
-                if ($skills != ''){
-                    foreach ($skills as $skill) {
-                        JobSkill::create([
-                            'id' => fake()->uuid(),
-                            'job_id' => $job_id,
-                            'skill_name' => $skill,
+            }
+        } else {
+            dd("Error fetching data from Flask API", $response->status(), $response->body());
+        }
 
-                        ]);
-                    }
-                }
+        $response = Http::accept('application/json')->get($main_url . '/job_skills');
+        if ($response->successful()) {
+            $skills = $response->json();
+            foreach ($skills as $skill) {
+                JobSkill::create([
+                    'id' => fake()->uuid(),
+                    'job_id' => $job_id,
+                    'skill_name' => $skill,
+                ]);
             }
         } else {
             dd("Error fetching data from Flask API", $response->status(), $response->body());

@@ -9,7 +9,7 @@ import pymysql
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import CountVectorizer
 from nltk import  word_tokenize
-import string
+import json
 import pandas as pd
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.tag import pos_tag
@@ -18,6 +18,7 @@ app = Flask(__name__)
 CORS(app)
 
 final_data = pd.read_csv('./final_data.csv')
+job_data = pd.read_csv('./job_skills.csv')
 port = PorterStemmer()
 wnl = WordNetLemmatizer()
 
@@ -73,23 +74,8 @@ def get_csv_data():
 
 @app.route("/job_skills")
 def get_job_skills():
-    id = request.args.get('id') 
-    
-    skills = final_data[['id','job_skills']]
-    cond = skills['id'] == id
-    res = final_data.loc[cond,'job_skills']
-
-    data = json.loads(res.to_json())
-    if not data:
-        return ''
-    to_string_data = ''.join(data.values())
-    splitted = to_string_data.split(',')
-    for idx,i in enumerate(splitted):
-        string_data = i
-        if string_data[0] ==' ':
-            splitted[idx] = i[1:]
-
-    return Response(json.dumps(splitted), status=200, mimetype='application/json')
+    job_skills_list = job_data['job_skills'].tolist()
+    return jsonify(job_skills_list)
 
 @app.route("/get_user_recommendation")
 def recommend():
