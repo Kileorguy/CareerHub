@@ -13,7 +13,7 @@
 {{--        <p>{{$summary}}</p>--}}
         <ul class="list-disc pl-5">
             @foreach($jobs as $job)
-                <li class="text-sub-text text-left">
+                <li class="text-sub-text text-left" style="height: 142px; overflow: hidden">
                     {{$job->job_description}}
                 </li>
 
