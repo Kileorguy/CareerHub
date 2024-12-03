@@ -7,7 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserProjects extends Model
 {
-    use HasFactory;
-    public $timestamps = false;
+    protected $primaryKey = 'id';
+    public $incrementing = false;
+    protected $keyType = 'string';
+    protected $fillable = [
+        'id',
+        'user_id',
+        'project_name',
+        'project_detail',
+    ];
 
+    public $timestamps = false;
+    use HasFactory;
 }

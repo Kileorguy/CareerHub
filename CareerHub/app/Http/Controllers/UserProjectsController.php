@@ -4,62 +4,35 @@ namespace App\Http\Controllers;
 
 use App\Models\UserProjects;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class UserProjectsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
+    public function InsertProject(Request $req){
+        $user = Auth::user();
+        UserProjects::create([
+            'id' => Str::uuid(),
+            'user_id' => $user->id,
+            'project_name' => $req->project_name,
+            'project_detail' => $req->project_detail,
+        ]);
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
+        return redirect('/profile');
     }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
+    public function updateProject(Request $req, $id)
     {
-        //
-    }
+        $user = Auth::user();
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(UserProjects $userProjects)
-    {
-        //
-    }
+        $project = UserProjects::where('id', $id)
+                                    ->where('user_id', $user->id)
+                                    ->first();
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(UserProjects $userProjects)
-    {
-        //
-    }
+        $project->project_name = $req->project_name;
+        $project->project_detail = $req->project_detail;
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, UserProjects $userProjects)
-    {
-        //
-    }
+        $project->save();
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(UserProjects $userProjects)
-    {
-        //
+        return redirect('/profile');
     }
 }
