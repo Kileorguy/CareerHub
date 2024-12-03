@@ -87,9 +87,9 @@ class RegisterUserController extends Controller
    */
   public function test()
   {
-    $response = Http::accept('application/json')->get('http://127.0.0.1:5000/get_user_recommendation', ['user_id'=>Auth::user()->id]);
-    $data = json_decode($response->body(), true);
-    dd($response->json());
+//    $response = Http::accept('application/json')->get('http://127.0.0.1:5000/get_user_recommendation', ['user_id'=>Auth::user()->id]);
+//    $data = json_decode($response->body(), true);
+    dd('maklo');
     //        if ($response->successful()) {
     //            // Get the raw body of the response and decode it manually
     //            $data = json_decode($response->body(), true);

@@ -19,7 +19,7 @@ class CompanySeeder extends Seeder
      */
     public function run(): void
     {
-        $main_url = 'http://127.0.0.1:5000';
+        $main_url = env('FLASK_HOST');
         $response = Http::accept('application/json')->get($main_url.'/csv_data');
 
         if ($response->successful()) {
