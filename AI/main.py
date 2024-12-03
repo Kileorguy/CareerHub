@@ -17,8 +17,9 @@ from nltk.tag import pos_tag
 app = Flask(__name__)
 CORS(app)
 
-final_data = pd.read_csv('./final_data.csv')
-job_data = pd.read_csv('./job_skills.csv')
+job_data = pd.read_csv('./jobs.csv')
+skill_data = pd.read_csv('./skills.csv')
+job_skill_map_data = pd.read_csv('./jobs_skills_map.csv')
 port = PorterStemmer()
 wnl = WordNetLemmatizer()
 
@@ -66,16 +67,21 @@ def preProcess(text):
     tokenized = lemma(tokenized)
     return tokenized
 
-@app.route("/csv_data")
+@app.route("/job_data")
 def get_csv_data():
     # data = final_data.to_dict(orient='records')
-    return Response(final_data.to_json(orient="records"), mimetype='application/json')
+    return Response(job_data.to_json(orient="records"), mimetype='application/json')
     # return jsonify(data)
 
-@app.route("/job_skills")
-def get_job_skills():
-    job_skills_list = job_data['job_skills'].tolist()
+@app.route("/skill_data")
+def get_skill_data():
+    job_skills_list = skill_data.to_dict(orient='records')
     return jsonify(job_skills_list)
+
+@app.route("/job_skill_map_data")
+def get_job_skill_map_data():
+    job_skill_map_list = job_skill_map_data.to_dict(orient='records')
+    return jsonify(job_skill_map_list)
 
 @app.route("/get_user_recommendation")
 def recommend():
@@ -88,6 +94,7 @@ def recommend():
     cur.execute('SELECT c.id, skill_name from companies as c JOIN company_jobs cj ON c.id = cj.company_id JOIN job_skills js ON js.job_id = cj.id')
 
     for row in cur:
+        print(row[0])
         if skills_dict.get(row[0],'') in ('', None):
             skills_dict[row[0]] = ''.join(row[1].lower())
         else:
@@ -105,7 +112,6 @@ def recommend():
         user_skills_merged = user_skills_merged + ' '+  row[0].lower()
     cur.close()
 
-    
 
     vectorizer = CountVectorizer(tokenizer=preProcess,stop_words='english', binary=True) 
     sparse_matrix = vectorizer.fit_transform(list(skills_dict.values()))
@@ -123,14 +129,13 @@ def recommend():
         index = [user_id]
     )
 
-    
+    print(skills_dict.keys())
 
     cosine_result = cosine_similarity(df,df_user)
     heap_result = []
     for col,cos in zip(df.index,cosine_result):
         data = (col,cos)
         heapq.heappush(heap_result, MaxHeapObj(data))
-
 
     result_arr =[]
     for i in range(5):
