@@ -20,7 +20,7 @@
               src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
           </div>
         </div>
-        <ul tabindex="0" class="menu menu-sm dropdown-content rounded-md z-[1] mt-3 w-24 shadow">
+        <ul tabindex="0" class="menu menu-sm dropdown-content bg-white rounded-md z-[1] mt-3 w-24 shadow">
           <a href="{{ route('profile') }}"
             class="flex justify-between items-center px-2 mb-2 hover:bg-gray-300 transition-colors">
             <svg width="1em" height="1em" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"

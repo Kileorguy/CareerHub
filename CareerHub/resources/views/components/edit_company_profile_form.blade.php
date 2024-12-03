@@ -10,10 +10,11 @@
         <h3 class="text-xl font-bold pb-4">Update Company</h3>
 
         <form class="flex flex-col justify-start items-start"
-            action="/updateProfile"
+            action="/updateCompanyProfile"
             method="POST"
         >
             @csrf
+            <input type="hidden" name="id" value="{{ $company->id }}">
             <label for="name"
                 class="py-1 font-medium text-base"
             >

@@ -20,6 +20,7 @@ class ShowDashboard extends Controller
         $response = Http::accept('application/json')->get($url.'/get_user_recommendation', ['user_id'=>Auth::user()->id]);
         $data = json_decode($response->body(), true);
 
+        dd($data);
 
         $companies = Company::where(function ($query) use ($data) {
             foreach ($data as $id) {

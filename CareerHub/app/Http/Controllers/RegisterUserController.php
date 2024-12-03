@@ -21,7 +21,7 @@ class RegisterUserController extends Controller
             $this->validateEmployee($request);
             $user = $this->createEmployee($request);
         } else {
-            $this->validateCompany($request);
+            $this->validateCreateCompany($request);
             $user = $this->createCompanyWithUser($request);
         }
 
@@ -55,7 +55,7 @@ class RegisterUserController extends Controller
         ]);
     }
 
-    private function validateCompany(Request $request)
+    private function validateCreateCompany(Request $request)
     {
         $rules = [
             'email' => 'required|email|unique:users,email',

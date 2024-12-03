@@ -10,27 +10,27 @@
         <form action="/changePassword" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Old Password</p>
-            <input 
-                name="old" 
-                type="text" 
-                placeholder="Input Old Password" 
-                class="input input-bordered w-full max-w-lg" 
+            <input
+                name="old"
+                type="password"
+                placeholder="Input Old Password"
+                class="input input-bordered w-full max-w-lg"
             />
 
             <p class="py-1 font-medium text-base">New Password</p>
-            <input 
-                name="new" 
-                type="text" 
-                placeholder="Input New Password" 
-                class="input input-bordered w-full max-w-lg" 
+            <input
+                name="new"
+                type="password"
+                placeholder="Input New Password"
+                class="input input-bordered w-full max-w-lg"
             />
 
             <p class="py-1 font-medium text-base">Confirm New Password</p>
-            <input 
-                name="confirm" 
-                type="text" 
-                placeholder="Input Confirm New Password" 
-                class="input input-bordered w-full max-w-lg" 
+            <input
+                name="confirm"
+                type="password"
+                placeholder="Input Confirm New Password"
+                class="input input-bordered w-full max-w-lg"
             />
 
             <button class="btn bg-primary text-white mt-4 m-auto">Update</button>
