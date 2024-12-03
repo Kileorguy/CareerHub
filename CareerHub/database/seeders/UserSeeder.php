@@ -24,7 +24,7 @@ class UserSeeder extends Seeder
                 'short_description' => fake()->text(60),
                 'github_link' => fake()->url(),
                 'portfolio_link' => fake()->url(),
-                'role' => fake()->company(),
+                'role' => 'Employee',
                 'profile_link' => fake()->imageUrl()
             ]);
             $user->certificates()->create([

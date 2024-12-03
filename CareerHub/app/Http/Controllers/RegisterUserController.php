@@ -6,82 +6,88 @@ use App\Models\Company;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Str;
 use App\Models\User;
 
 class RegisterUserController extends Controller
 {
-  public function register(Request $request)
-  {
-    if ($request->input('role') == "Employee") {
-      $user_validator = Validator::make($request->all(), [
-        'first_name' => 'required|string|max:255',
-        'last_name' => 'required|string|max:255',
-        'email' => 'required|email|unique:users,email',
-        'password' => 'required|confirmed|min:8',
-        'role' => 'required|string',
-      ]);
+    public function register(Request $request)
+    {
+        $role = $request->input('role');
 
-      if ($user_validator->fails()) {
-        return redirect()->back()
-          ->withErrors($user_validator)
-          ->withInput();
-      }
+        if ($role === "Employee") {
+            $this->validateEmployee($request);
+            $user = $this->createEmployee($request);
+        } else {
+            $this->validateCompany($request);
+            $user = $this->createCompanyWithUser($request);
+        }
 
-      $user = User::create([
-        'id' => Str::uuid(),
-        'first_name' => $request->input('first_name'),
-        'last_name' => $request->input('last_name'),
-        'email' => $request->input('email'),
-        'password' => bcrypt($request->input('password')),
-        'role' => $request->input('role'),
-      ]);
+        Auth::login($user);
 
-      Auth::login($user);
-    } else {
-      $company_validator = Validator::make($request->all(), [
-        'email' => 'required|email|unique:users,email',
-        'password' => 'required|confirmed|min:8',
-        'company_name' => 'required',
-        'country' => 'required',
-        'location' => 'required',
-        'city' => 'required',
-      ]);
-
-      if ($company_validator->fails()) {
-        return redirect()->back()
-          ->withErrors($company_validator)
-          ->withInput();
-      }
-
-      $company_id = Str::uuid();
-      $company = Company::create([
-        'id' => $company_id,
-        'company_name' => $request->input('company_name'),
-        'country' => $request->input('country'),
-        'location' => $request->input('location'),
-        'city' => $request->input('city'),
-      ]);
-
-      $user = User::create([
-        'id' => Str::uuid(),
-        'company_id' => $company_id,
-        'email' => $request->input('email'),
-        'password' => bcrypt($request->input('password')),
-        'role' => $request->input('role'),
-      ]);
-
-      Auth::login($user);
+        return redirect('/login')->with('success', 'User registered successfully!');
     }
 
-    echo "User registered successfully!";
+    private function validateEmployee(Request $request)
+    {
+        $rules = [
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|confirmed|min:8',
+            'role' => 'required|string',
+        ];
 
-    return redirect('/login');
-  }
+        Validator::make($request->all(), $rules)->validate();
+    }
 
+    private function createEmployee(Request $request)
+    {
+        return User::create([
+            'id' => Str::uuid(),
+            'first_name' => $request->input('first_name'),
+            'last_name' => $request->input('last_name'),
+            'email' => $request->input('email'),
+            'password' => bcrypt($request->input('password')),
+            'role' => $request->input('role'),
+        ]);
+    }
+
+    private function validateCompany(Request $request)
+    {
+        $rules = [
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|confirmed|min:8',
+            'name' => 'required|string|max:255',
+            'country' => 'required|string|max:255',
+            'city' => 'required|string|max:255',
+        ];
+
+        Validator::make($request->all(), $rules)->validate();
+    }
+
+    private function createCompanyWithUser(Request $request)
+    {
+        $company_id = Str::uuid();
+
+        Company::create([
+            'id' => $company_id,
+            'name' => $request->input('name'),
+            'country' => $request->input('country'),
+            'city' => $request->input('city'),
+            'description' => $request->input('description'),
+        ]);
+
+        return User::create([
+            'id' => Str::uuid(),
+            'company_id' => $company_id,
+            'email' => $request->input('email'),
+            'password' => bcrypt($request->input('password')),
+            'role' => $request->input('role'),
+        ]);
+    }
   /**
    * @throws ConnectionException
    */
