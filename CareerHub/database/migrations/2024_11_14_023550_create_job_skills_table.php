@@ -13,11 +13,7 @@ return new class extends Migration
     {
         Schema::create('job_skills', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->uuid('job_id');
-            $table->foreign('job_id')->references('id')->on('company_jobs');
             $table->text('skill_name');
-
-//            $table->timestamps();
         });
     }
 
