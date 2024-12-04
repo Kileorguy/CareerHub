@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 use App\Models\user;
+use App\Models\JobSkill;
 use Illuminate\Support\Facades\Hash;
 
 
@@ -54,7 +55,8 @@ class LoginUserController extends Controller
       $certificates = $user->certificates;
       $skills = $user->skills;
       $projects = $user->projects;
-      return view('profile.employee.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates, 'skills' => $skills, 'projects' => $projects]);
+      $jobSkills = JobSkill::all();
+      return view('profile.employee.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates, 'skills' => $skills, 'projects' => $projects, 'jobSkills' => $jobSkills]);
     } else if ($user->role == 'Company') {
       $company = $user->company;
       return view('profile.company.index', compact('company'));

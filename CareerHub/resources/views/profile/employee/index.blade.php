@@ -104,7 +104,7 @@
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Skill</p>
           <div>
-            <x-user_skill_form type="insert" />
+            <x-user_skill_form type="insert" :jobSkills="$jobSkills" />
           </div>
         </div>
         @isset($skills)
@@ -112,7 +112,7 @@
         <div class="flex flex-col min-w-[1200px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$e->skill_name}}</p>
-            <x-user_skill_form type="update" :e="$e" />
+            <x-user_skill_form type="update" :e="$e" :jobSkills="$jobSkills" />
           </div>
           <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
         </div>
