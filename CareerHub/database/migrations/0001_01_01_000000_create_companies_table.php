@@ -17,7 +17,6 @@ return new class extends Migration
       $table->string('city');
       $table->string('country');
       $table->string('description')->nullable();
-      $table->string('profile_picture')->nullable();
     });
   }
 

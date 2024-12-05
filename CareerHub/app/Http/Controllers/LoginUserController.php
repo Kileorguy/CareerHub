@@ -55,6 +55,7 @@ class LoginUserController extends Controller
       return view('profile.employee.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates]);
     } else if ($user->role == 'Company') {
       $company = $user->company;
+      
       return view('profile.company.index', compact('company'));
     }
   }
