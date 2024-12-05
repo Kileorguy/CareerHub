@@ -7,10 +7,17 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserSkills extends Model
 {
-    use HasFactory;
-
     protected $table = 'user_skills';
-    protected $fillable = [];
+    protected $primaryKey = 'id';
+    public $incrementing = false;
+    protected $keyType = 'string';
+    protected $fillable = [
+        'id',
+        'user_id',
+        'skill_name'
+    ];
+
     public $timestamps = false;
+    use HasFactory;
 
 }

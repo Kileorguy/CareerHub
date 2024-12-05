@@ -36,6 +36,7 @@
 
     </div>
   </div>
+
   <div class="hero-content text-center">
     <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">
       <div class="flex flex-col gap-[0px] min-w-[1200px]">
@@ -72,7 +73,6 @@
       <div class="flex flex-col gap-[0px] min-w-[1200px]">
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Education</p>
-
           <div>
             <x-education_form type="insert" />
           </div>
@@ -102,8 +102,56 @@
     <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">
       <div class="flex flex-col gap-[0px] min-w-[1200px]">
         <div class="flex justify-between items-center">
-          <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Certificate</p>
+          <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Skill</p>
+          <div>
+            <x-user_skill_form type="insert" :jobSkills="$jobSkills" />
+          </div>
+        </div>
+        @isset($skills)
+        @foreach($skills as $e)
+        <div class="flex flex-col min-w-[1200px]">
+          <div class="flex justify-between items-center">
+            <p class="text-[18px] text-left text-main-text">{{$e->skill_name}}</p>
+            <x-user_skill_form type="update" :e="$e" :jobSkills="$jobSkills" />
+          </div>
+          <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
+        </div>
+        @endforeach
+        @endisset
+      </div>
+    </div>
+  </div>  
 
+  <div class="hero-content text-center">
+    <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">
+      <div class="flex flex-col gap-[0px] min-w-[1200px]">
+        <div class="flex justify-between items-center">
+          <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Project</p>
+          <div>
+            <x-user_project_form type="insert" />
+          </div>
+        </div>
+        @isset($projects)
+        @foreach($projects as $e)
+        <div class="flex flex-col min-w-[1200px]">
+          <div class="flex justify-between items-center">
+            <p class="text-[18px] text-left text-main-text">{{$e->project_name}}</p>
+            <x-user_project_form type="update" :e="$e" />
+          </div>
+          <p class="text-[14px] text-left text-sub-text">{{$e->project_detail}}</p>
+          <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
+        </div>
+        @endforeach
+        @endisset
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-content text-center">
+    <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">
+      <div class="flex flex-col gap-[0px] min-w-[1200px]">
+        <div class="flex justify-between items-center">
+          <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Certificate</p>
           <div>
             <x-certificate_form type="insert" />
           </div>

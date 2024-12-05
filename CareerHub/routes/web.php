@@ -8,6 +8,8 @@ use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
+use App\Http\Controllers\UserProjectsController;
+use App\Http\Controllers\UserSkillsController;
 use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\ShowDashboard;
 use App\Http\Middleware\isLoggedIn;
@@ -37,6 +39,10 @@ Route::middleware('auth')->group(function () {
 Route::middleware(['auth', 'role:Employee'])->group(function () {
   Route::post('/insertExperience', [ExperienceController::class, 'InsertExperience'])->name('insertExperience');
   Route::post('/updateExperience/{id}', [ExperienceController::class, 'updateExperience'])->name('updateExperience');
+  Route::post('/insertProject', [UserProjectsController::class, 'InsertProject'])->name('insertProject');
+  Route::post('/updateProject/{id}', [UserProjectsController::class, 'updateProject'])->name('updateProject');
+  Route::post('/insertSkill', [UserSkillsController::class, 'InsertSkill'])->name('insertSkill');
+  Route::post('/updateSkill/{id}', [UserSkillsController::class, 'updateSkill'])->name('updateSkill');  
   Route::post('/insertEducation', [UserEducationController::class, 'InsertEducation'])->name('insertEducation');
   Route::post('/updateEducation/{id}', [UserEducationController::class, 'updateEducation'])->name('updateEducation');
   Route::post('/insertCertificate', [UserCertificateController::class, 'InsertCertificate'])->name('insertCertificate');
