@@ -33,7 +33,7 @@
                     oninput="filterSkills(this)"
                 />
             <ul
-                class="absolute top-full left-0 w-full bg-white border border-gray-200 shadow-md max-h-48 overflow-y-auto z-50 hidden"
+                class="w-full bg-white border border-gray-200 shadow-md max-h-48 overflow-y-auto z-50 hidden"
                 id="skill-list-{{ $type === 'update' ? $e->id : 'new' }}"
             >
                 @foreach ($jobSkills as $skill)
