@@ -14,7 +14,11 @@
             method="POST"
         >
             @csrf
-            <input type="hidden" name="id" value="{{ $company->id }}">
+            <input type="hidden"
+                name="id"
+                id="id"
+                value="{{ $company->id }}"
+            >
             <label for="name"
                 class="py-1 font-medium text-base"
             >
@@ -23,6 +27,7 @@
             <input class="input input-bordered w-full max-w-lg"
                 id="name"
                 name="name"
+                id="name"
                 type="text"
                 placeholder="Input Name"
                 value="{{ $company->name }}"
@@ -35,6 +40,7 @@
             <input class="input input-bordered w-full max-w-lg"
                 id="city"
                 name="city"
+                id="city"
                 type="text"
                 placeholder="Input City"
                 value="{{ $company->city }}"
@@ -47,6 +53,7 @@
             <input class="input input-bordered w-full max-w-lg"
                 id="country"
                 name="country"
+                id="country"
                 type="text"
                 placeholder="Input Country"
                 value="{{ $company->country }}"
@@ -59,11 +66,14 @@
             <input class="input input-bordered w-full max-w-lg"
                 id="description"
                 name="description"
+                id="description"
                 type="text"
                 placeholder="Input Description"
                 value="{{ $company->description }}"
             >
-            <button class="btn bg-primary text-white mt-4 m-auto">Update</button>
+            <button class="btn bg-primary text-white mt-4 m-auto">
+                Update
+            </button>
         </form>
     </div>
 </dialog>

@@ -5,6 +5,7 @@ use App\Http\Controllers\CompanySkillController;
 use App\Http\Controllers\LoginUserController;
 use App\Http\Controllers\RegisterUserController;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\CompanyJobController;
 use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
@@ -32,7 +33,6 @@ Route::middleware('auth')->group(function () {
 
   Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
   Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
-  Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
 });
 
 //Authenticated user with employee role routes
@@ -50,7 +50,12 @@ Route::middleware(['auth', 'role:Employee'])->group(function () {
 });
 
 //Authenticated user with company role routes
-Route::middleware(['auth', 'role:Company'])->group(function () {});
+Route::middleware(['auth', 'role:Company'])->group(function () {
+  Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
+  Route::post('/addCompanyJob', [CompanyJobController::class, 'create'])->name('addCompanyJob');
+  Route::post('/deleteCompanyJob', [CompanyJobController::class, 'delete'])->name('deleteCompanyJob');
+  Route::post('/editCompanyJob', [CompanyJobController::class, 'edit'])->name('editCompanyJob');
+});
 // Route::view('/search/{query}', 'search');
 // Route::view('/profile', 'profile');
 // Route::view('/company', 'company');
