@@ -31,7 +31,7 @@ class CompanyController extends Controller
         return null;
     }
 
-    public function updateCompanyProfile(Request $req)
+    public function update(Request $req)
     {
         $validationErrors = $this->validateUpdateCompanyProfile($req);
 

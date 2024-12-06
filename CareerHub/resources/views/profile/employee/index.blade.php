@@ -29,7 +29,7 @@
           <p class="text-[#7E7E7E] text-justify text-[16px] min-h-[120px]">{{Auth::user()->short_description}} </p>
           <div class="flex items-end justify-end w-full gap-[20px] mt-[15px]">
             <x-profile_form />
-            <x-change-pass_form />
+            <x-change_password_form />
           </div>
         </div>
       </div>
@@ -120,7 +120,7 @@
         @endisset
       </div>
     </div>
-  </div>  
+  </div>
 
   <div class="hero-content text-center">
     <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">

@@ -1,4 +1,4 @@
-document.querySelectorAll('[data-unique-id]').forEach((formInstance) => {
+document.querySelectorAll('[data-update-form-id]').forEach((formInstance) => {
     const jobSkillsInput = formInstance.querySelector('[data-scope="job-skills"]');
     const jobSkillList = formInstance.querySelector('[data-scope="job-skill-list"]');
     const temporarySkillInput = formInstance.querySelector('[data-scope="temporary-skill"]');
@@ -33,11 +33,15 @@ document.querySelectorAll('[data-unique-id]').forEach((formInstance) => {
     }
 
     function updateJobSkillList(jobSkills) {
+        if (jobSkills.length === 0) {
+            jobSkillList.innerHTML = '<p> Please select a skill </p>'
+            return;
+        }
         jobSkillList.innerHTML = jobSkills
             .map((skill, idx) => `
                 <span class="flex justify-between gap-4">
                     <li class="overflow-x-hidden text-nowrap">${skill}</li>
-                    <button type="button" class="btn btn-sm btn-danger" data-delete-index="${idx}">✕</button>
+                    <button type="button" class="btn btn-sm btn-circle" data-delete-index="${idx}">✕</button>
                 </span>
             `)
             .join('');

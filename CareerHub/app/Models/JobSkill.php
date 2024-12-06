@@ -15,13 +15,13 @@ class JobSkill extends Model
         'skill_name'
     ];
 
-    public function companyJobs()
+    public function jobs()
     {
         return $this->belongsToMany(
-            CompanyJob::class,
+            Job::class,
             'job_skill_maps',
             'job_skill_id',
-            'company_job_id'
+            'job_id'
         );
     }
 

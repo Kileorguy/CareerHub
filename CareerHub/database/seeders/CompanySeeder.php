@@ -3,8 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Company;
-use App\Models\CompanyJob;
-use App\Models\JobSkillMap;
+use App\Models\Job;
 use App\Models\User;
 use Illuminate\Database\Seeder;
 use Illuminate\Http\Client\ConnectionException;
@@ -38,7 +37,7 @@ class CompanySeeder extends Seeder
                     'role' => 'Company',
                     'profile_link' => fake()->imageUrl()
                 ]);
-                CompanyJob::create([
+                Job::create([
                     'id' => $row["job_id"],
                     'company_id' => $row['company_id'],
                     'job_name' => $row['job_name'],

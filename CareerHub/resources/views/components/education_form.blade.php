@@ -17,49 +17,49 @@
         </form>
         <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Education' : 'Add Education' }}</h3>
 
-        <form action="{{ $type === 'update' ? '/updateEducation/' . $e->id : '/insertEducation' }}" method="POST" class="flex flex-col justify-start items-start">
+        <form action="{{ $type === 'update' ? '/updateEducation/' . $e->id : '/createEducation' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Major</p>
-            <input 
-                name="major" 
-                type="text" 
-                placeholder="Input Major" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->major : '' }}" 
+            <input
+                name="major"
+                type="text"
+                placeholder="Input Major"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->major : '' }}"
             />
 
             <p class="py-1 font-medium text-base">School</p>
-            <input 
-                name="school" 
-                type="text" 
-                placeholder="Input School" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->education_name : '' }}" 
+            <input
+                name="school"
+                type="text"
+                placeholder="Input School"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->education_name : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Grade</p>
-                <input 
-                name="grade" 
-                type="text" 
-                placeholder="Input Grade" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->gpa : '' }}" 
+                <input
+                name="grade"
+                type="text"
+                placeholder="Input Grade"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->gpa : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Start Date</p>
-            <input 
-                name="start_date" 
-                type="date" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->start_date : '' }}" 
+            <input
+                name="start_date"
+                type="date"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->start_date : '' }}"
             />
 
             <p class="py-1 font-medium text-base">End Date</p>
-            <input 
-                name="end_date" 
-                type="date" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->end_date : '' }}" 
+            <input
+                name="end_date"
+                type="date"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->end_date : '' }}"
             />
 
             <button class="btn bg-primary text-white mt-4 m-auto">{{ $type === 'update' ? 'Update' : 'Save' }}</button>

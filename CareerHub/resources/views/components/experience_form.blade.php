@@ -17,46 +17,46 @@
         </form>
         <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Experience' : 'Add Experience' }}</h3>
 
-        <form action="{{ $type === 'update' ? '/updateExperience/' . $e->id : '/insertExperience' }}" method="POST" class="flex flex-col justify-start items-start">
+        <form action="{{ $type === 'update' ? '/updateExperience/' . $e->id : '/createExperience' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Job</p>
-            <input 
-                name="job" 
-                type="text" 
-                placeholder="Input Job" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->position : '' }}" 
+            <input
+                name="job"
+                type="text"
+                placeholder="Input Job"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->position : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Company</p>
-            <input 
-                name="company" 
-                type="text" 
-                placeholder="Input Company" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->company : '' }}" 
+            <input
+                name="company"
+                type="text"
+                placeholder="Input Company"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->company : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Short Description</p>
-            <textarea 
-                name="description" 
-                class="textarea textarea-bordered min-w-[465px]" 
+            <textarea
+                name="description"
+                class="textarea textarea-bordered min-w-[465px]"
                 placeholder="Input Short Description">{{ $type === 'update' ? $e->description : '' }}</textarea>
 
             <p class="py-1 font-medium text-base">Start Date</p>
-            <input 
-                name="start_date" 
-                type="date" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->start_date : '' }}" 
+            <input
+                name="start_date"
+                type="date"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->start_date : '' }}"
             />
 
             <p class="py-1 font-medium text-base">End Date</p>
-            <input 
-                name="end_date" 
-                type="date" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->end_date : '' }}" 
+            <input
+                name="end_date"
+                type="date"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->end_date : '' }}"
             />
 
             <button class="btn bg-primary text-white mt-4 m-auto">{{ $type === 'update' ? 'Update' : 'Save' }}</button>

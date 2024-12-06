@@ -17,50 +17,50 @@
         </form>
         <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Certificate' : 'Add Certificate' }}</h3>
 
-        <form action="{{ $type === 'update' ? '/updateCertificate/' . $e->id : '/insertCertificate' }}" method="POST" class="flex flex-col justify-start items-start">
+        <form action="{{ $type === 'update' ? '/updateCertificate/' . $e->id : '/createCertificate' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Certificate Name</p>
-            <input 
-                name="name" 
-                type="text" 
-                placeholder="Input Certificate Name" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->certificate_name : '' }}" 
+            <input
+                name="name"
+                type="text"
+                placeholder="Input Certificate Name"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->certificate_name : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Company</p>
-            <input 
-                name="company" 
-                type="text" 
-                placeholder="Input Company" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->company : '' }}" 
+            <input
+                name="company"
+                type="text"
+                placeholder="Input Company"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->company : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Image Link</p>
-            <input 
-                name="image" 
-                type="text" 
-                placeholder="Input Image Link" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->image_link : '' }}" 
+            <input
+                name="image"
+                type="text"
+                placeholder="Input Image Link"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->image_link : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Detail</p>
-            <input 
-                name="detail" 
-                type="text" 
-                placeholder="Input Detail" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->detail : '' }}" 
+            <input
+                name="detail"
+                type="text"
+                placeholder="Input Detail"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->detail : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Issued Date</p>
-            <input 
-                name="issued_date" 
-                type="date" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->issued_date : '' }}" 
+            <input
+                name="issued_date"
+                type="date"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->issued_date : '' }}"
             />
 
             <button class="btn bg-primary text-white mt-4 m-auto">{{ $type === 'update' ? 'Update' : 'Save' }}</button>

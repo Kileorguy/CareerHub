@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('company_jobs', function (Blueprint $table) {
+        Schema::create('jobs', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->uuid('company_id');
             $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade');
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('company_jobs');
+        Schema::dropIfExists('jobs');
     }
 };

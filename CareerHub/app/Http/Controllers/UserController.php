@@ -3,15 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
-use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Str;
 use App\Models\User;
 
-class RegisterUserController extends Controller
+class UserController extends Controller
 {
     public function register(Request $request)
     {
@@ -88,27 +86,4 @@ class RegisterUserController extends Controller
             'role' => $request->input('role'),
         ]);
     }
-  /**
-   * @throws ConnectionException
-   */
-  public function test()
-  {
-//    $response = Http::accept('application/json')->get('http://127.0.0.1:5000/get_user_recommendation', ['user_id'=>Auth::user()->id]);
-//    $data = json_decode($response->body(), true);
-    dd('maklo');
-    //        if ($response->successful()) {
-    //            // Get the raw body of the response and decode it manually
-    //            $data = json_decode($response->body(), true);
-    //
-    //            // Check if the data was decoded successfully
-    //            if ($data !== null) {
-    //                dd($data); // Display the data
-    //            } else {
-    //                dd("ARGHH", $response->body());
-    //            }
-    //        } else {
-    //            // Handle the error
-    //            dd("Error fetching data from Flask API", $response->status(), $response->body());
-    //        }
-  }
 }

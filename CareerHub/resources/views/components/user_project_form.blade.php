@@ -17,21 +17,21 @@
         </form>
         <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Project' : 'Add Project' }}</h3>
 
-        <form action="{{ $type === 'update' ? '/updateProject/' . $e->id : '/insertProject' }}" method="POST" class="flex flex-col justify-start items-start">
+        <form action="{{ $type === 'update' ? '/updateProject/' . $e->id : '/createProject' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Project Name</p>
-            <input 
-                name="project_name" 
-                type="text" 
-                placeholder="Input Project Name" 
-                class="input input-bordered w-full max-w-lg" 
-                value="{{ $type === 'update' ? $e->project_name : '' }}" 
+            <input
+                name="project_name"
+                type="text"
+                placeholder="Input Project Name"
+                class="input input-bordered w-full max-w-lg"
+                value="{{ $type === 'update' ? $e->project_name : '' }}"
             />
 
             <p class="py-1 font-medium text-base">Project Detail</p>
-            <textarea 
-                name="project_detail" 
-                class="textarea textarea-bordered min-w-[465px]" 
+            <textarea
+                name="project_detail"
+                class="textarea textarea-bordered min-w-[465px]"
                 placeholder="Input Project Detail">{{ $type === 'update' ? $e->project_detail : '' }}
             </textarea>
 

@@ -9,13 +9,14 @@ use Illuminate\Support\Str;
 
 class UserEducationController extends Controller
 {
-    public function InsertEducation(Request $req){
+    public function create(Request $req)
+    {
         $user = Auth::user();
         UserEducation::create([
             'id' => Str::uuid(),
             'user_id' => $user->id,
             'education_name' => $req->school,
-            'major'=> $req->major,
+            'major' => $req->major,
             'gpa' => $req->grade,
             'start_date' => $req->start_date,
             'end_date' => $req->end_date,
@@ -23,13 +24,13 @@ class UserEducationController extends Controller
 
         return redirect('/profile');
     }
-    public function updateEducation(Request $req, $id)
+    public function update(Request $req, $id)
     {
         $user = Auth::user();
 
         $education = UserEducation::where('id', $id)
-                                    ->where('user_id', $user->id)
-                                    ->first();
+            ->where('user_id', $user->id)
+            ->first();
 
         $education->education_name = $req->school;
         $education->major = $req->major;
@@ -40,60 +41,5 @@ class UserEducationController extends Controller
         $education->save();
 
         return redirect('/profile');
-    }
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(UserEducation $userEducation)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(UserEducation $userEducation)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, UserEducation $userEducation)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(UserEducation $userEducation)
-    {
-        //
     }
 }

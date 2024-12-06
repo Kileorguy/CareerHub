@@ -15,47 +15,27 @@
                 </span>
                 <span class="w-full flex gap-5 justify-end">
                     <x-edit_company_profile_form :company="$company" />
-                    <x-change-pass_form />
+                    <x-change_password_form />
                 </span>
             </div>
-            <div class="mt-5 min-w-[1320px] bg-white p-10 rounded-lg shadow-lg">
-                <span class="flex items-center gap-4">
-                    <p class="text-2xl font-bold">Manage Jobs</p>
+            <div class="mt-5 w-[1320px] overflow-x-auto bg-white p-10 py-6 rounded-lg shadow-lg">
+                <span class="w-full pb-3 border-b flex items-center gap-4 justify-start">
+                    <p class="text-2xl font-bold text-left">Manage Jobs</p>
                     <x-add_job_form :company="$company" />
                 </span>
                 <div class="w-full flex gap-4 overflow-x-auto py-4">
                     @if ($jobs->isNotEmpty())
                         @foreach ($jobs as $job)
-                            <div class="w-72 h-96 p-4 shadow-lg rounded-lg relative">
-                                <p class="text-lg font-bold">{{ $job->job_name }}</p>
-                                <p class="mt-2 text-sm font-semibold text-gray-500">
-                                    Job description
-                                </p>
-                                <p>{{ $job->job_description }}</p>
-
-                                <p class="mt-2 text-sm font-semibold text-gray-500">
-                                    Job level
-                                </p>
-                                <p>{{ $job->job_level }}</p>
-
-                                <p class="mt-2 text-sm font-semibold text-gray-500">
-                                    Job Skills
-                                </p>
-                                <ul class="grid grid-cols-2 list-disc list-inside">
-                                    @foreach ($job->jobSkills as $skill)
-                                        <li> {{ $skill->skill_name }}</li>
-                                    @endforeach
-                                </ul>
-                                <span class="absolute w-full flex justify-evenly bottom-4">
-                                    <x-delete_job_form :job="$job" />
-                                    <x-edit_job_form :job="$job" />
-                                </span>
-                            </div>
+                            <x-company_job_card :job="$job" />
                         @endforeach
                     @else
                         <p class="w-full text-center">There are no jobs</p>
                     @endif
                 </div>
+            </div>
+            <div class="mt-5 min-w-[1320px] bg-white p-10 rounded-lg shadow-lg">
+                <p class="text-2xl font-bold">Manage Applicants</p>
+
             </div>
         </div>
     </div>

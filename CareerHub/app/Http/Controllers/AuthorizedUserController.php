@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\CompanyJob;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -11,7 +10,7 @@ use App\Models\JobSkill;
 use Illuminate\Support\Facades\Hash;
 
 
-class LoginUserController extends Controller
+class AuthorizedUserController extends Controller
 {
     public function login(Request $request)
     {
@@ -46,23 +45,26 @@ class LoginUserController extends Controller
 
     public function profile()
     {
-      $user = Auth::user();
+        $user = Auth::user();
 
-      if ($user->role == 'Employee') {
-        $data = $user->experiences;
-        $educations = $user->educations;
-        $certificates = $user->certificates;
-        $skills = $user->skills;
-        $projects = $user->projects;
-        $jobSkills = JobSkill::all();
-        return view('profile.employee.index', ['experiences' => $data, 'educations' => $educations, 'certificates' => $certificates, 'skills' => $skills, 'projects' => $projects, 'jobSkills' => $jobSkills]);
-      } else if ($user->role == 'Company') {
-          $company = $user->company;
-          $jobs = CompanyJob::where('company_id', $user->company_id)
-              ->with('jobSkills')
-              ->get();
-          return view('profile.company.index', compact('company', 'jobs'));
-      }
+        if ($user->role == 'Employee') {
+            $experiences = $user->experiences;
+            $educations = $user->educations;
+            $certificates = $user->certificates;
+            $skills = $user->skills;
+            $projects = $user->projects;
+            $jobSkills = JobSkill::all();
+            return view('profile.employee.index', compact('experiences', 'educations', 'certificates', 'skills', 'projects', 'jobSkills'));
+        } else if ($user->role == 'Company') {
+            $company = $user->company;
+            $jobs = call_user_func(
+                [JobController::class, 'getJobById'],
+                $user->company_id,
+                ['job_skills']
+            );
+            return view('profile.company.index', compact('company', 'jobs'));
+        }
+    }
 
     public function updateProfile(Request $req)
     {
@@ -96,7 +98,6 @@ class LoginUserController extends Controller
         if (Hash::check($req->old, $user->password)) {
             $user->password = bcrypt($req->new);
             $user->save();
-
             return redirect('/profile')->with('message', 'Password changed successfully!');
         } else {
             return redirect('/profile')->with('message', 'The old password is incorrect.');

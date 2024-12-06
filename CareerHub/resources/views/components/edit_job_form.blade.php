@@ -1,17 +1,16 @@
-<script src="./js/job-skill-input.js" defer></script>
-<button class="btn" onclick="document.querySelector('[data-unique-id=\'edit-job-{{ $job->id }}\']').showModal()">Edit</button>
+<button class="btn" onclick="document.querySelector('[data-update-form-id=\'edit-job-{{ $job->id }}\']').showModal()">Edit</button>
 
-<dialog class="modal" data-unique-id="edit-job-{{ $job->id }}">
+<dialog class="modal" data-update-form-id="edit-job-{{ $job->id }}">
     <div class="modal-box">
         <form method="dialog">
             <button type="button" class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
                 onclick="this.closest('dialog').close()">✕</button>
         </form>
         <h3 class="text-xl font-bold pb-4">Edit Job</h3>
-        <form class="flex flex-col justify-start items-start" action="/editCompanyJob" method="POST">
+        <form class="flex flex-col justify-start items-start" action="/updateJob" method="POST">
             @csrf
             <input type="hidden" name="job_id" value="{{ $job->id }}" />
-            <input type="hidden" name="job_skills" data-scope="job-skills" value="{{ json_encode($job->jobSkills->pluck('skill_name')->toArray()) }}">
+            <input type="hidden" name="job_skills" data-scope="job-skills" value="{{ json_encode($job->job_skills->pluck('skill_name')->toArray()) }}">
             <label class="py-1 font-medium text-base">Job Name</label>
             <input class="input input-bordered w-full max-w-lg" id="job-name-{{ $job->id }}" name="job_name" type="text"
                 placeholder="Input Job Name" value="{{ $job->job_name }}">
@@ -28,7 +27,7 @@
             <span class="flex w-full gap-2">
                 <input class="input input-bordered w-full max-w-lg" data-scope="temporary-skill" type="text"
                     placeholder="Input Job Skills">
-                <button type="button" class="btn aspect-square" data-scope="add-skill-btn">+</button>
+                <button type="button" class="btn aspect-square text-2xl p-0" data-scope="add-skill-btn">+</button>
             </span>
             <button class="btn bg-primary text-white mt-4 m-auto">Confirm</button>
         </form>

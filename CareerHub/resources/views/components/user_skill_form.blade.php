@@ -13,22 +13,22 @@
 <dialog id="{{ $type === 'update' ? 'skill_modal_' . $e->id : 'skill_modal_insert' }}" class="modal">
     <div class="modal-box">
         <form method="dialog">
-            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" 
+            <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
                 onclick="document.getElementById('{{ $type === 'update' ? 'skill_modal_' . $e->id : 'skill_modal_insert' }}').close()">✕</button>
         </form>
         <h3 class="text-xl font-bold pb-4">{{ $type === 'update' ? 'Edit Skill' : 'Add Skill' }}</h3>
 
-        <form action="{{ $type === 'update' ? '/updateSkill/' . $e->id : '/insertSkill' }}" method="POST" class="flex flex-col justify-start items-start">
+        <form action="{{ $type === 'update' ? '/updateSkill/' . $e->id : '/createSkill' }}" method="POST" class="flex flex-col justify-start items-start">
             @csrf
             <p class="py-1 font-medium text-base">Skill Name</p>
             <div class="relative w-full max-w-lg">
-                <input 
-                    id="skill-input-{{ $type === 'update' ? $e->id : 'new' }}" 
-                    name="skill_name" 
-                    type="text" 
-                    placeholder="Search or Add Skill Name" 
-                    class="input input-bordered w-full" 
-                    value="{{ $type === 'update' ? $e->skill_name : '' }}" 
+                <input
+                    id="skill-input-{{ $type === 'update' ? $e->id : 'new' }}"
+                    name="skill_name"
+                    type="text"
+                    placeholder="Search or Add Skill Name"
+                    class="input input-bordered w-full"
+                    value="{{ $type === 'update' ? $e->skill_name : '' }}"
                     autocomplete="off"
                     oninput="filterSkills(this)"
                 />
@@ -37,7 +37,7 @@
                 id="skill-list-{{ $type === 'update' ? $e->id : 'new' }}"
             >
                 @foreach ($jobSkills as $skill)
-                    <li 
+                    <li
                         class="px-4 py-2 cursor-pointer hover:bg-gray-100"
                         onclick="selectSkill('{{ $skill->name }}', '{{ $type === 'update' ? $e->id : 'new' }}')"
                     >
