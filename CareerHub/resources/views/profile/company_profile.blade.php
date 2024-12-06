@@ -26,7 +26,7 @@
                 <div class="w-full flex gap-4 overflow-x-auto py-4">
                     @if ($jobs->isNotEmpty())
                         @foreach ($jobs as $job)
-                            <x-company.job_card :job="$job" />
+                            <x-company.manage_job_card :job="$job" />
                         @endforeach
                     @else
                         <p class="w-full text-center">There are no jobs</p>

@@ -143,10 +143,4 @@ class JobController extends Controller
                 ->with('message', $e->getMessage());
         }
     }
-
-    public static function getJobById($company_id, $includes=[])
-    {
-        $query = Job::where('company_id', $company_id)->with([...$includes]);
-        return $query->get();
-    }
 }

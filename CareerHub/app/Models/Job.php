@@ -29,9 +29,4 @@ class Job extends Model
         return $this->belongsTo(Company::class);
     }
 
-    public function company_user()
-    {
-        return $this->hasOne(User::class, 'company_id', 'company_id');
-    }
-
 }
