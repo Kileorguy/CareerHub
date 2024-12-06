@@ -11,7 +11,19 @@ class JobSkill extends Model
     protected $keyType = 'string';
     public $incrementing = false;
     protected $fillable = [
-
+        'id',
+        'skill_name'
     ];
+
+    public function companyJobs()
+    {
+        return $this->belongsToMany(
+            CompanyJob::class,
+            'job_skill_maps',
+            'job_skill_id',
+            'company_job_id'
+        );
+    }
+
     public $timestamps = false;
 }

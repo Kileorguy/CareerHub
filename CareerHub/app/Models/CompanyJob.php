@@ -12,9 +12,15 @@ class CompanyJob extends Model
     protected $fillable = ['id', 'company_id', 'job_name', 'job_description', 'job_level'];
 
     public $timestamps = false;
-    public function skills(){
-        return $this->hasMany(JobSkill::class);
-    }
 
+    public function jobSkills()
+    {
+        return $this->belongsToMany(
+            JobSkill::class,
+            'job_skill_maps',
+            'company_job_id',
+            'job_skill_id'
+        );
+    }
 
 }
