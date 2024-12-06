@@ -27,10 +27,11 @@ Route::middleware('auth')->group(function () {
   Route::get('/', ShowDashboard::class)->name('dashboard');
   Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
   Route::get('/logout', [LoginUserController::class, 'logout'])->name('logout');
-
   Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
   Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
   Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
+
+  Route::get('/search', [CompanyController::class, 'search'])->name('search');
 });
 
 //Authenticated user with employee role routes
