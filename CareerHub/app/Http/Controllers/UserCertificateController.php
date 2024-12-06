@@ -25,6 +25,7 @@ class UserCertificateController extends Controller
 
         return redirect('/profile');
     }
+    
     public function update(Request $req, $id)
     {
         $user = Auth::user();

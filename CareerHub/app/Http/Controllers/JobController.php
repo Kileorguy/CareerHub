@@ -6,6 +6,7 @@ use App\Models\Job;
 use App\Models\JobSkill;
 use App\Models\JobSkillMap;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class JobController extends Controller
@@ -81,7 +82,7 @@ class JobController extends Controller
 
             $job = Job::create([
                 'id' => fake()->uuid(),
-                'company_id' => $request->company_id,
+                'company_id' => Auth::user()->company_id,
                 'job_name' => $request->job_name,
                 'job_description' => $request->job_description,
                 'job_level' => $request->job_level,
@@ -100,13 +101,13 @@ class JobController extends Controller
         }
     }
 
-    public function update(Request $request)
+    public function update(Request $request, $id)
     {
         try {
             $this->validateRequest($request);
             $skills = $this->parseJobSkills($request->job_skills);
 
-            $job = Job::findOrFail($request->job_id);
+            $job = Job::findOrFail($id);
             $job->update([
                 'job_name' => $request->job_name,
                 'job_description' => $request->job_description,

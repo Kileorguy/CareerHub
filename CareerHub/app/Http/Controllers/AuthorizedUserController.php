@@ -54,7 +54,7 @@ class AuthorizedUserController extends Controller
             $skills = $user->skills;
             $projects = $user->projects;
             $jobSkills = JobSkill::all();
-            return view('profile.employee.index', compact('experiences', 'educations', 'certificates', 'skills', 'projects', 'jobSkills'));
+            return view('profile.employee_profile', compact('experiences', 'educations', 'certificates', 'skills', 'projects', 'jobSkills'));
         } else if ($user->role == 'Company') {
             $company = $user->company;
             $jobs = call_user_func(
@@ -62,7 +62,7 @@ class AuthorizedUserController extends Controller
                 $user->company_id,
                 ['job_skills']
             );
-            return view('profile.company.index', compact('company', 'jobs'));
+            return view('profile.company_profile', compact('company', 'jobs'));
         }
     }
 

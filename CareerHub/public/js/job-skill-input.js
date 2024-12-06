@@ -1,4 +1,4 @@
-document.querySelectorAll('[data-update-form-id]').forEach((formInstance) => {
+document.querySelectorAll('[data-job-form-id]').forEach((formInstance) => {
     const jobSkillsInput = formInstance.querySelector('[data-scope="job-skills"]');
     const jobSkillList = formInstance.querySelector('[data-scope="job-skill-list"]');
     const temporarySkillInput = formInstance.querySelector('[data-scope="temporary-skill"]');
@@ -41,7 +41,7 @@ document.querySelectorAll('[data-update-form-id]').forEach((formInstance) => {
             .map((skill, idx) => `
                 <span class="flex justify-between gap-4">
                     <li class="overflow-x-hidden text-nowrap">${skill}</li>
-                    <button type="button" class="btn btn-sm btn-circle" data-delete-index="${idx}">✕</button>
+                    <button type="button" class="btn btn-sm btn-ghost btn-circle" data-delete-index="${idx}">✕</button>
                 </span>
             `)
             .join('');

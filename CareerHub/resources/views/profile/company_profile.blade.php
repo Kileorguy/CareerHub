@@ -14,19 +14,19 @@
                     <p>{{ $company->country }}</p>
                 </span>
                 <span class="w-full flex gap-5 justify-end">
-                    <x-edit_company_profile_form :company="$company" />
+                    <x-company.update_profile_form :company="$company" />
                     <x-change_password_form />
                 </span>
             </div>
             <div class="mt-5 w-[1320px] overflow-x-auto bg-white p-10 py-6 rounded-lg shadow-lg">
                 <span class="w-full pb-3 border-b flex items-center gap-4 justify-start">
                     <p class="text-2xl font-bold text-left">Manage Jobs</p>
-                    <x-add_job_form :company="$company" />
+                    <x-company.job_form :type="'Add'" />
                 </span>
                 <div class="w-full flex gap-4 overflow-x-auto py-4">
                     @if ($jobs->isNotEmpty())
                         @foreach ($jobs as $job)
-                            <x-company_job_card :job="$job" />
+                            <x-company.job_card :job="$job" />
                         @endforeach
                     @else
                         <p class="w-full text-center">There are no jobs</p>

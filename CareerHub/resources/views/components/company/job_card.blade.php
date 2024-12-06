@@ -21,8 +21,8 @@
         </ul>
     </div>
     <span class="w-full flex justify-evenly">
-        <x-delete_job_form :job="$job" />
-        <x-edit_job_form :job="$job" />
+        <x-company.delete_job_form :job="$job" />
+        <x-company.job_form :type="'Edit'" :job="$job" />
     </span>
 </div>
 <script src="./js/job-skill-input.js"></script>

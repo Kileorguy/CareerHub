@@ -16,11 +16,11 @@ class UserController extends Controller
         $role = $request->input('role');
 
         if ($role === "Employee") {
-            $this->validateEmployee($request);
+            $this->validateCreateEmployee($request);
             $user = $this->createEmployee($request);
         } else {
             $this->validateCreateCompany($request);
-            $user = $this->createCompanyWithUser($request);
+            $user = $this->createCompany($request);
         }
 
         Auth::login($user);
@@ -28,7 +28,7 @@ class UserController extends Controller
         return redirect('/login')->with('success', 'User registered successfully!');
     }
 
-    private function validateEmployee(Request $request)
+    private function validateCreateEmployee(Request $request)
     {
         $rules = [
             'first_name' => 'required|string|max:255',
@@ -66,7 +66,7 @@ class UserController extends Controller
         Validator::make($request->all(), $rules)->validate();
     }
 
-    private function createCompanyWithUser(Request $request)
+    private function createCompany(Request $request)
     {
         $company_id = Str::uuid();
 

@@ -3,10 +3,10 @@
 namespace App\View\Components;
 
 use Closure;
-use Illuminate\View\Component;
 use Illuminate\Contracts\View\View;
+use Illuminate\View\Component;
 
-class user_skill_form extends Component
+class job_card extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class user_skill_form extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.user_skill_form');
+        return view('components.company.job_card');
     }
 }

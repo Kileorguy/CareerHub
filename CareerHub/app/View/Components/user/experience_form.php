@@ -21,6 +21,6 @@ class experience_form extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.experience_form');
+        return view('components.user.experience_form');
     }
 }

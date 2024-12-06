@@ -28,7 +28,7 @@
           <p class="font-bold text-[24px] text-main-text">{{Auth::user()->first_name}} {{Auth::user()->last_name}}</p>
           <p class="text-[#7E7E7E] text-justify text-[16px] min-h-[120px]">{{Auth::user()->short_description}} </p>
           <div class="flex items-end justify-end w-full gap-[20px] mt-[15px]">
-            <x-profile_form />
+            <x-user.update_profile_form />
             <x-change_password_form />
           </div>
         </div>
@@ -44,7 +44,7 @@
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Experience</p>
 
           <div>
-            <x-experience_form type="insert" />
+            <x-user.experience_form type="insert" />
           </div>
         </div>
         @isset($experiences)
@@ -52,7 +52,7 @@
         <div class="flex flex-col min-w-[1200px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$e->position}}</p>
-            <x-experience_form type="update" :e="$e" />
+            <x-user.experience_form type="update" :e="$e" />
           </div>
           <p class="text-[18px] text-left text-sub-text">{{$e->company}}</p>
           <p class="text-[18px] text-left text-sub-text">
@@ -74,7 +74,7 @@
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Education</p>
           <div>
-            <x-education_form type="insert" />
+            <x-user.education_form type="insert" />
           </div>
         </div>
         @isset($educations)
@@ -82,7 +82,7 @@
         <div class="flex flex-col min-w-[1200px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$ed->education_name}}</p>
-            <x-education_form type="update" :e="$ed" />
+            <x-user.education_form type="update" :e="$ed" />
           </div>
           <p class="text-[18px] text-left text-sub-text">{{$ed->major}}</p>
           <p class="text-[18px] text-left text-sub-text">
@@ -104,7 +104,7 @@
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Skill</p>
           <div>
-            <x-user_skill_form type="insert" :jobSkills="$jobSkills" />
+            <x-user.skill_form type="insert" :jobSkills="$jobSkills" />
           </div>
         </div>
         @isset($skills)
@@ -112,7 +112,7 @@
         <div class="flex flex-col min-w-[1200px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$e->skill_name}}</p>
-            <x-user_skill_form type="update" :e="$e" :jobSkills="$jobSkills" />
+            <x-user.skill_form type="update" :e="$e" :jobSkills="$jobSkills" />
           </div>
           <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
         </div>
@@ -128,7 +128,7 @@
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Project</p>
           <div>
-            <x-user_project_form type="insert" />
+            <x-user.project_form type="insert" />
           </div>
         </div>
         @isset($projects)
@@ -136,7 +136,7 @@
         <div class="flex flex-col min-w-[1200px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$e->project_name}}</p>
-            <x-user_project_form type="update" :e="$e" />
+            <x-user.project_form type="update" :e="$e" />
           </div>
           <p class="text-[14px] text-left text-sub-text">{{$e->project_detail}}</p>
           <hr class="h-px mt-[10px] mb-[10px] bg-gray-200 border-0 dark:bg-gray-700">
@@ -153,7 +153,7 @@
         <div class="flex justify-between items-center">
           <p class="font-bold text-[18px] text-left text-main-text mb-[12newpx]">Certificate</p>
           <div>
-            <x-certificate_form type="insert" />
+            <x-user.certificate_form type="insert" />
           </div>
         </div>
         @isset($certificates)
@@ -163,7 +163,7 @@
           <div class="flex flex-col min-w-[1085px]">
             <div class="flex justify-between items-center">
               <p class="text-[18px] text-left text-main-text">{{$c->certificate_name}}</p>
-              <x-certificate_form type="update" :e="$c" />
+              <x-user.certificate_form type="update" :e="$c" />
             </div>
             <p class="text-[18px] text-left text-sub-text">{{$c->company}}</p>
             <p class="text-[18px] text-left text-sub-text">

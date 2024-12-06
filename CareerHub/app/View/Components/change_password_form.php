@@ -21,6 +21,6 @@ class change_password_form extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.change-password_form');
+        return view('components.change_password_form');
     }
 }
