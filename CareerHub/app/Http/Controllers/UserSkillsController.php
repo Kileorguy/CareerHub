@@ -10,7 +10,8 @@ use Illuminate\Support\Str;
 
 class UserSkillsController extends Controller
 {
-    public function InsertSkill(Request $req){
+    public function create(Request $req)
+    {
         $user = Auth::user();
         UserSkills::create([
             'id' => Str::uuid(),
@@ -19,9 +20,9 @@ class UserSkillsController extends Controller
         ]);
 
         $jobSkill = JobSkill::where('skill_name', $req->skill_name)
-                                    ->first();
-        
-        if($jobSkill == null){
+            ->first();
+
+        if ($jobSkill == null) {
             JobSkill::create([
                 'id' => Str::uuid(),
                 'skill_name' => $req->skill_name,
@@ -30,22 +31,23 @@ class UserSkillsController extends Controller
 
         return redirect('/profile');
     }
-    public function updateSkill(Request $req, $id)
+    
+    public function update(Request $req, $id)
     {
         $user = Auth::user();
 
         $skill = UserSkills::where('id', $id)
-                                    ->where('user_id', $user->id)
-                                    ->first();
+            ->where('user_id', $user->id)
+            ->first();
 
         $skill->skill_name = $req->skill_name;
 
         $skill->save();
 
         $jobSkill = JobSkill::where('skill_name', $req->skill_name)
-                                    ->first();
-        
-        if($jobSkill == null){
+            ->first();
+
+        if ($jobSkill == null) {
             JobSkill::create([
                 'id' => Str::uuid(),
                 'skill_name' => $req->skill_name,

@@ -11,7 +11,7 @@ class JobSkillMap extends Model
     protected $keyType = 'string';
     public $incrementing = false;
     protected $fillable = [
-        'company_job_id',
+        'job_id',
         'job_skill_id'
     ];
 

@@ -9,7 +9,8 @@ use Illuminate\Support\Str;
 
 class UserProjectsController extends Controller
 {
-    public function InsertProject(Request $req){
+    public function create(Request $req)
+    {
         $user = Auth::user();
         UserProjects::create([
             'id' => Str::uuid(),
@@ -20,13 +21,14 @@ class UserProjectsController extends Controller
 
         return redirect('/profile');
     }
-    public function updateProject(Request $req, $id)
+    
+    public function update(Request $req, $id)
     {
         $user = Auth::user();
 
         $project = UserProjects::where('id', $id)
-                                    ->where('user_id', $user->id)
-                                    ->first();
+            ->where('user_id', $user->id)
+            ->first();
 
         $project->project_name = $req->project_name;
         $project->project_detail = $req->project_detail;
