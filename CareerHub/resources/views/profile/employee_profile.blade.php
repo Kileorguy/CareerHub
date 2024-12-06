@@ -2,18 +2,6 @@
 
 @section('content')
 
-@if(session('message'))
-<div class="toast bg-white mr-5 mb-5 z-50 shadow show" role="alert" aria-live="assertive" aria-atomic="true">
-  <div class="toast-header flex justify-between">
-    <strong class="me-auto text-black">Notification</strong>
-    <!-- <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">X</button> -->
-  </div>
-  <div class="toast-body">
-    {{ session('message') }}
-  </div>
-</div>
-@endif
-
 <div class="hero flex flex-col">
   <div class="hero-content text-center">
     <div class="mt-[20px] min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -43,48 +44,6 @@ class AuthorizedUserController extends Controller
         return redirect('/login');
     }
 
-    public function profile()
-    {
-        $user = Auth::user();
-
-        if ($user->role == 'Employee') {
-            $experiences = $user->experiences;
-            $educations = $user->educations;
-            $certificates = $user->certificates;
-            $skills = $user->skills;
-            $projects = $user->projects;
-            $jobSkills = JobSkill::all();
-            return view('profile.employee_profile', compact('experiences', 'educations', 'certificates', 'skills', 'projects', 'jobSkills'));
-        } else if ($user->role == 'Company') {
-            $company = $user->company;
-            $jobs = call_user_func(
-                [JobController::class, 'getJobById'],
-                $user->company_id,
-                ['job_skills']
-            );
-            return view('profile.company_profile', compact('company', 'jobs'));
-        }
-    }
-
-    public function updateProfile(Request $req)
-    {
-        $user = Auth::user();
-
-        $updatedUser = User::where('id', $user->id)->first();
-
-        $updatedUser->first_name = $req->first;
-        $updatedUser->last_name = $req->lastName;
-        $updatedUser->short_description = $req->desc;
-        $updatedUser->portfolio_link = $req->porto;
-        $updatedUser->github_link = $req->github;
-        $updatedUser->profile_link = $req->profile_image;
-
-        $updatedUser->save();
-
-        return redirect('/profile');
-    }
-
-
     public function changePassword(Request $req)
     {
         $user = Auth::user();
@@ -102,5 +61,45 @@ class AuthorizedUserController extends Controller
         } else {
             return redirect('/profile')->with('message', 'The old password is incorrect.');
         }
+    }
+
+    public function profile()
+    {
+        $user = Auth::user();
+
+        if ($user->role == 'Employee') {
+            $experiences = $user->experiences;
+            $educations = $user->educations;
+            $certificates = $user->certificates;
+            $skills = $user->skills;
+            $projects = $user->projects;
+            $jobSkills = JobSkill::all();
+            return view('profile.employee_profile', compact('experiences', 'educations', 'certificates', 'skills', 'projects', 'jobSkills'));
+        } else if ($user->role == 'Company') {
+            $company = $user->company;
+            $jobs = $company->jobs;
+            return view('profile.company_profile', compact('company', 'jobs'));
+        }
+    }
+
+    public function updateProfile(Request $req)
+    {
+        $user = Auth::user();
+        $user->update([
+            'first_name' => $req->first,
+            'last_name' => $req->lastName,
+            'short_description' => $req->desc,
+            'portfolio_link' => $req->porto,
+            'github_link' => $req->github,
+            'profile_link' => $req->profile_image,
+        ]);
+
+        return redirect('/profile');
+    }
+
+    public function jobDetail(Request $req, $id)
+    {
+        $job = Job::find($id);
+        return view('job_detail', compact('job'));
     }
 }

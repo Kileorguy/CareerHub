@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class job_card extends Component
+class manage_job_card extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class job_card extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.company.job_card');
+        return view('components.company.manage_job_card');
     }
 }

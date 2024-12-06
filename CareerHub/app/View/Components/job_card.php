@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\user;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class delete_job_form extends Component
+class job_card extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class delete_job_form extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.company.delete_job_form');
+        return view('components.job_card');
     }
 }
