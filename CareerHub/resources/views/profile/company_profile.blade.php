@@ -4,7 +4,9 @@
     <div class="hero">
         <div class="hero-content flex flex-col">
             <div class="mt-5 min-w-[1320px] bg-white p-10 rounded-lg shadow-lg flex flex-col items-start gap-2">
-                <img class="w-36 h-36" src="{{ Auth::user()->profile_link ?? 'assets/profile-empty.png' }}" alt="">
+                <img src="{{ Auth::user()->profile_link ?? 'assets/profile-empty.png' }}"
+                    class="w-36 h-36 object-cover border rounded-lg"
+                >
                 <p class="text-2xl font-bold">{{ $company->name }}</p>
                 <p class="text-gray-500 text-lg">
                     {{ $company->description ?? 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet nobis minus unde magnam, doloribus reiciendis consequatur tempore earum aspernatur illo non maxime consectetur ullam sapiente iste. Nisi, dolorem consequuntur.' }}
@@ -35,14 +37,14 @@
             </div>
             <div class="mt-5 min-w-[1320px] p-10 rounded-lg shadow-lg bg-white">
                 <p class="w-full text-2xl pb-6 border-b font-bold">Manage Applications</p>
-                @if ($jobApplications->isNotEmpty())
+                @if ($job->jobApplications->isNotEmpty())
                     <div class="py-4">
-                        @foreach ($jobApplications as $jobApplication)
+                        @foreach ($job->jobApplications as $jobApplication)
                             <x-company.manage_job_application_card :jobApplication="$jobApplication" />
                         @endforeach
                     </div>
                 @else
-                    <p class="w-full text-center">There are no applicants</p>
+                    <p class="w-full py-4 text-center">There are no applicants</p>
                 @endif
             </div>
         </div>
