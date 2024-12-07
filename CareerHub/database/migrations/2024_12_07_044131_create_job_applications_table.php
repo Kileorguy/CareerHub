@@ -11,12 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('job_skill_maps', function (Blueprint $table) {
+        Schema::create('job_applications', function (Blueprint $table) {
             $table->uuid('job_id');
-            $table->uuid('job_skill_id');
-            $table->primary(['job_id', 'job_skill_id']);
+            $table->uuid('user_id');
+            $table->string('status')->default('Pending');
+            $table->primary(['job_id', 'user_id']);
             $table->foreign('job_id')->references('id')->on('jobs')->onDelete('cascade');
-            $table->foreign('job_skill_id')->references('id')->on('job_skills')->onDelete('cascade');
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
@@ -25,6 +26,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('job_skill_map');
+        Schema::dropIfExists('job_applications');
     }
 };

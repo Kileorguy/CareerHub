@@ -6,7 +6,6 @@ use App\Models\Job;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
-use App\Models\user;
 use App\Models\JobSkill;
 use Illuminate\Support\Facades\Hash;
 
@@ -78,7 +77,8 @@ class AuthorizedUserController extends Controller
         } else if ($user->role == 'Company') {
             $company = $user->company;
             $jobs = $company->jobs;
-            return view('profile.company_profile', compact('company', 'jobs'));
+            $jobApplications = $jobs->load('jobApplications');
+            return view('profile.company_profile', compact('company', 'jobs', 'jobApplications'));
         }
     }
 
@@ -100,6 +100,7 @@ class AuthorizedUserController extends Controller
     public function jobDetail(Request $req, $id)
     {
         $job = Job::find($id);
-        return view('job_detail', compact('job'));
+        $jobApplication = $job->jobApplications->where('user_id', Auth::user()->id)->first();
+        return view('job_detail', compact('job', 'jobApplication'));
     }
 }

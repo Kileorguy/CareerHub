@@ -12,6 +12,8 @@ document.querySelectorAll('[data-job-form-id]').forEach((formInstance) => {
     updateJobSkillList(initialJobSkills);
 
     addSkillButton.addEventListener('click', () => {
+        console.log('hai');
+
         const temporarySkill = temporarySkillInput.value.trim();
 
         if (!temporarySkill || jobSkillMap[temporarySkill.toLowerCase()]) return;

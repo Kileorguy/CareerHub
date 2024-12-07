@@ -25,4 +25,3 @@
         <x-company.job_form :type="'Edit'" :job="$job" />
     </span>
 </div>
-<script src="./js/job-skill-input.js"></script>
