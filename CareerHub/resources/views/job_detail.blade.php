@@ -30,9 +30,18 @@
                 </ul>
             </div>
             @if (Auth::user()->role == 'Employee')
-                <a href="{{ route('applyJob', ['id' => $job->id]) }}">
-                    <button class="btn btn-primary text-white w-40">Apply Job</button>
-                </a>
+                @if ($jobApplication == null)
+                    <form action="{{ route('applyJob', ['id' => $job->id]) }}" method="POST">
+                        @csrf
+                        <button class="btn btn-primary text-white w-40">Apply Job</button>
+                    </form>
+                @elseif ($jobApplication->status == 'Pending')
+                    <p class="text-gray-500 bg-gray-200 text-center py-2 rounded-lg shadow-lg w-28">Pending</p>
+                @elseif ($jobApplication->status == 'Accepted')
+                    <p class="text-green-500 bg-green-200 text-center py-2 rounded-lg shadow-lg w-28">Accepted</p>
+                @elseif ($jobApplication->status == 'Rejected')
+                    <p class="text-red-500 bg-red-200 text-center py-2 rounded-lg shadow-lg w-28">Rejected</p>
+                @endif
             @endif
         </div>
 

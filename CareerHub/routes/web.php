@@ -3,6 +3,7 @@
 use App\Http\Controllers\AuthorizedUserController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
@@ -42,7 +43,7 @@ Route::middleware(['auth', 'role:Employee'])->group(function () {
     Route::post('/updateEducation/{id}', [UserEducationController::class, 'update'])->name('updateEducation');
     Route::post('/createCertificate', [UserCertificateController::class, 'create'])->name('createCertificate');
     Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'update'])->name('updateCertificate');
-    Route::get('/applyJob/{id}', function (Request $req, $id) {})->name('applyJob');
+    Route::post('/applyJob/{id}', [JobApplicationController::class, 'create'])->name('applyJob');
 });
 
 //Authenticated user with company role routes

@@ -33,10 +33,19 @@
                     @endif
                 </div>
             </div>
-            <div class="mt-5 min-w-[1320px] bg-white p-10 rounded-lg shadow-lg">
-                <p class="text-2xl font-bold">Manage Applicants</p>
-
+            <div class="mt-5 min-w-[1320px] p-10 rounded-lg shadow-lg bg-white">
+                <p class="w-full text-2xl pb-6 border-b font-bold">Manage Applications</p>
+                @if ($jobApplications->isNotEmpty())
+                    <div class="py-4">
+                        @foreach ($jobApplications as $jobApplication)
+                            <x-company.manage_job_application_card :jobApplication="$jobApplication" />
+                        @endforeach
+                    </div>
+                @else
+                    <p class="w-full text-center">There are no applicants</p>
+                @endif
             </div>
         </div>
     </div>
 @endsection
+<script src="./js/job-skill-input.js" defer></script>
