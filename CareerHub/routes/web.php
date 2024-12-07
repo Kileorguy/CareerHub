@@ -52,4 +52,5 @@ Route::middleware(['auth', 'role:Company'])->group(function () {
     Route::post('/addJob', [JobController::class, 'create'])->name('addJob');
     Route::post('/deleteJob', [JobController::class, 'delete'])->name('deleteJob');
     Route::post('/updateJob/{id}', [JobController::class, 'update'])->name('updateJob');
+    Route::post('/updateJobApplicationStatus/{job_id}/{user_id}', [JobApplicationController::class, 'update'])->name('updateJobApplicationStatus');
 });

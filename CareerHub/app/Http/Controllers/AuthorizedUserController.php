@@ -77,8 +77,10 @@ class AuthorizedUserController extends Controller
         } else if ($user->role == 'Company') {
             $company = $user->company;
             $jobs = $company->jobs;
-            $jobApplications = $jobs->load('jobApplications');
-            return view('profile.company_profile', compact('company', 'jobs', 'jobApplications'));
+            $jobs->load(['jobApplications' => function($query) {
+                $query->where('status', 'Pending')->with('user');
+            }]);
+            return view('profile.company_profile', compact('company', 'jobs'));
         }
     }
 
@@ -100,7 +102,7 @@ class AuthorizedUserController extends Controller
     public function jobDetail(Request $req, $id)
     {
         $job = Job::find($id);
-        $jobApplication = $job->jobApplications->where('user_id', Auth::user()->id)->first();
+        $jobApplication = $job == null ? null : $job->jobApplications->where('user_id', Auth::user()->id)->first();
         return view('job_detail', compact('job', 'jobApplication'));
     }
 }
