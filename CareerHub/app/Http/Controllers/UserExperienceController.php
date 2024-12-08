@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use App\Models\UserExperience;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -10,70 +9,38 @@ use Illuminate\Support\Str;
 
 class UserExperienceController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+    public function create(Request $req)
     {
-        //
         $user = Auth::user();
-        $data = $user->experience;
-        return view('profile', ['experience' => $data]);
-
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-        $user = Auth::User();
-        $experience = $user->Experience()->create([
-            'id' => Str::uuid()->toString(),
-            'company' => 'hehe',
-            'position' => 'mak lo',
-
+        UserExperience::create([
+            'id' => Str::uuid(),
+            'user_id' => $user->id,
+            'company' => $req->company,
+            'position' => $req->job,
+            'description' => $req->description,
+            'start_date' => $req->start_date,
+            'end_date' => $req->end_date,
         ]);
-    }
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
+        return redirect('/profile');
     }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(UserExperience $userExperience)
+    
+    public function update(Request $req, $id)
     {
-        //
-    }
+        $user = Auth::user();
 
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(UserExperience $userExperience)
-    {
-        //
-    }
+        $experience = UserExperience::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, UserExperience $userExperience)
-    {
-        //
-    }
+        $experience->company = $req->company;
+        $experience->position = $req->job;
+        $experience->description = $req->description;
+        $experience->start_date = $req->start_date;
+        $experience->end_date = $req->end_date;
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(UserExperience $userExperience)
-    {
-        //
+        $experience->save();
+
+        return redirect('/profile');
     }
 }

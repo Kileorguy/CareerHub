@@ -10,13 +10,14 @@ use Illuminate\Support\Str;
 class UserCertificateController extends Controller
 {
 
-    public function InsertCertificate(Request $req){
+    public function create(Request $req)
+    {
         $user = Auth::user();
         UserCertificate::create([
             'id' => Str::uuid(),
             'user_id' => $user->id,
             'certificate_name' => $req->name,
-            'image_link'=> $req->image,
+            'image_link' => $req->image,
             'detail' => $req->detail,
             'company' => $req->company,
             'issued_date' => $req->issued_date,
@@ -24,13 +25,14 @@ class UserCertificateController extends Controller
 
         return redirect('/profile');
     }
-    public function updateCertificate(Request $req, $id)
+    
+    public function update(Request $req, $id)
     {
         $user = Auth::user();
 
         $certificate = UserCertificate::where('id', $id)
-                                    ->where('user_id', $user->id)
-                                    ->first();
+            ->where('user_id', $user->id)
+            ->first();
 
         $certificate->certificate_name = $req->name;
         $certificate->image_link = $req->image;
@@ -41,60 +43,5 @@ class UserCertificateController extends Controller
         $certificate->save();
 
         return redirect('/profile');
-    }
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(UserCertificate $userCertificate)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(UserCertificate $userCertificate)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, UserCertificate $userCertificate)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(UserCertificate $userCertificate)
-    {
-        //
     }
 }

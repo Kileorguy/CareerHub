@@ -12,12 +12,10 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('job_skill_maps', function (Blueprint $table) {
-            $table->uuid('company_job_id');
+            $table->uuid('job_id');
             $table->uuid('job_skill_id');
-
-            $table->primary(['company_job_id', 'job_skill_id']);
-
-            $table->foreign('company_job_id')->references('id')->on('company_jobs')->onDelete('cascade');
+            $table->primary(['job_id', 'job_skill_id']);
+            $table->foreign('job_id')->references('id')->on('jobs')->onDelete('cascade');
             $table->foreign('job_skill_id')->references('id')->on('job_skills')->onDelete('cascade');
         });
     }

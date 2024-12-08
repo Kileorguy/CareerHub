@@ -19,7 +19,7 @@ class JobSkillMapSeeder extends Seeder
             $data = $response->json();
             foreach ($data as $row) {
                 JobSkillMap::create([
-                    'company_job_id' => $row['job_id'],
+                    'job_id' => $row['job_id'],
                     'job_skill_id' => $row['skill_id']
                 ]);
             }

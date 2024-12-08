@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Company extends Model
 {
+  public $incrementing = false;
   protected $table = 'companies';
   protected $keyType = 'string';
 
@@ -22,9 +23,9 @@ class Company extends Model
 
   public $timestamps = false;
 
-  public function company_jobs(): HasMany
+  public function jobs(): HasMany
   {
-    return $this->hasMany(CompanyJob::class, 'company_id', 'id');
+    return $this->hasMany(Job::class, 'company_id', 'id');
   }
 
   public function user(): HasOne

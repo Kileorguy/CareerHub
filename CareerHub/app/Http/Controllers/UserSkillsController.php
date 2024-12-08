@@ -3,63 +3,57 @@
 namespace App\Http\Controllers;
 
 use App\Models\UserSkills;
+use App\Models\JobSkill;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 
 class UserSkillsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
-    public function index()
+    public function create(Request $req)
     {
-        //
-    }
+        $user = Auth::user();
+        UserSkills::create([
+            'id' => Str::uuid(),
+            'user_id' => $user->id,
+            'skill_name' => $req->skill_name,
+        ]);
 
-    /**
-     * Show the form for creating a new resource.
-     */
-    public function create()
-    {
-        //
-    }
+        $jobSkill = JobSkill::where('skill_name', $req->skill_name)
+            ->first();
 
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
+        if ($jobSkill == null) {
+            JobSkill::create([
+                'id' => Str::uuid(),
+                'skill_name' => $req->skill_name,
+            ]);
+        }
 
-    /**
-     * Display the specified resource.
-     */
-    public function show(UserSkills $userSkills)
-    {
-        //
+        return redirect('/profile');
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(UserSkills $userSkills)
+    
+    public function update(Request $req, $id)
     {
-        //
-    }
+        $user = Auth::user();
 
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, UserSkills $userSkills)
-    {
-        //
-    }
+        $skill = UserSkills::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
 
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(UserSkills $userSkills)
-    {
-        //
+        $skill->skill_name = $req->skill_name;
+
+        $skill->save();
+
+        $jobSkill = JobSkill::where('skill_name', $req->skill_name)
+            ->first();
+
+        if ($jobSkill == null) {
+            JobSkill::create([
+                'id' => Str::uuid(),
+                'skill_name' => $req->skill_name,
+            ]);
+        }
+
+        return redirect('/profile');
     }
 }

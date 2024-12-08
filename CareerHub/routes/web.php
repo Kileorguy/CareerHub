@@ -1,29 +1,27 @@
 <?php
 
-use App\Http\Controllers\CertificateController;
-use App\Http\Controllers\CompanySkillController;
-use App\Http\Controllers\LoginUserController;
-use App\Http\Controllers\RegisterUserController;
+use App\Http\Controllers\AuthorizedUserController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\CompanyController;
+use App\Http\Controllers\JobApplicationController;
+use App\Http\Controllers\JobController;
 use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
 use App\Http\Controllers\ExperienceController;
 use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ShowDashboard;
-use App\Http\Middleware\isLoggedIn;
-use App\Http\Middleware\isLoggedOut;
 use Illuminate\Support\Facades\Route;
 
 //Guest routes (not authenticated or not signed in)
 Route::middleware('guest')->group(function () {
   Route::view('/login', 'auth.login');
   Route::view('/register', 'auth.register');
-  Route::post('/register', [RegisterUserController::class, 'register'])->name('register');
-  Route::post('/login', [LoginUserController::class, 'login'])->name('login');
+  Route::post('/register', [UserController::class, 'register'])->name('register');
+  Route::post('/login', [AuthorizedUserController::class, 'login'])->name('login');
 });
 
-//Authenticated user routes (looged in ignoring roles)
+//Authenticated user routes (logged in ignoring roles)
 Route::middleware('auth')->group(function () {
   Route::get('/', ShowDashboard::class)->name('dashboard');
   Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
@@ -37,26 +35,24 @@ Route::middleware('auth')->group(function () {
 
 //Authenticated user with employee role routes
 Route::middleware(['auth', 'role:Employee'])->group(function () {
-  Route::post('/insertExperience', [ExperienceController::class, 'InsertExperience'])->name('insertExperience');
-  Route::post('/updateExperience/{id}', [ExperienceController::class, 'updateExperience'])->name('updateExperience');
-  Route::post('/insertEducation', [UserEducationController::class, 'InsertEducation'])->name('insertEducation');
-  Route::post('/updateEducation/{id}', [UserEducationController::class, 'updateEducation'])->name('updateEducation');
-  Route::post('/insertCertificate', [UserCertificateController::class, 'InsertCertificate'])->name('insertCertificate');
-  Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'updateCertificate'])->name('updateCertificate');
+  Route::post('/createExperience', [UserExperienceController::class, 'create'])->name('createExperience');
+  Route::post('/updateExperience/{id}', [UserExperienceController::class, 'update'])->name('updateExperience');
+  Route::post('/createProject', [UserProjectsController::class, 'create'])->name('createProject');
+  Route::post('/updateProject/{id}', [UserProjectsController::class, 'update'])->name('updateProject');
+  Route::post('/createSkill', [UserSkillsController::class, 'create'])->name('createSkill');
+  Route::post('/updateSkill/{id}', [UserSkillsController::class, 'update'])->name('updateSkill');
+  Route::post('/createEducation', [UserEducationController::class, 'create'])->name('createEducation');
+  Route::post('/updateEducation/{id}', [UserEducationController::class, 'update'])->name('updateEducation');
+  Route::post('/createCertificate', [UserCertificateController::class, 'create'])->name('createCertificate');
+  Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'update'])->name('updateCertificate');
+  Route::post('/applyJob/{id}', [JobApplicationController::class, 'create'])->name('applyJob');
 });
 
 //Authenticated user with company role routes
-Route::middleware(['auth', 'role:Company'])->group(function () {});
-// Route::view('/search/{query}', 'search');
-// Route::view('/profile', 'profile');
-// Route::view('/company', 'company');
-
-Route::get('/test', [RegisterUserController::class, 'test']);
-
-Route::resource('/experience', UserExperienceController::class);
-// Route::resource('/education', EducationController::class);
-// Route::resource('/certificate', CertificateController::class);
-// Route::resource('/award', AwardController::class);
-// Route::resource('/userProject', UserProjectController::class);
-// Route::resource('/userSkill', UserSkillController::class);
-// Route::resource('/companySkill', CompanySkillController::class);
+Route::middleware(['auth', 'role:Company'])->group(function () {
+  Route::post('/updateCompanyProfile', [CompanyController::class, 'update'])->name('updateCompanyProfile');
+  Route::post('/addJob', [JobController::class, 'create'])->name('addJob');
+  Route::post('/deleteJob', [JobController::class, 'delete'])->name('deleteJob');
+  Route::post('/updateJob/{id}', [JobController::class, 'update'])->name('updateJob');
+  Route::post('/updateJobApplicationStatus/{job_id}/{user_id}', [JobApplicationController::class, 'update'])->name('updateJobApplicationStatus');
+});
