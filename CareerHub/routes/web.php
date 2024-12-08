@@ -5,11 +5,12 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\CompanyController;
 use App\Http\Controllers\JobApplicationController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
-use App\Http\Controllers\ExperienceController;
-use App\Http\Controllers\SearchController;
+use App\Http\Controllers\UserProjectsController;
+use App\Http\Controllers\UserSkillsController;
 use App\Http\Controllers\ShowDashboard;
 use Illuminate\Support\Facades\Route;
 
@@ -24,11 +25,11 @@ Route::middleware('guest')->group(function () {
 //Authenticated user routes (logged in ignoring roles)
 Route::middleware('auth')->group(function () {
   Route::get('/', ShowDashboard::class)->name('dashboard');
-  Route::post('/changePassword', [LoginUserController::class, 'changePassword'])->name('changePassword');
-  Route::get('/logout', [LoginUserController::class, 'logout'])->name('logout');
-  Route::get('/profile', [LoginUserController::class, 'profile'])->name('profile');
-  Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
-  Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
+  Route::get('/jobDetail/{id}', [AuthorizedUserController::class, 'jobDetail'])->name('jobDetail');
+  Route::get('/logout', [AuthorizedUserController::class, 'logout'])->name('logout');
+  Route::get('/profile', [AuthorizedUserController::class, 'profile'])->name('profile');
+  Route::post('/updateProfile', [AuthorizedUserController::class, 'updateProfile'])->name('updateProfile');
+  Route::post('/changePassword', [AuthorizedUserController::class, 'changePassword'])->name('changePassword');
 
   Route::get('/search', [SearchController::class, 'search'])->name('search');
 });

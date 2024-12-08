@@ -23,7 +23,7 @@
         @foreach($companies as $company)
         <div class="flex gap-5 border-b border-input-light py-8">
           <div class="left w-[120px]">
-            <img src="{{ $company->profile_picture }}" alt="Company Image">
+            <img src="{{$company->user->profile_link}}" alt="Company Image">
           </div>
           <div class="right">
             {{-- TODO: redirect ke company detail page --}}
