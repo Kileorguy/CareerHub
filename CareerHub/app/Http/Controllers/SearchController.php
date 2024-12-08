@@ -13,7 +13,9 @@ class SearchController extends Controller
     $query = $request->input('query');
 
     $companies = Company::where('name', 'like', '%' . $query . '%')->get();
-    $jobs = CompanyJob::where('job_name', '%' . $query . '%')->get();
+    // $jobs = CompanyJob::where('job_name', '%' . $query . '%')->get() ;
+
+    $jobs = null;
 
     return view('search.index', compact('companies', 'jobs'));
   }
