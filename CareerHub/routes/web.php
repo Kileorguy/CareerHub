@@ -9,6 +9,7 @@ use App\Http\Controllers\UserExperienceController;
 use App\Http\Controllers\UserEducationController;
 use App\Http\Controllers\UserCertificateController;
 use App\Http\Controllers\ExperienceController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\ShowDashboard;
 use App\Http\Middleware\isLoggedIn;
 use App\Http\Middleware\isLoggedOut;
@@ -31,7 +32,7 @@ Route::middleware('auth')->group(function () {
   Route::post('/updateProfile', [LoginUserController::class, 'updateProfile'])->name('updateProfile');
   Route::post('/updateCompanyProfile', [CompanyController::class, 'updateCompanyProfile'])->name('updateCompanyProfile');
 
-  Route::get('/search', [CompanyController::class, 'search'])->name('search');
+  Route::get('/search', [SearchController::class, 'search'])->name('search');
 });
 
 //Authenticated user with employee role routes

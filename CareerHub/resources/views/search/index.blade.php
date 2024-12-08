@@ -37,21 +37,20 @@
     </div>
 
     <div class="job-result">
-
-    </div>
-    <div class="job-section flex flex-col">
-      <div class="font-bold text-3xl">Jobs</div>
-      @foreach($jobs as $job)
-      {{-- <div class="card flex">
-        <div class="left">
-          <img src="" alt="">
-        </div>
-        <div class="right">
-          {{$company->name}}
-        </div>
-      </div> --}}
-      <div>{{$job->job_name}}</div>
-      @endforeach
+      <div class="job-section flex flex-col">
+        <div class="font-bold text-3xl">Jobs</div>
+        @foreach($jobs as $job)
+        {{-- <div class="card flex">
+          <div class="left">
+            <img src="" alt="">
+          </div>
+          <div class="right">
+            {{$company->name}}
+          </div>
+        </div> --}}
+        <div>{{$job->job_name}}</div>
+        @endforeach
+      </div>
     </div>
   </div>
 </div>

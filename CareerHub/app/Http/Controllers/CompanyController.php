@@ -40,14 +40,4 @@ class CompanyController extends Controller
 
     return redirect('/profile');
   }
-
-  public function search(Request $request)
-  {
-    $query = $request->input('query');
-
-    $companies = Company::where('name', 'like', '%' . $query . '%')->get();
-    $jobs = CompanyJob::where('job_name', '%' . $query . '%')->get();
-
-    return view('search.index', compact('companies', 'jobs'));
-  }
 }
