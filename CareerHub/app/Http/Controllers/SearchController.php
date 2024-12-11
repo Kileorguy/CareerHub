@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
-use App\Models\CompanyJob;
+use App\Models\Job;
 use Illuminate\Http\Request;
 
 class SearchController extends Controller
@@ -12,11 +12,15 @@ class SearchController extends Controller
   {
     $query = $request->input('query');
 
-    $companies = Company::with('user')->where('name', 'like', '%' . $query . '%')->get();
-    // $jobs = CompanyJob::where('job_name', '%' . $query . '%')->get() ;
+    $allCompanies = Company::with('user')->where('name', 'like', '%' . $query . '%')->get();
+    $allJobs = Job::with('company.user')->where('job_name', 'like', '%' . $query . '%')->get();
 
-    $jobs = null;
+    $companies = $allCompanies->take(3);
+    $jobs = $allJobs->take(3);
 
-    return view('search.index', compact('companies', 'jobs'));
+    $moreCompanies = $allCompanies->count() > 3;
+    $moreJobs = $allJobs->count() > 3;
+
+    return view('search.index', compact('companies', 'jobs', 'moreCompanies', 'moreJobs'));
   }
 }
