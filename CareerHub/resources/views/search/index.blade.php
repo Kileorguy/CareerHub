@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-7 flex gap-6">
+<div class="container mt-7 flex gap-6 mb-10">
   <div
     class="filter-section form-control bg-white w-[250px] p-5 rounded-md flex flex-col border border-input-light h-fit sticky top-[94px]">
     <div class="text-lg font-bold mb-4">Filter</div>
@@ -21,6 +21,9 @@
       <div
         class="bg-white p-5 flex-1 border border-input-light {{ $companies->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }}">
         <div class="font-bold text-3xl">Companies</div>
+        @if ($companies->count() == 0)
+        <div class="text-sub-text text-center py-5 text-lg">No result</div>
+        @endif
         <div class=" company-section flex flex-col">
           @foreach($companies as $company)
           <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8' }} border-input-light">
@@ -38,31 +41,45 @@
         </div>
       </div>
       @if ($moreCompanies)
-      <div class="bg-white border-b border-x border-input-light rounded-b-lg p-5">
-        <a href="">
-          See all companies result
-        </a>
-      </div>
+      <a href="">
+        <div
+          class="bg-white border-b border-x border-input-light rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
+          See all company result
+        </div>
+      </a>
       @endif
     </div>
 
-    <div
-      class="job-result bg-white p-5 flex-1 border border-input-light {{ $companies->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }}">
-      <div class="font-bold text-3xl">Jobs</div>
-      <div class="job-section flex flex-col">
-        @foreach($jobs as $job)
-        <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8  ' }} border-input-light py-8">
-          <div class="left w-[120px]">
-            <img src="{{$company->user->profile_link}}" alt="Company Image">
+    <div class="job-result">
+      <div
+        class="bg-white p-5 flex-1 border border-input-light {{ $jobs->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }}">
+        <div class="font-bold text-3xl">Jobs</div>
+        @if ($jobs->count() == 0)
+        <div class="text-sub-text text-center py-5 text-lg">No result</div>
+        @endif
+        <div class="job-section flex flex-col">
+          @foreach($jobs as $job)
+          <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8  ' }} border-input-light py-8">
+            <div class="left w-[120px]">
+              <img src="{{$company->user->profile_link}}" alt="Company Image">
+            </div>
+            <div class="right">
+              <a href="" class="name font-semibold text-xl hover:underline">{{$job->job_name}}</a>
+              <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
+              <div class="description text-sub-text text-sm">{{$company->description}}</div>
+            </div>
           </div>
-          <div class="right">
-            <a href="" class="name font-semibold text-xl hover:underline">{{$job->job_name}}</a>
-            <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
-            <div class="description text-sub-text text-sm">{{$company->description}}</div>
-          </div>
+          @endforeach
         </div>
-        @endforeach
       </div>
+      @if ($moreJobs)
+      <a href="">
+        <div
+          class="bg-white border-b border-x rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
+          See all job results
+        </div>
+      </a>
+      @endif
     </div>
   </div>
 </div>
