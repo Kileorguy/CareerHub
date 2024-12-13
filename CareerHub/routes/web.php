@@ -34,6 +34,7 @@ Route::middleware('auth')->group(function () {
   Route::get('/search', [SearchController::class, 'search'])->name('search');
   Route::get('/moreCompanies', [CompanyController::class, 'moreCompanies'])->name('moreCompanies');
   Route::get('/moreJobs', [JobController::class, 'moreJobs'])->name('moreJobs');
+  Route::get('/company/{company}', [CompanyController::class, 'show'])->name('companyDetail');
 });
 
 //Authenticated user with employee role routes
