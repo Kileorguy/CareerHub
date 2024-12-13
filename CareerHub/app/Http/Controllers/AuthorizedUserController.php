@@ -64,7 +64,6 @@ class AuthorizedUserController extends Controller
 
     public function profile()
     {
-
         $user = Auth::user();
 
         if ($user->role == 'Employee') {

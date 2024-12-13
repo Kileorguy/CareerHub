@@ -9,7 +9,7 @@
     <div class="flex flex-col justify-between items-start w-full py-2 pl-2">
         <div>
             <p class="text-black font-bold text-base">Job Description:</p>
-            <p class="text-gray-500 text-sm overflow-y-hidden max-h-[138px]" >{{ $job->job_description }}</p>
+            <p class="text-gray-500 text-sm">{{ $job->job_description }}</p>
         </div>
         <a href="{{ route('jobDetail', ['id' => $job->id]) }}" class="btn btn-ghost text-primary p-2">
             View more

@@ -26,17 +26,19 @@ class ShowDashboard extends Controller
     return view('dashboard', compact('jobs'));
   }
 
-    private function employeeDashBoard()
-    {
-        $url = env('FLASK_HOST');
-        $response = Http::accept('application/json')->get($url . '/get_user_recommendation', ['user_id' => Auth::user()->id]);
-        $data = json_decode($response->body(), true);
-//        dd($data);
-        $jobs = Job::where(function ($query) use ($data) {
-            foreach ($data as $id) {
-                $query->orWhere('id', 'LIKE', "%$id%");
-            }
-        })->get();
-        return view('dashboard', compact('jobs'));
-    }
+  private function employeeDashBoard()
+  {
+    $url = env('FLASK_HOST');
+    $response = Http::accept('application/json')->get($url . '/get_user_recommendation', ['user_id' => Auth::user()->id]);
+    $data = json_decode($response->body(), true);
+    // $companies = Company::where(function ($query) use ($data) {
+    //   foreach ($data as $id) {
+    //     $query->orWhere('id', 'LIKE', "%$id%");
+    //   }
+    // })->get();
+
+    //TODO: dummy companies karena query masih error
+    $companies = [];
+    return view('dashboard', compact('companies'));
+  }
 }
