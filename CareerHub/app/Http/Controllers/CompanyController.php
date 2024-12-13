@@ -23,6 +23,17 @@ class CompanyController extends Controller
     return null;
   }
 
+  public function moreCompanies(Request $request)
+  {
+    $query = $request->input('query');
+    $companies = Company::with('user')
+      ->where('name', 'like', '%' . $query . '%')
+      ->paginate(5)
+      ->appends(['query' => $query]);
+
+    return view('company.index', compact('companies'));
+  }
+
   public function update(Request $req)
   {
     $validationErrors = $this->validateUpdateCompanyProfile($req);

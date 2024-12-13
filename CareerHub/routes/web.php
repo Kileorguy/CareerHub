@@ -32,6 +32,8 @@ Route::middleware('auth')->group(function () {
   Route::post('/changePassword', [AuthorizedUserController::class, 'changePassword'])->name('changePassword');
 
   Route::get('/search', [SearchController::class, 'search'])->name('search');
+  Route::get('/moreCompanies', [CompanyController::class, 'moreCompanies'])->name('moreCompanies');
+  Route::get('/moreJobs', [JobController::class, 'moreJobs'])->name('moreJobs');
 });
 
 //Authenticated user with employee role routes

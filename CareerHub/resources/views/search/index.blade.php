@@ -24,24 +24,23 @@
         @if ($companies->count() == 0)
         <div class="text-sub-text text-center py-5 text-lg">No result</div>
         @endif
-        <div class=" company-section flex flex-col">
+        <div class="company-section flex flex-col">
           @foreach($companies as $company)
           <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8' }} border-input-light">
-            <div class="left w-[120px]">
+            <div class="left w-[120px] flex-shrink-0">
               <img src="{{$company->user->profile_link}}" alt="Company Image">
             </div>
             <div class="right">
-              {{-- TODO: redirect ke company detail page --}}
-              <a href="" class="name font-semibold text-xl hover:underline">{{$company->name}}</a>
+              <a href="" class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
               <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
-              <div class="description text-sub-text text-sm">{{$company->description}}</div>
+              <p class="description text-sub-text text-sm">{{Str::limit($company->description, 200, '...')}}</p>
             </div>
           </div>
           @endforeach
         </div>
       </div>
       @if ($moreCompanies)
-      <a href="">
+      <a href="{{route('moreCompanies', ['query' => request('query')])}}">
         <div
           class="bg-white border-b border-x border-input-light rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
           See all company result
@@ -60,20 +59,24 @@
         <div class="job-section flex flex-col">
           @foreach($jobs as $job)
           <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8  ' }} border-input-light py-8">
-            <div class="left w-[120px]">
-              <img src="{{$company->user->profile_link}}" alt="Company Image">
+            <div class="left w-[120px] flex-shrink-0">
+              <img src="{{$job->company->user->profile_link}}" alt="Company Image">
             </div>
             <div class="right">
-              <a href="" class="name font-semibold text-xl hover:underline">{{$job->job_name}}</a>
-              <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
-              <div class="description text-sub-text text-sm">{{$company->description}}</div>
+              <div class="flex gap-3 items-center">
+                <a href="{{route('jobDetail', $job->id)}}"
+                  class="text-primary name font-semibold text-xl hover:underline">{{$job->job_name}}</a>
+                <div class="badge badge-outline">{{$job->job_level}}</div>
+              </div>
+              <div class="location text-main-text">{{$job->company->city}},{{$job->company->country}}</div>
+              <p class="description text-sub-text text-sm">{{ Str::limit($job->job_description, 200, '...') }}</p>
             </div>
           </div>
           @endforeach
         </div>
       </div>
       @if ($moreJobs)
-      <a href="">
+      <a href="{{route('moreJobs', ['query' => request('query')])}}">
         <div
           class="bg-white border-b border-x rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
           See all job results
@@ -84,4 +87,54 @@
   </div>
 </div>
 
+<div id="toast" class="toast toast-top toast-end z-50 hidden">
+  <div class="alert alert-error">
+    <span id="toast-message">At least one filter must be selected.</span>
+  </div>
+</div>
+
 @endsection
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const companyCheckbox = document.getElementById('company');
+    const jobCheckbox = document.getElementById('job');
+    const companyResult = document.querySelector('.company-result');
+    const jobResult = document.querySelector('.job-result');
+    const toast = document.getElementById('toast');
+
+    function showToast(message) {
+      const toastMessage = document.getElementById('toast-message');
+      toastMessage.textContent = message;
+      toast.classList.remove('hidden');
+      setTimeout(() => {
+        toast.classList.add('hidden');
+      }, 3000);
+    }
+
+    function validateCheckboxes() {
+      if (!companyCheckbox.checked && !jobCheckbox.checked) {
+        showToast('At least one filter must be selected.');
+        return false;
+      }
+      return true;
+    }
+
+    companyCheckbox.addEventListener('change', function () {
+      if (!validateCheckboxes()) {
+        companyCheckbox.checked = true;
+      } else {
+        companyResult.style.display = companyCheckbox.checked ? 'block' : 'none';
+      }
+    });
+
+    jobCheckbox.addEventListener('change', function () {
+      if (!validateCheckboxes()) {
+        jobCheckbox.checked = true;
+      } else {
+        jobResult.style.display = jobCheckbox.checked ? 'block' : 'none';
+      }
+    });
+  });
+</script>

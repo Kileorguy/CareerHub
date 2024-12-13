@@ -28,6 +28,7 @@ class CompanySeeder extends Seeder
           'id' => $row['company_id'],
           'name' => $row['company'],
           'country' => $row['search_country'],
+          'description' => fake()->paragraph(),
           'city' => $row['search_city'],
         ]);
         User::create([

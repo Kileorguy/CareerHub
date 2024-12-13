@@ -2,24 +2,23 @@
   <div class="container mx-auto flex justify-between items-center">
     <div class="flex gap-8 items-center">
       <a href="{{ route('dashboard') }}" class="font-bold text-2xl h-fit text-black cursor-pointer">CareerHub</a>
-      <label class="input input-bordered w-[35vw] h-fit py-2 max-w-96 flex items-center gap-2">
-        <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="opacity-70">
-          <path fill-rule="evenodd"
-            d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
-            clip-rule="evenodd" />
-        </svg>
-        <form action="{{route('search')}}" method="GET">
-          <input name="query" type="text" class="grow" placeholder="Search" required />
-        </form>
-      </label>
+      <form action="{{route('search')}}" method="GET" class="m-1">
+        <label class="input input-bordered w-[35vw] h-fit py-2 max-w-96 flex items-center gap-2">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" class="opacity-70">
+            <path fill-rule="evenodd"
+              d="M9.965 11.026a5 5 0 1 1 1.06-1.06l2.755 2.754a.75.75 0 1 1-1.06 1.06l-2.755-2.754ZM10.5 7a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Z"
+              clip-rule="evenodd" />
+          </svg>
+          <input name="query" type="text" class="" placeholder="Search" required />
+        </label>
+      </form>
     </div>
     <div class="flex gap-8 items-center">
       <b>Company</b>
       <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
-            <img alt="Profile Picture"
-              src="{{ Auth::user()->profile_link ?? '/assets/profile-empty.png' }}" />
+            <img alt="Profile Picture" src="{{ Auth::user()->profile_link ?? '/assets/profile-empty.png' }}" />
           </div>
         </div>
         <ul tabindex="0" class="menu menu-sm dropdown-content bg-white rounded-md z-[1] mt-3 w-24 shadow">
