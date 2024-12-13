@@ -10,21 +10,21 @@ use Illuminate\Support\Facades\Http;
 
 class ShowDashboard extends Controller
 {
-    public function __invoke(): View
-    {
-        if (Auth::user()->role == 'Company') {
-            return $this->companyDashBoard();
-        } else if (Auth::user()->role == 'Employee') {
-            return $this->employeeDashBoard();
-        }
+  public function __invoke(): View
+  {
+    if (Auth::user()->role == 'Company') {
+      return $this->companyDashBoard();
+    } else if (Auth::user()->role == 'Employee') {
+      return $this->employeeDashBoard();
     }
+  }
 
-    private function companyDashBoard()
-    {
-        $company_id = Auth::user()->company->id;
-        $jobs = Job::where('company_id', $company_id)->get();
-        return view('dashboard', compact('jobs'));
-    }
+  private function companyDashBoard()
+  {
+    $company_id = Auth::user()->company->id;
+    $jobs = Job::where('company_id', $company_id)->get();
+    return view('dashboard', compact('jobs'));
+  }
 
     private function employeeDashBoard()
     {
