@@ -43,7 +43,7 @@
       @if ($moreCompanies)
       <a href="{{route('moreCompanies', ['query' => request('query')])}}">
         <div
-          class="bg-white border-b border-x border-input-light rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
+          class="bg-white border-b border-x border-input-light rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text shadow-lg">
           See all company result
         </div>
       </a>
@@ -79,7 +79,7 @@
       @if ($moreJobs)
       <a href="{{route('moreJobs', ['query' => request('query')])}}">
         <div
-          class="bg-white border-b border-x rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text">
+          class="bg-white border-b border-x rounded-b-xl p-5 hover:bg-gray-100 text-center font-semibold transition-all text-main-text shadow-lg">
           See all job results
         </div>
       </a>
