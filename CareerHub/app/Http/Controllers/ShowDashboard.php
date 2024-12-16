@@ -23,7 +23,7 @@ class ShowDashboard extends Controller
   {
     $company_id = Auth::user()->company->id;
     $jobs = Job::where('company_id', $company_id)->get();
-    return view('dashboard', compact('jobs'));
+    return view('dashboard.company', compact('jobs'));
   }
 
   private function employeeDashBoard()

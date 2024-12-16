@@ -6,12 +6,12 @@
     <p class="text-xl text-main-text font-bold">More job results of "{{request('query')}}"</p>
     <p class="text-sub-text">About {{$jobs->total()}} results</p>
   </div>
-  <div class="result bg-white p-5 flex-1 border border-input-light rounded-md">
+  <div class="result bg-white p-5 flex-1 border border-input-light rounded-md shadow-lg">
     <div class="company-section flex flex-col">
       @foreach($jobs as $job)
       <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8  ' }} border-input-light py-8">
         <div class="left w-[120px] flex-shrink-0">
-          <img src="{{$job->company->user->profile_link}}" alt="Company Image">
+          <img src="{{$job->company->user->profile_link ?? 'assets/profile-empty.png'}}" alt="Company Image">
         </div>
         <div class="right">
           <div class="flex gap-3 items-center">

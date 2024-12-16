@@ -58,10 +58,12 @@ class CompanyController extends Controller
 
   public function show(Company $company)
   {
-    if ($company->id == Auth::user()->company->id) {
+    if (Auth::user()->company && $company->id == Auth::user()->company->id) {
       return redirect()->action([AuthorizedUserController::class, 'profile']);
     }
 
-    return view('company.detail', compact('company'));
+    $jobs = $company->jobs()->paginate(3);
+
+    return view('company.detail', compact('company', 'jobs'));
   }
 }

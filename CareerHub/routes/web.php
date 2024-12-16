@@ -30,7 +30,6 @@ Route::middleware('auth')->group(function () {
   Route::get('/profile', [AuthorizedUserController::class, 'profile'])->name('profile');
   Route::post('/updateProfile', [AuthorizedUserController::class, 'updateProfile'])->name('updateProfile');
   Route::post('/changePassword', [AuthorizedUserController::class, 'changePassword'])->name('changePassword');
-
   Route::get('/search', [SearchController::class, 'search'])->name('search');
   Route::get('/moreCompanies', [CompanyController::class, 'moreCompanies'])->name('moreCompanies');
   Route::get('/moreJobs', [JobController::class, 'moreJobs'])->name('moreJobs');
@@ -59,4 +58,5 @@ Route::middleware(['auth', 'role:Company'])->group(function () {
   Route::post('/deleteJob', [JobController::class, 'delete'])->name('deleteJob');
   Route::post('/updateJob/{id}', [JobController::class, 'update'])->name('updateJob');
   Route::post('/updateJobApplicationStatus/{job_id}/{user_id}', [JobApplicationController::class, 'update'])->name('updateJobApplicationStatus');
+  Route::get('/employee/{employee}', [JobApplicationController::class, 'employeeDetail'])->name('employeeDetail');
 });
