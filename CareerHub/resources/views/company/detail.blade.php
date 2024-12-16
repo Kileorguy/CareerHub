@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container mt-7 mb-10 flex flex-col gap-3">
-  <div class="proflie-container flex bg-white p-8 rounded-md border border-input-light gap-5">
+  <div class="proflie-container flex bg-white p-8 rounded-md border border-input-light gap-5 shadow-lg">
     <div class="left">
       <img src="{{$company->user->profile_link ?? '/assets/profile-empty.png'}}" alt="Company picture"
         class="w-[250px]">
@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <div class="job-container rounded-md border border-input-light bg-white px-8 py-6">
+  <div class="job-container rounded-md border border-input-light bg-white px-8 py-6 shadow-lg">
     <div class="text-xl font-semibold text-main-text mb-4">Recently posted jobs</div>
     <div class="content grid grid-cols-3 gap-10">
       @if ($jobs->isNotEmpty())
