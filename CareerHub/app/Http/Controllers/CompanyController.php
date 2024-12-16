@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Company;
 use App\Models\CompanyJob;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class CompanyController extends Controller
@@ -53,5 +54,16 @@ class CompanyController extends Controller
     return redirect('/profile')
       ->with('message-title', 'Update Company success')
       ->with('message', 'Company profile updated successfully!');
+  }
+
+  public function show(Company $company)
+  {
+    if (Auth::user()->company && $company->id == Auth::user()->company->id) {
+      return redirect()->action([AuthorizedUserController::class, 'profile']);
+    }
+
+    $jobs = $company->jobs()->paginate(3);
+
+    return view('company.detail', compact('company', 'jobs'));
   }
 }

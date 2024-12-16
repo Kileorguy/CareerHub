@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-7 flex gap-6 mb-10">
   <div
-    class="filter-section form-control bg-white w-[250px] p-5 rounded-md flex flex-col border border-input-light h-fit sticky top-[94px]">
+    class="filter-section form-control bg-white w-[250px] p-5 rounded-md flex flex-col border border-input-light h-fit sticky top-[94px] shadow-lg">
     <div class="text-lg font-bold mb-4">Filter</div>
     <div class="flex flex-col gap-2">
       <div class="flex items-center gap-2">
@@ -19,7 +19,7 @@
   <div class="result-section flex flex-col gap-5 w-full">
     <div class="company-result">
       <div
-        class="bg-white p-5 flex-1 border border-input-light {{ $companies->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }}">
+        class="bg-white p-5 flex-1 border border-input-light {{ $companies->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }} shadow-lg">
         <div class="font-bold text-3xl">Companies</div>
         @if ($companies->count() == 0)
         <div class="text-sub-text text-center py-5 text-lg">No result</div>
@@ -28,10 +28,11 @@
           @foreach($companies as $company)
           <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8' }} border-input-light">
             <div class="left w-[120px] flex-shrink-0">
-              <img src="{{$company->user->profile_link}}" alt="Company Image">
+              <img src="{{$company->user->profile_link ?? 'assets/profile-empty.png'}}" alt="Company Image">
             </div>
             <div class="right">
-              <a href="" class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
+              <a href="{{route('companyDetail', $company)}}"
+                class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
               <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
               <p class="description text-sub-text text-sm">{{Str::limit($company->description, 200, '...')}}</p>
             </div>
@@ -51,7 +52,7 @@
 
     <div class="job-result">
       <div
-        class="bg-white p-5 flex-1 border border-input-light {{ $jobs->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }}">
+        class="bg-white p-5 flex-1 border border-input-light {{ $jobs->count() >= 3 ? 'rounded-t-md' : 'rounded-md' }} shadow-lg">
         <div class="font-bold text-3xl">Jobs</div>
         @if ($jobs->count() == 0)
         <div class="text-sub-text text-center py-5 text-lg">No result</div>
@@ -60,7 +61,7 @@
           @foreach($jobs as $job)
           <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8  ' }} border-input-light py-8">
             <div class="left w-[120px] flex-shrink-0">
-              <img src="{{$job->company->user->profile_link}}" alt="Company Image">
+              <img src="{{$job->company->user->profile_link ?? 'assets/profile-empty.png'}}" alt="Company Image">
             </div>
             <div class="right">
               <div class="flex gap-3 items-center">
