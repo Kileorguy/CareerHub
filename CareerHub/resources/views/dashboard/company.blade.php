@@ -38,3 +38,4 @@
   </div>
 </div>
 @endsection
+<script src="./js/job-skill-input.js" defer></script>

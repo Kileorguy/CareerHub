@@ -39,7 +39,7 @@
                 @foreach ($jobSkills as $skill)
                     <li
                         class="px-4 py-2 cursor-pointer hover:bg-gray-100"
-                        onclick="selectSkill('{{ $skill->name }}', '{{ $type === 'update' ? $e->id : 'new' }}')"
+                        onclick="selectSkill('{{ $skill->skill_name }}', '{{ $type === 'update' ? $e->id : 'new' }}')"
                     >
                         {{ $skill->skill_name }}
                     </li>

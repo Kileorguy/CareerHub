@@ -16,7 +16,7 @@ return new class extends Migration
             $table->uuid('user_id');
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             $table->string('certificate_name');
-            $table->string('image_link')->nullable();
+            $table->text('image_link')->nullable();
             $table->string('detail');
             $table->string('company');
             $table->date('issued_date');

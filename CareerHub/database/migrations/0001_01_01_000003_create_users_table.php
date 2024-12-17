@@ -20,10 +20,10 @@ return new class extends Migration
       $table->string('first_name')->nullable();
       $table->string('last_name')->nullable();
       $table->text('short_description')->nullable();
-      $table->string('github_link')->nullable();
-      $table->string('portfolio_link')->nullable();
+      $table->text('github_link')->nullable();
+      $table->text('portfolio_link')->nullable();
       $table->string('role')->nullable();
-      $table->string('profile_link')->nullable();
+      $table->text('profile_link')->nullable();
     });
 
     // Schema::create('password_reset_tokens', function (Blueprint $table) {

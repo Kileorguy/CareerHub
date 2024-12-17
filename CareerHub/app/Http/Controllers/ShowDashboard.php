@@ -21,8 +21,11 @@ class ShowDashboard extends Controller
 
   private function companyDashBoard()
   {
-    $company_id = Auth::user()->company->id;
-    $jobs = Job::where('company_id', $company_id)->get();
+    $company= Auth::user()->company;
+      $jobs = $company->jobs;
+      $jobs->load(['jobApplications' => function($query) {
+          $query->where('status', 'Pending')->with('user');
+      }]);
     return view('dashboard.company', compact('jobs'));
   }
 
@@ -31,13 +34,14 @@ class ShowDashboard extends Controller
     $url = env('FLASK_HOST');
     $response = Http::accept('application/json')->get($url . '/get_user_recommendation', ['user_id' => Auth::user()->id]);
     $data = json_decode($response->body(), true);
-    //        dd($data);
-    // $jobs = Job::where(function ($query) use ($data) {
-    //     foreach ($data as $id) {
-    //         $query->orWhere('id', 'LIKE', "%$id%");
-    //     }
-    // })->get();
-    $jobs = [];
+//    dd($data);
+     $jobs = Job::where(function ($query) use ($data) {
+         foreach ($data as $id) {
+             $query->orWhere('id', 'LIKE', "%$id%");
+         }
+     })->get();
+//    $jobs = [];
+//      dd($jobs);
     return view('dashboard', compact('jobs'));
   }
 }

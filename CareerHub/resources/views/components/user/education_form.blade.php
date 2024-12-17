@@ -40,7 +40,9 @@
             <p class="py-1 font-medium text-base">Grade</p>
                 <input
                 name="grade"
-                type="text"
+                type="number"
+                max="100"
+                min="0"
                 placeholder="Input Grade"
                 class="input input-bordered w-full max-w-lg"
                 value="{{ $type === 'update' ? $e->gpa : '' }}"

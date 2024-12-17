@@ -14,7 +14,9 @@
 
         <div class="pt-[10px] ml-[40px] min-w-[1000px] flex flex-col items-start">
           <p class="font-bold text-[24px] text-main-text">{{Auth::user()->first_name}} {{Auth::user()->last_name}}</p>
+          <p class="text-[#7E7E7E] text-justify text-[16px]">{{Auth::user()->portfolio_link}} </p>
           <p class="text-[#7E7E7E] text-justify text-[16px] min-h-[120px]">{{Auth::user()->short_description}} </p>
+
           <div class="flex items-end justify-end w-full gap-[20px] mt-[15px]">
             <x-user.update_profile_form />
             <x-change_password_form />

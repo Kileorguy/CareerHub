@@ -14,8 +14,7 @@
       </form>
     </div>
     <div class="flex gap-8 items-center">
-      <b>Company</b>
-      <div class="dropdown dropdown-end">
+          <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
           <div class="w-10 rounded-full">
             <img alt="Profile Picture" src="{{ Auth::user()->profile_link ?? '/assets/profile-empty.png' }}" />

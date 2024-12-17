@@ -13,7 +13,7 @@ class JobController extends Controller
 {
   private const VALIDATION_RULES = [
     'job_name' => 'required|string|max:255',
-    'job_description' => 'required|string|max:255',
+    'job_description' => 'required|string|max:999',
     'job_level' => 'required|string|max:255',
     'job_skills' => 'required|string|max:255'
   ];

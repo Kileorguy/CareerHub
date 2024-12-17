@@ -13,5 +13,6 @@
       <p class="description text-sub-text text-sm">{{$employee->short_description ?? 'No description'}}</p>
     </div>
   </div>
+
 </div>
 @endsection

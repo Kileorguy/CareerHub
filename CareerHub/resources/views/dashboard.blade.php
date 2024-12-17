@@ -9,11 +9,11 @@
       <p class="font-bold text-main-text text-xl">Jobs For You</p>
       <p class="text-sub-text mb-8">Based on your skills and experience</p>
 
-      {{-- @foreach($companies as $company)
+       @foreach($jobs as $company)
 
-      <x-jobs_card position="{{ $company->position_name }}" location="{{ $company->city }}, {{ $company->country }}"
-        company="{{ $company->name }}" logo="{{ $company->profile_picture }}" :jobs="$company->company_jobs" />
-      @endforeach --}}
+      <x-job_card position="{{ $company->position_name }}" location="{{ $company->city }}, {{ $company->country }}"
+        company="{{ $company->name }}" logo="{{ $company->profile_picture }}" :job="$company" />
+      @endforeach
 
     </div>
   </div>
