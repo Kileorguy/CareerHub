@@ -6,29 +6,26 @@ use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
-    /**
-     * Run the migrations.
-     */
-    public function up(): void
-    {
-        Schema::create('jobs', function (Blueprint $table) {
-            $table->uuid('id')->primary();
-            $table->uuid('company_id');
-            $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade');
-            $table->string('job_name');
-            $table->text('job_description');
-            $table->string('job_level');
+  /**
+   * Run the migrations.
+   */
+  public function up(): void
+  {
+    Schema::create('jobs', function (Blueprint $table) {
+      $table->uuid('id')->primary();
+      $table->uuid('company_id');
+      $table->foreign('company_id')->references('id')->on('companies')->onDelete('cascade');
+      $table->string('job_name');
+      $table->text('job_description');
+      $table->string('job_level');
+    });
+  }
 
-        });
-
-
-    }
-
-    /**
-     * Reverse the migrations.
-     */
-    public function down(): void
-    {
-        Schema::dropIfExists('jobs');
-    }
+  /**
+   * Reverse the migrations.
+   */
+  public function down(): void
+  {
+    Schema::dropIfExists('jobs');
+  }
 };
