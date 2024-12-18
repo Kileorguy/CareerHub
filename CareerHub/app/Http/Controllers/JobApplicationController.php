@@ -31,6 +31,8 @@ class JobApplicationController extends Controller
 
   public function employeeDetail(User $employee)
   {
+    $employee = User::with(['certificates', 'awards', 'experiences', 'skills', 'projects', 'educations'])->findOrFail($employee->id);
+
     return view('employee.applicant_detail', compact('employee'));
   }
 }
