@@ -1,7 +1,11 @@
 <div class="flex flex-col p-6 rounded-lg shadow-lg border bg-white">
   <div class="flex gap-6">
-    <img src=" {{ $jobApplication->user->profile_link ?? '/assets/profile-empty.png' }} "
-      class="w-24 h-24 rounded-lg object-cover">
+    @if ($jobApplication->user->profile_link)
+    <img class="w-24 h-24 rounded-lg object-cover" src="{{ Storage::url($jobApplication->user->profile_link) }}"
+      alt="Profile Picture" />
+    @else
+    <img class="w-24 h-24 rounded-lg object-cover" src="{{ '/assets/profile-empty.png' }}" alt="Profile Picture" />
+    @endif
     <div class="w-full">
       <a href="{{route('employeeDetail', $jobApplication->user)}}"
         class="text-lg font-bold text-primary hover:underline">
