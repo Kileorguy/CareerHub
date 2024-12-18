@@ -10,6 +10,7 @@ Kami dari kelompok 2 memilih topik Sustainable Development Goals (SDG) ke-8 meng
 Berikut adalah detail dari project kami:
 
 **Database**: struktur dari database Careerhub
+![ERD](https://raw.githubusercontent.com/Kileorguy/CareerHub/main/ERD%20-%20Careerhub.png)
 
 **Public**: page yang bisa diakses oleh siapa saja (no authorization)
 1. Login: page yang berperan untuk authentication dan authorization pada Careerhub. Di page ini user perlu untuk memasukkan email dan password untuk login ke account mereka sebelum bisa mengakses page-page lainnya.
