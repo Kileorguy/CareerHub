@@ -30,7 +30,7 @@ class User extends Authenticatable
     'password',
     'short_description',
     'github_link',
-    'portofolio_link',
+    'portfolio_link',
     'role',
     'profile_link'
   ];

@@ -91,10 +91,11 @@ def recommend():
     conn = pymysql.connect(host=db_host, port=int(db_port), user=db_username, passwd=db_password, db=db_database)
     skills_dict = {}
     cur = conn.cursor()
-    cur.execute('SELECT c.id, skill_name from companies as c JOIN company_jobs cj ON c.id = cj.company_id JOIN job_skills js ON js.job_id = cj.id')
+    cur.execute('SELECT job_id, skill_name FROM job_skill_maps jsm JOIN job_skills js ON jsm.job_skill_id = js.id')
 
     for row in cur:
-        print(row[0])
+        # print(row)
+        # print(row[0])
         if skills_dict.get(row[0],'') in ('', None):
             skills_dict[row[0]] = ''.join(row[1].lower())
         else:
@@ -146,6 +147,7 @@ def recommend():
     
     conn.close()
     return Response(json.dumps(result_arr), status=200, mimetype='application/json')
+    # return 'hehe'
 
 
 if __name__ == "__main__":

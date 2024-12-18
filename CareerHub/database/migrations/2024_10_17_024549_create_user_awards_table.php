@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('award_name');
             $table->string('award_detail')->nullable();
             $table->string('company')->nullable();
-            $table->string('image_link')->nullable();
+            $table->text('image_link')->nullable();
             $table->date('issued_date')->nullable();
         });
     }

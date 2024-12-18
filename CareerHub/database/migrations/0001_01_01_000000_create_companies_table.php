@@ -16,7 +16,7 @@ return new class extends Migration
       $table->string('name');
       $table->string('city');
       $table->string('country');
-      $table->string('description')->nullable();
+      $table->text('description')->nullable();
     });
   }
 
