@@ -7,7 +7,9 @@ Anggota:
 
 Kami dari kelompok 2 memilih topik Sustainable Development Goals (SDG) ke-8 mengenai Decent Work and Economic Growth, yang bertujuan untuk meningkatkan pertumbuhan ekonomi, produktivitas, serta inovasi teknologi. Goal ini kami coba raih melalui Careerhub yaitu platform berbasis web yang menghubungkan pencari kerja dengan perusahaan serta memfasilitasi dalam pencarian pekerjaan melalui rekomendasi pekerjaan berbasis Artificial Intelligence (AI). 
 
-Berikut adalah detail fitur dari project kami:
+Berikut adalah detail dari project kami:
+
+**Database**: struktur dari database Careerhub
 
 **Public**: page yang bisa diakses oleh siapa saja (no authorization)
 1. Login: page yang berperan untuk authentication dan authorization pada Careerhub. Di page ini user perlu untuk memasukkan email dan password untuk login ke account mereka sebelum bisa mengakses page-page lainnya.
