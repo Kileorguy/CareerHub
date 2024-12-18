@@ -14,7 +14,8 @@
           <img src="{{$company->user->profile_link ?? '/assets/profile-empty.png'}}" alt="Company Image">
         </div>
         <div class="right">
-          <a href="" class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
+          <a href="{{route('companyDetail', $company)}}"
+            class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
           <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
           <p class="description text-sub-text text-sm">{{Str::limit($company->description, 200, '...')}}</p>
         </div>

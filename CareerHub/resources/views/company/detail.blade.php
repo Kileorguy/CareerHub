@@ -8,7 +8,7 @@
         class="w-[250px]">
     </div>
     <div class="right">
-      <div class="text-primary name font-semibold text-2xl hover:underline">{{$company->name}}</div>
+      <div class="text-primary name font-semibold text-2xl">{{$company->name}}</div>
       <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
       <p class="description text-sub-text text-sm">{{$company->description}}</p>
     </div>

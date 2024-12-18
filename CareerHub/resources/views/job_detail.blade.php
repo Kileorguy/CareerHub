@@ -9,12 +9,16 @@
 </div>
 @else
 <div class="flex gap-6 m-4 p-6 rounded-lg shadow-lg bg-white w-full">
-  <img src="{{ $job->company->user->profile_link ?? '/assets/profile-empty.png' }}"
-    class="w-64 h-64 border rounded-lg object-cover">
+  <a class="w-[400px]" href="{{route('companyDetail', $job->company)}}">
+    <img src="{{ $job->company->user->profile_link ?? '/assets/profile-empty.png' }}"
+      class="w-full border rounded-lg object-cover">
+  </a>
   <div class="flex flex-col gap-4 w-full">
     <div>
       <p class="text-primary font-bold text-2xl">{{ $job->job_name }}</p>
-      <p class="text-black font-bold text-lg"> {{ $job->company->name }} </p>
+      <a href="{{route('companyDetail', $job->company)}}">
+        <p class="text-black font-bold text-lg hover:underline"> {{ $job->company->name }} </p>
+      </a>
       <p class="text-gray-500 font-bold text-base"> {{ $job->company->city }}, {{ $job->company->country }}
       </p>
     </div>
