@@ -15,6 +15,16 @@ Kami dari kelompok 2 memilih topik Sustainable Development Goals (SDG) ke-8 meng
 2. Register: page bagi user untuk mendaftarkan account mereka. Pada page ini user bisa memilih jenis account yang ingin mereka buat, apakah sebagai employee (pencari kerja) atau sebagai employer (perusahaan). Data yang perlu diisi juga berbeda berdasarkan role yang dipilih.
 
 ## Employee (hanya bisa diakses oleh user dengan role employee/pencari kerja)
+1. User Profile
+   - Edit profile
+   - Edit user experience
+   - Edit user education
+   - Edit user skill
+   - Edit user project
+   - Edit user certificate
+2. Job Recommendation: page tersebut berisikan rekomendasi pekerjaan sesuai dengan skill user dengan menggunakan AI.
+3. View Job Detail: page tersebut berisikan detail dari job dan dapat apply job tersebut melalui page ini.
+4. Search: page tersebut berisikan company dan job berdasarkan input search.
 
 
 ## Company (hanya bisa diakses oleh user dengan role company/perusahaan)
