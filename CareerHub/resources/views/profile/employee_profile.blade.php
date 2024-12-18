@@ -5,10 +5,26 @@
 <div class="hero flex flex-col">
   <div class="mt-[20px] w-full bg-white p-10 rounded-lg shadow-lg flex flex-col items-start">
     <div class="flex w-full">
-      <div class="avatar">
-        <div class="w-[200px] h-[200px] rounded-full">
-          <img src="{{Auth::user()->profile_link ?? 'assets/profile-empty.png'}}" />
-        </div>
+      <div class="avatar relative group">
+        <label for="profileImageInput" class="cursor-pointer">
+          <div class="w-[200px] h-[200px] rounded-full overflow-hidden relative">
+            @if (Auth::user()->profile_link)
+            <img src="{{ Storage::url(Auth::user()->profile_link) }}" alt="Profile Picture" />
+            @else
+            <img src="{{ '/assets/profile-empty.png' }}" alt="Profile Picture" />
+            @endif
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Upload Profile Picture
+            </div>
+          </div>
+        </label>
+        <form method="POST" action="{{ route('updateProfilePicture') }}" enctype="multipart/form-data"
+          id="profileImageForm">
+          @csrf
+          <input type="file" id="profileImageInput" name="profile_image" class="hidden" accept="image/*"
+            onchange="document.getElementById('profileImageForm').submit();" />
+        </form>
       </div>
 
       <div class="pt-[10px] ml-[40px] flex flex-col items-start flex-1">
@@ -136,7 +152,6 @@
       @isset($certificates)
       @foreach($certificates as $c)
       <div class="flex w-full">
-        <img class="w-24 mr-5" src="{{$c->image_link}}" alt="">
         <div class="flex flex-col min-w-[1085px]">
           <div class="flex justify-between items-center">
             <p class="text-[18px] text-left text-main-text">{{$c->certificate_name}}</p>
