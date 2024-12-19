@@ -27,7 +27,7 @@
     @endphp
 
     @if ($applications->isNotEmpty())
-    <div class="py-4">
+    <div class="py-4 flex flex-col gap-4">
       @foreach ($applications as $jobApplication)
       <x-company.manage_job_application_card :jobApplication="$jobApplication" />
       @endforeach

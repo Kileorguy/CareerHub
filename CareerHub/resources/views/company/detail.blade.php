@@ -3,12 +3,17 @@
 @section('content')
 <div class="container mt-7 mb-10 flex flex-col gap-3">
   <div class="proflie-container flex bg-white p-8 rounded-md border border-input-light gap-5 shadow-lg">
-    <div class="left">
-      <img src="{{$company->user->profile_link ?? '/assets/profile-empty.png'}}" alt="Company picture"
-        class="w-[250px]">
+    <div class="left w-[250px]">
+      @if ($company->user->profile_link)
+      <img
+        src="{{ (strpos($company->user->profile_link, 'profile_images') !== false) ?  Storage::url($company->user->profile_link) : $company->user->profile_link }}"
+        alt="Company Image">
+      @else
+      <img src='/assets/profile-empty.png' alt="Company Image">
+      @endif
     </div>
     <div class="right">
-      <div class="text-primary name font-semibold text-2xl hover:underline">{{$company->name}}</div>
+      <div class="text-primary name font-semibold text-2xl">{{$company->name}}</div>
       <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
       <p class="description text-sub-text text-sm">{{$company->description}}</p>
     </div>
@@ -20,7 +25,15 @@
       @if ($jobs->isNotEmpty())
       @foreach ($jobs as $job)
       <div class="border border-input-light rounded-lg p-5">
-        <img src="{{$company->user->profile_link ?? '/assets/profile-empty.png'}}" alt="" class="w-1/3 mb-2">
+        <div class="w-1/3 mb-2">
+          @if ($company->user->profile_link)
+          <img
+            src="{{ (strpos($company->user->profile_link, 'profile_images') !== false) ?  Storage::url($company->user->profile_link) : $company->user->profile_link }}"
+            alt="Company Image">
+          @else
+          <img src='/assets/profile-empty.png' alt="Company Image">
+          @endif
+        </div>
         <a href="{{route('jobDetail', $job->id)}}"
           class="text-primary name font-semibold text-xl hover:underline">{{$job->job_name}}</a>
         <div class="badge badge-outline badge-sm">{{$job->job_level}}</div>

@@ -34,6 +34,7 @@ Route::middleware('auth')->group(function () {
   Route::get('/moreCompanies', [CompanyController::class, 'moreCompanies'])->name('moreCompanies');
   Route::get('/moreJobs', [JobController::class, 'moreJobs'])->name('moreJobs');
   Route::get('/company/{company}', [CompanyController::class, 'show'])->name('companyDetail');
+  Route::post('updateProfilePicture', [AuthorizedUserController::class, 'updateProfilePicture'])->name('updateProfilePicture');
 });
 
 //Authenticated user with employee role routes

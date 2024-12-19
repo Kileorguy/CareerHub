@@ -13,6 +13,11 @@ import json
 import pandas as pd
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.tag import pos_tag
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger_eng')
+nltk.download('wordnet')
 
 app = Flask(__name__)
 CORS(app)

@@ -11,10 +11,17 @@
       @foreach($companies as $company)
       <div class="flex gap-5 {{ $loop->last ? 'pt-8 pb-4' : 'border-b py-8' }} border-input-light">
         <div class="left w-[120px] flex-shrink-0">
-          <img src="{{$company->user->profile_link ?? '/assets/profile-empty.png'}}" alt="Company Image">
+          @if ($company->user->profile_link)
+          <img
+            src="{{ (strpos($company->user->profile_link, 'profile_images') !== false) ?  Storage::url($company->user->profile_link) : $company->user->profile_link }}"
+            alt="Company Image">
+          @else
+          <img src='/assets/profile-empty.png' alt="Company Image">
+          @endif
         </div>
         <div class="right">
-          <a href="" class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
+          <a href="{{route('companyDetail', $company)}}"
+            class="text-primary name font-semibold text-xl hover:underline">{{$company->name}}</a>
           <div class="location text-main-text">{{$company->city}},{{$company->country}}</div>
           <p class="description text-sub-text text-sm">{{Str::limit($company->description, 200, '...')}}</p>
         </div>

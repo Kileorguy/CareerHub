@@ -1,10 +1,13 @@
 <div class="w-full bg-white flex gap-6 m-4 p-6 rounded-lg shadow-lg">
-  <img src="{{ $job->company->user->profile_link ?? '/assets/profile-empty.png' }}"
-    class="w-40 h-[226px] border rounded-lg object-cover" alt="job image">
+  <a class="w-[400px]" href="{{route('companyDetail', $job->company)}}">
+    <img src="{{ $job->company->user->profile_link ?? '/assets/profile-empty.png' }}"
+      class="w-full border rounded-lg object-cover" alt="job image">
+  </a>
 
   <div class="w-full border-r">
-    <p class="text-left text-primary font-bold text-2xl">{{ $job->job_name }}</p>
-    <p class="text-left text-black font-bold text-lg"> {{ $job->company->name }} </p>
+    <a href="{{route('companyDetail', $job->company)}}">
+      <p class="text-left text-black font-bold text-lg hover:underline"> {{ $job->company->name }} </p>
+    </a>
     <p class="text-left text-gray-500 font-bold text-base"> {{ $job->company->city }}, {{ $job->company->country }} </p>
   </div>
 

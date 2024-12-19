@@ -4,8 +4,27 @@
 <div class="container">
   <div class="flex flex-col">
     <div class="mt-5 w-full bg-white p-10 rounded-lg shadow-lg flex flex-col items-start gap-2">
-      <img src="{{ Auth::user()->profile_link ?? 'assets/profile-empty.png' }}"
-        class="w-36 h-36 object-cover border rounded-lg">
+      <div class="avatar relative group">
+        <label for="profileImageInput" class="cursor-pointer">
+          <div class="w-[200px] h-[200px] rounded-full overflow-hidden relative">
+            @if (Auth::user()->profile_link)
+            <img src="{{ Storage::url(Auth::user()->profile_link) }}" alt="Profile Picture" />
+            @else
+            <img src="{{ '/assets/profile-empty.png' }}" alt="Profile Picture" />
+            @endif
+            <div
+              class="absolute inset-0 bg-black bg-opacity-50 text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Upload Profile Picture
+            </div>
+          </div>
+        </label>
+        <form method="POST" action="{{ route('updateProfilePicture') }}" enctype="multipart/form-data"
+          id="profileImageForm">
+          @csrf
+          <input type="file" id="profileImageInput" name="profile_image" class="hidden" accept="image/*"
+            onchange="document.getElementById('profileImageForm').submit();" />
+        </form>
+      </div>
       <p class="text-2xl font-bold">{{ $company->name }}</p>
       <p class="text-gray-500 text-lg">
         {{ $company->description ?? 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus amet nobis
