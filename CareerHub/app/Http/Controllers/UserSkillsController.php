@@ -13,6 +13,9 @@ class UserSkillsController extends Controller
     public function create(Request $req)
     {
         $user = Auth::user();
+        $req->validate([
+            'skill_name' => 'required',
+        ]);
         UserSkills::create([
             'id' => Str::uuid(),
             'user_id' => $user->id,
@@ -31,11 +34,13 @@ class UserSkillsController extends Controller
 
         return redirect('/profile');
     }
-    
+
     public function update(Request $req, $id)
     {
         $user = Auth::user();
-
+        $req->validate([
+            'skill_name' => 'required',
+        ]);
         $skill = UserSkills::where('id', $id)
             ->where('user_id', $user->id)
             ->first();
@@ -56,4 +61,20 @@ class UserSkillsController extends Controller
 
         return redirect('/profile');
     }
+
+    public function delete(Request $req, $id)
+    {
+        $user = Auth::user();
+
+        $skill = UserSkills::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
+
+        if ($skill) {
+            $skill->delete();
+        }
+
+        return redirect('/profile');
+    }
+
 }

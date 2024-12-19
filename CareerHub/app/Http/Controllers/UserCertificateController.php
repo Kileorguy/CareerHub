@@ -13,6 +13,13 @@ class UserCertificateController extends Controller
     public function create(Request $req)
     {
         $user = Auth::user();
+        $req->validate([
+            'name' => 'required',
+            'image' => 'required',
+            'detail' => 'required',
+            'company' => 'required',
+            'issued_date' => 'required',
+        ]);
         UserCertificate::create([
             'id' => Str::uuid(),
             'user_id' => $user->id,
@@ -25,11 +32,17 @@ class UserCertificateController extends Controller
 
         return redirect('/profile');
     }
-    
+
     public function update(Request $req, $id)
     {
         $user = Auth::user();
-
+        $req->validate([
+            'name' => 'required',
+            'image' => 'required',
+            'detail' => 'required',
+            'company' => 'required',
+            'issued_date' => 'required',
+        ]);
         $certificate = UserCertificate::where('id', $id)
             ->where('user_id', $user->id)
             ->first();
@@ -41,6 +54,21 @@ class UserCertificateController extends Controller
         $certificate->issued_date = $req->issued_date;
 
         $certificate->save();
+
+        return redirect('/profile');
+    }
+
+    public function delete(Request $req, $id)
+    {
+        $user = Auth::user();
+
+        $certificate = UserCertificate::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
+
+        if ($certificate) {
+            $certificate->delete();
+        }
 
         return redirect('/profile');
     }

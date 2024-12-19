@@ -5,9 +5,17 @@
         <img src="assets/plus.png" alt="Add project">
     </button>
 @else
-    <button class="w-5" onclick="document.getElementById('project_modal_{{ $e->id }}').showModal()">
-        <img src="assets/pencil.png" alt="Edit project">
-    </button>
+    <div class="flex gap-1">
+        <button class="w-5" onclick="document.getElementById('project_modal_{{ $e->id }}').showModal()">
+            <img src="assets/pencil.png" alt="Edit project">
+        </button>
+        <form action="/deleteProject/{{$e->id}}" method="get">
+            @csrf
+            <button class="w-5" type="submit" >
+                <img src="assets/delete.png" >
+            </button>
+        </form>
+    </div>
 @endif
 
 <dialog id="{{ $type === 'update' ? 'project_modal_' . $e->id : 'project_modal_insert' }}" class="modal">

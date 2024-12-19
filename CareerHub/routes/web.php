@@ -41,14 +41,19 @@ Route::middleware('auth')->group(function () {
 Route::middleware(['auth', 'role:Employee'])->group(function () {
   Route::post('/createExperience', [UserExperienceController::class, 'create'])->name('createExperience');
   Route::post('/updateExperience/{id}', [UserExperienceController::class, 'update'])->name('updateExperience');
+  Route::get('/deleteExperience/{id}', [UserExperienceController::class, 'delete'])->name('deleteExperience');
   Route::post('/createProject', [UserProjectsController::class, 'create'])->name('createProject');
   Route::post('/updateProject/{id}', [UserProjectsController::class, 'update'])->name('updateProject');
+  Route::get('/deleteProject/{id}', [UserProjectsController::class, 'delete'])->name('deleteProject');
   Route::post('/createSkill', [UserSkillsController::class, 'create'])->name('createSkill');
   Route::post('/updateSkill/{id}', [UserSkillsController::class, 'update'])->name('updateSkill');
+  Route::get('/deleteSkill/{id}', [UserSkillsController::class, 'delete'])->name('deleteSkill');
   Route::post('/createEducation', [UserEducationController::class, 'create'])->name('createEducation');
   Route::post('/updateEducation/{id}', [UserEducationController::class, 'update'])->name('updateEducation');
+  Route::get('/deleteEducation/{id}', [UserEducationController::class, 'delete'])->name('deleteEducation');
   Route::post('/createCertificate', [UserCertificateController::class, 'create'])->name('createCertificate');
   Route::post('/updateCertificate/{id}', [UserCertificateController::class, 'update'])->name('updateCertificate');
+  Route::get('/deleteCertificate/{id}', [UserCertificateController::class, 'delete'])->name('deleteCertificate');
   Route::post('/applyJob/{id}', [JobApplicationController::class, 'create'])->name('applyJob');
 });
 

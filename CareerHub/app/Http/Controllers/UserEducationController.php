@@ -12,6 +12,13 @@ class UserEducationController extends Controller
     public function create(Request $req)
     {
         $user = Auth::user();
+        $req->validate([
+            'school' => 'required',
+            'major' => 'required',
+            'grade' => 'required',
+            'start_date' => 'required',
+            'end_date' => 'required',
+        ]);
         UserEducation::create([
             'id' => Str::uuid(),
             'user_id' => $user->id,
@@ -24,11 +31,17 @@ class UserEducationController extends Controller
 
         return redirect('/profile');
     }
-    
+
     public function update(Request $req, $id)
     {
         $user = Auth::user();
-
+        $req->validate([
+            'school' => 'required',
+            'major' => 'required',
+            'grade' => 'required',
+            'start_date' => 'required',
+            'end_date' => 'required',
+        ]);
         $education = UserEducation::where('id', $id)
             ->where('user_id', $user->id)
             ->first();
@@ -40,6 +53,21 @@ class UserEducationController extends Controller
         $education->end_date = $req->end_date;
 
         $education->save();
+
+        return redirect('/profile');
+    }
+
+    public function delete(Request $req, $id)
+    {
+        $user = Auth::user();
+
+        $education = UserEducation::where('id', $id)
+            ->where('user_id', $user->id)
+            ->first();
+
+        if ($education) {
+            $education->delete();
+        }
 
         return redirect('/profile');
     }

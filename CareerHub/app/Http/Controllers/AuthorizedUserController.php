@@ -60,6 +60,30 @@ class AuthorizedUserController extends Controller
     } else {
       return redirect('/profile')->with('message', 'The old password is incorrect.');
     }
+
+    public function updateProfile(Request $req)
+    {
+        $user = Auth::user();
+
+        $req->validate([
+            'first' => 'required',
+            'lastName' => 'required',
+            'desc' => 'required',
+            'porto' => 'required',
+            'github' => 'required',
+            'profile_image' => 'required',
+        ]);
+
+        $user->update([
+            'first_name' => $req->first,
+            'last_name' => $req->lastName,
+            'short_description' => $req->desc,
+            'portfolio_link' => $req->porto,
+            'github_link' => $req->github,
+            'profile_link' => $req->profile_image,
+        ]);
+
+        return redirect('/profile');
   }
 
   public function profile()
@@ -83,21 +107,6 @@ class AuthorizedUserController extends Controller
       }]);
       return view('profile.company_profile', compact('company', 'jobs'));
     }
-  }
-
-  public function updateProfile(Request $req)
-  {
-    $user = Auth::user();
-    $user->update([
-      'first_name' => $req->first,
-      'last_name' => $req->lastName,
-      'short_description' => $req->desc,
-      'portfolio_link' => $req->porto,
-      'github_link' => $req->github,
-      'profile_link' => $req->profile_image,
-    ]);
-
-    return redirect('/profile');
   }
 
   public function jobDetail(Request $req, $id)
