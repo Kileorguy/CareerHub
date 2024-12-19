@@ -5,9 +5,17 @@
         <img src="assets/plus.png" alt="Add Education">
     </button>
 @else
-    <button class="w-5" onclick="document.getElementById('education_modal_{{ $e->id }}').showModal()">
-        <img src="assets/pencil.png" alt="Edit Education">
-    </button>
+    <div class="flex gap-1">
+        <button class="w-5" onclick="document.getElementById('education_modal_{{ $e->id }}').showModal()">
+            <img src="assets/pencil.png" alt="Edit Education">
+        </button>
+        <form action="/deleteEducation/{{$e->id}}" method="get">
+            @csrf
+            <button class="w-5" type="submit" >
+                <img src="assets/delete.png" >
+            </button>
+        </form>
+    </div>
 @endif
 
 <dialog id="{{ $type === 'update' ? 'education_modal_' . $e->id : 'education_modal_insert' }}" class="modal">
@@ -41,6 +49,7 @@
                 <input
                 name="grade"
                 type="number"
+                step="any"
                 max="100"
                 min="0"
                 placeholder="Input Grade"

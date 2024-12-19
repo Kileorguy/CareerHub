@@ -5,9 +5,17 @@
         <img src="assets/plus.png" alt="Add Certificate">
     </button>
 @else
-    <button class="w-5" onclick="document.getElementById('certificate_modal_{{ $e->id }}').showModal()">
-        <img src="assets/pencil.png" alt="Edit Certificate">
-    </button>
+    <div class="flex gap-1">
+        <button class="w-5" onclick="document.getElementById('certificate_modal_{{ $e->id }}').showModal()">
+            <img src="assets/pencil.png" alt="Edit Certificate">
+        </button>
+        <form action="/deleteCertificate/{{$e->id}}" method="get">
+            @csrf
+            <button class="w-5" type="submit" >
+                <img src="assets/delete.png" >
+            </button>
+        </form>
+    </div>
 @endif
 
 <dialog id="{{ $type === 'update' ? 'certificate_modal_' . $e->id : 'certificate_modal_insert' }}" class="modal">

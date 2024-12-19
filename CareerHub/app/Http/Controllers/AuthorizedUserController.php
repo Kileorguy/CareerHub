@@ -88,6 +88,16 @@ class AuthorizedUserController extends Controller
     public function updateProfile(Request $req)
     {
         $user = Auth::user();
+
+        $req->validate([
+            'first' => 'required',
+            'lastName' => 'required',
+            'desc' => 'required',
+            'porto' => 'required',
+            'github' => 'required',
+            'profile_image' => 'required',
+        ]);
+
         $user->update([
             'first_name' => $req->first,
             'last_name' => $req->lastName,
