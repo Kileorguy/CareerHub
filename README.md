@@ -16,15 +16,16 @@ Kami dari kelompok 2 memilih topik Sustainable Development Goals (SDG) ke-8 meng
 
 ## Employee (hanya bisa diakses oleh pencari kerja)
 1. User Profile
-   - Edit profile
-   - Edit user experience
-   - Edit user education
-   - Edit user skill
-   - Edit user project
-   - Edit user certificate
-2. Job Recommendation: page tersebut berisikan rekomendasi pekerjaan sesuai dengan skill user dengan menggunakan AI.
-3. View Job Detail: page tersebut berisikan detail dari job dan dapat apply job tersebut melalui page ini.
-4. Search: page tersebut berisikan company dan job berdasarkan input search.
+   - Edit profile: Informasi pribadi seperti foto profil, nama, deskripsi diri, link portfolio dan link github.
+   - Edit user experience: Pengalaman kerja dengan detail posisi, perusahaan, dan jangka waktu.
+   - Edit user education: Riwayat pendidikan dengan nama institusi, jurusan, dan jangka waktu.
+   - Edit user skill: Nama skill.
+   - Edit user project: Proyek yang pernah dikerjakan.
+   - Edit user certificate: Sertifikat yang pernah didapatkan
+2. Job Recommendation: page ini berisikan rekomendasi pekerjaan sesuai dengan skill user dengan menggunakan AI.
+3. Job Detail: page ini berisikan detail dari job dan dapat apply job tersebut melalui page ini.
+4. Search: page ini berisikan perusahan dan job berdasarkan input search.
+5. Company detail: page ini berisikan informasi mengenai perusahaan dan job yang ditawarkan oleh perusahaan tsb.
 
 
 ## Company (hanya bisa diakses oleh perusahaan)
